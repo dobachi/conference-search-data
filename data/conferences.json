@@ -2563,6 +2563,488 @@
       "id": "open-source-summit-japan-jp-2026",
       "first_seen": "2026-W14",
       "last_updated": "2026-W14"
+    },
+    {
+      "id": "informs-analytics-north-america-2026",
+      "name": "INFORMS Analytics+ Conference 2026",
+      "dates": {
+        "start": "2026-04-12",
+        "end": "2026-04-14"
+      },
+      "location": {
+        "city": "National Harbor",
+        "country": "USA",
+        "region": "North America"
+      },
+      "format": "in-person",
+      "url": "https://meetings.informs.org/wordpress/analytics/",
+      "cfp": {
+        "deadline": "2026-01-12",
+        "url": "",
+        "status": "closed"
+      },
+      "categories": [
+        "データインテリジェンス"
+      ],
+      "topics": [
+        "analytics",
+        "operations-research",
+        "data-science",
+        "AI",
+        "optimization"
+      ],
+      "cost": "unknown",
+      "recurring": true,
+      "summary": "OR学会主催の大規模アナリティクス専門カンファレンス。高度なデータ分析・AIビジネス活用・Edelman賞授与を含む。",
+      "status": "upcoming",
+      "first_seen": "2026-W15",
+      "last_updated": "2026-W15"
+    },
+    {
+      "id": "tableau-conference-north-america-2026",
+      "name": "Tableau Conference 2026 (TC26)",
+      "dates": {
+        "start": "2026-05-05",
+        "end": "2026-05-07"
+      },
+      "location": {
+        "city": "San Diego",
+        "country": "USA",
+        "region": "North America"
+      },
+      "format": "in-person",
+      "url": "https://www.salesforce.com/tableau-conference/",
+      "cfp": {
+        "deadline": "2026-01-20",
+        "url": "",
+        "status": "closed"
+      },
+      "categories": [
+        "データインテリジェンス",
+        "データプラットフォーム"
+      ],
+      "topics": [
+        "data-visualization",
+        "business-intelligence",
+        "AI-analytics",
+        "Tableau",
+        "Salesforce"
+      ],
+      "cost": "unknown",
+      "recurring": true,
+      "summary": "Salesforce主催のTableauフラッグシップカンファレンス。300以上のセッションとデータ可視化・AI分析の最新事例を提供。",
+      "status": "upcoming",
+      "first_seen": "2026-W15",
+      "last_updated": "2026-W15"
+    },
+    {
+      "id": "gartner-da-summit-london-eu-2026",
+      "name": "Gartner Data & Analytics Summit London 2026",
+      "dates": {
+        "start": "2026-05-11",
+        "end": "2026-05-13"
+      },
+      "location": {
+        "city": "London",
+        "country": "UK",
+        "region": "Europe"
+      },
+      "format": "in-person",
+      "url": "https://www.gartner.com/en/conferences/emea/data-analytics-uk",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "categories": [
+        "データインテリジェンス",
+        "ビジネス / DX"
+      ],
+      "topics": [
+        "data-strategy",
+        "AI",
+        "data-governance",
+        "analytics",
+        "data-fabric"
+      ],
+      "cost": "unknown",
+      "recurring": true,
+      "summary": "ガートナー主催の欧州主要D&Aサミット。AI統合・データファブリック・拡張分析・データリーダーシップをカバー。",
+      "status": "upcoming",
+      "first_seen": "2026-W15",
+      "last_updated": "2026-W15"
+    },
+    {
+      "id": "gartner-da-summit-sydney-apac-2026",
+      "name": "Gartner Data & Analytics Summit Sydney 2026",
+      "dates": {
+        "start": "2026-06-16",
+        "end": "2026-06-17"
+      },
+      "location": {
+        "city": "Sydney",
+        "country": "Australia",
+        "region": "Asia-Pacific"
+      },
+      "format": "in-person",
+      "url": "https://www.gartner.com/en/conferences/calendar/data-analytics",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "categories": [
+        "データインテリジェンス",
+        "ビジネス / DX"
+      ],
+      "topics": [
+        "data-strategy",
+        "AI",
+        "cloud-analytics",
+        "data-leadership"
+      ],
+      "cost": "unknown",
+      "recurring": true,
+      "summary": "ガートナー主催アジア太平洋（豪州・NZ）向けD&Aサミット。データ戦略・AI準備・クラウドアナリティクスを扱う。",
+      "status": "upcoming",
+      "first_seen": "2026-W15",
+      "last_updated": "2026-W15"
+    },
+    {
+      "id": "big-data-ldn-eu-2026",
+      "name": "Big Data LDN 2026",
+      "dates": {
+        "start": "2026-09-23",
+        "end": "2026-09-24"
+      },
+      "location": {
+        "city": "London",
+        "country": "UK",
+        "region": "Europe"
+      },
+      "format": "in-person",
+      "url": "https://www.bigdataldn.com/",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "categories": [
+        "データインテリジェンス",
+        "データエンジニアリング",
+        "AI / 機械学習"
+      ],
+      "topics": [
+        "big-data",
+        "data-analytics",
+        "AI-agents",
+        "AI-governance",
+        "data-products"
+      ],
+      "cost": "free",
+      "recurring": true,
+      "summary": "英国最大の無料データ・分析カンファレンス。15トラック・400以上のセミナー・300以上の登壇者。2026年はAIエージェント・ガバナンス特化トラック新設。",
+      "status": "upcoming",
+      "first_seen": "2026-W15",
+      "last_updated": "2026-W15"
+    },
+    {
+      "id": "tdwi-transform-north-america-2026",
+      "name": "TDWI Transform 2026",
+      "dates": {
+        "start": "2026-09-20",
+        "end": "2026-09-25"
+      },
+      "location": {
+        "city": "Anaheim",
+        "country": "USA",
+        "region": "North America"
+      },
+      "format": "in-person",
+      "url": "https://tdwi.org/events/conferences/anaheim/home.aspx",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "categories": [
+        "データインテリジェンス",
+        "データプラットフォーム"
+      ],
+      "topics": [
+        "data-management",
+        "business-intelligence",
+        "AI",
+        "data-governance",
+        "analytics-engineering"
+      ],
+      "cost": "unknown",
+      "recurring": true,
+      "summary": "TDWIのベンダー中立データ深掘りトレーニングカンファレンス。50以上のマスタークラス・AI/BI/データガバナンスを網羅。",
+      "status": "upcoming",
+      "first_seen": "2026-W15",
+      "last_updated": "2026-W15"
+    },
+    {
+      "id": "icbda-jp-2026",
+      "name": "ICBDA 2026 (11th International Conference on Big Data Analytics)",
+      "dates": {
+        "start": "2026-04-11",
+        "end": "2026-04-14"
+      },
+      "location": {
+        "city": "Tokyo",
+        "country": "Japan",
+        "region": "Japan"
+      },
+      "format": "in-person",
+      "url": "https://icbda.org/",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "closed"
+      },
+      "categories": [
+        "データインテリジェンス",
+        "データエンジニアリング"
+      ],
+      "topics": [
+        "big-data",
+        "data-analytics",
+        "IEEE",
+        "academic",
+        "data-architecture"
+      ],
+      "cost": "unknown",
+      "recurring": true,
+      "summary": "早稲田大学開催のIEEEスポンサーの国際ビッグデータ分析学術会議。論文はEi CompendexおよびScopusにインデックス。",
+      "status": "upcoming",
+      "first_seen": "2026-W15",
+      "last_updated": "2026-W15"
+    },
+    {
+      "id": "dtx-manchester-eu-2026",
+      "name": "DTX Manchester 2026 (Digital Transformation Expo)",
+      "dates": {
+        "start": "2026-04-29",
+        "end": "2026-04-30"
+      },
+      "location": {
+        "city": "Manchester",
+        "country": "UK",
+        "region": "Europe"
+      },
+      "format": "in-person",
+      "url": "https://www.dtxevents.io/manchester",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "categories": [
+        "ビジネス / DX",
+        "クラウド / インフラ"
+      ],
+      "topics": [
+        "digital-transformation",
+        "cloud",
+        "AI",
+        "cybersecurity",
+        "IT-strategy"
+      ],
+      "cost": "unknown",
+      "recurring": true,
+      "summary": "Manchester Tech Week併催の英国北部最大のビジネス変革イベント。クラウド・データ・AI・サイバーセキュリティを網羅。",
+      "status": "upcoming",
+      "first_seen": "2026-W15",
+      "last_updated": "2026-W15"
+    },
+    {
+      "id": "gartner-it-symposium-yokohama-jp-2026",
+      "name": "Gartner IT Symposium/Xpo Japan 2026",
+      "dates": {
+        "start": "2026-11-04",
+        "end": "2026-11-06"
+      },
+      "location": {
+        "city": "Yokohama",
+        "country": "Japan",
+        "region": "Japan"
+      },
+      "format": "in-person",
+      "url": "https://www.gartner.com/en/conferences/apac/symposium-japan",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "categories": [
+        "ビジネス / DX",
+        "AI / 機械学習"
+      ],
+      "topics": [
+        "CIO",
+        "IT-strategy",
+        "digital-transformation",
+        "AI",
+        "emerging-tech"
+      ],
+      "cost": "unknown",
+      "recurring": true,
+      "summary": "ガートナー主催の日本CIO・IT幹部向け最大の年次カンファレンス。AI戦略・デジタル変革・新技術ロードマップを提供。",
+      "status": "upcoming",
+      "first_seen": "2026-W15",
+      "last_updated": "2026-W15"
+    },
+    {
+      "id": "gartner-it-symposium-orlando-north-america-2026",
+      "name": "Gartner IT Symposium/Xpo Americas 2026",
+      "dates": {
+        "start": "2026-10-19",
+        "end": "2026-10-22"
+      },
+      "location": {
+        "city": "Orlando",
+        "country": "USA",
+        "region": "North America"
+      },
+      "format": "in-person",
+      "url": "https://www.gartner.com/en/conferences/na/symposium-us",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "categories": [
+        "ビジネス / DX",
+        "AI / 機械学習"
+      ],
+      "topics": [
+        "CIO",
+        "IT-strategy",
+        "digital-transformation",
+        "AI",
+        "cybersecurity"
+      ],
+      "cost": "unknown",
+      "recurring": true,
+      "summary": "世界最大のCIO・IT幹部向けカンファレンス。AI・サイバーセキュリティ・デジタル変革・3〜5年技術戦略をカバー。",
+      "status": "upcoming",
+      "first_seen": "2026-W15",
+      "last_updated": "2026-W15"
+    },
+    {
+      "id": "gartner-it-symposium-barcelona-eu-2026",
+      "name": "Gartner IT Symposium/Xpo EMEA 2026",
+      "dates": {
+        "start": "2026-11-09",
+        "end": "2026-11-12"
+      },
+      "location": {
+        "city": "Barcelona",
+        "country": "Spain",
+        "region": "Europe"
+      },
+      "format": "in-person",
+      "url": "https://www.gartner.com/en/conferences/emea/symposium-spain",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "categories": [
+        "ビジネス / DX",
+        "AI / 機械学習"
+      ],
+      "topics": [
+        "CIO",
+        "IT-strategy",
+        "digital-transformation",
+        "AI",
+        "cybersecurity"
+      ],
+      "cost": "unknown",
+      "recurring": true,
+      "summary": "ガートナー主催EMEA地域最大のCIO・IT幹部カンファレンス。AI戦略・デジタル変革リーダーシップを欧州・グローバル規模で提供。",
+      "status": "upcoming",
+      "first_seen": "2026-W15",
+      "last_updated": "2026-W15"
+    },
+    {
+      "id": "japan-dx-week-autumn-jp-2026",
+      "name": "Japan DX Week 秋 2026",
+      "dates": {
+        "start": "2026-10-21",
+        "end": "2026-10-23"
+      },
+      "location": {
+        "city": "Chiba",
+        "country": "Japan",
+        "region": "Japan"
+      },
+      "format": "in-person",
+      "url": "https://www.japan-it.jp/autumn/ja-jp.html",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "categories": [
+        "ビジネス / DX",
+        "データインテリジェンス"
+      ],
+      "topics": [
+        "DX",
+        "AI",
+        "data-driven",
+        "business-automation",
+        "enterprise-IT"
+      ],
+      "cost": "free",
+      "recurring": true,
+      "summary": "日本最大級のIT・DX総合展の秋版。幕張メッセ開催、780社出展・3万名来場予定。データドリブン経営EXPOを含む。",
+      "status": "upcoming",
+      "first_seen": "2026-W15",
+      "last_updated": "2026-W15"
+    },
+    {
+      "id": "nextech-week-autumn-jp-2026",
+      "name": "NexTech Week 2026【秋】 AI・人工知能EXPO",
+      "dates": {
+        "start": "2026-11-11",
+        "end": "2026-11-13"
+      },
+      "location": {
+        "city": "Chiba",
+        "country": "Japan",
+        "region": "Japan"
+      },
+      "format": "in-person",
+      "url": "https://www.nextech-week.jp/hub/ja-jp.html",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "categories": [
+        "AI / 機械学習",
+        "ビジネス / DX",
+        "データインテリジェンス"
+      ],
+      "topics": [
+        "AI",
+        "LLM",
+        "data-management",
+        "RAG",
+        "data-governance",
+        "enterprise-AI"
+      ],
+      "cost": "free",
+      "recurring": true,
+      "summary": "NexTech Week秋版。幕張メッセで開催、AI/人工知能EXPOを含み、データレイク・RAG・データガバナンス専門ゾーンを設置。",
+      "status": "upcoming",
+      "first_seen": "2026-W15",
+      "last_updated": "2026-W15"
     }
   ]
 }
