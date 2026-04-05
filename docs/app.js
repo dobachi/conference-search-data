@@ -175,6 +175,9 @@
     const favOnly = $favOnly.checked;
 
     let filtered = allConferences.filter((c) => {
+      // Hide events before 2026
+      const start = c.dates?.start || '';
+      if (start && start < '2026-01-01') return false;
       if (cat && !(c.categories || []).includes(cat)) return false;
       if (region && (!c.location || c.location.region !== region)) return false;
       if (status && c.status !== status) return false;
@@ -225,12 +228,22 @@
       return;
     }
 
-    $list.innerHTML = list.map((c) => {
+    const sectionLabels = { upcoming: 'Upcoming', ongoing: 'Ongoing', ended: 'Past Events' };
+    let prevStatus = null;
+    const html = [];
+
+    list.forEach((c) => {
+      const st = c.status || 'upcoming';
+      if (st !== prevStatus) {
+        html.push(`<div class="section-divider">${sectionLabels[st] || st}</div>`);
+        prevStatus = st;
+      }
+
       const dateStr = formatDateRange(c.dates);
       const locationStr = formatLocation(c.location);
       const cfpHtml = renderCfp(c.cfp);
-      const statusClass = `status-${c.status || 'upcoming'}`;
-      const statusLabel = (c.status || 'upcoming').charAt(0).toUpperCase() + (c.status || 'upcoming').slice(1);
+      const statusClass = `status-${st}`;
+      const statusLabel = st.charAt(0).toUpperCase() + st.slice(1);
       const isFav = favorites.has(c.id);
       const favClass = isFav ? 'fav-btn active' : 'fav-btn';
 
@@ -238,7 +251,7 @@
         .map((t) => `<span class="tag">${esc(t)}</span>`)
         .join('');
 
-      return `
+      html.push(`
         <div class="conf-card${isFav ? ' fav' : ''}">
           <div class="conf-card-header">
             <div class="conf-name">
@@ -256,8 +269,10 @@
           ${c.summary ? `<div class="conf-summary">${esc(c.summary)}</div>` : ''}
           ${tagsHtml ? `<div class="conf-tags">${tagsHtml}</div>` : ''}
         </div>
-      `;
-    }).join('');
+      `);
+    });
+
+    $list.innerHTML = html.join('');
 
     // Attach favorite toggle handlers
     $list.querySelectorAll('.fav-btn').forEach((btn) => {

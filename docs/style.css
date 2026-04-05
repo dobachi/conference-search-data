@@ -135,6 +135,18 @@ header h1 { font-size: 1.2rem; }
 
 .export-btn:hover { background: var(--accent); color: #fff; }
 
+/* Section dividers */
+.section-divider {
+  font-size: 0.85rem;
+  font-weight: bold;
+  color: var(--text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 8px 0 4px;
+  margin-top: 8px;
+  border-bottom: 2px solid var(--border);
+}
+
 /* Conference cards */
 .conf-list { display: flex; flex-direction: column; gap: 12px; }
 
