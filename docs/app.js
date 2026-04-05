@@ -22,6 +22,8 @@
   const $settingsClose = document.getElementById('settings-close');
   const $themeSelect = document.getElementById('theme-select');
   const $exportFav = document.getElementById('export-fav');
+  const $importFav = document.getElementById('import-fav');
+  const $importFavFile = document.getElementById('import-fav-file');
   const $clearFav = document.getElementById('clear-fav');
 
   // --- Favorites ---
@@ -62,7 +64,40 @@
     applyFilters();
   }
 
+  function importFavorites(file) {
+    const reader = new FileReader();
+    reader.onload = (e) => {
+      try {
+        const data = JSON.parse(e.target.result);
+        const ids = (data.conferences || []).map((c) => c.id).filter(Boolean);
+        if (ids.length === 0) {
+          alert('No conference IDs found in the file.');
+          return;
+        }
+        const knownIds = new Set(allConferences.map((c) => c.id));
+        let added = 0;
+        ids.forEach((id) => {
+          if (knownIds.has(id) && !favorites.has(id)) {
+            favorites.add(id);
+            added++;
+          }
+        });
+        saveFavorites();
+        applyFilters();
+        alert(`Imported ${added} favorites (${ids.length - added} skipped: already favorited or not found).`);
+      } catch {
+        alert('Invalid JSON file.');
+      }
+      $importFavFile.value = '';
+    };
+    reader.readAsText(file);
+  }
+
   $exportFav.addEventListener('click', exportFavorites);
+  $importFav.addEventListener('click', () => $importFavFile.click());
+  $importFavFile.addEventListener('change', () => {
+    if ($importFavFile.files[0]) importFavorites($importFavFile.files[0]);
+  });
   $clearFav.addEventListener('click', clearFavorites);
 
   // --- Theme ---
