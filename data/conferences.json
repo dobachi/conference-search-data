@@ -3378,6 +3378,151 @@
       "status": "upcoming",
       "first_seen": "2026-W15",
       "last_updated": "2026-W15"
+    },
+    {
+      "id": "mit-sloan-cio-symposium-north-america-2026",
+      "name": "MIT Sloan CIO Symposium 2026",
+      "dates": {
+        "start": "2026-05-19",
+        "end": "2026-05-19"
+      },
+      "location": {
+        "city": "Cambridge",
+        "country": "USA",
+        "region": "North America"
+      },
+      "format": "in-person",
+      "url": "https://mitcio.com/",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "categories": [
+        "ビジネス / DX",
+        "AI / 機械学習"
+      ],
+      "topics": [
+        "CIO",
+        "AI-strategy",
+        "digital-transformation",
+        "IT-leadership",
+        "human-AI"
+      ],
+      "cost": "unknown",
+      "recurring": true,
+      "summary": "MIT Sloan主催の権威あるCIO年次シンポジウム第23回。テーマ「Human-AI Synergy」。グローバルIT幹部が集うリーダーシップ・ピアネットワーキングイベント。",
+      "status": "upcoming",
+      "first_seen": "2026-W15",
+      "last_updated": "2026-W15"
+    },
+    {
+      "id": "gartner-cio-leadership-forum-tokyo-jp-2026",
+      "name": "Gartner CIO Leadership Forum Tokyo 2026",
+      "dates": {
+        "start": "2026-07-09",
+        "end": "2026-07-10"
+      },
+      "location": {
+        "city": "Tokyo",
+        "country": "Japan",
+        "region": "Japan"
+      },
+      "format": "in-person",
+      "url": "https://www.gartner.com/en/conferences/apac/cio-japan",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "categories": [
+        "ビジネス / DX"
+      ],
+      "topics": [
+        "CIO",
+        "IT-leadership",
+        "AI-strategy",
+        "digital-transformation"
+      ],
+      "cost": "unknown",
+      "recurring": true,
+      "summary": "ガートナー主催の日本CIOリーダーシップフォーラム。テーマ「Leadership in Motion」。11月の横浜IT Symposiumとは別に開催される少人数制の戦略イベント。",
+      "status": "upcoming",
+      "first_seen": "2026-W15",
+      "last_updated": "2026-W15"
+    },
+    {
+      "id": "gartner-it-symposium-gold-coast-apac-2026",
+      "name": "Gartner IT Symposium/Xpo Australia 2026",
+      "dates": {
+        "start": "2026-09-14",
+        "end": "2026-09-16"
+      },
+      "location": {
+        "city": "Gold Coast",
+        "country": "Australia",
+        "region": "Asia-Pacific"
+      },
+      "format": "in-person",
+      "url": "https://www.gartner.com/en/conferences/apac/symposium-australia",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "categories": [
+        "ビジネス / DX",
+        "AI / 機械学習"
+      ],
+      "topics": [
+        "CIO",
+        "IT-strategy",
+        "AI",
+        "cybersecurity",
+        "digital-transformation"
+      ],
+      "cost": "unknown",
+      "recurring": true,
+      "summary": "ガートナー主催のアジア太平洋地域フラッグシップITカンファレンス。AI・サイバーセキュリティ・デジタルビジネス戦略をAPACのCIO向けに提供。",
+      "status": "upcoming",
+      "first_seen": "2026-W15",
+      "last_updated": "2026-W15"
+    },
+    {
+      "id": "idc-cio-summit-new-york-north-america-2026",
+      "name": "IDC CIO Summit New York 2026",
+      "dates": {
+        "start": "2026-05-14",
+        "end": "2026-05-14"
+      },
+      "location": {
+        "city": "New York",
+        "country": "USA",
+        "region": "North America"
+      },
+      "format": "in-person",
+      "url": "https://event.idc.com/event/cio-summit-new-york/",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "categories": [
+        "ビジネス / DX"
+      ],
+      "topics": [
+        "CIO",
+        "agentic-AI",
+        "AI-strategy",
+        "data-governance",
+        "IT-modernization"
+      ],
+      "cost": "unknown",
+      "recurring": true,
+      "summary": "IDC主催のニューヨークCIOサミット。テーマ「The CIO Playbook」。エージェンティックAI・AIスケーリング・データガバナンス・IT近代化を議論。",
+      "status": "upcoming",
+      "first_seen": "2026-W15",
+      "last_updated": "2026-W15"
     }
   ]
 }

@@ -1,4 +1,4 @@
-# Conference Summary (91 total: 80 upcoming, 0 ongoing, 11 ended)
+# Conference Summary (95 total: 84 upcoming, 0 ongoing, 11 ended)
 # Generated: 2026-04-06
 # Format: id | name | start~end | region | status | categories
 
@@ -38,12 +38,14 @@ gartner-da-summit-london-eu-2026 | Gartner Data & Analytics Summit London 2026 |
 data-council-north-america-2026 | Data Council 2026 | 2026-05-12~2026-05-14 | North America | upcoming | データエンジニアリング, データプラットフォーム, AI / 機械学習
 cio-japan-summit-jp-2026 | CIO Japan Summit 2026 | 2026-05-12~2026-05-13 | Japan | upcoming | ビジネス / DX
 cloudnative-days-nagoya-platform-engineering-kaigi-sre-kaigi-jp-2026 | CloudNative Days Nagoya 2026 / Platform Engineering Kaigi / SRE Kaigi | 2026-05-14~2026-05-15 | Japan | upcoming | クラウド / インフラ
+idc-cio-summit-new-york-north-america-2026 | IDC CIO Summit New York 2026 | 2026-05-14~2026-05-14 | North America | upcoming | ビジネス / DX
 open-source-summit-north-america-north-america-2026 | Open Source Summit North America 2026 | 2026-05-18~2026-05-20 | North America | upcoming | クラウド / インフラ, データエンジニアリング
 techex-north-america-north-america-2026 | TechEx North America 2026 | 2026-05-18~2026-05-19 | North America | upcoming | ビジネス / DX, AI / 機械学習, クラウド / インフラ
 gartner-data-analytics-summit-tokyo-jp-2026 | Gartner Data & Analytics Summit Tokyo 2026 | 2026-05-19~2026-05-21 | Japan | upcoming | データプラットフォーム, データインテリジェンス, ビジネス / DX
 current-eu-2026 | Current 2026 (Confluent) | 2026-05-19~2026-05-20 | Europe | upcoming | データエンジニアリング, データプラットフォーム
 devops-pro-europe-eu-2026 | DevOps Pro Europe 2026 | 2026-05-19~2026-05-22 | Europe | upcoming | クラウド / インフラ
 google-io-north-america-2026 | Google I/O 2026 | 2026-05-19~2026-05-20 | North America | upcoming | AI / 機械学習, クラウド / インフラ
+mit-sloan-cio-symposium-north-america-2026 | MIT Sloan CIO Symposium 2026 | 2026-05-19~2026-05-19 | North America | upcoming | ビジネス / DX, AI / 機械学習
 data-intelligence-summit-nyc-north-america-2026 | Data Intelligence Summit NYC 2026 | 2026-05-20~2026-05-21 | North America | upcoming | データインテリジェンス, AI / 機械学習
 aiag-catena-x-north-america-conference-north-america-2026 | AIAG Catena-X North America Conference 2026 | 2026-05-21~2026-05-21 | North America | upcoming | Data Spaces / データ連携, ビジネス / DX
 gaia-x-tech-x-hackathon-9-eu-2026 | Gaia-X Tech-X & Hackathon #9 | 2026-05-28~2026-05-29 | Europe | upcoming | Data Spaces / データ連携, クラウド / インフラ, データプラットフォーム
@@ -62,6 +64,7 @@ aws-summit-japan-jp-2026 | AWS Summit Japan 2026 | 2026-06-25~2026-06-26 | Japan
 dx-expo-jp-2026 | DX 総合EXPO 2026 夏 東京 | 2026-07-01~2026-07-03 | Japan | upcoming | ビジネス / DX
 acl-north-america-2026 | ACL 2026 (64th Annual Meeting of the Association for Computational Linguistics) | 2026-07-02~2026-07-07 | North America | upcoming | AI / 機械学習
 icml-apac-2026 | ICML 2026 (43rd International Conference on Machine Learning) | 2026-07-06~2026-07-11 | Asia-Pacific | upcoming | AI / 機械学習
+gartner-cio-leadership-forum-tokyo-jp-2026 | Gartner CIO Leadership Forum Tokyo 2026 | 2026-07-09~2026-07-10 | Japan | upcoming | ビジネス / DX
 privacy-enhancing-technologies-symposium-north-america-2026 | Privacy Enhancing Technologies Symposium (PETS) 2026 | 2026-07-20~2026-07-25 | North America | upcoming | PETs
 kubecon-cloudnativecon-japan-jp-2026 | KubeCon + CloudNativeCon Japan 2026 | 2026-07-29~2026-07-30 | Japan | upcoming | クラウド / インフラ
 google-cloud-next-tokyo-jp-2026 | Google Cloud Next Tokyo 2026 | 2026-07-30~2026-07-31 | Japan | upcoming | クラウド / インフラ, データプラットフォーム, AI / 機械学習
@@ -71,6 +74,7 @@ vldb-north-america-2026 | VLDB 2026 (52nd International Conference on Very Large
 kubecon-cloudnativecon-openinfra-summit-china-apac-2026 | KubeCon + CloudNativeCon + OpenInfra Summit China 2026 | 2026-09-08~2026-09-09 | Asia-Pacific | upcoming | クラウド / インフラ
 eccv-eu-2026 | ECCV 2026 (18th European Conference on Computer Vision) | 2026-09-08~2026-09-13 | Europe | upcoming | AI / 機械学習
 disney-ddac-north-america-2026 | Disney Data & Analytics Conference (DDAC) 2026 | 2026-09-14~2026-09-16 | North America | upcoming | データインテリジェンス
+gartner-it-symposium-gold-coast-apac-2026 | Gartner IT Symposium/Xpo Australia 2026 | 2026-09-14~2026-09-16 | Asia-Pacific | upcoming | ビジネス / DX, AI / 機械学習
 dbt-summit-north-america-2026 | dbt Summit 2026 | 2026-09-15~2026-09-18 | North America | upcoming | データエンジニアリング, データプラットフォーム
 tdwi-transform-north-america-2026 | TDWI Transform 2026 | 2026-09-20~2026-09-25 | North America | upcoming | データインテリジェンス, データプラットフォーム
 big-data-ldn-eu-2026 | Big Data LDN 2026 | 2026-09-23~2026-09-24 | Europe | upcoming | データインテリジェンス, データエンジニアリング, AI / 機械学習
