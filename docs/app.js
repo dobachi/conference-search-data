@@ -4,6 +4,7 @@
   // --- State ---
   let allConferences = [];
   let lastUpdated = '';
+  let favorites = new Set(JSON.parse(localStorage.getItem('favorites') || '[]'));
 
   // --- DOM refs ---
   const $list = document.getElementById('conf-list');
@@ -15,10 +16,54 @@
   const $statusFilter = document.getElementById('status-filter');
   const $search = document.getElementById('search-input');
   const $cfpOnly = document.getElementById('cfp-only');
+  const $favOnly = document.getElementById('fav-only');
   const $settingsBtn = document.getElementById('settings-btn');
   const $settingsModal = document.getElementById('settings-modal');
   const $settingsClose = document.getElementById('settings-close');
   const $themeSelect = document.getElementById('theme-select');
+  const $exportFav = document.getElementById('export-fav');
+  const $clearFav = document.getElementById('clear-fav');
+
+  // --- Favorites ---
+  function saveFavorites() {
+    localStorage.setItem('favorites', JSON.stringify([...favorites]));
+  }
+
+  function toggleFavorite(id) {
+    if (favorites.has(id)) {
+      favorites.delete(id);
+    } else {
+      favorites.add(id);
+    }
+    saveFavorites();
+    applyFilters();
+  }
+
+  function exportFavorites() {
+    const favConfs = allConferences.filter((c) => favorites.has(c.id));
+    const data = {
+      exported_at: new Date().toISOString(),
+      count: favConfs.length,
+      conferences: favConfs
+    };
+    const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = `favorites-${new Date().toISOString().slice(0, 10)}.json`;
+    a.click();
+    URL.revokeObjectURL(url);
+  }
+
+  function clearFavorites() {
+    if (!confirm('Clear all favorites?')) return;
+    favorites.clear();
+    saveFavorites();
+    applyFilters();
+  }
+
+  $exportFav.addEventListener('click', exportFavorites);
+  $clearFav.addEventListener('click', clearFavorites);
 
   // --- Theme ---
   function initTheme() {
@@ -43,7 +88,6 @@
   // --- Data loading ---
   async function loadConferences() {
     try {
-      // Try relative path first (local dev), then raw GitHub URL (GitHub Pages)
       let res = await fetch('./data/conferences.json').catch(() => null);
       if (!res || !res.ok) {
         res = await fetch('https://raw.githubusercontent.com/dobachi/conference-search-data/main/data/conferences.json');
@@ -92,12 +136,14 @@
     const status = $statusFilter.value;
     const query = $search.value.toLowerCase().trim();
     const cfpOnly = $cfpOnly.checked;
+    const favOnly = $favOnly.checked;
 
     let filtered = allConferences.filter((c) => {
       if (cat && !(c.categories || []).includes(cat)) return false;
       if (region && (!c.location || c.location.region !== region)) return false;
       if (status && c.status !== status) return false;
       if (cfpOnly && (!c.cfp || c.cfp.status !== 'open')) return false;
+      if (favOnly && !favorites.has(c.id)) return false;
       if (query) {
         const searchable = [
           c.name,
@@ -112,7 +158,6 @@
       return true;
     });
 
-    // Sort: upcoming first by date, then ongoing, then ended
     filtered.sort((a, b) => {
       const order = { upcoming: 0, ongoing: 1, ended: 2 };
       const sa = order[a.status] ?? 1;
@@ -122,16 +167,18 @@
     });
 
     renderConferences(filtered);
+    const favCount = favorites.size;
     $stats.textContent = `${filtered.length} / ${allConferences.length} conferences` +
+      (favCount ? ` | Favorites: ${favCount}` : '') +
       (lastUpdated ? ` | Last updated: ${lastUpdated}` : '');
   }
 
-  // Event listeners for filters
   $catFilter.addEventListener('change', applyFilters);
   $regionFilter.addEventListener('change', applyFilters);
   $statusFilter.addEventListener('change', applyFilters);
   $search.addEventListener('input', applyFilters);
   $cfpOnly.addEventListener('change', applyFilters);
+  $favOnly.addEventListener('change', applyFilters);
 
   // --- Rendering ---
   function renderConferences(list) {
@@ -146,15 +193,18 @@
       const cfpHtml = renderCfp(c.cfp);
       const statusClass = `status-${c.status || 'upcoming'}`;
       const statusLabel = (c.status || 'upcoming').charAt(0).toUpperCase() + (c.status || 'upcoming').slice(1);
+      const isFav = favorites.has(c.id);
+      const favClass = isFav ? 'fav-btn active' : 'fav-btn';
 
       const tagsHtml = (c.categories || []).concat(c.topics || [])
         .map((t) => `<span class="tag">${esc(t)}</span>`)
         .join('');
 
       return `
-        <div class="conf-card">
+        <div class="conf-card${isFav ? ' fav' : ''}">
           <div class="conf-card-header">
             <div class="conf-name">
+              <button class="${favClass}" data-id="${esc(c.id)}" aria-label="Toggle favorite">${isFav ? '\u2605' : '\u2606'}</button>
               ${c.url ? `<a href="${esc(c.url)}" target="_blank" rel="noopener">${esc(c.name)}</a>` : esc(c.name)}
             </div>
             <span class="conf-status ${statusClass}">${statusLabel}</span>
@@ -170,6 +220,11 @@
         </div>
       `;
     }).join('');
+
+    // Attach favorite toggle handlers
+    $list.querySelectorAll('.fav-btn').forEach((btn) => {
+      btn.addEventListener('click', () => toggleFavorite(btn.dataset.id));
+    });
   }
 
   function formatDateRange(dates) {

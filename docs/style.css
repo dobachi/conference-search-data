@@ -136,6 +136,9 @@ header h1 { font-size: 1.2rem; }
   font-size: 1.05rem;
   font-weight: bold;
   line-height: 1.4;
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
 }
 
 .conf-name a {
@@ -144,6 +147,33 @@ header h1 { font-size: 1.2rem; }
 }
 
 .conf-name a:hover { text-decoration: underline; }
+
+/* Favorite button */
+.fav-btn {
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  padding: 0;
+  color: var(--text-secondary);
+  flex-shrink: 0;
+  line-height: 1;
+}
+
+.fav-btn.active { color: #f59e0b; }
+.fav-btn:hover { opacity: 0.7; }
+
+.conf-card.fav { border-left: 3px solid #f59e0b; }
+
+#fav-only-label {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  cursor: pointer;
+  white-space: nowrap;
+}
 
 .conf-status {
   font-size: 0.75rem;
