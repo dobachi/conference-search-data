@@ -1487,6 +1487,43 @@
       "last_updated": "2026-W14"
     },
     {
+      "id": "dataspaces-in-the-us-na-2026",
+      "name": "Dataspaces in the United States: Catena-X, Gaia-X, and IDSA",
+      "dates": {
+        "start": "2026-06-05",
+        "end": "2026-06-05"
+      },
+      "location": {
+        "city": "Austin",
+        "country": "USA",
+        "region": "North America"
+      },
+      "format": "in-person",
+      "url": "https://dih.telekom.com/en/events/dataspaces-in-the-united-states-catena-x-gaia-x-and-idsa",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "categories": [
+        "Data Spaces / データ連携",
+        "ビジネス / DX"
+      ],
+      "topics": [
+        "Catena-X",
+        "Gaia-X",
+        "IDSA",
+        "data spaces",
+        "US market"
+      ],
+      "cost": "unknown",
+      "recurring": false,
+      "summary": "北米初のデータスペース専門イベント。Catena-X・Gaia-X・IDSAが米国市場でのデータスペース展開を議論。",
+      "status": "upcoming",
+      "first_seen": "2026-W14",
+      "last_updated": "2026-W14"
+    },
+    {
       "name": "Databricks Data + AI Summit 2026",
       "dates": {
         "start": "2026-06-15",

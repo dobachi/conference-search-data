@@ -1,4 +1,4 @@
-# Conference Summary (68 total: 57 upcoming, 0 ongoing, 11 ended)
+# Conference Summary (69 total: 58 upcoming, 0 ongoing, 11 ended)
 # Generated: 2026-04-05
 # Format: id | name | start~end | region | status | categories
 
@@ -42,6 +42,7 @@ snowflake-summit-north-america-2026 | Snowflake Summit 2026 | 2026-06-01~2026-06
 qcon-ai-boston-north-america-2026 | QCon AI Boston 2026 | 2026-06-01~2026-06-02 | North America | upcoming | AI / 機械学習, データエンジニアリング
 microsoft-build-north-america-2026 | Microsoft Build 2026 | 2026-06-02~2026-06-03 | North America | upcoming | クラウド / インフラ, AI / 機械学習
 cvpr-north-america-2026 | CVPR 2026 (IEEE/CVF Conference on Computer Vision and Pattern Recognition) | 2026-06-03~2026-06-07 | North America | upcoming | AI / 機械学習
+dataspaces-in-the-us-na-2026 | Dataspaces in the United States: Catena-X, Gaia-X, and IDSA | 2026-06-05~2026-06-05 | North America | upcoming | Data Spaces / データ連携, ビジネス / DX
 databricks-data-ai-summit-north-america-2026 | Databricks Data + AI Summit 2026 | 2026-06-15~2026-06-18 | North America | upcoming | データプラットフォーム, データエンジニアリング, AI / 機械学習
 kubecon-cloudnativecon-india-apac-2026 | KubeCon + CloudNativeCon India 2026 | 2026-06-18~2026-06-19 | Asia-Pacific | upcoming | クラウド / インフラ
 platformcon-online-2026 | PlatformCon 2026 | 2026-06-22~2026-06-26 | Online | upcoming | クラウド / インフラ
