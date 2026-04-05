@@ -1,4 +1,2531 @@
 {
-  "last_updated": "",
-  "conferences": []
+  "last_updated": "2026-04-05",
+  "conferences": [
+    {
+      "name": "AAAI 2026 (40th AAAI Conference on Artificial Intelligence)",
+      "dates": {
+        "start": "2026-01-20",
+        "end": "2026-01-27"
+      },
+      "location": {
+        "city": "Singapore",
+        "country": "Singapore",
+        "region": "Asia-Pacific"
+      },
+      "format": "in-person",
+      "url": "https://aaai.org/conference/aaai/aaai-26/",
+      "cfp": {
+        "deadline": "2025-08-15",
+        "url": "https://aaai.org/conference/aaai/aaai-26/",
+        "status": "closed"
+      },
+      "categories": [
+        "AI / 機械学習"
+      ],
+      "topics": [
+        "artificial intelligence",
+        "machine learning",
+        "NLP",
+        "computer vision",
+        "robotics",
+        "knowledge representation"
+      ],
+      "cost": "paid",
+      "recurring": true,
+      "summary": "AAAI主催の人工知能トップカンファレンス。第40回記念大会をシンガポールで開催。",
+      "status": "ended",
+      "id": "aaai-apac-2026",
+      "first_seen": "2026-W14",
+      "last_updated": "2026-W14"
+    },
+    {
+      "name": "AI Market Conference 2026",
+      "dates": {
+        "start": "2026-01-28",
+        "end": "2026-01-28"
+      },
+      "location": {
+        "city": "Tokyo",
+        "country": "Japan",
+        "region": "Japan"
+      },
+      "format": "hybrid",
+      "url": "https://ai-market.jp/aimarket-conference-202601/",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "categories": [
+        "AI / 機械学習",
+        "ビジネス / DX"
+      ],
+      "topics": [
+        "generative AI",
+        "AI agents",
+        "LLM",
+        "VLM",
+        "AI business"
+      ],
+      "cost": "free",
+      "recurring": true,
+      "summary": "国内最大級のAIビジネスカンファレンス。生成AI・AIエージェント等の最新事例を紹介。",
+      "status": "ended",
+      "id": "ai-market-conference-jp-2026",
+      "first_seen": "2026-W14",
+      "last_updated": "2026-W14"
+    },
+    {
+      "name": "Data Spaces Symposium 2026",
+      "dates": {
+        "start": "2026-02-10",
+        "end": "2026-02-11"
+      },
+      "location": {
+        "city": "Madrid",
+        "country": "Spain",
+        "region": "Europe"
+      },
+      "format": "in-person",
+      "url": "https://www.data-spaces-symposium.eu/",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "closed"
+      },
+      "categories": [
+        "Data Spaces / データ連携",
+        "データプラットフォーム",
+        "ビジネス / DX"
+      ],
+      "topics": [
+        "data spaces",
+        "IDSA",
+        "Gaia-X",
+        "FIWARE",
+        "interoperability"
+      ],
+      "cost": "paid",
+      "recurring": true,
+      "summary": "欧州データスペースの旗艦イベント。IDSA・Gaia-X・BDVA共催。標準化・相互運用性・実用事例を議論。",
+      "status": "ended",
+      "id": "data-spaces-symposium-eu-2026",
+      "first_seen": "2026-W14",
+      "last_updated": "2026-W14"
+    },
+    {
+      "name": "AI Agent Day 2026",
+      "dates": {
+        "start": "2026-02-12",
+        "end": "2026-02-13"
+      },
+      "location": {
+        "city": "Online",
+        "country": "Japan",
+        "region": "Online"
+      },
+      "format": "online",
+      "url": "https://ai-agentday.jp/",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "categories": [
+        "AI / 機械学習",
+        "ビジネス / DX"
+      ],
+      "topics": [
+        "AI agents",
+        "generative AI",
+        "LLM",
+        "enterprise AI",
+        "AI implementation"
+      ],
+      "cost": "free",
+      "recurring": false,
+      "summary": "国内最大級のAIエージェント特化カンファレンス。Google Cloud・MS・AWS等が登壇。",
+      "status": "ended",
+      "id": "ai-agent-day-online-2026",
+      "first_seen": "2026-W14",
+      "last_updated": "2026-W14"
+    },
+    {
+      "name": "JAWS DAYS 2026",
+      "dates": {
+        "start": "2026-03-07",
+        "end": "2026-03-07"
+      },
+      "location": {
+        "city": "Tokyo",
+        "country": "Japan",
+        "region": "Japan"
+      },
+      "format": "in-person",
+      "url": "https://jawsdays2026.jaws-ug.jp/",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "closed"
+      },
+      "categories": [
+        "クラウド / インフラ"
+      ],
+      "topics": [
+        "AWS",
+        "cloud",
+        "generative AI",
+        "serverless",
+        "infrastructure"
+      ],
+      "cost": "2000 JPY",
+      "recurring": true,
+      "summary": "日本最大のAWSユーザーコミュニティイベント。AWSに関する多彩なセッションとワークショップを開催。",
+      "status": "ended",
+      "id": "jaws-days-jp-2026",
+      "first_seen": "2026-W14",
+      "last_updated": "2026-W14"
+    },
+    {
+      "name": "FHE.org Conference 2026",
+      "dates": {
+        "start": "2026-03-08",
+        "end": "2026-03-08"
+      },
+      "location": {
+        "city": "Taipei",
+        "country": "Taiwan",
+        "region": "Asia-Pacific"
+      },
+      "format": "in-person",
+      "url": "https://fhe.org/conferences/conference-2026/",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "closed"
+      },
+      "categories": [
+        "PETs"
+      ],
+      "topics": [
+        "fully homomorphic encryption",
+        "FHE",
+        "secure computation",
+        "lattice cryptography"
+      ],
+      "cost": "unknown",
+      "recurring": true,
+      "summary": "完全準同型暗号（FHE）専門の国際カンファレンス。暗号化したままデータ処理する最先端技術を議論。",
+      "status": "ended",
+      "id": "fheorg-conference-apac-2026",
+      "first_seen": "2026-W14",
+      "last_updated": "2026-W14"
+    },
+    {
+      "name": "QCon London 2026",
+      "dates": {
+        "start": "2026-03-16",
+        "end": "2026-03-19"
+      },
+      "location": {
+        "city": "London",
+        "country": "UK",
+        "region": "Europe"
+      },
+      "format": "in-person",
+      "url": "https://qconlondon.com/",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "closed"
+      },
+      "categories": [
+        "クラウド / インフラ",
+        "データエンジニアリング"
+      ],
+      "topics": [
+        "software architecture",
+        "cloud",
+        "platform engineering",
+        "AI engineering",
+        "DevOps"
+      ],
+      "cost": "paid",
+      "recurring": true,
+      "summary": "シニアエンジニア向けソフトウェア開発カンファレンス。アーキテクチャやクラウドの最新トレンドを共有。",
+      "status": "ended",
+      "id": "qcon-london-eu-2026",
+      "first_seen": "2026-W14",
+      "last_updated": "2026-W14"
+    },
+    {
+      "name": "NVIDIA GTC 2026",
+      "dates": {
+        "start": "2026-03-16",
+        "end": "2026-03-19"
+      },
+      "location": {
+        "city": "San Jose",
+        "country": "USA",
+        "region": "North America"
+      },
+      "format": "hybrid",
+      "url": "https://www.nvidia.com/gtc/",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "closed"
+      },
+      "categories": [
+        "AI / 機械学習",
+        "クラウド / インフラ"
+      ],
+      "topics": [
+        "GPU",
+        "deep learning",
+        "generative AI",
+        "robotics",
+        "autonomous vehicles",
+        "accelerated computing"
+      ],
+      "cost": "paid",
+      "recurring": true,
+      "summary": "NVIDIA主催のAI・GPUコンピューティングの祭典。最新GPU・AI技術の発表が集まる。",
+      "status": "ended",
+      "id": "nvidia-gtc-north-america-2026",
+      "first_seen": "2026-W14",
+      "last_updated": "2026-W14"
+    },
+    {
+      "name": "KubeCon + CloudNativeCon Europe 2026",
+      "dates": {
+        "start": "2026-03-23",
+        "end": "2026-03-26"
+      },
+      "location": {
+        "city": "Amsterdam",
+        "country": "Netherlands",
+        "region": "Europe"
+      },
+      "format": "in-person",
+      "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/",
+      "cfp": {
+        "deadline": "2025-10-12",
+        "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/program/cfp/",
+        "status": "closed"
+      },
+      "categories": [
+        "クラウド / インフラ"
+      ],
+      "topics": [
+        "Kubernetes",
+        "cloud native",
+        "containers",
+        "microservices",
+        "service mesh",
+        "observability"
+      ],
+      "cost": "paid",
+      "recurring": true,
+      "summary": "CNCFの旗艦イベント。クラウドネイティブ技術の最新動向を共有するヨーロッパ最大級のカンファレンス。",
+      "status": "ended",
+      "id": "kubecon-cloudnativecon-europe-eu-2026",
+      "first_seen": "2026-W14",
+      "last_updated": "2026-W14"
+    },
+    {
+      "name": "SREcon26 Americas",
+      "dates": {
+        "start": "2026-03-24",
+        "end": "2026-03-26"
+      },
+      "location": {
+        "city": "Seattle",
+        "country": "USA",
+        "region": "North America"
+      },
+      "format": "in-person",
+      "url": "https://www.usenix.org/conference/srecon26americas",
+      "cfp": {
+        "deadline": "",
+        "url": "https://www.usenix.org/conference/srecon26americas/call-for-participation",
+        "status": "closed"
+      },
+      "categories": [
+        "クラウド / インフラ"
+      ],
+      "topics": [
+        "SRE",
+        "site reliability engineering",
+        "observability",
+        "incident management",
+        "infrastructure"
+      ],
+      "cost": "paid",
+      "recurring": true,
+      "summary": "USENIXが主催するSRE専門カンファレンス。信頼性エンジニアリングの実践知見を共有する北米イベント。",
+      "status": "ended",
+      "id": "srecon26-americas-north-america-2026",
+      "first_seen": "2026-W14",
+      "last_updated": "2026-W14"
+    },
+    {
+      "name": "EACL 2026 (19th Conference of the European Chapter of the ACL)",
+      "dates": {
+        "start": "2026-03-24",
+        "end": "2026-03-29"
+      },
+      "location": {
+        "city": "Rabat",
+        "country": "Morocco",
+        "region": "Europe"
+      },
+      "format": "hybrid",
+      "url": "https://2026.eacl.org/",
+      "cfp": {
+        "deadline": "2025-10-15",
+        "url": "https://2026.eacl.org/calls/papers/",
+        "status": "closed"
+      },
+      "categories": [
+        "AI / 機械学習"
+      ],
+      "topics": [
+        "NLP",
+        "computational linguistics",
+        "language models",
+        "machine translation",
+        "text generation"
+      ],
+      "cost": "paid",
+      "recurring": true,
+      "summary": "ACLヨーロッパ支部の自然言語処理カンファレンス。NLP研究の最新成果を発表。",
+      "status": "ended",
+      "id": "eacl-eu-2026",
+      "first_seen": "2026-W14",
+      "last_updated": "2026-W14"
+    },
+    {
+      "name": "AI博覧会 Spring 2026",
+      "dates": {
+        "start": "2026-04-07",
+        "end": "2026-04-08"
+      },
+      "location": {
+        "city": "Tokyo",
+        "country": "Japan",
+        "region": "Japan"
+      },
+      "format": "in-person",
+      "url": "https://aismiley.co.jp/ai_hakurankai/spring-2026/",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "categories": [
+        "AI / 機械学習",
+        "ビジネス / DX"
+      ],
+      "topics": [
+        "generative AI",
+        "LLM",
+        "AI agents",
+        "AI-OCR",
+        "image recognition",
+        "robotics",
+        "physical AI"
+      ],
+      "cost": "free",
+      "recurring": true,
+      "summary": "最新AI製品200点以上が集結する展示会。フィジカルAI・ロボットゾーンを新設。",
+      "status": "ongoing",
+      "id": "ai-spring-jp-2026",
+      "first_seen": "2026-W14",
+      "last_updated": "2026-W14"
+    },
+    {
+      "name": "TEAMZ Web3 & AI Summit 2026",
+      "dates": {
+        "start": "2026-04-07",
+        "end": "2026-04-08"
+      },
+      "location": {
+        "city": "Tokyo",
+        "country": "Japan",
+        "region": "Japan"
+      },
+      "format": "in-person",
+      "url": "https://www.teamz.co.jp/en",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "categories": [
+        "AI / 機械学習",
+        "ビジネス / DX"
+      ],
+      "topics": [
+        "Web3",
+        "AI",
+        "blockchain",
+        "generative AI",
+        "crypto"
+      ],
+      "cost": "paid",
+      "recurring": true,
+      "summary": "日本最大級のWeb3・AIカンファレンス。50カ国以上から1万人規模の参加者が集結。",
+      "status": "ongoing",
+      "id": "teamz-web3-ai-summit-jp-2026",
+      "first_seen": "2026-W14",
+      "last_updated": "2026-W14"
+    },
+    {
+      "name": "Japan DX Week 春 2026",
+      "dates": {
+        "start": "2026-04-08",
+        "end": "2026-04-10"
+      },
+      "location": {
+        "city": "Tokyo",
+        "country": "Japan",
+        "region": "Japan"
+      },
+      "format": "in-person",
+      "url": "https://www.japan-it.jp/spring/ja-jp.html",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "categories": [
+        "ビジネス / DX",
+        "AI / 機械学習"
+      ],
+      "topics": [
+        "DX推進",
+        "AI活用",
+        "業務自動化",
+        "RPA",
+        "生成AI"
+      ],
+      "cost": "free",
+      "recurring": true,
+      "summary": "日本最大級のDX総合展示会。約1100社出展、AI・業務自動化・データ活用の最新ソリューションを展示。",
+      "status": "upcoming",
+      "id": "japan-dx-week-jp-2026",
+      "first_seen": "2026-W14",
+      "last_updated": "2026-W14"
+    },
+    {
+      "name": "DevOpsDays Tokyo 2026",
+      "dates": {
+        "start": "2026-04-14",
+        "end": "2026-04-16"
+      },
+      "location": {
+        "city": "Tokyo",
+        "country": "Japan",
+        "region": "Japan"
+      },
+      "format": "in-person",
+      "url": "https://devopsdays.org/events/2026-tokyo/welcome/",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "unknown"
+      },
+      "categories": [
+        "クラウド / インフラ"
+      ],
+      "topics": [
+        "DevOps",
+        "CI/CD",
+        "automation",
+        "SRE",
+        "platform engineering"
+      ],
+      "cost": "paid",
+      "recurring": true,
+      "summary": "DevOpsコミュニティによる東京開催イベント。DevOps文化・自動化・SREの実践を共有。",
+      "status": "ongoing",
+      "id": "devopsdays-tokyo-jp-2026",
+      "first_seen": "2026-W14",
+      "last_updated": "2026-W14"
+    },
+    {
+      "name": "NexTech Week 2026【春】 第10回 AI・人工知能EXPO",
+      "dates": {
+        "start": "2026-04-15",
+        "end": "2026-04-17"
+      },
+      "location": {
+        "city": "Tokyo",
+        "country": "Japan",
+        "region": "Japan"
+      },
+      "format": "in-person",
+      "url": "https://www.nextech-week.jp/hub/ja-jp/visit/ai.html",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "categories": [
+        "AI / 機械学習",
+        "ビジネス / DX"
+      ],
+      "topics": [
+        "AI",
+        "artificial intelligence",
+        "AI agents",
+        "MLOps",
+        "GPU",
+        "quantum computing",
+        "humanoid robots"
+      ],
+      "cost": "free",
+      "recurring": true,
+      "summary": "日本最大級のAI技術専門展。AIエージェント・量子コンピューティング・ヒューマノイドロボット等を展示。",
+      "status": "upcoming",
+      "id": "nextech-week-10-aiexpo-jp-2026",
+      "first_seen": "2026-W14",
+      "last_updated": "2026-W14"
+    },
+    {
+      "name": "DevOpsCon Amsterdam 2026",
+      "dates": {
+        "start": "2026-04-20",
+        "end": "2026-04-24"
+      },
+      "location": {
+        "city": "Amsterdam",
+        "country": "Netherlands",
+        "region": "Europe"
+      },
+      "format": "hybrid",
+      "url": "https://devopscon.io/amsterdam/",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "unknown"
+      },
+      "categories": [
+        "クラウド / インフラ"
+      ],
+      "topics": [
+        "DevOps",
+        "CI/CD",
+        "Kubernetes",
+        "platform engineering",
+        "DevSecOps"
+      ],
+      "cost": "paid",
+      "recurring": true,
+      "summary": "DevOps専門カンファレンス。CI/CD、Kubernetes、プラットフォームエンジニアリングの実践を学ぶ。",
+      "status": "upcoming",
+      "id": "devopscon-amsterdam-eu-2026",
+      "first_seen": "2026-W14",
+      "last_updated": "2026-W14"
+    },
+    {
+      "name": "Hannover Messe 2026 - Industrial Data Spaces",
+      "dates": {
+        "start": "2026-04-20",
+        "end": "2026-04-24"
+      },
+      "location": {
+        "city": "Hannover",
+        "country": "Germany",
+        "region": "Europe"
+      },
+      "format": "in-person",
+      "url": "https://internationaldataspaces.org/events/industrial-data-spaces-in-action-simple-scalable-profitable-hannover-messe-2026/",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "categories": [
+        "Data Spaces / データ連携",
+        "ビジネス / DX",
+        "データプラットフォーム"
+      ],
+      "topics": [
+        "industrial data spaces",
+        "Manufacturing-X",
+        "digital twin",
+        "Catena-X",
+        "ウラノス・エコシステム"
+      ],
+      "cost": "paid",
+      "recurring": true,
+      "summary": "世界最大の産業見本市内でIDSA主催のデータスペースセッション。日本のウラノス・エコシステムも出展予定。",
+      "status": "upcoming",
+      "id": "hannover-messe-industrial-data-spaces-eu-2026",
+      "first_seen": "2026-W14",
+      "last_updated": "2026-W14"
+    },
+    {
+      "name": "Google Cloud Next 2026",
+      "dates": {
+        "start": "2026-04-22",
+        "end": "2026-04-24"
+      },
+      "location": {
+        "city": "Las Vegas",
+        "country": "USA",
+        "region": "North America"
+      },
+      "format": "hybrid",
+      "url": "https://www.googlecloudevents.com/next-vegas",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "closed"
+      },
+      "categories": [
+        "クラウド / インフラ",
+        "データプラットフォーム",
+        "AI / 機械学習"
+      ],
+      "topics": [
+        "Google Cloud",
+        "AI",
+        "data analytics",
+        "cloud infrastructure",
+        "BigQuery",
+        "Vertex AI"
+      ],
+      "cost": "paid",
+      "recurring": true,
+      "summary": "Google Cloudの年次カンファレンス。クラウド・AI・データ分析の最新イノベーションを発表。",
+      "status": "upcoming",
+      "id": "google-cloud-next-north-america-2026",
+      "first_seen": "2026-W14",
+      "last_updated": "2026-W14"
+    },
+    {
+      "name": "ICLR 2026 (International Conference on Learning Representations)",
+      "dates": {
+        "start": "2026-04-23",
+        "end": "2026-04-27"
+      },
+      "location": {
+        "city": "Rio de Janeiro",
+        "country": "Brazil",
+        "region": "North America"
+      },
+      "format": "hybrid",
+      "url": "https://iclr.cc/Conferences/2026",
+      "cfp": {
+        "deadline": "2025-10-01",
+        "url": "https://iclr.cc/Conferences/2026/CallForPapers",
+        "status": "closed"
+      },
+      "categories": [
+        "AI / 機械学習"
+      ],
+      "topics": [
+        "deep learning",
+        "representation learning",
+        "neural networks",
+        "generative models",
+        "reinforcement learning"
+      ],
+      "cost": "paid",
+      "recurring": true,
+      "summary": "深層学習・表現学習のトップカンファレンス。リオデジャネイロで開催。",
+      "status": "upcoming",
+      "id": "iclr-north-america-2026",
+      "first_seen": "2026-W14",
+      "last_updated": "2026-W14"
+    },
+    {
+      "name": "Data Week 2026",
+      "dates": {
+        "start": "2026-05-05",
+        "end": "2026-05-06"
+      },
+      "location": {
+        "city": "Oslo",
+        "country": "Norway",
+        "region": "Europe"
+      },
+      "format": "in-person",
+      "url": "https://data-week.eu/",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "closed"
+      },
+      "categories": [
+        "Data Spaces / データ連携",
+        "AI / 機械学習",
+        "データインテリジェンス"
+      ],
+      "topics": [
+        "data value creation",
+        "AI for industry",
+        "BDVA",
+        "data spaces"
+      ],
+      "cost": "paid",
+      "recurring": true,
+      "summary": "BDVA主催の欧州データカンファレンス。AI for Industryがテーマ。",
+      "status": "upcoming",
+      "id": "data-week-eu-2026",
+      "first_seen": "2026-W14",
+      "last_updated": "2026-W14"
+    },
+    {
+      "name": "Data Summit 2026",
+      "dates": {
+        "start": "2026-05-05",
+        "end": "2026-05-07"
+      },
+      "location": {
+        "city": "Boston",
+        "country": "USA",
+        "region": "North America"
+      },
+      "format": "in-person",
+      "url": "https://www.dbta.com/datasummit/",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "closed"
+      },
+      "categories": [
+        "データインテリジェンス",
+        "AI / 機械学習",
+        "データエンジニアリング"
+      ],
+      "topics": [
+        "data management",
+        "analytics",
+        "AI",
+        "data governance"
+      ],
+      "cost": "paid",
+      "recurring": true,
+      "summary": "DBTA主催のデータ管理・分析・AI総合カンファレンス。エンタープライズデータ戦略の最新動向を議論。",
+      "status": "upcoming",
+      "id": "data-summit-north-america-2026",
+      "first_seen": "2026-W14",
+      "last_updated": "2026-W14"
+    },
+    {
+      "name": "Data Innovation Summit 2026",
+      "dates": {
+        "start": "2026-05-06",
+        "end": "2026-05-08"
+      },
+      "location": {
+        "city": "Stockholm",
+        "country": "Sweden",
+        "region": "Europe"
+      },
+      "format": "in-person",
+      "url": "https://datainnovationsummit.com/region/nordics/",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "closed"
+      },
+      "categories": [
+        "Data Spaces / データ連携",
+        "AI / 機械学習",
+        "データエンジニアリング",
+        "データインテリジェンス"
+      ],
+      "topics": [
+        "data sovereignty",
+        "data infrastructure",
+        "AI",
+        "analytics"
+      ],
+      "cost": "paid",
+      "recurring": true,
+      "summary": "北欧最大のデータ・AI・アナリティクスイベント。3日間15ステージ、3500名超参加。",
+      "status": "upcoming",
+      "id": "data-innovation-summit-eu-2026",
+      "first_seen": "2026-W14",
+      "last_updated": "2026-W14"
+    },
+    {
+      "name": "Interoperability Summit 2026",
+      "dates": {
+        "start": "2026-05-07",
+        "end": "2026-05-07"
+      },
+      "location": {
+        "city": "Bonn",
+        "country": "Germany",
+        "region": "Europe"
+      },
+      "format": "in-person",
+      "url": "https://interoperability-summit.com/",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "closed"
+      },
+      "categories": [
+        "Data Spaces / データ連携",
+        "データプラットフォーム",
+        "ビジネス / DX"
+      ],
+      "topics": [
+        "interoperability",
+        "AAS",
+        "OPC UA",
+        "Digital Product Passport"
+      ],
+      "cost": "free",
+      "recurring": true,
+      "summary": "産業データ相互運用性の専門サミット。DPP・AAS・OPC UA等の標準とデータスペースの実装を議論。",
+      "status": "upcoming",
+      "id": "interoperability-summit-eu-2026",
+      "first_seen": "2026-W14",
+      "last_updated": "2026-W14"
+    },
+    {
+      "name": "DevOpsCon London 2026",
+      "dates": {
+        "start": "2026-05-11",
+        "end": "2026-05-15"
+      },
+      "location": {
+        "city": "London",
+        "country": "UK",
+        "region": "Europe"
+      },
+      "format": "hybrid",
+      "url": "https://devopscon.io/london/",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "unknown"
+      },
+      "categories": [
+        "クラウド / インフラ"
+      ],
+      "topics": [
+        "DevOps",
+        "CI/CD",
+        "Kubernetes",
+        "platform engineering",
+        "DevSecOps",
+        "SRE"
+      ],
+      "cost": "from £467",
+      "recurring": true,
+      "summary": "DevOps専門カンファレンス。ワークショップ・ブートキャンプ含む5日間のロンドン開催イベント。",
+      "status": "upcoming",
+      "id": "devopscon-london-eu-2026",
+      "first_seen": "2026-W14",
+      "last_updated": "2026-W14"
+    },
+    {
+      "name": "Data Council 2026",
+      "dates": {
+        "start": "2026-05-12",
+        "end": "2026-05-14"
+      },
+      "location": {
+        "city": "San Francisco",
+        "country": "USA",
+        "region": "North America"
+      },
+      "format": "in-person",
+      "url": "https://www.datacouncil.ai/",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "closed"
+      },
+      "categories": [
+        "データエンジニアリング",
+        "データプラットフォーム",
+        "AI / 機械学習"
+      ],
+      "topics": [
+        "data engineering",
+        "data infrastructure",
+        "ML infrastructure",
+        "data platforms",
+        "open source data"
+      ],
+      "cost": "paid",
+      "recurring": true,
+      "summary": "データエンジニアリングとAIに特化したカンファレンス。オープンソースデータ技術の最新動向を共有。",
+      "status": "upcoming",
+      "id": "data-council-north-america-2026",
+      "first_seen": "2026-W14",
+      "last_updated": "2026-W14"
+    },
+    {
+      "name": "CIO Japan Summit 2026",
+      "dates": {
+        "start": "2026-05-12",
+        "end": "2026-05-13"
+      },
+      "location": {
+        "city": "Tokyo",
+        "country": "Japan",
+        "region": "Japan"
+      },
+      "format": "in-person",
+      "url": "https://www.marcusevans.com/summit/ciojapan/mar26",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "categories": [
+        "ビジネス / DX"
+      ],
+      "topics": [
+        "CIO",
+        "IT戦略",
+        "デジタルトランスフォーメーション",
+        "AI導入"
+      ],
+      "cost": "paid",
+      "recurring": true,
+      "summary": "CIO Japan Summit。日本企業のCIO・IT責任者が集まりIT戦略とDX推進を議論する招待制サミット。",
+      "status": "upcoming",
+      "id": "cio-japan-summit-jp-2026",
+      "first_seen": "2026-W14",
+      "last_updated": "2026-W14"
+    },
+    {
+      "name": "CloudNative Days Nagoya 2026 / Platform Engineering Kaigi / SRE Kaigi",
+      "dates": {
+        "start": "2026-05-14",
+        "end": "2026-05-15"
+      },
+      "location": {
+        "city": "Nagoya",
+        "country": "Japan",
+        "region": "Japan"
+      },
+      "format": "in-person",
+      "url": "https://kaigi.cloudnativedays.jp/",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "unknown"
+      },
+      "categories": [
+        "クラウド / インフラ"
+      ],
+      "topics": [
+        "cloud native",
+        "Kubernetes",
+        "platform engineering",
+        "SRE",
+        "DevOps",
+        "containers"
+      ],
+      "cost": "unknown",
+      "recurring": true,
+      "summary": "CloudNative Days・Platform Engineering Kaigi・SRE Kaigiの3大イベント合同開催。日本最大級のエンジニア祭典。",
+      "status": "upcoming",
+      "id": "cloudnative-days-nagoya-platform-engineering-kaigi-sre-kaigi-jp-2026",
+      "first_seen": "2026-W14",
+      "last_updated": "2026-W14"
+    },
+    {
+      "name": "Open Source Summit North America 2026",
+      "dates": {
+        "start": "2026-05-18",
+        "end": "2026-05-20"
+      },
+      "location": {
+        "city": "Minneapolis",
+        "country": "USA",
+        "region": "North America"
+      },
+      "format": "in-person",
+      "url": "https://events.linuxfoundation.org/open-source-summit-north-america/",
+      "cfp": {
+        "deadline": "",
+        "url": "https://events.linuxfoundation.org/open-source-summit-north-america/program/cfp/",
+        "status": "closed"
+      },
+      "categories": [
+        "クラウド / インフラ",
+        "データエンジニアリング"
+      ],
+      "topics": [
+        "open source",
+        "Linux",
+        "cloud infrastructure",
+        "AI infrastructure",
+        "security",
+        "embedded"
+      ],
+      "cost": "paid",
+      "recurring": true,
+      "summary": "Linux Foundation主催のオープンソース総合カンファレンス。AI基盤・セキュリティ・クラウドの最新動向。",
+      "status": "upcoming",
+      "id": "open-source-summit-north-america-north-america-2026",
+      "first_seen": "2026-W14",
+      "last_updated": "2026-W14"
+    },
+    {
+      "name": "TechEx North America 2026",
+      "dates": {
+        "start": "2026-05-18",
+        "end": "2026-05-19"
+      },
+      "location": {
+        "city": "San Jose",
+        "country": "USA",
+        "region": "North America"
+      },
+      "format": "in-person",
+      "url": "https://techexevent.com/northamerica/",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "categories": [
+        "ビジネス / DX",
+        "AI / 機械学習",
+        "クラウド / インフラ"
+      ],
+      "topics": [
+        "digital transformation",
+        "AI",
+        "cybersecurity",
+        "IoT",
+        "edge computing"
+      ],
+      "cost": "paid",
+      "recurring": true,
+      "summary": "7つのテーマを統合した北米最大級のエンタープライズ技術イベント。DX・AI・セキュリティを横断的に議論。",
+      "status": "upcoming",
+      "id": "techex-north-america-north-america-2026",
+      "first_seen": "2026-W14",
+      "last_updated": "2026-W14"
+    },
+    {
+      "name": "Gartner Data & Analytics Summit Tokyo 2026",
+      "dates": {
+        "start": "2026-05-19",
+        "end": "2026-05-21"
+      },
+      "location": {
+        "city": "Tokyo",
+        "country": "Japan",
+        "region": "Japan"
+      },
+      "format": "in-person",
+      "url": "https://www.gartner.com/en/conferences/apac/data-analytics-japan",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "n/a"
+      },
+      "categories": [
+        "データプラットフォーム",
+        "データインテリジェンス",
+        "ビジネス / DX"
+      ],
+      "topics": [
+        "data analytics",
+        "data strategy",
+        "data governance",
+        "AI",
+        "data management"
+      ],
+      "cost": "paid",
+      "recurring": true,
+      "summary": "Gartner主催のデータ＆アナリティクスサミット東京。データ活用戦略・ガバナンスの最新トレンドを提供。",
+      "status": "upcoming",
+      "id": "gartner-data-analytics-summit-tokyo-jp-2026",
+      "first_seen": "2026-W14",
+      "last_updated": "2026-W14"
+    },
+    {
+      "name": "Current 2026 (Confluent)",
+      "dates": {
+        "start": "2026-05-19",
+        "end": "2026-05-20"
+      },
+      "location": {
+        "city": "London",
+        "country": "UK",
+        "region": "Europe"
+      },
+      "format": "hybrid",
+      "url": "https://current.confluent.io/",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "closed"
+      },
+      "categories": [
+        "データエンジニアリング",
+        "データプラットフォーム"
+      ],
+      "topics": [
+        "Apache Kafka",
+        "data streaming",
+        "Apache Flink",
+        "real-time data",
+        "event-driven architecture"
+      ],
+      "cost": "paid",
+      "recurring": true,
+      "summary": "Confluent主催のデータストリーミングカンファレンス。Kafka・Flinkを中心にリアルタイムデータ処理を議論。",
+      "status": "upcoming",
+      "id": "current-eu-2026",
+      "first_seen": "2026-W14",
+      "last_updated": "2026-W14"
+    },
+    {
+      "name": "DevOps Pro Europe 2026",
+      "dates": {
+        "start": "2026-05-19",
+        "end": "2026-05-22"
+      },
+      "location": {
+        "city": "Vilnius",
+        "country": "Lithuania",
+        "region": "Europe"
+      },
+      "format": "in-person",
+      "url": "https://devopspro.lt/",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "unknown"
+      },
+      "categories": [
+        "クラウド / インフラ"
+      ],
+      "topics": [
+        "DevOps",
+        "CI/CD",
+        "cloud",
+        "containers",
+        "automation"
+      ],
+      "cost": "paid",
+      "recurring": true,
+      "summary": "ヨーロッパのDevOps専門カンファレンス。ワークショップと3日間のセッションで構成。",
+      "status": "upcoming",
+      "id": "devops-pro-europe-eu-2026",
+      "first_seen": "2026-W14",
+      "last_updated": "2026-W14"
+    },
+    {
+      "name": "Google I/O 2026",
+      "dates": {
+        "start": "2026-05-19",
+        "end": "2026-05-20"
+      },
+      "location": {
+        "city": "Mountain View",
+        "country": "USA",
+        "region": "North America"
+      },
+      "format": "hybrid",
+      "url": "https://io.google/2026/",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "categories": [
+        "AI / 機械学習",
+        "クラウド / インフラ"
+      ],
+      "topics": [
+        "Gemini",
+        "generative AI",
+        "Android",
+        "Chrome",
+        "Google Cloud",
+        "AI agents"
+      ],
+      "cost": "paid",
+      "recurring": true,
+      "summary": "Google主催の開発者向けカンファレンス。Gemini等の最新AI技術を発表。",
+      "status": "upcoming",
+      "id": "google-io-north-america-2026",
+      "first_seen": "2026-W14",
+      "last_updated": "2026-W14"
+    },
+    {
+      "name": "AIAG Catena-X North America Conference 2026",
+      "dates": {
+        "start": "2026-05-21",
+        "end": "2026-05-21"
+      },
+      "location": {
+        "city": "Detroit",
+        "country": "USA",
+        "region": "North America"
+      },
+      "format": "in-person",
+      "url": "https://www.aiag.org/events/aiag-na-catena-x-conference",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "categories": [
+        "Data Spaces / データ連携",
+        "ビジネス / DX"
+      ],
+      "topics": [
+        "Catena-X",
+        "automotive data",
+        "supply chain",
+        "data sovereignty"
+      ],
+      "cost": "paid",
+      "recurring": true,
+      "summary": "北米Catena-Xハブの公式カンファレンス。自動車業界のデータ連携・サプライチェーン変革を議論。",
+      "status": "upcoming",
+      "id": "aiag-catena-x-north-america-conference-north-america-2026",
+      "first_seen": "2026-W14",
+      "last_updated": "2026-W14"
+    },
+    {
+      "name": "Gaia-X Tech-X & Hackathon #9",
+      "dates": {
+        "start": "2026-05-28",
+        "end": "2026-05-29"
+      },
+      "location": {
+        "city": "Athens",
+        "country": "Greece",
+        "region": "Europe"
+      },
+      "format": "in-person",
+      "url": "https://gaia-x.eu/tech-x-2026/",
+      "cfp": {
+        "deadline": "2026-04-24",
+        "url": "https://gaia-x.eu/tech-x-2026/",
+        "status": "open"
+      },
+      "categories": [
+        "Data Spaces / データ連携",
+        "クラウド / インフラ",
+        "データプラットフォーム"
+      ],
+      "topics": [
+        "Gaia-X",
+        "data spaces",
+        "hackathon",
+        "sovereign infrastructure"
+      ],
+      "cost": "free",
+      "recurring": true,
+      "summary": "Gaia-Xコミュニティの技術イベント＆ハッカソン。賞金最大€5000。開発者向けの実践的イベント。",
+      "status": "upcoming",
+      "id": "gaia-x-tech-x-hackathon-9-eu-2026",
+      "first_seen": "2026-W14",
+      "last_updated": "2026-W14"
+    },
+    {
+      "name": "Snowflake Summit 2026",
+      "dates": {
+        "start": "2026-06-01",
+        "end": "2026-06-04"
+      },
+      "location": {
+        "city": "San Francisco",
+        "country": "USA",
+        "region": "North America"
+      },
+      "format": "in-person",
+      "url": "https://www.snowflake.com/en/summit/",
+      "cfp": {
+        "deadline": "",
+        "url": "https://www.snowflake.com/en/summit/call-for-papers/",
+        "status": "closed"
+      },
+      "categories": [
+        "データプラットフォーム",
+        "データエンジニアリング",
+        "AI / 機械学習"
+      ],
+      "topics": [
+        "Snowflake",
+        "data cloud",
+        "data warehouse",
+        "data lakehouse",
+        "data sharing",
+        "AI/ML"
+      ],
+      "cost": "paid",
+      "recurring": true,
+      "summary": "Snowflake年次サミット。データクラウド・レイクハウス・AIの最新機能と活用事例を紹介する大規模イベント。",
+      "status": "upcoming",
+      "id": "snowflake-summit-north-america-2026",
+      "first_seen": "2026-W14",
+      "last_updated": "2026-W14"
+    },
+    {
+      "name": "QCon AI Boston 2026",
+      "dates": {
+        "start": "2026-06-01",
+        "end": "2026-06-02"
+      },
+      "location": {
+        "city": "Boston",
+        "country": "USA",
+        "region": "North America"
+      },
+      "format": "in-person",
+      "url": "https://boston.qcon.ai/",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "unknown"
+      },
+      "categories": [
+        "AI / 機械学習",
+        "データエンジニアリング"
+      ],
+      "topics": [
+        "AI engineering",
+        "machine learning",
+        "data infrastructure",
+        "software architecture"
+      ],
+      "cost": "paid",
+      "recurring": true,
+      "summary": "QConのAI特化版カンファレンス。エンタープライズAIエンジニアリングの実践知見を共有。",
+      "status": "upcoming",
+      "id": "qcon-ai-boston-north-america-2026",
+      "first_seen": "2026-W14",
+      "last_updated": "2026-W14"
+    },
+    {
+      "name": "Microsoft Build 2026",
+      "dates": {
+        "start": "2026-06-02",
+        "end": "2026-06-03"
+      },
+      "location": {
+        "city": "San Francisco",
+        "country": "USA",
+        "region": "North America"
+      },
+      "format": "hybrid",
+      "url": "https://build.microsoft.com/",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "unknown"
+      },
+      "categories": [
+        "クラウド / インフラ",
+        "AI / 機械学習"
+      ],
+      "topics": [
+        "Azure",
+        "AI",
+        "developer tools",
+        "cloud",
+        "Copilot",
+        "GitHub"
+      ],
+      "cost": "paid",
+      "recurring": true,
+      "summary": "Microsoft年次開発者カンファレンス。Azure・AI・開発ツールの最新アップデートを発表。",
+      "status": "upcoming",
+      "id": "microsoft-build-north-america-2026",
+      "first_seen": "2026-W14",
+      "last_updated": "2026-W14"
+    },
+    {
+      "name": "CVPR 2026 (IEEE/CVF Conference on Computer Vision and Pattern Recognition)",
+      "dates": {
+        "start": "2026-06-03",
+        "end": "2026-06-07"
+      },
+      "location": {
+        "city": "Denver",
+        "country": "USA",
+        "region": "North America"
+      },
+      "format": "in-person",
+      "url": "https://cvpr.thecvf.com/Conferences/2026",
+      "cfp": {
+        "deadline": "2025-11-13",
+        "url": "https://cvpr.thecvf.com/Conferences/2026/CallForPapers",
+        "status": "closed"
+      },
+      "categories": [
+        "AI / 機械学習"
+      ],
+      "topics": [
+        "computer vision",
+        "pattern recognition",
+        "deep learning",
+        "image generation",
+        "3D vision",
+        "video understanding"
+      ],
+      "cost": "paid",
+      "recurring": true,
+      "summary": "コンピュータビジョン分野の最高峰カンファレンス。画像認識・生成AI等の最新研究を発表。",
+      "status": "upcoming",
+      "id": "cvpr-north-america-2026",
+      "first_seen": "2026-W14",
+      "last_updated": "2026-W14"
+    },
+    {
+      "name": "Databricks Data + AI Summit 2026",
+      "dates": {
+        "start": "2026-06-15",
+        "end": "2026-06-18"
+      },
+      "location": {
+        "city": "San Francisco",
+        "country": "USA",
+        "region": "North America"
+      },
+      "format": "hybrid",
+      "url": "https://www.databricks.com/dataaisummit",
+      "cfp": {
+        "deadline": "",
+        "url": "https://community.databricks.com/t5/announcements/call-for-presentations-data-ai-summit-2026-is-open/td-p/141885",
+        "status": "closed"
+      },
+      "categories": [
+        "データプラットフォーム",
+        "データエンジニアリング",
+        "AI / 機械学習"
+      ],
+      "topics": [
+        "Databricks",
+        "Apache Spark",
+        "data lakehouse",
+        "MLOps",
+        "data engineering",
+        "generative AI",
+        "data governance"
+      ],
+      "cost": "paid",
+      "recurring": true,
+      "summary": "Databricks主催の世界最大級データ＆AIカンファレンス。800以上のセッションでデータ基盤とAI活用を深掘り。",
+      "status": "upcoming",
+      "id": "databricks-data-ai-summit-north-america-2026",
+      "first_seen": "2026-W14",
+      "last_updated": "2026-W14"
+    },
+    {
+      "name": "KubeCon + CloudNativeCon India 2026",
+      "dates": {
+        "start": "2026-06-18",
+        "end": "2026-06-19"
+      },
+      "location": {
+        "city": "Mumbai",
+        "country": "India",
+        "region": "Asia-Pacific"
+      },
+      "format": "in-person",
+      "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-india/",
+      "cfp": {
+        "deadline": "2026-02-01",
+        "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-india/program/cfp/",
+        "status": "closed"
+      },
+      "categories": [
+        "クラウド / インフラ"
+      ],
+      "topics": [
+        "Kubernetes",
+        "cloud native",
+        "containers",
+        "microservices",
+        "DevOps"
+      ],
+      "cost": "paid",
+      "recurring": true,
+      "summary": "CNCF主催のインド開催KubeCon。クラウドネイティブ技術のアジア太平洋地域向けイベント。",
+      "status": "upcoming",
+      "id": "kubecon-cloudnativecon-india-apac-2026",
+      "first_seen": "2026-W14",
+      "last_updated": "2026-W14"
+    },
+    {
+      "name": "PlatformCon 2026",
+      "dates": {
+        "start": "2026-06-22",
+        "end": "2026-06-26"
+      },
+      "location": {
+        "city": "Online + London + New York",
+        "country": "Global",
+        "region": "Online"
+      },
+      "format": "hybrid",
+      "url": "https://platformcon.com/",
+      "cfp": {
+        "deadline": "2026-02-22",
+        "url": "https://platformcon.com/cfp",
+        "status": "closed"
+      },
+      "categories": [
+        "クラウド / インフラ"
+      ],
+      "topics": [
+        "platform engineering",
+        "Kubernetes",
+        "IaC",
+        "GitOps",
+        "developer experience",
+        "internal developer platform"
+      ],
+      "cost": "free (virtual) / paid (in-person)",
+      "recurring": true,
+      "summary": "世界最大のプラットフォームエンジニアリングカンファレンス。150以上のセッションとワークショップを提供。",
+      "status": "upcoming",
+      "id": "platformcon-online-2026",
+      "first_seen": "2026-W14",
+      "last_updated": "2026-W14"
+    },
+    {
+      "name": "Confidential Computing Summit 2026",
+      "dates": {
+        "start": "2026-06-23",
+        "end": "2026-06-24"
+      },
+      "location": {
+        "city": "San Francisco",
+        "country": "USA",
+        "region": "North America"
+      },
+      "format": "in-person",
+      "url": "https://confidentialcomputingsummit.com/",
+      "cfp": {
+        "deadline": "",
+        "url": "https://sessionize.com/confidential-computing-summit-2026/",
+        "status": "open"
+      },
+      "categories": [
+        "PETs",
+        "クラウド / インフラ"
+      ],
+      "topics": [
+        "confidential computing",
+        "TEE",
+        "secure AI infrastructure",
+        "privacy-preserving AI"
+      ],
+      "cost": "paid",
+      "recurring": true,
+      "summary": "Linux Foundation主催の秘匿計算サミット。セキュアAIインフラと秘匿コンピューティングの最新実装を議論。",
+      "status": "upcoming",
+      "id": "confidential-computing-summit-north-america-2026",
+      "first_seen": "2026-W14",
+      "last_updated": "2026-W14"
+    },
+    {
+      "name": "AWS Summit Japan 2026",
+      "dates": {
+        "start": "2026-06-25",
+        "end": "2026-06-26"
+      },
+      "location": {
+        "city": "Tokyo",
+        "country": "Japan",
+        "region": "Japan"
+      },
+      "format": "in-person",
+      "url": "https://aws.amazon.com/jp/summits/japan/",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "unknown"
+      },
+      "categories": [
+        "クラウド / インフラ",
+        "データプラットフォーム",
+        "AI / 機械学習"
+      ],
+      "topics": [
+        "AWS",
+        "cloud",
+        "AI",
+        "data analytics",
+        "serverless",
+        "infrastructure"
+      ],
+      "cost": "free",
+      "recurring": true,
+      "summary": "AWS日本最大の年次イベント。クラウド・AI・データ基盤の最新サービスと活用事例を紹介。",
+      "status": "upcoming",
+      "id": "aws-summit-japan-jp-2026",
+      "first_seen": "2026-W14",
+      "last_updated": "2026-W14"
+    },
+    {
+      "name": "DX 総合EXPO 2026 夏 東京",
+      "dates": {
+        "start": "2026-07-01",
+        "end": "2026-07-03"
+      },
+      "location": {
+        "city": "Tokyo",
+        "country": "Japan",
+        "region": "Japan"
+      },
+      "format": "in-person",
+      "url": "https://www.bizcrew.jp/expo/dx-tokyo",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "categories": [
+        "ビジネス / DX"
+      ],
+      "topics": [
+        "DX推進",
+        "業務効率化",
+        "SaaS",
+        "クラウド",
+        "AI"
+      ],
+      "cost": "free",
+      "recurring": true,
+      "summary": "企業DX推進のための総合展示会。最新DXソリューションが一堂に集まる日本最大級の総合展。",
+      "status": "upcoming",
+      "id": "dx-expo-jp-2026",
+      "first_seen": "2026-W14",
+      "last_updated": "2026-W14"
+    },
+    {
+      "name": "ACL 2026 (64th Annual Meeting of the Association for Computational Linguistics)",
+      "dates": {
+        "start": "2026-07-02",
+        "end": "2026-07-07"
+      },
+      "location": {
+        "city": "San Diego",
+        "country": "USA",
+        "region": "North America"
+      },
+      "format": "hybrid",
+      "url": "https://2026.aclweb.org/",
+      "cfp": {
+        "deadline": "2026-02-15",
+        "url": "https://2026.aclweb.org/",
+        "status": "closed"
+      },
+      "categories": [
+        "AI / 機械学習"
+      ],
+      "topics": [
+        "NLP",
+        "computational linguistics",
+        "LLM",
+        "language models",
+        "machine translation",
+        "dialogue systems"
+      ],
+      "cost": "paid",
+      "recurring": true,
+      "summary": "自然言語処理分野の最高峰学会。LLM・言語モデルの最新研究が集結。",
+      "status": "upcoming",
+      "id": "acl-north-america-2026",
+      "first_seen": "2026-W14",
+      "last_updated": "2026-W14"
+    },
+    {
+      "name": "ICML 2026 (43rd International Conference on Machine Learning)",
+      "dates": {
+        "start": "2026-07-06",
+        "end": "2026-07-11"
+      },
+      "location": {
+        "city": "Seoul",
+        "country": "South Korea",
+        "region": "Asia-Pacific"
+      },
+      "format": "in-person",
+      "url": "https://icml.cc/Conferences/2026",
+      "cfp": {
+        "deadline": "2026-01-28",
+        "url": "https://icml.cc/Conferences/2026/CallForPapers",
+        "status": "closed"
+      },
+      "categories": [
+        "AI / 機械学習"
+      ],
+      "topics": [
+        "machine learning",
+        "deep learning",
+        "reinforcement learning",
+        "optimization",
+        "generative models",
+        "theory"
+      ],
+      "cost": "paid",
+      "recurring": true,
+      "summary": "機械学習分野の最高峰国際会議。ソウルCOEXで開催、最新ML研究を発表。",
+      "status": "upcoming",
+      "id": "icml-apac-2026",
+      "first_seen": "2026-W14",
+      "last_updated": "2026-W14"
+    },
+    {
+      "name": "Privacy Enhancing Technologies Symposium (PETS) 2026",
+      "dates": {
+        "start": "2026-07-20",
+        "end": "2026-07-25"
+      },
+      "location": {
+        "city": "Calgary",
+        "country": "Canada",
+        "region": "North America"
+      },
+      "format": "in-person",
+      "url": "https://petsymposium.org/2026/",
+      "cfp": {
+        "deadline": "2026-02-28",
+        "url": "https://petsymposium.org/2026/",
+        "status": "closed"
+      },
+      "categories": [
+        "PETs"
+      ],
+      "topics": [
+        "differential privacy",
+        "anonymous communication",
+        "privacy-preserving analytics"
+      ],
+      "cost": "paid",
+      "recurring": true,
+      "summary": "プライバシー強化技術の国際学術シンポジウム。差分プライバシーや匿名通信など最先端のPETs研究を発表。",
+      "status": "upcoming",
+      "id": "privacy-enhancing-technologies-symposium-north-america-2026",
+      "first_seen": "2026-W14",
+      "last_updated": "2026-W14"
+    },
+    {
+      "name": "KubeCon + CloudNativeCon Japan 2026",
+      "dates": {
+        "start": "2026-07-29",
+        "end": "2026-07-30"
+      },
+      "location": {
+        "city": "Yokohama",
+        "country": "Japan",
+        "region": "Japan"
+      },
+      "format": "in-person",
+      "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-japan/",
+      "cfp": {
+        "deadline": "2026-03-29",
+        "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-japan/program/cfp/",
+        "status": "closed"
+      },
+      "categories": [
+        "クラウド / インフラ"
+      ],
+      "topics": [
+        "Kubernetes",
+        "cloud native",
+        "containers",
+        "microservices",
+        "service mesh",
+        "observability"
+      ],
+      "cost": "paid",
+      "recurring": true,
+      "summary": "CNCF旗艦イベントの日本版。横浜でクラウドネイティブ技術の最新動向を日本コミュニティと共有。",
+      "status": "upcoming",
+      "id": "kubecon-cloudnativecon-japan-jp-2026",
+      "first_seen": "2026-W14",
+      "last_updated": "2026-W14"
+    },
+    {
+      "name": "Google Cloud Next Tokyo 2026",
+      "dates": {
+        "start": "2026-07-30",
+        "end": "2026-07-31"
+      },
+      "location": {
+        "city": "Tokyo",
+        "country": "Japan",
+        "region": "Japan"
+      },
+      "format": "in-person",
+      "url": "https://www.googlecloudevents.com/next-tokyo/",
+      "cfp": {
+        "deadline": "2026-03-05",
+        "url": "",
+        "status": "closed"
+      },
+      "categories": [
+        "クラウド / インフラ",
+        "データプラットフォーム",
+        "AI / 機械学習"
+      ],
+      "topics": [
+        "Google Cloud",
+        "AI",
+        "data analytics",
+        "BigQuery",
+        "Vertex AI",
+        "cloud infrastructure"
+      ],
+      "cost": "free",
+      "recurring": true,
+      "summary": "Google Cloud Next の東京版。Google Cloudの最新技術・AI・データ活用の日本向けイベント。",
+      "status": "upcoming",
+      "id": "google-cloud-next-tokyo-jp-2026",
+      "first_seen": "2026-W14",
+      "last_updated": "2026-W14"
+    },
+    {
+      "name": "KDD 2026 (ACM SIGKDD Conference on Knowledge Discovery and Data Mining)",
+      "dates": {
+        "start": "2026-08-09",
+        "end": "2026-08-13"
+      },
+      "location": {
+        "city": "Jeju",
+        "country": "South Korea",
+        "region": "Asia-Pacific"
+      },
+      "format": "in-person",
+      "url": "https://kdd2026.kdd.org/",
+      "cfp": {
+        "deadline": "2026-02-01",
+        "url": "https://kdd2026.kdd.org/research-track-call-for-papers/",
+        "status": "closed"
+      },
+      "categories": [
+        "AI / 機械学習",
+        "データインテリジェンス"
+      ],
+      "topics": [
+        "data mining",
+        "knowledge discovery",
+        "machine learning",
+        "AI for science",
+        "applied data science"
+      ],
+      "cost": "paid",
+      "recurring": true,
+      "summary": "データマイニング・知識発見の最高峰学会。済州島で開催、応用データサイエンスも充実。",
+      "status": "upcoming",
+      "id": "kdd-apac-2026",
+      "first_seen": "2026-W14",
+      "last_updated": "2026-W14"
+    },
+    {
+      "name": "IJCAI-ECAI 2026 (International Joint Conference on Artificial Intelligence)",
+      "dates": {
+        "start": "2026-08-15",
+        "end": "2026-08-21"
+      },
+      "location": {
+        "city": "Bremen",
+        "country": "Germany",
+        "region": "Europe"
+      },
+      "format": "in-person",
+      "url": "https://2026.ijcai.org/",
+      "cfp": {
+        "deadline": "2026-01-23",
+        "url": "https://2026.ijcai.org/ijcai-ecai-2026-call-for-papers-main-track/",
+        "status": "closed"
+      },
+      "categories": [
+        "AI / 機械学習"
+      ],
+      "topics": [
+        "artificial intelligence",
+        "multi-agent systems",
+        "robotics",
+        "knowledge representation",
+        "NLP",
+        "computer vision"
+      ],
+      "cost": "paid",
+      "recurring": true,
+      "summary": "AI分野最大の国際会議IJCAIとECAIの合同開催。3500名以上のAI研究者が集結。",
+      "status": "upcoming",
+      "id": "ijcai-ecai-eu-2026",
+      "first_seen": "2026-W14",
+      "last_updated": "2026-W14"
+    },
+    {
+      "name": "KubeCon + CloudNativeCon + OpenInfra Summit China 2026",
+      "dates": {
+        "start": "2026-09-08",
+        "end": "2026-09-09"
+      },
+      "location": {
+        "city": "Shanghai",
+        "country": "China",
+        "region": "Asia-Pacific"
+      },
+      "format": "in-person",
+      "url": "https://www.lfasiallc.com/kubecon-cloudnativecon-openinfra-summit-china/",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "unknown"
+      },
+      "categories": [
+        "クラウド / インフラ"
+      ],
+      "topics": [
+        "Kubernetes",
+        "cloud native",
+        "OpenStack",
+        "open infrastructure",
+        "containers"
+      ],
+      "cost": "paid",
+      "recurring": true,
+      "summary": "KubeCon・OpenInfra Summit・PyTorch Conferenceの合同中国開催。アジア最大級のクラウドインフライベント。",
+      "status": "upcoming",
+      "id": "kubecon-cloudnativecon-openinfra-summit-china-apac-2026",
+      "first_seen": "2026-W14",
+      "last_updated": "2026-W14"
+    },
+    {
+      "name": "ECCV 2026 (18th European Conference on Computer Vision)",
+      "dates": {
+        "start": "2026-09-08",
+        "end": "2026-09-13"
+      },
+      "location": {
+        "city": "Malmö",
+        "country": "Sweden",
+        "region": "Europe"
+      },
+      "format": "in-person",
+      "url": "https://eccv.ecva.net/Conferences/2026",
+      "cfp": {
+        "deadline": "2026-03-06",
+        "url": "https://eccv.ecva.net/Conferences/2026/Dates",
+        "status": "closed"
+      },
+      "categories": [
+        "AI / 機械学習"
+      ],
+      "topics": [
+        "computer vision",
+        "deep learning",
+        "image recognition",
+        "3D reconstruction",
+        "video analysis",
+        "generative models"
+      ],
+      "cost": "paid",
+      "recurring": true,
+      "summary": "ヨーロッパ発のコンピュータビジョントップ会議。マルメで隔年開催。",
+      "status": "upcoming",
+      "id": "eccv-eu-2026",
+      "first_seen": "2026-W14",
+      "last_updated": "2026-W14"
+    },
+    {
+      "name": "dbt Summit 2026",
+      "dates": {
+        "start": "2026-09-15",
+        "end": "2026-09-18"
+      },
+      "location": {
+        "city": "Las Vegas",
+        "country": "USA",
+        "region": "North America"
+      },
+      "format": "in-person",
+      "url": "https://www.getdbt.com/dbt-summit",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "unknown"
+      },
+      "categories": [
+        "データエンジニアリング",
+        "データプラットフォーム"
+      ],
+      "topics": [
+        "dbt",
+        "data transformation",
+        "analytics engineering",
+        "data modeling",
+        "data pipeline",
+        "data warehouse"
+      ],
+      "cost": "paid",
+      "recurring": true,
+      "summary": "dbt Labs主催（旧Coalesce）。データ変換・アナリティクスエンジニアリングの専門カンファレンス。",
+      "status": "upcoming",
+      "id": "dbt-summit-north-america-2026",
+      "first_seen": "2026-W14",
+      "last_updated": "2026-W14"
+    },
+    {
+      "name": "DevOpsCon New York 2026",
+      "dates": {
+        "start": "2026-09-28",
+        "end": "2026-10-02"
+      },
+      "location": {
+        "city": "New York",
+        "country": "USA",
+        "region": "North America"
+      },
+      "format": "hybrid",
+      "url": "https://devopscon.io/new-york/",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "unknown"
+      },
+      "categories": [
+        "クラウド / インフラ"
+      ],
+      "topics": [
+        "DevOps",
+        "CI/CD",
+        "Kubernetes",
+        "platform engineering",
+        "DevSecOps"
+      ],
+      "cost": "paid",
+      "recurring": true,
+      "summary": "DevOps専門カンファレンスのニューヨーク版。ワークショップとエキスポを含む5日間のイベント。",
+      "status": "upcoming",
+      "id": "devopscon-new-york-north-america-2026",
+      "first_seen": "2026-W14",
+      "last_updated": "2026-W14"
+    },
+    {
+      "name": "European Big Data Value Forum (EBDVF) 2026",
+      "dates": {
+        "start": "2026-09-30",
+        "end": "2026-10-01"
+      },
+      "location": {
+        "city": "Galway",
+        "country": "Ireland",
+        "region": "Europe"
+      },
+      "format": "in-person",
+      "url": "https://european-big-data-value-forum.eu/2026-edition/about/",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "categories": [
+        "Data Spaces / データ連携",
+        "AI / 機械学習",
+        "データインテリジェンス",
+        "ビジネス / DX"
+      ],
+      "topics": [
+        "big data",
+        "AI backbone",
+        "data strategy",
+        "European data spaces"
+      ],
+      "cost": "paid",
+      "recurring": true,
+      "summary": "欧州ビッグデータ・AI戦略の年次フォーラム。戦略・投資・インパクトがテーマ。",
+      "status": "upcoming",
+      "id": "european-big-data-value-forum-eu-2026",
+      "first_seen": "2026-W14",
+      "last_updated": "2026-W14"
+    },
+    {
+      "name": "SREcon26 Europe/Middle East/Africa",
+      "dates": {
+        "start": "2026-10-13",
+        "end": "2026-10-15"
+      },
+      "location": {
+        "city": "Dublin",
+        "country": "Ireland",
+        "region": "Europe"
+      },
+      "format": "in-person",
+      "url": "https://www.usenix.org/conference/srecon26emea",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "unknown"
+      },
+      "categories": [
+        "クラウド / インフラ"
+      ],
+      "topics": [
+        "SRE",
+        "site reliability engineering",
+        "observability",
+        "incident management",
+        "infrastructure"
+      ],
+      "cost": "paid",
+      "recurring": true,
+      "summary": "USENIX主催SREカンファレンスのEMEA版。信頼性エンジニアリングの欧州・中東・アフリカ向けイベント。",
+      "status": "upcoming",
+      "id": "srecon26-europemiddle-eastafrica-eu-2026",
+      "first_seen": "2026-W14",
+      "last_updated": "2026-W14"
+    },
+    {
+      "name": "Digital Transformation Week Europe 2026",
+      "dates": {
+        "start": "2026-10-20",
+        "end": "2026-10-21"
+      },
+      "location": {
+        "city": "Amsterdam",
+        "country": "Netherlands",
+        "region": "Europe"
+      },
+      "format": "in-person",
+      "url": "https://www.digitaltransformation-week.com/europe/",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "categories": [
+        "ビジネス / DX",
+        "クラウド / インフラ"
+      ],
+      "topics": [
+        "digital transformation",
+        "hybrid cloud",
+        "future of work",
+        "automation"
+      ],
+      "cost": "paid",
+      "recurring": true,
+      "summary": "欧州最大級のDXカンファレンス。8000名以上参加、DX戦略・クラウド・自動化の最新トレンドを議論。",
+      "status": "upcoming",
+      "id": "digital-transformation-week-europe-eu-2026",
+      "first_seen": "2026-W14",
+      "last_updated": "2026-W14"
+    },
+    {
+      "name": "HashiConf at IBM TechXchange 2026",
+      "dates": {
+        "start": "2026-10-26",
+        "end": "2026-10-29"
+      },
+      "location": {
+        "city": "Atlanta",
+        "country": "USA",
+        "region": "North America"
+      },
+      "format": "in-person",
+      "url": "https://www.hashicorp.com/en/conferences/hashiconf",
+      "cfp": {
+        "deadline": "",
+        "url": "https://www.hashicorp.com/en/conferences/hashiconf/call-for-sessions",
+        "status": "open"
+      },
+      "categories": [
+        "クラウド / インフラ"
+      ],
+      "topics": [
+        "Terraform",
+        "Vault",
+        "infrastructure as code",
+        "cloud security",
+        "HashiCorp",
+        "IBM"
+      ],
+      "cost": "paid",
+      "recurring": true,
+      "summary": "HashiCorp（IBM）の年次カンファレンス。Terraform・Vault等のインフラ自動化ツールの最新動向。",
+      "status": "upcoming",
+      "id": "hashiconf-at-ibm-techxchange-north-america-2026",
+      "first_seen": "2026-W14",
+      "last_updated": "2026-W14"
+    },
+    {
+      "name": "KubeCon + CloudNativeCon North America 2026",
+      "dates": {
+        "start": "2026-11-09",
+        "end": "2026-11-12"
+      },
+      "location": {
+        "city": "Salt Lake City",
+        "country": "USA",
+        "region": "North America"
+      },
+      "format": "in-person",
+      "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not yet open"
+      },
+      "categories": [
+        "クラウド / インフラ"
+      ],
+      "topics": [
+        "Kubernetes",
+        "cloud native",
+        "containers",
+        "microservices",
+        "service mesh",
+        "observability"
+      ],
+      "cost": "paid",
+      "recurring": true,
+      "summary": "CNCF旗艦イベント北米版。クラウドネイティブ技術の最大規模カンファレンス。",
+      "status": "upcoming",
+      "id": "kubecon-cloudnativecon-north-america-north-america-2026",
+      "first_seen": "2026-W14",
+      "last_updated": "2026-W14"
+    },
+    {
+      "name": "QCon San Francisco 2026",
+      "dates": {
+        "start": "2026-11-16",
+        "end": "2026-11-20"
+      },
+      "location": {
+        "city": "San Francisco",
+        "country": "USA",
+        "region": "North America"
+      },
+      "format": "in-person",
+      "url": "https://qconsf.com/",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "unknown"
+      },
+      "categories": [
+        "クラウド / インフラ",
+        "データエンジニアリング"
+      ],
+      "topics": [
+        "software architecture",
+        "cloud",
+        "platform engineering",
+        "AI",
+        "distributed systems"
+      ],
+      "cost": "paid",
+      "recurring": true,
+      "summary": "シニアエンジニア向けソフトウェア開発カンファレンスのSF版。アーキテクチャの最新動向を共有。",
+      "status": "upcoming",
+      "id": "qcon-san-francisco-north-america-2026",
+      "first_seen": "2026-W14",
+      "last_updated": "2026-W14"
+    },
+    {
+      "name": "Microsoft Ignite 2026",
+      "dates": {
+        "start": "2026-11-17",
+        "end": "2026-11-20"
+      },
+      "location": {
+        "city": "San Francisco",
+        "country": "USA",
+        "region": "North America"
+      },
+      "format": "hybrid",
+      "url": "https://ignite.microsoft.com/",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not yet open"
+      },
+      "categories": [
+        "クラウド / インフラ",
+        "データプラットフォーム",
+        "AI / 機械学習"
+      ],
+      "topics": [
+        "Azure",
+        "Microsoft 365",
+        "AI",
+        "cloud infrastructure",
+        "data platform",
+        "security"
+      ],
+      "cost": "paid",
+      "recurring": true,
+      "summary": "Microsoft年次テクノロジーカンファレンス。Azure・AI・データプラットフォームの最新発表を提供。",
+      "status": "upcoming",
+      "id": "microsoft-ignite-north-america-2026",
+      "first_seen": "2026-W14",
+      "last_updated": "2026-W14"
+    },
+    {
+      "name": "Gaia-X Summit 2026",
+      "dates": {
+        "start": "2026-11-19",
+        "end": "2026-11-20"
+      },
+      "location": {
+        "city": "Vienna",
+        "country": "Austria",
+        "region": "Europe"
+      },
+      "format": "in-person",
+      "url": "https://gaia-x.eu/event/gaia-x-summit-2026/",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "categories": [
+        "Data Spaces / データ連携",
+        "クラウド / インフラ",
+        "AI / 機械学習"
+      ],
+      "topics": [
+        "Gaia-X",
+        "sovereign AI",
+        "trusted data ecosystems",
+        "digital sovereignty"
+      ],
+      "cost": "unknown",
+      "recurring": true,
+      "summary": "Gaia-Xの年次サミット。ソブリンAI・信頼されたデータエコシステムがテーマ。ウィーン開催。",
+      "status": "upcoming",
+      "id": "gaia-x-summit-eu-2026",
+      "first_seen": "2026-W14",
+      "last_updated": "2026-W14"
+    },
+    {
+      "name": "AWS re:Invent 2026",
+      "dates": {
+        "start": "2026-11-30",
+        "end": "2026-12-04"
+      },
+      "location": {
+        "city": "Las Vegas",
+        "country": "USA",
+        "region": "North America"
+      },
+      "format": "in-person",
+      "url": "https://reinvent.awsevents.com/",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not yet open"
+      },
+      "categories": [
+        "クラウド / インフラ",
+        "データプラットフォーム",
+        "AI / 機械学習"
+      ],
+      "topics": [
+        "AWS",
+        "cloud",
+        "serverless",
+        "AI/ML",
+        "data analytics",
+        "infrastructure",
+        "security"
+      ],
+      "cost": "paid",
+      "recurring": true,
+      "summary": "AWS最大の年次カンファレンス。クラウド・AI・データの最新サービスと活用事例を大規模に発表。",
+      "status": "upcoming",
+      "id": "aws-reinvent-north-america-2026",
+      "first_seen": "2026-W14",
+      "last_updated": "2026-W14"
+    },
+    {
+      "name": "NeurIPS 2026 (40th Conference on Neural Information Processing Systems)",
+      "dates": {
+        "start": "2026-12-06",
+        "end": "2026-12-12"
+      },
+      "location": {
+        "city": "Sydney / Atlanta",
+        "country": "Australia / USA",
+        "region": "Asia-Pacific"
+      },
+      "format": "in-person",
+      "url": "https://neurips.cc/Conferences/2026",
+      "cfp": {
+        "deadline": "2026-05-06",
+        "url": "https://neurips.cc/Conferences/2026/CallForPapers",
+        "status": "open"
+      },
+      "categories": [
+        "AI / 機械学習"
+      ],
+      "topics": [
+        "neural networks",
+        "deep learning",
+        "reinforcement learning",
+        "generative AI",
+        "optimization",
+        "neuroscience"
+      ],
+      "cost": "paid",
+      "recurring": true,
+      "summary": "機械学習・ニューラルネットワークの最高峰会議。2026年はシドニーとアトランタの2拠点開催。",
+      "status": "upcoming",
+      "id": "neurips-apac-2026",
+      "first_seen": "2026-W14",
+      "last_updated": "2026-W14"
+    },
+    {
+      "name": "Open Source Summit Japan 2026",
+      "dates": {
+        "start": "2026-12-08",
+        "end": "2026-12-10"
+      },
+      "location": {
+        "city": "Tokyo",
+        "country": "Japan",
+        "region": "Japan"
+      },
+      "format": "in-person",
+      "url": "https://events.linuxfoundation.org/open-source-summit-japan-2026/",
+      "cfp": {
+        "deadline": "2026-08-04",
+        "url": "https://events.linuxfoundation.org/open-source-summit-japan/program/cfp/",
+        "status": "not yet open"
+      },
+      "categories": [
+        "クラウド / インフラ",
+        "データエンジニアリング"
+      ],
+      "topics": [
+        "open source",
+        "Linux",
+        "cloud native",
+        "AI infrastructure",
+        "security",
+        "embedded"
+      ],
+      "cost": "paid",
+      "recurring": true,
+      "summary": "Linux Foundation主催のオープンソースサミット日本版。クラウド・AI・セキュリティ等の幅広い技術を網羅。",
+      "status": "upcoming",
+      "id": "open-source-summit-japan-jp-2026",
+      "first_seen": "2026-W14",
+      "last_updated": "2026-W14"
+    }
+  ]
 }
