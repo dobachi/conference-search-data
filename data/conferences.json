@@ -439,7 +439,7 @@
       "cost": "free",
       "recurring": true,
       "summary": "最新AI製品200点以上が集結する展示会。フィジカルAI・ロボットゾーンを新設。",
-      "status": "ongoing",
+      "status": "upcoming",
       "id": "ai-spring-jp-2026",
       "first_seen": "2026-W14",
       "last_updated": "2026-W14"
@@ -476,7 +476,7 @@
       "cost": "paid",
       "recurring": true,
       "summary": "日本最大級のWeb3・AIカンファレンス。50カ国以上から1万人規模の参加者が集結。",
-      "status": "ongoing",
+      "status": "upcoming",
       "id": "teamz-web3-ai-summit-jp-2026",
       "first_seen": "2026-W14",
       "last_updated": "2026-W14"
@@ -549,7 +549,7 @@
       "cost": "paid",
       "recurring": true,
       "summary": "DevOpsコミュニティによる東京開催イベント。DevOps文化・自動化・SREの実践を共有。",
-      "status": "ongoing",
+      "status": "upcoming",
       "id": "devopsdays-tokyo-jp-2026",
       "first_seen": "2026-W14",
       "last_updated": "2026-W14"

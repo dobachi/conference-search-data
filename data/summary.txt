@@ -1,0 +1,72 @@
+# Conference Summary (68 total: 57 upcoming, 0 ongoing, 11 ended)
+# Generated: 2026-04-05
+# Format: id | name | start~end | region | status | categories
+
+aaai-apac-2026 | AAAI 2026 (40th AAAI Conference on Artificial Intelligence) | 2026-01-20~2026-01-27 | Asia-Pacific | ended | AI / 機械学習
+ai-market-conference-jp-2026 | AI Market Conference 2026 | 2026-01-28~2026-01-28 | Japan | ended | AI / 機械学習, ビジネス / DX
+data-spaces-symposium-eu-2026 | Data Spaces Symposium 2026 | 2026-02-10~2026-02-11 | Europe | ended | Data Spaces / データ連携, データプラットフォーム, ビジネス / DX
+ai-agent-day-online-2026 | AI Agent Day 2026 | 2026-02-12~2026-02-13 | Online | ended | AI / 機械学習, ビジネス / DX
+jaws-days-jp-2026 | JAWS DAYS 2026 | 2026-03-07~2026-03-07 | Japan | ended | クラウド / インフラ
+fheorg-conference-apac-2026 | FHE.org Conference 2026 | 2026-03-08~2026-03-08 | Asia-Pacific | ended | PETs
+qcon-london-eu-2026 | QCon London 2026 | 2026-03-16~2026-03-19 | Europe | ended | クラウド / インフラ, データエンジニアリング
+nvidia-gtc-north-america-2026 | NVIDIA GTC 2026 | 2026-03-16~2026-03-19 | North America | ended | AI / 機械学習, クラウド / インフラ
+kubecon-cloudnativecon-europe-eu-2026 | KubeCon + CloudNativeCon Europe 2026 | 2026-03-23~2026-03-26 | Europe | ended | クラウド / インフラ
+srecon26-americas-north-america-2026 | SREcon26 Americas | 2026-03-24~2026-03-26 | North America | ended | クラウド / インフラ
+eacl-eu-2026 | EACL 2026 (19th Conference of the European Chapter of the ACL) | 2026-03-24~2026-03-29 | Europe | ended | AI / 機械学習
+ai-spring-jp-2026 | AI博覧会 Spring 2026 | 2026-04-07~2026-04-08 | Japan | upcoming | AI / 機械学習, ビジネス / DX
+teamz-web3-ai-summit-jp-2026 | TEAMZ Web3 & AI Summit 2026 | 2026-04-07~2026-04-08 | Japan | upcoming | AI / 機械学習, ビジネス / DX
+japan-dx-week-jp-2026 | Japan DX Week 春 2026 | 2026-04-08~2026-04-10 | Japan | upcoming | ビジネス / DX, AI / 機械学習
+devopsdays-tokyo-jp-2026 | DevOpsDays Tokyo 2026 | 2026-04-14~2026-04-16 | Japan | upcoming | クラウド / インフラ
+nextech-week-10-aiexpo-jp-2026 | NexTech Week 2026【春】 第10回 AI・人工知能EXPO | 2026-04-15~2026-04-17 | Japan | upcoming | AI / 機械学習, ビジネス / DX
+devopscon-amsterdam-eu-2026 | DevOpsCon Amsterdam 2026 | 2026-04-20~2026-04-24 | Europe | upcoming | クラウド / インフラ
+hannover-messe-industrial-data-spaces-eu-2026 | Hannover Messe 2026 - Industrial Data Spaces | 2026-04-20~2026-04-24 | Europe | upcoming | Data Spaces / データ連携, ビジネス / DX, データプラットフォーム
+google-cloud-next-north-america-2026 | Google Cloud Next 2026 | 2026-04-22~2026-04-24 | North America | upcoming | クラウド / インフラ, データプラットフォーム, AI / 機械学習
+iclr-north-america-2026 | ICLR 2026 (International Conference on Learning Representations) | 2026-04-23~2026-04-27 | North America | upcoming | AI / 機械学習
+data-week-eu-2026 | Data Week 2026 | 2026-05-05~2026-05-06 | Europe | upcoming | Data Spaces / データ連携, AI / 機械学習, データインテリジェンス
+data-summit-north-america-2026 | Data Summit 2026 | 2026-05-05~2026-05-07 | North America | upcoming | データインテリジェンス, AI / 機械学習, データエンジニアリング
+data-innovation-summit-eu-2026 | Data Innovation Summit 2026 | 2026-05-06~2026-05-08 | Europe | upcoming | Data Spaces / データ連携, AI / 機械学習, データエンジニアリング, データインテリジェンス
+interoperability-summit-eu-2026 | Interoperability Summit 2026 | 2026-05-07~2026-05-07 | Europe | upcoming | Data Spaces / データ連携, データプラットフォーム, ビジネス / DX
+devopscon-london-eu-2026 | DevOpsCon London 2026 | 2026-05-11~2026-05-15 | Europe | upcoming | クラウド / インフラ
+data-council-north-america-2026 | Data Council 2026 | 2026-05-12~2026-05-14 | North America | upcoming | データエンジニアリング, データプラットフォーム, AI / 機械学習
+cio-japan-summit-jp-2026 | CIO Japan Summit 2026 | 2026-05-12~2026-05-13 | Japan | upcoming | ビジネス / DX
+cloudnative-days-nagoya-platform-engineering-kaigi-sre-kaigi-jp-2026 | CloudNative Days Nagoya 2026 / Platform Engineering Kaigi / SRE Kaigi | 2026-05-14~2026-05-15 | Japan | upcoming | クラウド / インフラ
+open-source-summit-north-america-north-america-2026 | Open Source Summit North America 2026 | 2026-05-18~2026-05-20 | North America | upcoming | クラウド / インフラ, データエンジニアリング
+techex-north-america-north-america-2026 | TechEx North America 2026 | 2026-05-18~2026-05-19 | North America | upcoming | ビジネス / DX, AI / 機械学習, クラウド / インフラ
+gartner-data-analytics-summit-tokyo-jp-2026 | Gartner Data & Analytics Summit Tokyo 2026 | 2026-05-19~2026-05-21 | Japan | upcoming | データプラットフォーム, データインテリジェンス, ビジネス / DX
+current-eu-2026 | Current 2026 (Confluent) | 2026-05-19~2026-05-20 | Europe | upcoming | データエンジニアリング, データプラットフォーム
+devops-pro-europe-eu-2026 | DevOps Pro Europe 2026 | 2026-05-19~2026-05-22 | Europe | upcoming | クラウド / インフラ
+google-io-north-america-2026 | Google I/O 2026 | 2026-05-19~2026-05-20 | North America | upcoming | AI / 機械学習, クラウド / インフラ
+aiag-catena-x-north-america-conference-north-america-2026 | AIAG Catena-X North America Conference 2026 | 2026-05-21~2026-05-21 | North America | upcoming | Data Spaces / データ連携, ビジネス / DX
+gaia-x-tech-x-hackathon-9-eu-2026 | Gaia-X Tech-X & Hackathon #9 | 2026-05-28~2026-05-29 | Europe | upcoming | Data Spaces / データ連携, クラウド / インフラ, データプラットフォーム
+snowflake-summit-north-america-2026 | Snowflake Summit 2026 | 2026-06-01~2026-06-04 | North America | upcoming | データプラットフォーム, データエンジニアリング, AI / 機械学習
+qcon-ai-boston-north-america-2026 | QCon AI Boston 2026 | 2026-06-01~2026-06-02 | North America | upcoming | AI / 機械学習, データエンジニアリング
+microsoft-build-north-america-2026 | Microsoft Build 2026 | 2026-06-02~2026-06-03 | North America | upcoming | クラウド / インフラ, AI / 機械学習
+cvpr-north-america-2026 | CVPR 2026 (IEEE/CVF Conference on Computer Vision and Pattern Recognition) | 2026-06-03~2026-06-07 | North America | upcoming | AI / 機械学習
+databricks-data-ai-summit-north-america-2026 | Databricks Data + AI Summit 2026 | 2026-06-15~2026-06-18 | North America | upcoming | データプラットフォーム, データエンジニアリング, AI / 機械学習
+kubecon-cloudnativecon-india-apac-2026 | KubeCon + CloudNativeCon India 2026 | 2026-06-18~2026-06-19 | Asia-Pacific | upcoming | クラウド / インフラ
+platformcon-online-2026 | PlatformCon 2026 | 2026-06-22~2026-06-26 | Online | upcoming | クラウド / インフラ
+confidential-computing-summit-north-america-2026 | Confidential Computing Summit 2026 | 2026-06-23~2026-06-24 | North America | upcoming | PETs, クラウド / インフラ
+aws-summit-japan-jp-2026 | AWS Summit Japan 2026 | 2026-06-25~2026-06-26 | Japan | upcoming | クラウド / インフラ, データプラットフォーム, AI / 機械学習
+dx-expo-jp-2026 | DX 総合EXPO 2026 夏 東京 | 2026-07-01~2026-07-03 | Japan | upcoming | ビジネス / DX
+acl-north-america-2026 | ACL 2026 (64th Annual Meeting of the Association for Computational Linguistics) | 2026-07-02~2026-07-07 | North America | upcoming | AI / 機械学習
+icml-apac-2026 | ICML 2026 (43rd International Conference on Machine Learning) | 2026-07-06~2026-07-11 | Asia-Pacific | upcoming | AI / 機械学習
+privacy-enhancing-technologies-symposium-north-america-2026 | Privacy Enhancing Technologies Symposium (PETS) 2026 | 2026-07-20~2026-07-25 | North America | upcoming | PETs
+kubecon-cloudnativecon-japan-jp-2026 | KubeCon + CloudNativeCon Japan 2026 | 2026-07-29~2026-07-30 | Japan | upcoming | クラウド / インフラ
+google-cloud-next-tokyo-jp-2026 | Google Cloud Next Tokyo 2026 | 2026-07-30~2026-07-31 | Japan | upcoming | クラウド / インフラ, データプラットフォーム, AI / 機械学習
+kdd-apac-2026 | KDD 2026 (ACM SIGKDD Conference on Knowledge Discovery and Data Mining) | 2026-08-09~2026-08-13 | Asia-Pacific | upcoming | AI / 機械学習, データインテリジェンス
+ijcai-ecai-eu-2026 | IJCAI-ECAI 2026 (International Joint Conference on Artificial Intelligence) | 2026-08-15~2026-08-21 | Europe | upcoming | AI / 機械学習
+kubecon-cloudnativecon-openinfra-summit-china-apac-2026 | KubeCon + CloudNativeCon + OpenInfra Summit China 2026 | 2026-09-08~2026-09-09 | Asia-Pacific | upcoming | クラウド / インフラ
+eccv-eu-2026 | ECCV 2026 (18th European Conference on Computer Vision) | 2026-09-08~2026-09-13 | Europe | upcoming | AI / 機械学習
+dbt-summit-north-america-2026 | dbt Summit 2026 | 2026-09-15~2026-09-18 | North America | upcoming | データエンジニアリング, データプラットフォーム
+devopscon-new-york-north-america-2026 | DevOpsCon New York 2026 | 2026-09-28~2026-10-02 | North America | upcoming | クラウド / インフラ
+european-big-data-value-forum-eu-2026 | European Big Data Value Forum (EBDVF) 2026 | 2026-09-30~2026-10-01 | Europe | upcoming | Data Spaces / データ連携, AI / 機械学習, データインテリジェンス, ビジネス / DX
+srecon26-europemiddle-eastafrica-eu-2026 | SREcon26 Europe/Middle East/Africa | 2026-10-13~2026-10-15 | Europe | upcoming | クラウド / インフラ
+digital-transformation-week-europe-eu-2026 | Digital Transformation Week Europe 2026 | 2026-10-20~2026-10-21 | Europe | upcoming | ビジネス / DX, クラウド / インフラ
+hashiconf-at-ibm-techxchange-north-america-2026 | HashiConf at IBM TechXchange 2026 | 2026-10-26~2026-10-29 | North America | upcoming | クラウド / インフラ
+kubecon-cloudnativecon-north-america-north-america-2026 | KubeCon + CloudNativeCon North America 2026 | 2026-11-09~2026-11-12 | North America | upcoming | クラウド / インフラ
+qcon-san-francisco-north-america-2026 | QCon San Francisco 2026 | 2026-11-16~2026-11-20 | North America | upcoming | クラウド / インフラ, データエンジニアリング
+microsoft-ignite-north-america-2026 | Microsoft Ignite 2026 | 2026-11-17~2026-11-20 | North America | upcoming | クラウド / インフラ, データプラットフォーム, AI / 機械学習
+gaia-x-summit-eu-2026 | Gaia-X Summit 2026 | 2026-11-19~2026-11-20 | Europe | upcoming | Data Spaces / データ連携, クラウド / インフラ, AI / 機械学習
+aws-reinvent-north-america-2026 | AWS re:Invent 2026 | 2026-11-30~2026-12-04 | North America | upcoming | クラウド / インフラ, データプラットフォーム, AI / 機械学習
+neurips-apac-2026 | NeurIPS 2026 (40th Conference on Neural Information Processing Systems) | 2026-12-06~2026-12-12 | Asia-Pacific | upcoming | AI / 機械学習
+open-source-summit-japan-jp-2026 | Open Source Summit Japan 2026 | 2026-12-08~2026-12-10 | Japan | upcoming | クラウド / インフラ, データエンジニアリング

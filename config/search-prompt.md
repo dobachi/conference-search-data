@@ -1,147 +1,118 @@
-# カンファレンス検索指示
+# カンファレンス検索指示（トークン最適化版）
 
 このジョブは毎週日曜 UTC 20:00（JST月曜朝5:00）にスケジュール実行される。
 
 ## 手順
 
-### 0. 日付の確定
+### 0. 前処理: ステータス自動更新 & サマリー生成
 
 ```bash
-TZ=Asia/Tokyo date +%Y-%m-%d
+bash config/generate-summary.sh
 ```
 
-JSTの日付を基準にする。
+これにより:
+- `data/conferences.json` 内のステータスが日付ベースで自動更新される（ended/ongoing/upcoming）
+- `data/summary.txt` が生成される（軽量な既知カンファレンス一覧）
 
-### 1. モード判定
+### 1. 今週の検索カテゴリを決定
 
-- `data/conferences.json` が存在しない、または空 → **初回包括検索モード**
-- `data/conferences.json` が存在する → **週次差分更新モード**
+`config/conferences.yml` の `rotation` セクションを参照し、**今週のISO週番号 % 4** で検索対象カテゴリを決定する。
 
-### 2. カテゴリ確認
+```bash
+WEEK_NUM=$(TZ=Asia/Tokyo date +%V)
+ROTATION_KEY=$((WEEK_NUM % 4))
+echo "今週のローテーション: week_${ROTATION_KEY}"
+```
 
-`config/conferences.yml` を読み、検索対象のカテゴリ・キーワード・地域を確認する。
+`conferences.yml` の該当ローテーションのカテゴリ**のみ**を検索する。全カテゴリは検索しない。
 
-### 3. 情報収集
+### 2. 既知カンファレンスの確認
 
-#### 初回包括検索モード
+`data/summary.txt` を読んで、既知のカンファレンス名とIDを確認する。
+**`data/conferences.json` は読まない**（トークン節約のため）。
 
-各カテゴリ × 各地域の組み合わせでWeb検索を実施：
+### 3. 情報収集（今週のカテゴリのみ）
 
-1. カテゴリのキーワードで英語・日本語の両方で検索
-2. 既知のアグリゲータサイト（confs.tech, connpass, techplay等）を確認
-3. 2026年に開催される（された）カンファレンスを網羅的に収集
-4. 50-100+件の収集を目標とする
+今週の2カテゴリそれぞれについて、**統合クエリ**でWeb検索する:
 
-#### 週次差分更新モード
+- 英語1回: カテゴリの主要キーワードを組み合わせた1つのクエリ
+- 日本語1回: 同上の日本語版
 
-1. 既存の `data/conferences.json` を読み込む
-2. 各カテゴリで「新規カンファレンス」を検索（直近1-2週間のアナウンスを中心に）
-3. 既知カンファレンスの情報更新を確認：
-   - CFP状態の変更（オープン、延長、締切）
-   - 日程変更、会場変更、キャンセル
-   - 登壇者・プログラム発表
-   - 早期割引締切
-4. 終了したカンファレンスには `"status": "ended"` を付与（削除しない）
+例（AI / 機械学習の場合）:
+- 英語: `"AI machine learning LLM conference 2026 new announced"`
+- 日本語: `"AI 機械学習 生成AI カンファレンス 2026"`
 
-### 4. データ更新
+**合計4回のWeb検索**で済ませる（2カテゴリ × 2言語）。
 
-`data/conferences.json` を以下のフォーマットで更新：
+### 4. 重複チェック & データ更新
+
+新しく見つかったカンファレンスについて:
+1. `data/summary.txt` の既知ID/名前と照合し、重複を除外
+2. 新規のもののみ `data/conferences.json` に追加
+
+既知カンファレンスの更新（CFP状態変更等）が判明した場合:
+1. `data/conferences.json` から該当エントリを検索・更新
+
+#### JSONフォーマット
+
+新規追加するエントリは以下のフォーマット:
 
 ```json
 {
-  "last_updated": "YYYY-MM-DD",
-  "conferences": [
-    {
-      "id": "kubecon-eu-2026",
-      "name": "KubeCon + CloudNativeCon Europe 2026",
-      "dates": {
-        "start": "2026-06-15",
-        "end": "2026-06-18"
-      },
-      "location": {
-        "city": "London",
-        "country": "UK",
-        "region": "Europe"
-      },
-      "format": "hybrid | in-person | online",
-      "url": "https://...",
-      "cfp": {
-        "deadline": "2026-03-01",
-        "url": "https://...",
-        "status": "open | closed | not-announced"
-      },
-      "categories": ["クラウド / インフラ"],
-      "topics": ["Kubernetes", "service mesh", "observability"],
-      "cost": {
-        "early_bird": "$799",
-        "regular": "$999"
-      },
-      "recurring": true,
-      "frequency": "annual",
-      "summary": "CNCF主催の旗艦カンファレンス...",
-      "status": "upcoming | ongoing | ended",
-      "first_seen": "2026-W14",
-      "last_updated": "2026-W15"
-    }
-  ]
+  "id": "confname-region-2026",
+  "name": "Conference Name 2026",
+  "dates": { "start": "YYYY-MM-DD", "end": "YYYY-MM-DD" },
+  "location": { "city": "...", "country": "...", "region": "Japan|Asia-Pacific|North America|Europe|Online" },
+  "format": "in-person|online|hybrid",
+  "url": "https://...",
+  "cfp": { "deadline": "", "url": "", "status": "open|closed|not-announced" },
+  "categories": ["カテゴリ名"],
+  "topics": ["tag1", "tag2"],
+  "cost": "unknown",
+  "recurring": true,
+  "summary": "日本語の概要（50-100文字）",
+  "status": "upcoming|ongoing|ended",
+  "first_seen": "2026-WNN",
+  "last_updated": "2026-WNN"
 }
 ```
 
-#### フィールド説明
+### 5. サマリー再生成 & 更新ログ
 
-| フィールド | 必須 | 説明 |
-|-----------|------|------|
-| id | はい | 一意のスラッグ（例: kubecon-eu-2026） |
-| name | はい | カンファレンス正式名 |
-| dates.start | はい | 開始日（YYYY-MM-DD） |
-| dates.end | はい | 終了日（YYYY-MM-DD） |
-| location | はい | 開催地情報 |
-| format | はい | hybrid / in-person / online |
-| url | はい | 公式サイトURL |
-| cfp | いいえ | CFP情報（該当する場合） |
-| categories | はい | conferences.ymlのカテゴリ名 |
-| topics | はい | 具体的なトピックタグ |
-| cost | いいえ | 参加費情�� |
-| recurring | いいえ | 定期開催かどうか |
-| summary | はい | 50-100文字の概要 |
-| status | はい | upcoming / ongoing / ended |
-| first_seen | はい | 初回発見週（YYYY-WNN） |
-| last_updated | はい | 最終更新週（YYYY-WNN） |
+```bash
+bash config/generate-summary.sh
+```
 
-### 5. 更新ログの記録
-
-週次差分更新モードの場合、`changelog/YYYY-WNN.md` に変更内容を記録：
+`changelog/YYYY-WNN.md` に変更内容を記録:
 
 ```markdown
 # YYYY-WNN カンファレンス更新ログ
 
 > 更新日: YYYY-MM-DD
+> 検索カテゴリ: カテゴリA, カテゴリB
 
 ## 新規追加（N件）
 - **カンファレンス名** - 日程、場所
 
 ## 情報更新（N件）
-- **カンファレンス名** - 変更内容（例: CFP締切延長）
+- **カンファレンス名** - 変更内容
 
-## ステータス変更
-- **カンファレンス名** - ended に変更
+## ステータス自動更新
+- N件のカンファレンスが ended に変更
 ```
 
-### 6. コミット・プ���シュ
+### 6. コミット・プッシュ
 
 ```bash
-git add data/ changelog/
-git commit -m "YYYY-WNN カンファレンス情報更新"
+git add data/ changelog/ config/
+git commit -m "YYYY-WNN カンファレンス情報更新（カテゴリA, カテゴリB）"
 git push
 ```
 
 ## 品質チェック
 
-コミット前に以下を確認：
+コミット前に以下を確認:
 
-1. `data/conferences.json` が有効なJSONであること
-2. すべてのカンファレンスに必須フィールドが存在すること
-3. 日付フォーマットが正しいこと（YYYY-MM-DD）
-4. URLが有効であること
-5. カテゴリ名が `conferences.yml` と一致すること
-6. 重複エントリがないこと（idの一意性）
+1. `data/conferences.json` が有効なJSONであること（`python3 -c "import json; json.load(open('data/conferences.json'))"` で検証）
+2. 新規エントリにすべての必須フィールドが存在すること
+3. 重複エントリがないこと（idの一意性）
