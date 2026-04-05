@@ -171,6 +171,7 @@
     $stats.textContent = `${filtered.length} / ${allConferences.length} conferences` +
       (favCount ? ` | Favorites: ${favCount}` : '') +
       (lastUpdated ? ` | Last updated: ${lastUpdated}` : '');
+    $exportFav.classList.toggle('hidden', favCount === 0);
   }
 
   $catFilter.addEventListener('change', applyFilters);

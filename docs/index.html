@@ -36,7 +36,10 @@
       </label>
     </div>
 
-    <div id="stats"></div>
+    <div id="stats-bar">
+      <span id="stats"></span>
+      <button id="export-fav" class="export-btn hidden">Export JSON</button>
+    </div>
 
     <div id="loading">Loading...</div>
     <div id="error" class="hidden"></div>
@@ -57,7 +60,6 @@
       </label>
       <h3 style="margin-top:16px">Favorites</h3>
       <div class="modal-actions">
-        <button id="export-fav">Export JSON</button>
         <button id="clear-fav" style="background:#e74c3c">Clear All</button>
       </div>
       <div class="modal-actions" style="margin-top:8px">

@@ -108,11 +108,27 @@ header h1 { font-size: 1.2rem; }
 }
 
 /* Stats bar */
+#stats-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
 #stats {
   font-size: 0.85rem;
   color: var(--text-secondary);
-  margin-bottom: 12px;
 }
+
+.export-btn {
+  font-size: 0.8rem;
+  padding: 4px 12px;
+  background: var(--surface);
+  color: var(--accent);
+  border: 1px solid var(--accent);
+}
+
+.export-btn:hover { background: var(--accent); color: #fff; }
 
 /* Conference cards */
 .conf-list { display: flex; flex-direction: column; gap: 12px; }
