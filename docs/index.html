@@ -38,15 +38,22 @@
 
     <div id="stats-bar">
       <span id="stats"></span>
-      <span id="fav-actions" class="hidden">
-        <button id="export-fav" class="export-btn">Export</button>
-        <button id="import-fav" class="export-btn">Import</button>
+      <span id="stats-right">
+        <span id="view-toggle">
+          <button id="view-list" class="view-btn active">List</button>
+          <button id="view-cal" class="view-btn">Calendar</button>
+        </span>
+        <span id="fav-actions" class="hidden">
+          <button id="export-fav" class="export-btn">Export</button>
+          <button id="import-fav" class="export-btn">Import</button>
+        </span>
       </span>
     </div>
 
     <div id="loading">Loading...</div>
     <div id="error" class="hidden"></div>
     <div id="conf-list" class="conf-list"></div>
+    <div id="calendar" class="hidden"></div>
   </div>
 
   <!-- Settings modal -->

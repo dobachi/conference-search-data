@@ -5,6 +5,9 @@
   let allConferences = [];
   let lastUpdated = '';
   let favorites = new Set(JSON.parse(localStorage.getItem('favorites') || '[]'));
+  let currentView = 'list';
+  let calMonth = new Date().getMonth();
+  let calYear = new Date().getFullYear();
 
   // --- DOM refs ---
   const $list = document.getElementById('conf-list');
@@ -21,6 +24,9 @@
   const $settingsModal = document.getElementById('settings-modal');
   const $settingsClose = document.getElementById('settings-close');
   const $themeSelect = document.getElementById('theme-select');
+  const $calendar = document.getElementById('calendar');
+  const $viewList = document.getElementById('view-list');
+  const $viewCal = document.getElementById('view-cal');
   const $favActions = document.getElementById('fav-actions');
   const $exportFav = document.getElementById('export-fav');
   const $importFav = document.getElementById('import-fav');
@@ -114,6 +120,19 @@
     localStorage.setItem('theme', t);
   });
 
+  // --- View toggle ---
+  function setView(view) {
+    currentView = view;
+    $viewList.classList.toggle('active', view === 'list');
+    $viewCal.classList.toggle('active', view === 'calendar');
+    $list.classList.toggle('hidden', view !== 'list');
+    $calendar.classList.toggle('hidden', view !== 'calendar');
+    applyFilters();
+  }
+
+  $viewList.addEventListener('click', () => setView('list'));
+  $viewCal.addEventListener('click', () => setView('calendar'));
+
   // --- Settings modal ---
   $settingsBtn.addEventListener('click', () => $settingsModal.classList.remove('hidden'));
   $settingsClose.addEventListener('click', () => $settingsModal.classList.add('hidden'));
@@ -205,7 +224,11 @@
       return (a.dates?.start || '').localeCompare(b.dates?.start || '');
     });
 
-    renderConferences(filtered);
+    if (currentView === 'list') {
+      renderConferences(filtered);
+    } else {
+      renderCalendar(filtered);
+    }
     const favCount = favorites.size;
     $stats.textContent = `${filtered.length} / ${allConferences.length} conferences` +
       (favCount ? ` | Favorites: ${favCount}` : '') +
@@ -277,6 +300,86 @@
     // Attach favorite toggle handlers
     $list.querySelectorAll('.fav-btn').forEach((btn) => {
       btn.addEventListener('click', () => toggleFavorite(btn.dataset.id));
+    });
+  }
+
+  // --- Calendar rendering ---
+  function renderCalendar(list) {
+    const monthNames = ['January','February','March','April','May','June',
+      'July','August','September','October','November','December'];
+
+    // Build event map: date string -> array of conferences
+    const eventMap = {};
+    list.forEach((c) => {
+      const start = c.dates?.start;
+      if (!start) return;
+      if (!eventMap[start]) eventMap[start] = [];
+      eventMap[start].push(c);
+    });
+
+    const firstDay = new Date(calYear, calMonth, 1).getDay();
+    const daysInMonth = new Date(calYear, calMonth + 1, 0).getDate();
+    const todayStr = new Date().toISOString().slice(0, 10);
+
+    let html = `
+      <div class="cal-nav">
+        <button id="cal-prev">&lt;</button>
+        <span>${monthNames[calMonth]} ${calYear}</span>
+        <button id="cal-next">&gt;</button>
+      </div>
+      <div class="cal-weekdays">
+        <span>Sun</span><span>Mon</span><span>Tue</span><span>Wed</span>
+        <span>Thu</span><span>Fri</span><span>Sat</span>
+      </div>
+      <div class="cal-grid">
+    `;
+
+    // Empty cells before first day
+    for (let i = 0; i < firstDay; i++) {
+      html += '<div class="cal-day empty"></div>';
+    }
+
+    // Day cells
+    for (let d = 1; d <= daysInMonth; d++) {
+      const dateStr = `${calYear}-${String(calMonth + 1).padStart(2, '0')}-${String(d).padStart(2, '0')}`;
+      const isToday = dateStr === todayStr;
+      const events = eventMap[dateStr] || [];
+      const maxShow = 3;
+
+      html += `<div class="cal-day${isToday ? ' today' : ''}">`;
+      html += `<div class="cal-day-num">${d}</div>`;
+
+      events.slice(0, maxShow).forEach((c) => {
+        const isFav = favorites.has(c.id);
+        const label = c.name.length > 20 ? c.name.slice(0, 18) + '...' : c.name;
+        const title = `${c.name}\n${formatDateRange(c.dates)}\n${formatLocation(c.location)}`;
+        if (c.url) {
+          html += `<a class="cal-event${isFav ? ' fav' : ''}" href="${esc(c.url)}" target="_blank" rel="noopener" title="${esc(title)}">${isFav ? '\u2605 ' : ''}${esc(label)}</a>`;
+        } else {
+          html += `<span class="cal-event${isFav ? ' fav' : ''}" title="${esc(title)}">${isFav ? '\u2605 ' : ''}${esc(label)}</span>`;
+        }
+      });
+
+      if (events.length > maxShow) {
+        html += `<span class="cal-more">+${events.length - maxShow} more</span>`;
+      }
+
+      html += '</div>';
+    }
+
+    html += '</div>';
+    $calendar.innerHTML = html;
+
+    // Nav listeners
+    document.getElementById('cal-prev').addEventListener('click', () => {
+      calMonth--;
+      if (calMonth < 0) { calMonth = 11; calYear--; }
+      applyFilters();
+    });
+    document.getElementById('cal-next').addEventListener('click', () => {
+      calMonth++;
+      if (calMonth > 11) { calMonth = 0; calYear++; }
+      applyFilters();
     });
   }
 
