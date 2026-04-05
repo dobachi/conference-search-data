@@ -3156,6 +3156,228 @@
       "status": "upcoming",
       "first_seen": "2026-W15",
       "last_updated": "2026-W15"
+    },
+    {
+      "id": "biaas-amsterdam-eu-2026",
+      "name": "Business Intelligence and Analytics Summit (BIAAS) 2026",
+      "dates": {
+        "start": "2026-04-16",
+        "end": "2026-04-17"
+      },
+      "location": {
+        "city": "Amsterdam",
+        "country": "Netherlands",
+        "region": "Europe"
+      },
+      "format": "in-person",
+      "url": "https://www.confx-analytics.com",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "categories": [
+        "データインテリジェンス",
+        "ビジネス / DX"
+      ],
+      "topics": [
+        "business-intelligence",
+        "AI",
+        "data-governance",
+        "analytics",
+        "enterprise-AI"
+      ],
+      "cost": "unknown",
+      "recurring": true,
+      "summary": "シニアデータ・AIエグゼクティブが集うBIサミット。AIの大規模運用化と欧州規制・人材・インフラの地域動向を扱う。",
+      "status": "upcoming",
+      "first_seen": "2026-W15",
+      "last_updated": "2026-W15"
+    },
+    {
+      "id": "oracle-analytics-data-summit-north-america-2026",
+      "name": "Analytics and Data Summit 2026 (Oracle / ANDOUC)",
+      "dates": {
+        "start": "2026-04-14",
+        "end": "2026-04-16"
+      },
+      "location": {
+        "city": "Redwood Shores",
+        "country": "USA",
+        "region": "North America"
+      },
+      "format": "hybrid",
+      "url": "https://andouc.org/analytics-and-data-summit-2026/",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "closed"
+      },
+      "categories": [
+        "データインテリジェンス",
+        "データプラットフォーム"
+      ],
+      "topics": [
+        "Oracle-Analytics",
+        "AI-ML",
+        "business-intelligence",
+        "data-engineering",
+        "spatial"
+      ],
+      "cost": "unknown",
+      "recurring": true,
+      "summary": "Oracleユーザーコミュニティ(ANDOUC)主催のアナリティクス・データサミット。Oracle Analytics・AI/ML・BIの最新活用事例を共有。",
+      "status": "upcoming",
+      "first_seen": "2026-W15",
+      "last_updated": "2026-W15"
+    },
+    {
+      "id": "data-intelligence-summit-nyc-north-america-2026",
+      "name": "Data Intelligence Summit NYC 2026",
+      "dates": {
+        "start": "2026-05-20",
+        "end": "2026-05-21"
+      },
+      "location": {
+        "city": "New York",
+        "country": "USA",
+        "region": "North America"
+      },
+      "format": "in-person",
+      "url": "https://dataintelligencesummit.com/",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "categories": [
+        "データインテリジェンス",
+        "AI / 機械学習"
+      ],
+      "topics": [
+        "data-intelligence",
+        "AI",
+        "data-governance",
+        "data-architecture",
+        "enterprise-data"
+      ],
+      "cost": "unknown",
+      "recurring": true,
+      "summary": "データとAIの交差点をテーマにしたニューヨーク開催の国際サミット。データ取得・アーキテクチャ・ガバナンス・AI変革を議論。",
+      "status": "upcoming",
+      "first_seen": "2026-W15",
+      "last_updated": "2026-W15"
+    },
+    {
+      "id": "vldb-north-america-2026",
+      "name": "VLDB 2026 (52nd International Conference on Very Large Data Bases)",
+      "dates": {
+        "start": "2026-08-31",
+        "end": "2026-09-04"
+      },
+      "location": {
+        "city": "Boston",
+        "country": "USA",
+        "region": "North America"
+      },
+      "format": "in-person",
+      "url": "https://vldb.org/2026/",
+      "cfp": {
+        "deadline": "",
+        "url": "https://vldb.org/2026/important-dates.html",
+        "status": "open"
+      },
+      "categories": [
+        "データエンジニアリング",
+        "データインテリジェンス"
+      ],
+      "topics": [
+        "database",
+        "data-management",
+        "scalable-data",
+        "data-science",
+        "academic"
+      ],
+      "cost": "unknown",
+      "recurring": true,
+      "summary": "データベース・データ管理研究の最高峰学術会議。第52回。スケーラブルデータ・データアーキテクチャの研究と産業事例を扱う。",
+      "status": "upcoming",
+      "first_seen": "2026-W15",
+      "last_updated": "2026-W15"
+    },
+    {
+      "id": "disney-ddac-north-america-2026",
+      "name": "Disney Data & Analytics Conference (DDAC) 2026",
+      "dates": {
+        "start": "2026-09-14",
+        "end": "2026-09-16"
+      },
+      "location": {
+        "city": "Orlando",
+        "country": "USA",
+        "region": "North America"
+      },
+      "format": "in-person",
+      "url": "https://disneydataconference.com/",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "categories": [
+        "データインテリジェンス"
+      ],
+      "topics": [
+        "analytics",
+        "data-science",
+        "revenue-management",
+        "marketing-analytics",
+        "BI"
+      ],
+      "cost": "unknown",
+      "recurring": true,
+      "summary": "ディズニー主催の実践者向けデータ・分析カンファレンス。2500以上の参加者・250以上の組織が集うビジネス分析の実用的イベント。",
+      "status": "upcoming",
+      "first_seen": "2026-W15",
+      "last_updated": "2026-W15"
+    },
+    {
+      "id": "pass-summit-west-north-america-2026",
+      "name": "PASS Data Community Summit 2026 (Seattle)",
+      "dates": {
+        "start": "2026-11-09",
+        "end": "2026-11-11"
+      },
+      "location": {
+        "city": "Seattle",
+        "country": "USA",
+        "region": "North America"
+      },
+      "format": "in-person",
+      "url": "https://passdatacommunitysummit.com",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "categories": [
+        "データインテリジェンス",
+        "データエンジニアリング"
+      ],
+      "topics": [
+        "data-community",
+        "analytics",
+        "database",
+        "AI",
+        "cloud-data",
+        "Microsoft"
+      ],
+      "cost": "unknown",
+      "recurring": true,
+      "summary": "PASSデータコミュニティ最大の旗艦サミット。分析・アーキテクチャ・DB管理・AI・クラウドを網羅するマルチプラットフォームカンファレンス。",
+      "status": "upcoming",
+      "first_seen": "2026-W15",
+      "last_updated": "2026-W15"
     }
   ]
 }
