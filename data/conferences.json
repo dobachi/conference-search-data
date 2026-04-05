@@ -3045,6 +3045,117 @@
       "status": "upcoming",
       "first_seen": "2026-W15",
       "last_updated": "2026-W15"
+    },
+    {
+      "id": "cdao-singapore-apac-2026",
+      "name": "CDAO Singapore 2026 (Chief Data & Analytics Officer Forum)",
+      "dates": {
+        "start": "2026-04-22",
+        "end": "2026-04-23"
+      },
+      "location": {
+        "city": "Singapore",
+        "country": "Singapore",
+        "region": "Asia-Pacific"
+      },
+      "format": "in-person",
+      "url": "https://cdao-sg.coriniumintelligence.com/",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "categories": [
+        "データインテリジェンス",
+        "AI / 機械学習"
+      ],
+      "topics": [
+        "CDAO",
+        "data-governance",
+        "AI-strategy",
+        "analytics",
+        "data-leadership"
+      ],
+      "cost": "unknown",
+      "recurring": true,
+      "summary": "東南アジア最大のCDAO・データアナリティクス意思決定者の年次フォーラム。12回目開催、400以上のデータ・AIリーダーが参集。",
+      "status": "upcoming",
+      "first_seen": "2026-W15",
+      "last_updated": "2026-W15"
+    },
+    {
+      "id": "dx-ai-forum-spring-jp-2026",
+      "name": "DX&AI Forum 2026 Spring 東京",
+      "dates": {
+        "start": "2026-05-29",
+        "end": "2026-05-29"
+      },
+      "location": {
+        "city": "Tokyo",
+        "country": "Japan",
+        "region": "Japan"
+      },
+      "format": "hybrid",
+      "url": "https://www.sbbit.jp/eventinfo/dx-ai",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "categories": [
+        "ビジネス / DX",
+        "AI / 機械学習"
+      ],
+      "topics": [
+        "DX",
+        "AI-strategy",
+        "data-driven",
+        "LLM",
+        "AI-agents"
+      ],
+      "cost": "unknown",
+      "recurring": true,
+      "summary": "SB Creative主催のビジネス+ITフォーラム。AI戦略・データドリブン変革・日本企業のデジタル実装事例をカバー。ハイブリッド開催。",
+      "status": "upcoming",
+      "first_seen": "2026-W15",
+      "last_updated": "2026-W15"
+    },
+    {
+      "id": "japan-dx-week-kansai-jp-2026",
+      "name": "Japan DX Week 関西 2026",
+      "dates": {
+        "start": "2026-11-18",
+        "end": "2026-11-20"
+      },
+      "location": {
+        "city": "Osaka",
+        "country": "Japan",
+        "region": "Japan"
+      },
+      "format": "in-person",
+      "url": "https://www.japan-it.jp/osaka/ja-jp/visit.html",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "categories": [
+        "ビジネス / DX",
+        "データインテリジェンス"
+      ],
+      "topics": [
+        "DX",
+        "AI",
+        "data-analytics",
+        "BI",
+        "data-management"
+      ],
+      "cost": "free",
+      "recurring": true,
+      "summary": "Japan DX Week関西版。インテックス大阪開催、200社出展・1.6万名来場予定。データドリブン経営・AI活用ゾーンを含む。",
+      "status": "upcoming",
+      "first_seen": "2026-W15",
+      "last_updated": "2026-W15"
     }
   ]
 }
