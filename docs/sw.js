@@ -26,7 +26,7 @@ self.addEventListener('fetch', (event) => {
   const url = new URL(event.request.url);
 
   // conferences.json: network-first, cache as fallback
-  if (url.pathname.endsWith('conferences.json')) {
+  if (url.pathname.endsWith('conferences.json') || url.hostname === 'raw.githubusercontent.com') {
     event.respondWith(
       fetch(event.request)
         .then((res) => {

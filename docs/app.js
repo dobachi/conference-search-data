@@ -43,7 +43,11 @@
   // --- Data loading ---
   async function loadConferences() {
     try {
-      const res = await fetch('../data/conferences.json');
+      // Try relative path first (local dev), then raw GitHub URL (GitHub Pages)
+      let res = await fetch('./data/conferences.json').catch(() => null);
+      if (!res || !res.ok) {
+        res = await fetch('https://raw.githubusercontent.com/dobachi/conference-search-data/main/data/conferences.json');
+      }
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
       const data = await res.json();
       allConferences = data.conferences || [];
