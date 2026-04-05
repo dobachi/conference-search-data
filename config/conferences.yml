@@ -1,0 +1,139 @@
+# カンファレンス検索設定
+# 検索対象のカテゴリ・キーワードと地域を定義する
+
+categories:
+  - name: "Data Spaces / データ連携"
+    keywords:
+      - "data spaces conference"
+      - "data spaces summit"
+      - "IDSA conference"
+      - "Catena-X conference"
+      - "Gaia-X summit"
+      - "data sharing conference"
+      - "データ連携 カン���ァレンス"
+      - "データスペース イベント"
+
+  - name: "AI / 機械学習"
+    keywords:
+      - "AI conference"
+      - "machine learning conference"
+      - "deep learning summit"
+      - "LLM conference"
+      - "generative AI conference"
+      - "MLOps conference"
+      - "AI developer conference"
+      - "人工知能 カンファレンス"
+      - "生成AI イベント"
+
+  - name: "クラウド / インフラ"
+    keywords:
+      - "KubeCon"
+      - "cloud native conference"
+      - "DevOps conference"
+      - "DevOps Days"
+      - "SRE conference"
+      - "Kubernetes conference"
+      - "cloud infrastructure summit"
+      - "platform engineering conference"
+      - "クラウド カンファレンス"
+
+  - name: "データエンジニアリング"
+    keywords:
+      - "data engineering conference"
+      - "data engineering summit"
+      - "Apache Spark conference"
+      - "Apache Flink conference"
+      - "dbt conference"
+      - "data pipeline conference"
+      - "streaming data conference"
+      - "データエンジニアリング カンファレンス"
+
+  - name: "データプラットフォーム"
+    keywords:
+      - "data platform conference"
+      - "data lakehouse conference"
+      - "data mesh conference"
+      - "data architecture conference"
+      - "data management conference"
+      - "データプラットフォーム イベント"
+
+  - name: "PETs"
+    keywords:
+      - "privacy enhancing technologies conference"
+      - "PETs conference"
+      - "differential privacy conference"
+      - "confidential computing summit"
+      - "secure computation conference"
+      - "秘密計算 カンファレンス"
+      - "プライバシー技術 イベント"
+
+  - name: "データインテリジェンス"
+    keywords:
+      - "data intelligence conference"
+      - "data analytics summit"
+      - "business intelligence conference"
+      - "data-driven conference"
+      - "データ活用 カンファレンス"
+      - "データインテリジェンス イベント"
+
+  - name: "ビジネス / DX"
+    keywords:
+      - "digital transformation conference"
+      - "DX conference"
+      - "enterprise technology summit"
+      - "CIO conference"
+      - "IT strategy conference"
+      - "data strategy summit"
+      - "デジタルトランスフォーメーション カンファレンス"
+      - "DX推進 イベント"
+      - "経営 × テクノロジー"
+
+regions:
+  - name: "Japan (国内)"
+    keywords:
+      - "開発者カンファレンス 日本"
+      - "tech conference Japan"
+      - "エンジニアカンファレンス"
+    priority: high
+
+  - name: "Asia-Pacific"
+    keywords:
+      - "tech conference Asia"
+      - "developer conference APAC"
+    priority: medium
+
+  - name: "North America"
+    keywords:
+      - "tech conference USA"
+      - "developer conference North America"
+    priority: medium
+
+  - name: "Europe"
+    keywords:
+      - "tech conference Europe"
+      - "developer conference EU"
+    priority: medium
+
+  - name: "Online/Virtual"
+    keywords:
+      - "virtual tech conference"
+      - "online developer conference"
+    priority: high
+
+# 検索設定
+search:
+  target_year: 2026
+  time_horizon: "12 months"
+  update_frequency: "weekly"
+  languages:
+    - "en"
+    - "ja"
+
+# 既知のアグリゲータサイト
+aggregators:
+  - "https://confs.tech/"
+  - "https://developers.events/"
+  - "https://dev.events/"
+  - "https://connpass.com/"
+  - "https://techplay.jp/"
+  - "https://www.eventbrite.com/"

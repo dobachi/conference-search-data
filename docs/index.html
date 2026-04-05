@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ja" data-theme="auto">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Conference Search</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="manifest" href="manifest.json">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Conference Search</h1>
+      <button class="icon-btn" id="settings-btn" aria-label="Settings">&#9881;</button>
+    </header>
+
+    <div id="filters">
+      <select id="category-filter">
+        <option value="">All Categories</option>
+      </select>
+      <select id="region-filter">
+        <option value="">All Regions</option>
+      </select>
+      <select id="status-filter">
+        <option value="">All Status</option>
+        <option value="upcoming">Upcoming</option>
+        <option value="ongoing">Ongoing</option>
+        <option value="ended">Ended</option>
+      </select>
+      <input type="text" id="search-input" placeholder="Search...">
+      <label id="cfp-only-label">
+        <input type="checkbox" id="cfp-only"> CFP Open
+      </label>
+    </div>
+
+    <div id="stats"></div>
+
+    <div id="loading">Loading...</div>
+    <div id="error" class="hidden"></div>
+    <div id="conf-list" class="conf-list"></div>
+  </div>
+
+  <!-- Settings modal -->
+  <div id="settings-modal" class="modal hidden">
+    <div class="modal-content">
+      <h2>Settings</h2>
+      <label>
+        Theme
+        <select id="theme-select">
+          <option value="auto">Auto</option>
+          <option value="light">Light</option>
+          <option value="dark">Dark</option>
+        </select>
+      </label>
+      <div class="modal-actions">
+        <button id="settings-close">Close</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
