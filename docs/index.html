@@ -38,7 +38,10 @@
 
     <div id="stats-bar">
       <span id="stats"></span>
-      <button id="export-fav" class="export-btn hidden">Export JSON</button>
+      <span id="fav-actions" class="hidden">
+        <button id="export-fav" class="export-btn">Export</button>
+        <button id="import-fav" class="export-btn">Import</button>
+      </span>
     </div>
 
     <div id="loading">Loading...</div>
@@ -60,7 +63,6 @@
       </label>
       <h3 style="margin-top:16px">Favorites</h3>
       <div class="modal-actions">
-        <button id="import-fav">Import JSON</button>
         <button id="clear-fav" style="background:#e74c3c">Clear All</button>
       </div>
       <input type="file" id="import-fav-file" accept=".json" class="hidden">

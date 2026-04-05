@@ -21,6 +21,7 @@
   const $settingsModal = document.getElementById('settings-modal');
   const $settingsClose = document.getElementById('settings-close');
   const $themeSelect = document.getElementById('theme-select');
+  const $favActions = document.getElementById('fav-actions');
   const $exportFav = document.getElementById('export-fav');
   const $importFav = document.getElementById('import-fav');
   const $importFavFile = document.getElementById('import-fav-file');
@@ -206,6 +207,7 @@
     $stats.textContent = `${filtered.length} / ${allConferences.length} conferences` +
       (favCount ? ` | Favorites: ${favCount}` : '') +
       (lastUpdated ? ` | Last updated: ${lastUpdated}` : '');
+    $favActions.classList.remove('hidden');
     $exportFav.classList.toggle('hidden', favCount === 0);
   }
 
