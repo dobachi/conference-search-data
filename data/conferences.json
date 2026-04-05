@@ -3523,6 +3523,195 @@
       "status": "upcoming",
       "first_seen": "2026-W15",
       "last_updated": "2026-W15"
+    },
+    {
+      "id": "ai-marketing-conference-jp-2026",
+      "name": "AIマーケティングカンファレンス 2026",
+      "dates": {
+        "start": "2026-05-13",
+        "end": "2026-05-13"
+      },
+      "location": {
+        "city": "Tokyo",
+        "country": "Japan",
+        "region": "Japan"
+      },
+      "format": "in-person",
+      "url": "https://aimc.agenda-note.com/",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "categories": [
+        "ビジネス / DX",
+        "AI / 機械学習"
+      ],
+      "topics": [
+        "AI",
+        "marketing",
+        "data-analytics",
+        "generative-AI",
+        "business"
+      ],
+      "cost": "unknown",
+      "recurring": true,
+      "summary": "「AIとマーケティングの交差点」をテーマに先進企業マーケターが登壇。コンテンツ制作・広告・顧客分析でのAI活用実践知見を提供。定員250名。",
+      "status": "upcoming",
+      "first_seen": "2026-W15",
+      "last_updated": "2026-W15"
+    },
+    {
+      "id": "ai-business-conference-spring-jp-2026",
+      "name": "AI BUSINESS CONFERENCE 2026 春 in 東京",
+      "dates": {
+        "start": "2026-05-14",
+        "end": "2026-05-14"
+      },
+      "location": {
+        "city": "Tokyo",
+        "country": "Japan",
+        "region": "Japan"
+      },
+      "format": "in-person",
+      "url": "https://event-page.jp/abc",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "categories": [
+        "ビジネス / DX",
+        "AI / 機械学習"
+      ],
+      "topics": [
+        "AI",
+        "generative-AI",
+        "AI-agents",
+        "business",
+        "enterprise-AI"
+      ],
+      "cost": "unknown",
+      "recurring": true,
+      "summary": "BOXIL主催のAIビジネス活用カンファレンス。東京ミッドタウン開催、DeNA南場氏ほか豪華登壇陣。AIエージェント・生成AIの最新事例と体験を提供。",
+      "status": "upcoming",
+      "first_seen": "2026-W15",
+      "last_updated": "2026-W15"
+    },
+    {
+      "id": "ai-market-excon-jp-2026",
+      "name": "AI Market ExCon 2026",
+      "dates": {
+        "start": "2026-06-02",
+        "end": "2026-06-02"
+      },
+      "location": {
+        "city": "Tokyo",
+        "country": "Japan",
+        "region": "Japan"
+      },
+      "format": "in-person",
+      "url": "https://ai-market.jp/ai-market-excon-202606/",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "categories": [
+        "AI / 機械学習",
+        "ビジネス / DX"
+      ],
+      "topics": [
+        "AI",
+        "LLM",
+        "RAG",
+        "data-platform",
+        "enterprise-AI",
+        "exhibition"
+      ],
+      "cost": "free",
+      "recurring": false,
+      "summary": "AI Market主催の初の大型オフライン展示会＆カンファレンス。40社超出展、AIエージェント・LLM・RAG・データ基盤など最先端AIソリューションを展示。20講演併催。",
+      "status": "upcoming",
+      "first_seen": "2026-W15",
+      "last_updated": "2026-W15"
+    },
+    {
+      "id": "interop-tokyo-jp-2026",
+      "name": "Interop Tokyo 2026",
+      "dates": {
+        "start": "2026-06-10",
+        "end": "2026-06-12"
+      },
+      "location": {
+        "city": "Chiba",
+        "country": "Japan",
+        "region": "Japan"
+      },
+      "format": "hybrid",
+      "url": "https://www.interop.jp/",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "categories": [
+        "クラウド / インフラ",
+        "ビジネス / DX",
+        "AI / 機械学習"
+      ],
+      "topics": [
+        "network",
+        "cloud-native",
+        "enterprise-DX",
+        "generative-AI",
+        "AIOps",
+        "5G"
+      ],
+      "cost": "unknown",
+      "recurring": true,
+      "summary": "国内最大級ICTイベント第33回。テーマ「Internet for AI, AI for Internet」。幕張メッセ開催、国内外約500社出展。AIインフラ・クラウド・DX・セキュリティを網羅。",
+      "status": "upcoming",
+      "first_seen": "2026-W15",
+      "last_updated": "2026-W15"
+    },
+    {
+      "id": "gartner-infra-cloud-jp-2026",
+      "name": "ガートナー ITインフラストラクチャ、オペレーション & クラウド戦略コンファレンス 2026",
+      "dates": {
+        "start": "2026-12-01",
+        "end": "2026-12-03"
+      },
+      "location": {
+        "city": "Tokyo",
+        "country": "Japan",
+        "region": "Japan"
+      },
+      "format": "in-person",
+      "url": "https://www.gartner.com/jp/conferences/apac/infrastructure-operations-cloud-japan",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "categories": [
+        "クラウド / インフラ",
+        "ビジネス / DX"
+      ],
+      "topics": [
+        "hybrid-cloud",
+        "AI",
+        "AIOps",
+        "cloud-strategy",
+        "IT-operations",
+        "cost-optimization"
+      ],
+      "cost": "unknown",
+      "recurring": true,
+      "summary": "ガートナー主催のI&O・クラウド戦略リーダー向け専門コンファレンス。ハイブリッドクラウド・AI/エージェント型AI・コスト最適化・AIOpsをカバー。",
+      "status": "upcoming",
+      "first_seen": "2026-W15",
+      "last_updated": "2026-W15"
     }
   ]
 }
