@@ -24,6 +24,7 @@
   const $settingsModal = document.getElementById('settings-modal');
   const $settingsClose = document.getElementById('settings-close');
   const $themeSelect = document.getElementById('theme-select');
+  const $lastUpdated = document.getElementById('last-updated');
   const $calendar = document.getElementById('calendar');
   const $viewList = document.getElementById('view-list');
   const $viewCal = document.getElementById('view-cal');
@@ -151,6 +152,7 @@
       const data = await res.json();
       allConferences = data.conferences || [];
       lastUpdated = data.last_updated || '';
+      $lastUpdated.textContent = lastUpdated ? `Updated: ${lastUpdated}` : '';
       populateFilters();
       applyFilters();
       $loading.classList.add('hidden');
@@ -231,8 +233,7 @@
     }
     const favCount = favorites.size;
     $stats.textContent = `${filtered.length} / ${allConferences.length} conferences` +
-      (favCount ? ` | Favorites: ${favCount}` : '') +
-      (lastUpdated ? ` | Last updated: ${lastUpdated}` : '');
+      (favCount ? ` | Favorites: ${favCount}` : '');
     $favActions.classList.remove('hidden');
     $exportFav.classList.toggle('hidden', favCount === 0);
   }
