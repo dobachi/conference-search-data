@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-13",
+  "last_updated": "2026-04-16",
   "conferences": [
     {
       "name": "AAAI 2026 (40th AAAI Conference on Artificial Intelligence)",
@@ -549,7 +549,7 @@
       "cost": "paid",
       "recurring": true,
       "summary": "DevOpsコミュニティによる東京開催イベント。DevOps文化・自動化・SREの実践を共有。",
-      "status": "upcoming",
+      "status": "ongoing",
       "id": "devopsdays-tokyo-jp-2026",
       "first_seen": "2026-W14",
       "last_updated": "2026-W14"
@@ -588,7 +588,7 @@
       "cost": "free",
       "recurring": true,
       "summary": "日本最大級のAI技術専門展。AIエージェント・量子コンピューティング・ヒューマノイドロボット等を展示。",
-      "status": "upcoming",
+      "status": "ongoing",
       "id": "nextech-week-10-aiexpo-jp-2026",
       "first_seen": "2026-W14",
       "last_updated": "2026-W14"
@@ -715,7 +715,7 @@
       "location": {
         "city": "Rio de Janeiro",
         "country": "Brazil",
-        "region": "North America"
+        "region": "South America"
       },
       "format": "hybrid",
       "url": "https://iclr.cc/Conferences/2026",
@@ -1012,7 +1012,7 @@
         "country": "Japan",
         "region": "Japan"
       },
-      "format": "in-person",
+      "format": "hybrid",
       "url": "https://kaigi.cloudnativedays.jp/",
       "cfp": {
         "deadline": "",
@@ -1679,7 +1679,7 @@
         "end": "2026-06-26"
       },
       "location": {
-        "city": "Tokyo",
+        "city": "Chiba (Makuhari Messe)",
         "country": "Japan",
         "region": "Japan"
       },
@@ -1705,7 +1705,7 @@
       ],
       "cost": "free",
       "recurring": true,
-      "summary": "AWS日本最大の年次イベント。クラウド・AI・データ基盤の最新サービスと活用事例を紹介。",
+      "summary": "AWS日本最大の年次イベント。クラウド・AI・データ基盤の最新サービスと活用事例を紹介。（2026年日程未確定、2025年実績ベースの推定）",
       "status": "upcoming",
       "id": "aws-summit-japan-jp-2026",
       "first_seen": "2026-W14",
@@ -1758,7 +1758,7 @@
         "country": "USA",
         "region": "North America"
       },
-      "format": "hybrid",
+      "format": "in-person",
       "url": "https://2026.aclweb.org/",
       "cfp": {
         "deadline": "2026-02-15",
@@ -2042,7 +2042,7 @@
       "last_updated": "2026-W14"
     },
     {
-      "name": "ECCV 2026 (18th European Conference on Computer Vision)",
+      "name": "ECCV 2026 (19th European Conference on Computer Vision)",
       "dates": {
         "start": "2026-09-08",
         "end": "2026-09-13"
@@ -2496,8 +2496,8 @@
         "end": "2026-12-12"
       },
       "location": {
-        "city": "Sydney / Atlanta",
-        "country": "Australia / USA",
+        "city": "Sydney / Atlanta / Paris",
+        "country": "Australia / USA / France",
         "region": "Asia-Pacific"
       },
       "format": "in-person",
@@ -2529,8 +2529,8 @@
     {
       "name": "Open Source Summit Japan 2026",
       "dates": {
-        "start": "2026-12-08",
-        "end": "2026-12-10"
+        "start": "2026-12-07",
+        "end": "2026-12-09"
       },
       "location": {
         "city": "Tokyo",
@@ -2596,7 +2596,7 @@
       "cost": "unknown",
       "recurring": true,
       "summary": "OR学会主催の大規模アナリティクス専門カンファレンス。高度なデータ分析・AIビジネス活用・Edelman賞授与を含む。",
-      "status": "ongoing",
+      "status": "ended",
       "first_seen": "2026-W15",
       "last_updated": "2026-W15"
     },
@@ -2818,7 +2818,7 @@
       "cost": "unknown",
       "recurring": true,
       "summary": "早稲田大学開催のIEEEスポンサーの国際ビッグデータ分析学術会議。論文はEi CompendexおよびScopusにインデックス。",
-      "status": "ongoing",
+      "status": "ended",
       "first_seen": "2026-W15",
       "last_updated": "2026-W15"
     },
@@ -3190,7 +3190,7 @@
       "cost": "unknown",
       "recurring": true,
       "summary": "シニアデータ・AIエグゼクティブが集うBIサミット。AIの大規模運用化と欧州規制・人材・インフラの地域動向を扱う。",
-      "status": "upcoming",
+      "status": "ongoing",
       "first_seen": "2026-W15",
       "last_updated": "2026-W15"
     },
@@ -3227,7 +3227,7 @@
       "cost": "unknown",
       "recurring": true,
       "summary": "Oracleユーザーコミュニティ(ANDOUC)主催のアナリティクス・データサミット。Oracle Analytics・AI/ML・BIの最新活用事例を共有。",
-      "status": "upcoming",
+      "status": "ongoing",
       "first_seen": "2026-W15",
       "last_updated": "2026-W15"
     },
@@ -3716,13 +3716,33 @@
     {
       "id": "hybrid-ai-mlweek-north-america-2026",
       "name": "HYBRID AI 2026 (Machine Learning Week)",
-      "dates": { "start": "2026-05-05", "end": "2026-05-06" },
-      "location": { "city": "San Francisco", "country": "USA", "region": "North America" },
+      "dates": {
+        "start": "2026-05-05",
+        "end": "2026-05-06"
+      },
+      "location": {
+        "city": "San Francisco",
+        "country": "USA",
+        "region": "North America"
+      },
       "format": "hybrid",
       "url": "https://machinelearningweek.com/",
-      "cfp": { "deadline": "", "url": "", "status": "not-announced" },
-      "categories": ["AI / 機械学習"],
-      "topics": ["machine-learning", "AI", "LLM", "deep-learning", "MLOps", "hybrid-AI"],
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "categories": [
+        "AI / 機械学習"
+      ],
+      "topics": [
+        "machine-learning",
+        "AI",
+        "LLM",
+        "deep-learning",
+        "MLOps",
+        "hybrid-AI"
+      ],
       "cost": "unknown",
       "recurring": true,
       "summary": "Machine Learning Weekとして18年目を迎えるハイブリッドAIカンファレンス。サンフランシスコで開催。",
@@ -3733,13 +3753,33 @@
     {
       "id": "ai-council-sf-north-america-2026",
       "name": "AI Council 2026",
-      "dates": { "start": "2026-05-12", "end": "2026-05-14" },
-      "location": { "city": "San Francisco", "country": "USA", "region": "North America" },
+      "dates": {
+        "start": "2026-05-12",
+        "end": "2026-05-14"
+      },
+      "location": {
+        "city": "San Francisco",
+        "country": "USA",
+        "region": "North America"
+      },
       "format": "in-person",
       "url": "https://aicouncil.com/sf-2026",
-      "cfp": { "deadline": "", "url": "", "status": "not-announced" },
-      "categories": ["AI / 機械学習"],
-      "topics": ["AI", "machine-learning", "AI-agents", "research", "engineering", "LLM"],
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "categories": [
+        "AI / 機械学習"
+      ],
+      "topics": [
+        "AI",
+        "machine-learning",
+        "AI-agents",
+        "research",
+        "engineering",
+        "LLM"
+      ],
       "cost": "unknown",
       "recurring": true,
       "summary": "2015年から続くエンジニア・研究者・起業家向けAI技術カンファレンス。サンフランシスコ開催。",
@@ -3750,13 +3790,32 @@
     {
       "id": "aiml-conference-eu-2026",
       "name": "AIML-2026 (6th International Conference on Artificial Intelligence & Machine Learning)",
-      "dates": { "start": "2026-10-26", "end": "2026-10-27" },
-      "location": { "city": "Paris", "country": "France", "region": "Europe" },
+      "dates": {
+        "start": "2026-10-26",
+        "end": "2026-10-27"
+      },
+      "location": {
+        "city": "Paris",
+        "country": "France",
+        "region": "Europe"
+      },
       "format": "in-person",
       "url": "https://unitedresearchforum.com/ai-conference/",
-      "cfp": { "deadline": "", "url": "", "status": "not-announced" },
-      "categories": ["AI / 機械学習"],
-      "topics": ["AI", "machine-learning", "deep-learning", "research", "neural-networks"],
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "categories": [
+        "AI / 機械学習"
+      ],
+      "topics": [
+        "AI",
+        "machine-learning",
+        "deep-learning",
+        "research",
+        "neural-networks"
+      ],
       "cost": "unknown",
       "recurring": true,
       "summary": "AI・機械学習分野の国際学術カンファレンス第6回目。パリにて開催。",
