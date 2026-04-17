@@ -8,6 +8,7 @@
   let currentView = 'list';
   let calMonth = new Date().getMonth();
   let calYear = new Date().getFullYear();
+  let activeTags = new Set();
 
   // --- DOM refs ---
   const $list = document.getElementById('conf-list');
@@ -25,6 +26,7 @@
   const $settingsClose = document.getElementById('settings-close');
   const $themeSelect = document.getElementById('theme-select');
   const $lastUpdated = document.getElementById('last-updated');
+  const $activeTags = document.getElementById('active-tags');
   const $calendar = document.getElementById('calendar');
   const $viewList = document.getElementById('view-list');
   const $viewCal = document.getElementById('view-cal');
@@ -121,6 +123,41 @@
     localStorage.setItem('theme', t);
   });
 
+  // --- Tag filter ---
+  function toggleTag(tag) {
+    if (activeTags.has(tag)) {
+      activeTags.delete(tag);
+    } else {
+      activeTags.add(tag);
+    }
+    renderActiveTags();
+    applyFilters();
+  }
+
+  function clearTags() {
+    activeTags.clear();
+    renderActiveTags();
+    applyFilters();
+  }
+
+  function renderActiveTags() {
+    if (activeTags.size === 0) {
+      $activeTags.classList.add('hidden');
+      return;
+    }
+    $activeTags.classList.remove('hidden');
+    $activeTags.innerHTML =
+      [...activeTags].map((t) =>
+        `<span class="active-tag" data-tag="${esc(t)}">${esc(t)} &times;</span>`
+      ).join('') +
+      '<span class="active-tag clear-tags">Clear all</span>';
+
+    $activeTags.querySelectorAll('.active-tag:not(.clear-tags)').forEach((el) => {
+      el.addEventListener('click', () => toggleTag(el.dataset.tag));
+    });
+    $activeTags.querySelector('.clear-tags').addEventListener('click', clearTags);
+  }
+
   // --- View toggle ---
   function setView(view) {
     currentView = view;
@@ -204,6 +241,10 @@
       if (status && c.status !== status) return false;
       if (cfpOnly && (!c.cfp || c.cfp.status !== 'open')) return false;
       if (favOnly && !favorites.has(c.id)) return false;
+      if (activeTags.size > 0) {
+        const allTags = (c.categories || []).concat(c.topics || []);
+        if (![...activeTags].every((t) => allTags.includes(t))) return false;
+      }
       if (query) {
         const searchable = [
           c.name,
@@ -272,7 +313,10 @@
       const favClass = isFav ? 'fav-btn active' : 'fav-btn';
 
       const tagsHtml = (c.categories || []).concat(c.topics || [])
-        .map((t) => `<span class="tag">${esc(t)}</span>`)
+        .map((t) => {
+          const isActive = activeTags.has(t);
+          return `<span class="tag clickable${isActive ? ' tag-active' : ''}" data-tag="${esc(t)}">${esc(t)}</span>`;
+        })
         .join('');
 
       html.push(`
@@ -301,6 +345,11 @@
     // Attach favorite toggle handlers
     $list.querySelectorAll('.fav-btn').forEach((btn) => {
       btn.addEventListener('click', () => toggleFavorite(btn.dataset.id));
+    });
+
+    // Attach tag click handlers
+    $list.querySelectorAll('.tag.clickable').forEach((el) => {
+      el.addEventListener('click', () => toggleTag(el.dataset.tag));
     });
   }
 
