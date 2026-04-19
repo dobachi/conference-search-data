@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-16",
+  "last_updated": "2026-04-20",
   "conferences": [
     {
       "name": "AAAI 2026 (40th AAAI Conference on Artificial Intelligence)",
@@ -549,7 +549,7 @@
       "cost": "paid",
       "recurring": true,
       "summary": "DevOpsコミュニティによる東京開催イベント。DevOps文化・自動化・SREの実践を共有。",
-      "status": "ongoing",
+      "status": "ended",
       "id": "devopsdays-tokyo-jp-2026",
       "first_seen": "2026-W14",
       "last_updated": "2026-W14"
@@ -588,7 +588,7 @@
       "cost": "free",
       "recurring": true,
       "summary": "日本最大級のAI技術専門展。AIエージェント・量子コンピューティング・ヒューマノイドロボット等を展示。",
-      "status": "ongoing",
+      "status": "ended",
       "id": "nextech-week-10-aiexpo-jp-2026",
       "first_seen": "2026-W14",
       "last_updated": "2026-W14"
@@ -624,7 +624,7 @@
       "cost": "paid",
       "recurring": true,
       "summary": "DevOps専門カンファレンス。CI/CD、Kubernetes、プラットフォームエンジニアリングの実践を学ぶ。",
-      "status": "upcoming",
+      "status": "ongoing",
       "id": "devopscon-amsterdam-eu-2026",
       "first_seen": "2026-W14",
       "last_updated": "2026-W14"
@@ -662,7 +662,7 @@
       "cost": "paid",
       "recurring": true,
       "summary": "世界最大の産業見本市内でIDSA主催のデータスペースセッション。日本のウラノス・エコシステムも出展予定。",
-      "status": "upcoming",
+      "status": "ongoing",
       "id": "hannover-messe-industrial-data-spaces-eu-2026",
       "first_seen": "2026-W14",
       "last_updated": "2026-W14"
@@ -3190,7 +3190,7 @@
       "cost": "unknown",
       "recurring": true,
       "summary": "シニアデータ・AIエグゼクティブが集うBIサミット。AIの大規模運用化と欧州規制・人材・インフラの地域動向を扱う。",
-      "status": "ongoing",
+      "status": "ended",
       "first_seen": "2026-W15",
       "last_updated": "2026-W15"
     },
@@ -3227,7 +3227,7 @@
       "cost": "unknown",
       "recurring": true,
       "summary": "Oracleユーザーコミュニティ(ANDOUC)主催のアナリティクス・データサミット。Oracle Analytics・AI/ML・BIの最新活用事例を共有。",
-      "status": "ongoing",
+      "status": "ended",
       "first_seen": "2026-W15",
       "last_updated": "2026-W15"
     },
@@ -3822,6 +3822,122 @@
       "status": "upcoming",
       "first_seen": "2026-W16",
       "last_updated": "2026-W16"
+    },
+    {
+      "id": "data-management-jp-2026",
+      "name": "データマネジメント2026",
+      "dates": {
+        "start": "2026-03-11",
+        "end": "2026-03-11"
+      },
+      "location": {
+        "city": "Tokyo",
+        "country": "Japan",
+        "region": "Japan"
+      },
+      "format": "in-person",
+      "url": "https://www.event-entry.net/dm2026/",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "closed"
+      },
+      "categories": [
+        "データプラットフォーム",
+        "データインテリジェンス"
+      ],
+      "topics": [
+        "data-management",
+        "data-governance",
+        "AI-ready-data",
+        "data-strategy",
+        "JDMC"
+      ],
+      "cost": "unknown",
+      "recurring": true,
+      "summary": "JDMCとインプレス共催の国内最大級データマネジメント年次カンファレンス。AI Ready Data戦略をテーマに開催。",
+      "status": "ended",
+      "first_seen": "2026-W17",
+      "last_updated": "2026-W17"
+    },
+    {
+      "id": "data-engineering-summit-india-apac-2026",
+      "name": "Data Engineering Summit 2026",
+      "dates": {
+        "start": "2026-05-14",
+        "end": "2026-05-15"
+      },
+      "location": {
+        "city": "Bangalore",
+        "country": "India",
+        "region": "Asia-Pacific"
+      },
+      "format": "in-person",
+      "url": "https://des.analyticsindiamag.com/",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "categories": [
+        "データエンジニアリング",
+        "AI / 機械学習"
+      ],
+      "topics": [
+        "data-engineering",
+        "LLMOps",
+        "data-pipelines",
+        "real-time-streaming",
+        "data-mesh",
+        "Apache-Kafka",
+        "data-as-a-product"
+      ],
+      "cost": "unknown",
+      "recurring": true,
+      "summary": "Analytics India Magazine主催、バンガロール開催のデータエンジニアリング専門カンファレンス。LLMOps・リアルタイム処理・データメッシュを中心に扱う。",
+      "status": "upcoming",
+      "first_seen": "2026-W17",
+      "last_updated": "2026-W17"
+    },
+    {
+      "id": "big-data-conference-europe-eu-2026",
+      "name": "Big Data Conference Europe 2026",
+      "dates": {
+        "start": "2026-11-24",
+        "end": "2026-11-27"
+      },
+      "location": {
+        "city": "Vilnius",
+        "country": "Lithuania",
+        "region": "Europe"
+      },
+      "format": "hybrid",
+      "url": "https://bigdataconference.eu/",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "categories": [
+        "データエンジニアリング",
+        "AI / 機械学習",
+        "データインテリジェンス"
+      ],
+      "topics": [
+        "big-data",
+        "data-engineering",
+        "data-science",
+        "machine-learning",
+        "AI",
+        "Apache-Spark",
+        "Apache-Flink"
+      ],
+      "cost": "unknown",
+      "recurring": true,
+      "summary": "ヴィリニュス＆オンライン開催のヨーロッパ最大級ビッグデータカンファレンス。データエンジニア・データサイエンティスト・AIプラクティショナー向け。",
+      "status": "upcoming",
+      "first_seen": "2026-W17",
+      "last_updated": "2026-W17"
     }
   ]
 }
