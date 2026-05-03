@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-27",
+  "last_updated": "2026-W19",
   "conferences": [
     {
       "name": "AAAI 2026 (40th AAAI Conference on Artificial Intelligence)",
@@ -737,7 +737,7 @@
       "cost": "paid",
       "recurring": true,
       "summary": "深層学習・表現学習のトップカンファレンス。リオデジャネイロで開催。",
-      "status": "ongoing",
+      "status": "ended",
       "id": "iclr-north-america-2026",
       "first_seen": "2026-W14",
       "last_updated": "2026-W14"
@@ -2855,7 +2855,7 @@
       "cost": "unknown",
       "recurring": true,
       "summary": "Manchester Tech Week併催の英国北部最大のビジネス変革イベント。クラウド・データ・AI・サイバーセキュリティを網羅。",
-      "status": "upcoming",
+      "status": "ended",
       "first_seen": "2026-W15",
       "last_updated": "2026-W15"
     },
@@ -4053,6 +4053,120 @@
       "status": "upcoming",
       "first_seen": "2026-W18",
       "last_updated": "2026-W18"
+    },
+    {
+      "id": "ai-data-summit-berlin-eu-2026",
+      "name": "AI & Data Summit 2026 (Bitkom)",
+      "dates": {
+        "start": "2026-09-22",
+        "end": "2026-09-23"
+      },
+      "location": {
+        "city": "Berlin",
+        "country": "Germany",
+        "region": "Europe"
+      },
+      "format": "in-person",
+      "url": "https://aidaq.berlin/",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "categories": [
+        "データインテリジェンス",
+        "AI / 機械学習"
+      ],
+      "topics": [
+        "AI",
+        "data analytics",
+        "quantum computing",
+        "business intelligence",
+        "data science"
+      ],
+      "cost": "paid",
+      "recurring": true,
+      "summary": "Bitkom主催のヨーロッパ最大級AIデータカンファレンス。2200人以上が参加し220以上のスピーカーが登壇するベルリン開催の年次イベント。",
+      "status": "upcoming",
+      "first_seen": "2026-W19",
+      "last_updated": "2026-W19"
+    },
+    {
+      "id": "nextgen-intelligence-london-eu-2026",
+      "name": "NextGen Intelligence 2026 Conference",
+      "dates": {
+        "start": "2026-11-16",
+        "end": "2026-11-17"
+      },
+      "location": {
+        "city": "London",
+        "country": "UK",
+        "region": "Europe"
+      },
+      "format": "in-person",
+      "url": "https://techaiconf.com/",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "categories": [
+        "データインテリジェンス",
+        "ビジネス / DX"
+      ],
+      "topics": [
+        "data",
+        "cloud",
+        "AI",
+        "digital transformation",
+        "intelligent enterprise"
+      ],
+      "cost": "paid",
+      "recurring": true,
+      "summary": "ロンドンで開催されるデータ・クラウド・AI国際カンファレンス。データサイエンスと企業デジタル変革を推進する戦略的議論と実践的ワークショップを提供。",
+      "status": "upcoming",
+      "first_seen": "2026-W19",
+      "last_updated": "2026-W19"
+    },
+    {
+      "id": "data-innovation-summit-mea-eu-2026",
+      "name": "Data Innovation Summit MEA 2026",
+      "dates": {
+        "start": "2026-10-14",
+        "end": "2026-10-15"
+      },
+      "location": {
+        "city": "Dubai",
+        "country": "UAE",
+        "region": "Europe"
+      },
+      "format": "in-person",
+      "url": "https://mea.datainnovationsummit.com/",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "categories": [
+        "データインテリジェンス",
+        "AI / 機械学習",
+        "データエンジニアリング"
+      ],
+      "topics": [
+        "data analytics",
+        "AI",
+        "data science",
+        "big data",
+        "data engineering",
+        "applied AI",
+        "generative AI"
+      ],
+      "cost": "paid",
+      "recurring": true,
+      "summary": "中東・アフリカ地域最大のデータ・AIカンファレンス。ドバイで開催、50名以上の登壇者と4ステージ構成の第5回MEA版。",
+      "status": "upcoming",
+      "first_seen": "2026-W19",
+      "last_updated": "2026-W19"
     }
   ]
 }
