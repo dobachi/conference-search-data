@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-W19",
+  "last_updated": "2026-05-11",
   "conferences": [
     {
       "name": "AAAI 2026 (40th AAAI Conference on Artificial Intelligence)",
@@ -774,7 +774,7 @@
       "cost": "paid",
       "recurring": true,
       "summary": "BDVA主催の欧州データカンファレンス。AI for Industryがテーマ。",
-      "status": "upcoming",
+      "status": "ended",
       "id": "data-week-eu-2026",
       "first_seen": "2026-W14",
       "last_updated": "2026-W14"
@@ -811,7 +811,7 @@
       "cost": "paid",
       "recurring": true,
       "summary": "DBTA主催のデータ管理・分析・AI総合カンファレンス。エンタープライズデータ戦略の最新動向を議論。",
-      "status": "upcoming",
+      "status": "ended",
       "id": "data-summit-north-america-2026",
       "first_seen": "2026-W14",
       "last_updated": "2026-W14"
@@ -849,7 +849,7 @@
       "cost": "paid",
       "recurring": true,
       "summary": "北欧最大のデータ・AI・アナリティクスイベント。3日間15ステージ、3500名超参加。",
-      "status": "upcoming",
+      "status": "ended",
       "id": "data-innovation-summit-eu-2026",
       "first_seen": "2026-W14",
       "last_updated": "2026-W14"
@@ -886,7 +886,7 @@
       "cost": "free",
       "recurring": true,
       "summary": "産業データ相互運用性の専門サミット。DPP・AAS・OPC UA等の標準とデータスペースの実装を議論。",
-      "status": "upcoming",
+      "status": "ended",
       "id": "interoperability-summit-eu-2026",
       "first_seen": "2026-W14",
       "last_updated": "2026-W14"
@@ -923,7 +923,7 @@
       "cost": "from £467",
       "recurring": true,
       "summary": "DevOps専門カンファレンス。ワークショップ・ブートキャンプ含む5日間のロンドン開催イベント。",
-      "status": "upcoming",
+      "status": "ongoing",
       "id": "devopscon-london-eu-2026",
       "first_seen": "2026-W14",
       "last_updated": "2026-W14"
@@ -2633,7 +2633,7 @@
       "cost": "unknown",
       "recurring": true,
       "summary": "Salesforce主催のTableauフラッグシップカンファレンス。300以上のセッションとデータ可視化・AI分析の最新事例を提供。",
-      "status": "upcoming",
+      "status": "ended",
       "first_seen": "2026-W15",
       "last_updated": "2026-W15"
     },
@@ -2670,7 +2670,7 @@
       "cost": "unknown",
       "recurring": true,
       "summary": "ガートナー主催の欧州主要D&Aサミット。AI統合・データファブリック・拡張分析・データリーダーシップをカバー。",
-      "status": "upcoming",
+      "status": "ongoing",
       "first_seen": "2026-W15",
       "last_updated": "2026-W15"
     },
@@ -3746,7 +3746,7 @@
       "cost": "unknown",
       "recurring": true,
       "summary": "Machine Learning Weekとして18年目を迎えるハイブリッドAIカンファレンス。サンフランシスコで開催。",
-      "status": "upcoming",
+      "status": "ended",
       "first_seen": "2026-W16",
       "last_updated": "2026-W16"
     },
@@ -4167,6 +4167,108 @@
       "status": "upcoming",
       "first_seen": "2026-W19",
       "last_updated": "2026-W19"
+    },
+    {
+      "id": "colm-north-america-2026",
+      "name": "COLM 2026 (Conference on Language Modeling)",
+      "dates": { "start": "2026-10-06", "end": "2026-10-09" },
+      "location": { "city": "San Francisco", "country": "USA", "region": "North America" },
+      "format": "in-person",
+      "url": "https://colmweb.org/",
+      "cfp": { "deadline": "", "url": "https://colmweb.org/cfp.html", "status": "open" },
+      "categories": ["AI / 機械学習"],
+      "topics": ["language modeling", "LLM", "NLP", "deep learning", "generative AI"],
+      "cost": "paid",
+      "recurring": true,
+      "summary": "[要レビュー] 言語モデリングに特化した学術会議。サンフランシスコのHilton Union Squareで開催、論文発表とワークショップで構成。",
+      "status": "upcoming",
+      "first_seen": "2026-W20",
+      "last_updated": "2026-W20"
+    },
+    {
+      "id": "mlsys-north-america-2026",
+      "name": "MLSys 2026 (9th Conference on Machine Learning and Systems)",
+      "dates": { "start": "2026-05-18", "end": "2026-05-22" },
+      "location": { "city": "Bellevue", "country": "USA", "region": "North America" },
+      "format": "in-person",
+      "url": "https://mlsys.org/",
+      "cfp": { "deadline": "", "url": "", "status": "closed" },
+      "categories": ["AI / 機械学習", "クラウド / インフラ"],
+      "topics": ["machine learning systems", "MLOps", "AI infrastructure", "systems design", "deep learning"],
+      "cost": "paid",
+      "recurring": true,
+      "summary": "[要レビュー] 機械学習とシステム設計の交差点に焦点を当てた年次会議。ワシントン州ベルビューのHyatt Regency開催、第9回。",
+      "status": "upcoming",
+      "first_seen": "2026-W20",
+      "last_updated": "2026-W20"
+    },
+    {
+      "id": "devopscon-berlin-eu-2026",
+      "name": "DevOpsCon Berlin 2026",
+      "dates": { "start": "2026-06-15", "end": "2026-06-19" },
+      "location": { "city": "Berlin", "country": "Germany", "region": "Europe" },
+      "format": "hybrid",
+      "url": "https://devopscon.io/berlin/",
+      "cfp": { "deadline": "", "url": "", "status": "closed" },
+      "categories": ["クラウド / インフラ"],
+      "topics": ["DevOps", "Kubernetes", "CI/CD", "DevSecOps", "platform engineering", "GitOps"],
+      "cost": "paid",
+      "recurring": true,
+      "summary": "[要レビュー] DevOps・Kubernetes・プラットフォームエンジニアリングに特化した国際カンファレンス。ベルリンのMaritim proArteホテル開催。",
+      "status": "upcoming",
+      "first_seen": "2026-W20",
+      "last_updated": "2026-W20"
+    },
+    {
+      "id": "mlcon-london-eu-2026",
+      "name": "MLcon London 2026",
+      "dates": { "start": "2026-05-11", "end": "2026-05-15" },
+      "location": { "city": "London", "country": "UK", "region": "Europe" },
+      "format": "hybrid",
+      "url": "https://mlconference.ai/london/",
+      "cfp": { "deadline": "", "url": "", "status": "closed" },
+      "categories": ["AI / 機械学習"],
+      "topics": ["machine learning", "generative AI", "deep learning", "LLM"],
+      "cost": "paid",
+      "recurring": true,
+      "summary": "[要レビュー] 機械学習・生成AIの実務者向け国際カンファレンス。ロンドンのPark Plaza Victoria Londonで開催、オンライン参加も可能。",
+      "status": "ongoing",
+      "first_seen": "2026-W20",
+      "last_updated": "2026-W20"
+    },
+    {
+      "id": "mlcon-san-diego-north-america-2026",
+      "name": "MLcon San Diego 2026",
+      "dates": { "start": "2026-06-01", "end": "2026-06-05" },
+      "location": { "city": "San Diego", "country": "USA", "region": "North America" },
+      "format": "hybrid",
+      "url": "https://mlconference.ai/san-diego/",
+      "cfp": { "deadline": "", "url": "", "status": "closed" },
+      "categories": ["AI / 機械学習"],
+      "topics": ["machine learning", "generative AI", "deep learning", "LLM"],
+      "cost": "paid",
+      "recurring": true,
+      "summary": "[要レビュー] 機械学習・生成AIの実務者向け国際カンファレンス。サンディエゴのHyatt Regency La Jolla at Aventineで開催。",
+      "status": "upcoming",
+      "first_seen": "2026-W20",
+      "last_updated": "2026-W20"
+    },
+    {
+      "id": "mlcon-munich-eu-2026",
+      "name": "MLcon Munich 2026",
+      "dates": { "start": "2026-06-22", "end": "2026-06-26" },
+      "location": { "city": "Munich", "country": "Germany", "region": "Europe" },
+      "format": "hybrid",
+      "url": "https://mlconference.ai/munich/",
+      "cfp": { "deadline": "", "url": "", "status": "closed" },
+      "categories": ["AI / 機械学習"],
+      "topics": ["machine learning", "generative AI", "deep learning", "LLM"],
+      "cost": "paid",
+      "recurring": true,
+      "summary": "[要レビュー] 機械学習・生成AIの実務者向け国際カンファレンス。ミュンヘンのHoliday Inn Munich City Centerで開催。",
+      "status": "upcoming",
+      "first_seen": "2026-W20",
+      "last_updated": "2026-W20"
     }
   ]
 }
