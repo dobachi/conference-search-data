@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-24",
+  "last_updated": "2026-05-31",
   "conferences": [
     {
       "name": "AAAI 2026 (40th AAAI Conference on Artificial Intelligence)",
@@ -1331,7 +1331,7 @@
       "cost": "free",
       "recurring": true,
       "summary": "Gaia-Xコミュニティの技術イベント＆ハッカソン。賞金最大€5000。開発者向けの実践的イベント。",
-      "status": "upcoming",
+      "status": "ended",
       "id": "gaia-x-tech-x-hackathon-9-eu-2026",
       "first_seen": "2026-W14",
       "last_updated": "2026-W14"
@@ -3116,7 +3116,7 @@
       "cost": "unknown",
       "recurring": true,
       "summary": "SB Creative主催のビジネス+ITフォーラム。AI戦略・データドリブン変革・日本企業のデジタル実装事例をカバー。ハイブリッド開催。",
-      "status": "upcoming",
+      "status": "ended",
       "first_seen": "2026-W15",
       "last_updated": "2026-W15"
     },
@@ -4492,6 +4492,115 @@
       "id": "data-mesh-live-eu-2026",
       "first_seen": "2026-W21",
       "last_updated": "2026-W21"
+    },
+    {
+      "name": "8ra Annual Summit 2026 (General Assembly and Open Conference)",
+      "dates": {
+        "start": "2026-03-19",
+        "end": "2026-03-20"
+      },
+      "location": {
+        "city": "Rotterdam",
+        "country": "Netherlands",
+        "region": "Europe"
+      },
+      "format": "in-person",
+      "url": "https://www.8ra.com/events/8ra-annual-summit-2026-general-assembly-and-open-conference-in-rotterdam/",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "categories": [
+        "Data Spaces / データ連携",
+        "クラウド / インフラ"
+      ],
+      "topics": [
+        "IPCEI-CIS",
+        "cloud",
+        "edge",
+        "data spaces",
+        "8ra",
+        "IDSA"
+      ],
+      "cost": "unknown",
+      "recurring": true,
+      "summary": "[要レビュー] IPCEI-CIS関連のAnnual Summit。IDSAも登壇し、データスペース普及戦略を議論。de Doelenで開催。",
+      "status": "ended",
+      "id": "8ra-annual-summit-eu-2026",
+      "first_seen": "2026-W22",
+      "last_updated": "2026-W22"
+    },
+    {
+      "name": "TPDP 2026 (12th Workshop on Theory and Practice of Differential Privacy)",
+      "dates": {
+        "start": "2026-06-01",
+        "end": "2026-06-02"
+      },
+      "location": {
+        "city": "Boston",
+        "country": "USA",
+        "region": "North America"
+      },
+      "format": "in-person",
+      "url": "https://tpdp.journalprivacyconfidentiality.org/2026/",
+      "cfp": {
+        "deadline": "2026-02-18",
+        "url": "https://differentialprivacy.org/tpdp2026/",
+        "status": "closed"
+      },
+      "categories": [
+        "PETs"
+      ],
+      "topics": [
+        "differential privacy",
+        "private data analysis",
+        "federated learning"
+      ],
+      "cost": "paid",
+      "recurring": true,
+      "summary": "[要レビュー] 差分プライバシー理論と実践のワークショップ。Northeastern UniversityのCurry Student Centerで開催。",
+      "status": "upcoming",
+      "id": "tpdp-north-america-2026",
+      "first_seen": "2026-W22",
+      "last_updated": "2026-W22"
+    },
+    {
+      "name": "IAPP UK Intensive 2026 (Privacy, AI Governance, Cybersecurity Law)",
+      "dates": {
+        "start": "2026-02-23",
+        "end": "2026-02-26"
+      },
+      "location": {
+        "city": "London",
+        "country": "United Kingdom",
+        "region": "Europe"
+      },
+      "format": "in-person",
+      "url": "https://iapp.org/conference/iapp-uk26",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "closed"
+      },
+      "categories": [
+        "PETs",
+        "ビジネス / DX"
+      ],
+      "topics": [
+        "privacy",
+        "AI governance",
+        "cybersecurity law",
+        "PETs",
+        "data protection"
+      ],
+      "cost": "paid",
+      "recurring": true,
+      "summary": "[要レビュー] IAPP主催の英国版インテンシブ会議。PETs（連合学習・差分プライバシー・準同型暗号）等を議論。Convene 133 Houndsditchで開催。",
+      "status": "ended",
+      "id": "iapp-uk-intensive-eu-2026",
+      "first_seen": "2026-W22",
+      "last_updated": "2026-W22"
     }
   ]
 }
