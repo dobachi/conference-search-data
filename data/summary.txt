@@ -1,5 +1,5 @@
-# Conference Summary (124 total: 64 upcoming, 0 ongoing, 60 ended)
-# Generated: 2026-05-31
+# Conference Summary (128 total: 59 upcoming, 1 ongoing, 68 ended)
+# Generated: 2026-06-07
 # Format: id | name | start~end | region | status | categories
 
 aaai-apac-2026 | AAAI 2026 (40th AAAI Conference on Artificial Intelligence) | 2026-01-20~2026-01-27 | Asia-Pacific | ended | AI / 機械学習
@@ -23,6 +23,7 @@ teamz-web3-ai-summit-jp-2026 | TEAMZ Web3 & AI Summit 2026 | 2026-04-07~2026-04-
 japan-dx-week-jp-2026 | Japan DX Week 春 2026 | 2026-04-08~2026-04-10 | Japan | ended | ビジネス / DX, AI / 機械学習
 icbda-jp-2026 | ICBDA 2026 (11th International Conference on Big Data Analytics) | 2026-04-11~2026-04-14 | Japan | ended | データインテリジェンス, データエンジニアリング
 informs-analytics-north-america-2026 | INFORMS Analytics+ Conference 2026 | 2026-04-12~2026-04-14 | North America | ended | データインテリジェンス
+ana-masters-of-data-north-america-2026 | ANA Masters of Data Conference 2026 | 2026-04-13~2026-04-15 | North America | ended | データインテリジェンス, ビジネス / DX
 devopsdays-tokyo-jp-2026 | DevOpsDays Tokyo 2026 | 2026-04-14~2026-04-16 | Japan | ended | クラウド / インフラ
 oracle-analytics-data-summit-north-america-2026 | Analytics and Data Summit 2026 (Oracle / ANDOUC) | 2026-04-14~2026-04-16 | North America | ended | データインテリジェンス, データプラットフォーム
 nextech-week-10-aiexpo-jp-2026 | NexTech Week 2026【春】 第10回 AI・人工知能EXPO | 2026-04-15~2026-04-17 | Japan | ended | AI / 機械学習, ビジネス / DX
@@ -62,17 +63,18 @@ data-intelligence-summit-nyc-north-america-2026 | Data Intelligence Summit NYC 2
 aiag-catena-x-north-america-conference-north-america-2026 | AIAG Catena-X North America Conference 2026 | 2026-05-21~2026-05-21 | North America | ended | Data Spaces / データ連携, ビジネス / DX
 gaia-x-tech-x-hackathon-9-eu-2026 | Gaia-X Tech-X & Hackathon #9 | 2026-05-28~2026-05-29 | Europe | ended | Data Spaces / データ連携, クラウド / インフラ, データプラットフォーム
 dx-ai-forum-spring-jp-2026 | DX&AI Forum 2026 Spring 東京 | 2026-05-29~2026-05-29 | Japan | ended | ビジネス / DX, AI / 機械学習
-snowflake-summit-north-america-2026 | Snowflake Summit 2026 | 2026-06-01~2026-06-04 | North America | upcoming | データプラットフォーム, データエンジニアリング, AI / 機械学習
-qcon-ai-boston-north-america-2026 | QCon AI Boston 2026 | 2026-06-01~2026-06-02 | North America | upcoming | AI / 機械学習, データエンジニアリング
-mlcon-san-diego-north-america-2026 | MLcon San Diego 2026 | 2026-06-01~2026-06-05 | North America | upcoming | AI / 機械学習
-tpdp-north-america-2026 | TPDP 2026 (12th Workshop on Theory and Practice of Differential Privacy) | 2026-06-01~2026-06-02 | North America | upcoming | PETs
-microsoft-build-north-america-2026 | Microsoft Build 2026 | 2026-06-02~2026-06-03 | North America | upcoming | クラウド / インフラ, AI / 機械学習
-ai-market-excon-jp-2026 | AI Market ExCon 2026 | 2026-06-02~2026-06-02 | Japan | upcoming | AI / 機械学習, ビジネス / DX
-cvpr-north-america-2026 | CVPR 2026 (IEEE/CVF Conference on Computer Vision and Pattern Recognition) | 2026-06-03~2026-06-07 | North America | upcoming | AI / 機械学習
-dataspaces-in-the-us-na-2026 | Dataspaces in the United States: Catena-X, Gaia-X, and IDSA | 2026-06-05~2026-06-05 | North America | upcoming | Data Spaces / データ連携, ビジネス / DX
+snowflake-summit-north-america-2026 | Snowflake Summit 2026 | 2026-06-01~2026-06-04 | North America | ended | データプラットフォーム, データエンジニアリング, AI / 機械学習
+qcon-ai-boston-north-america-2026 | QCon AI Boston 2026 | 2026-06-01~2026-06-02 | North America | ended | AI / 機械学習, データエンジニアリング
+mlcon-san-diego-north-america-2026 | MLcon San Diego 2026 | 2026-06-01~2026-06-05 | North America | ended | AI / 機械学習
+tpdp-north-america-2026 | TPDP 2026 (12th Workshop on Theory and Practice of Differential Privacy) | 2026-06-01~2026-06-02 | North America | ended | PETs
+microsoft-build-north-america-2026 | Microsoft Build 2026 | 2026-06-02~2026-06-03 | North America | ended | クラウド / インフラ, AI / 機械学習
+ai-market-excon-jp-2026 | AI Market ExCon 2026 | 2026-06-02~2026-06-02 | Japan | ended | AI / 機械学習, ビジネス / DX
+cvpr-north-america-2026 | CVPR 2026 (IEEE/CVF Conference on Computer Vision and Pattern Recognition) | 2026-06-03~2026-06-07 | North America | ongoing | AI / 機械学習
+dataspaces-in-the-us-na-2026 | Dataspaces in the United States: Catena-X, Gaia-X, and IDSA | 2026-06-05~2026-06-05 | North America | ended | Data Spaces / データ連携, ビジネス / DX
 interop-tokyo-jp-2026 | Interop Tokyo 2026 | 2026-06-10~2026-06-12 | Japan | upcoming | クラウド / インフラ, ビジネス / DX, AI / 機械学習
 baidata-forum-eu-2026 | V BAIDATA Forum 2026 | 2026-06-11~2026-06-11 | Europe | upcoming | Data Spaces / データ連携, ビジネス / DX
 data-mesh-live-eu-2026 | Data Mesh Live 2026 | 2026-06-11~2026-06-12 | Europe | upcoming | データプラットフォーム, データエンジニアリング
+dx-leaders-conference-jp-2026 | DXリーダーズ・カンファレンス2026 〜AIとの共創で実現する内製組織〜 | 2026-06-12~2026-06-12 | Japan | upcoming | ビジネス / DX, AI / 機械学習
 databricks-data-ai-summit-north-america-2026 | Databricks Data + AI Summit 2026 | 2026-06-15~2026-06-18 | North America | upcoming | データプラットフォーム, データエンジニアリング, AI / 機械学習
 devopscon-berlin-eu-2026 | DevOpsCon Berlin 2026 | 2026-06-15~2026-06-19 | Europe | upcoming | クラウド / インフラ
 gartner-da-summit-sydney-apac-2026 | Gartner Data & Analytics Summit Sydney 2026 | 2026-06-16~2026-06-17 | Asia-Pacific | upcoming | データインテリジェンス, ビジネス / DX
@@ -99,6 +101,7 @@ dbt-summit-north-america-2026 | dbt Summit 2026 | 2026-09-15~2026-09-18 | North 
 tdwi-transform-north-america-2026 | TDWI Transform 2026 | 2026-09-20~2026-09-25 | North America | upcoming | データインテリジェンス, データプラットフォーム
 ai-data-summit-berlin-eu-2026 | AIDAQ 2026 (AI, Data & Quantum Summit) | 2026-09-22~2026-09-23 | Europe | upcoming | データインテリジェンス, AI / 機械学習
 big-data-ldn-eu-2026 | Big Data LDN 2026 | 2026-09-23~2026-09-24 | Europe | upcoming | データインテリジェンス, データエンジニアリング, AI / 機械学習
+iaria-data-analytics-eu-2026 | DATA ANALYTICS 2026 (15th International Conference on Data Analytics) | 2026-09-27~2026-10-01 | Europe | upcoming | データインテリジェンス, データエンジニアリング
 devopscon-new-york-north-america-2026 | DevOpsCon New York 2026 | 2026-09-28~2026-10-02 | North America | upcoming | クラウド / インフラ
 fabcon-europe-eu-2026 | European Microsoft Fabric + SQL Community Conference 2026 (FabCon Europe) | 2026-09-28~2026-10-01 | Europe | upcoming | データプラットフォーム, データインテリジェンス
 european-big-data-value-forum-eu-2026 | European Big Data Value Forum (EBDVF) 2026 | 2026-09-30~2026-10-01 | Europe | upcoming | Data Spaces / データ連携, AI / 機械学習, データインテリジェンス, ビジネス / DX
@@ -116,6 +119,7 @@ kubecon-cloudnativecon-north-america-north-america-2026 | KubeCon + CloudNativeC
 gartner-it-symposium-barcelona-eu-2026 | Gartner IT Symposium/Xpo EMEA 2026 | 2026-11-09~2026-11-12 | Europe | upcoming | ビジネス / DX, AI / 機械学習
 pass-summit-west-north-america-2026 | PASS Data Community Summit 2026 (Seattle) | 2026-11-09~2026-11-11 | North America | upcoming | データインテリジェンス, データエンジニアリング
 nextech-week-autumn-jp-2026 | NexTech Week 2026【秋】 AI・人工知能EXPO | 2026-11-11~2026-11-13 | Japan | upcoming | AI / 機械学習, ビジネス / DX, データインテリジェンス
+cio-transformation-assembly-miami-north-america-2026 | Digital Enterprise CIO Transformation Assembly – November 2026 (Miami) | 2026-11-12~2026-11-13 | North America | upcoming | ビジネス / DX
 qcon-san-francisco-north-america-2026 | QCon San Francisco 2026 | 2026-11-16~2026-11-20 | North America | upcoming | クラウド / インフラ, データエンジニアリング
 nextgen-intelligence-london-eu-2026 | NextGen Intelligence 2026 Conference | 2026-11-16~2026-11-17 | Europe | upcoming | データインテリジェンス, ビジネス / DX
 microsoft-ignite-north-america-2026 | Microsoft Ignite 2026 | 2026-11-17~2026-11-20 | North America | upcoming | クラウド / インフラ, データプラットフォーム, AI / 機械学習

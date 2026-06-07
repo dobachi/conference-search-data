@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-31",
+  "last_updated": "2026-W23",
   "conferences": [
     {
       "name": "AAAI 2026 (40th AAAI Conference on Artificial Intelligence)",
@@ -1370,7 +1370,7 @@
       "cost": "paid",
       "recurring": true,
       "summary": "Snowflake年次サミット。データクラウド・レイクハウス・AIの最新機能と活用事例を紹介する大規模イベント。",
-      "status": "upcoming",
+      "status": "ended",
       "id": "snowflake-summit-north-america-2026",
       "first_seen": "2026-W14",
       "last_updated": "2026-W14"
@@ -1406,7 +1406,7 @@
       "cost": "paid",
       "recurring": true,
       "summary": "QConのAI特化版カンファレンス。エンタープライズAIエンジニアリングの実践知見を共有。",
-      "status": "upcoming",
+      "status": "ended",
       "id": "qcon-ai-boston-north-america-2026",
       "first_seen": "2026-W14",
       "last_updated": "2026-W14"
@@ -1444,7 +1444,7 @@
       "cost": "paid",
       "recurring": true,
       "summary": "Microsoft年次開発者カンファレンス。Azure・AI・開発ツールの最新アップデートを発表。",
-      "status": "upcoming",
+      "status": "ended",
       "id": "microsoft-build-north-america-2026",
       "first_seen": "2026-W14",
       "last_updated": "2026-W14"
@@ -1481,7 +1481,7 @@
       "cost": "paid",
       "recurring": true,
       "summary": "コンピュータビジョン分野の最高峰カンファレンス。画像認識・生成AI等の最新研究を発表。",
-      "status": "upcoming",
+      "status": "ongoing",
       "id": "cvpr-north-america-2026",
       "first_seen": "2026-W14",
       "last_updated": "2026-W14"
@@ -1519,7 +1519,7 @@
       "cost": "unknown",
       "recurring": false,
       "summary": "北米初のデータスペース専門イベント。Catena-X・Gaia-X・IDSAが米国市場でのデータスペース展開を議論。",
-      "status": "upcoming",
+      "status": "ended",
       "first_seen": "2026-W14",
       "last_updated": "2026-W14"
     },
@@ -3632,7 +3632,7 @@
       "cost": "free",
       "recurring": false,
       "summary": "AI Market主催の初の大型オフライン展示会＆カンファレンス。40社超出展、AIエージェント・LLM・RAG・データ基盤など最先端AIソリューションを展示。20講演併催。",
-      "status": "upcoming",
+      "status": "ended",
       "first_seen": "2026-W15",
       "last_updated": "2026-W15"
     },
@@ -4344,7 +4344,7 @@
       "cost": "paid",
       "recurring": true,
       "summary": "[要レビュー] 機械学習・生成AIの実務者向け国際カンファレンス。サンディエゴのHyatt Regency La Jolla at Aventineで開催。",
-      "status": "upcoming",
+      "status": "ended",
       "first_seen": "2026-W20",
       "last_updated": "2026-W20"
     },
@@ -4560,7 +4560,7 @@
       "cost": "paid",
       "recurring": true,
       "summary": "[要レビュー] 差分プライバシー理論と実践のワークショップ。Northeastern UniversityのCurry Student Centerで開催。",
-      "status": "upcoming",
+      "status": "ended",
       "id": "tpdp-north-america-2026",
       "first_seen": "2026-W22",
       "last_updated": "2026-W22"
@@ -4601,6 +4601,153 @@
       "id": "iapp-uk-intensive-eu-2026",
       "first_seen": "2026-W22",
       "last_updated": "2026-W22"
+    },
+    {
+      "name": "DXリーダーズ・カンファレンス2026 〜AIとの共創で実現する内製組織〜",
+      "dates": {
+        "start": "2026-06-12",
+        "end": "2026-06-12"
+      },
+      "location": {
+        "city": "Tokyo",
+        "country": "Japan",
+        "region": "Japan"
+      },
+      "format": "in-person",
+      "url": "https://conference2026.members.co.jp/",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "categories": [
+        "ビジネス / DX",
+        "AI / 機械学習"
+      ],
+      "topics": [
+        "DX",
+        "AI",
+        "internal organization",
+        "agile",
+        "CX",
+        "generative AI"
+      ],
+      "cost": "free",
+      "recurring": true,
+      "summary": "[要レビュー] メンバーズ社主催のDXリーダー向けカンファレンス。AIとの共創で実現する内製組織がテーマ。Tokyo Conference Center Shinagawaで開催。",
+      "status": "upcoming",
+      "id": "dx-leaders-conference-jp-2026",
+      "first_seen": "2026-W23",
+      "last_updated": "2026-W23"
+    },
+    {
+      "name": "DATA ANALYTICS 2026 (15th International Conference on Data Analytics)",
+      "dates": {
+        "start": "2026-09-27",
+        "end": "2026-10-01"
+      },
+      "location": {
+        "city": "Barcelona",
+        "country": "Spain",
+        "region": "Europe"
+      },
+      "format": "hybrid",
+      "url": "https://www.iaria.org/conferences2026/DATAANALYTICS26.html",
+      "cfp": {
+        "deadline": "2026-06-23",
+        "url": "https://www.iaria.org/conferences2026/CfPDATAANALYTICS26.html",
+        "status": "open"
+      },
+      "categories": [
+        "データインテリジェンス",
+        "データエンジニアリング"
+      ],
+      "topics": [
+        "data analytics",
+        "big data",
+        "deep learning",
+        "scalable data processing",
+        "business analytics"
+      ],
+      "cost": "paid",
+      "recurring": true,
+      "summary": "[要レビュー] IARIA主催のデータアナリティクス国際会議。大規模データ処理・深層学習・ビジネスアナリティクス等を扱う。Novotel Barcelona Cornellàで開催。",
+      "status": "upcoming",
+      "id": "iaria-data-analytics-eu-2026",
+      "first_seen": "2026-W23",
+      "last_updated": "2026-W23"
+    },
+    {
+      "name": "ANA Masters of Data Conference 2026",
+      "dates": {
+        "start": "2026-04-13",
+        "end": "2026-04-15"
+      },
+      "location": {
+        "city": "San Diego",
+        "country": "USA",
+        "region": "North America"
+      },
+      "format": "hybrid",
+      "url": "https://www.ana.net/content/show/id/ms-data-apr26",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "categories": [
+        "データインテリジェンス",
+        "ビジネス / DX"
+      ],
+      "topics": [
+        "marketing data",
+        "measurement",
+        "AI-ready strategies",
+        "data-driven marketing"
+      ],
+      "cost": "paid",
+      "recurring": true,
+      "summary": "[要レビュー] ANA（Association of National Advertisers）主催のマーケティングデータ活用会議。Omni Hotel（Petco Park隣接）で開催。",
+      "status": "ended",
+      "id": "ana-masters-of-data-north-america-2026",
+      "first_seen": "2026-W23",
+      "last_updated": "2026-W23"
+    },
+    {
+      "name": "Digital Enterprise CIO Transformation Assembly – November 2026 (Miami)",
+      "dates": {
+        "start": "2026-11-12",
+        "end": "2026-11-13"
+      },
+      "location": {
+        "city": "Miami",
+        "country": "USA",
+        "region": "North America"
+      },
+      "format": "in-person",
+      "url": "https://mill-all.com/assemblies/digital-enterprise-cio-transformation-assembly-november-2026/",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "categories": [
+        "ビジネス / DX"
+      ],
+      "topics": [
+        "CIO",
+        "digital transformation",
+        "big data",
+        "AI",
+        "data governance"
+      ],
+      "cost": "invitation",
+      "recurring": true,
+      "summary": "[要レビュー] Millennium Alliance主催のグローバルCIO向け招待制サミット。JW Marriott Turnberry Resort & Spa（マイアミ）で開催。",
+      "status": "upcoming",
+      "id": "cio-transformation-assembly-miami-north-america-2026",
+      "first_seen": "2026-W23",
+      "last_updated": "2026-W23"
     }
   ]
 }
