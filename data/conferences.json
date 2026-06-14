@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-W23",
+  "last_updated": "2026-06-14",
   "conferences": [
     {
       "name": "AAAI 2026 (40th AAAI Conference on Artificial Intelligence)",
@@ -1481,7 +1481,7 @@
       "cost": "paid",
       "recurring": true,
       "summary": "コンピュータビジョン分野の最高峰カンファレンス。画像認識・生成AI等の最新研究を発表。",
-      "status": "ongoing",
+      "status": "ended",
       "id": "cvpr-north-america-2026",
       "first_seen": "2026-W14",
       "last_updated": "2026-W14"
@@ -3671,7 +3671,7 @@
       "cost": "unknown",
       "recurring": true,
       "summary": "国内最大級ICTイベント第33回。テーマ「Internet for AI, AI for Internet」。幕張メッセ開催、国内外約500社出展。AIインフラ・クラウド・DX・セキュリティを網羅。",
-      "status": "upcoming",
+      "status": "ended",
       "first_seen": "2026-W15",
       "last_updated": "2026-W15"
     },
@@ -3973,7 +3973,7 @@
       "cost": "unknown",
       "recurring": true,
       "summary": "[要レビュー] EUデータ経済の主要フォーラム（第5回）。スペイン・ビルバオで開催。データスペースの欧州展開と国際拡大を議論。",
-      "status": "upcoming",
+      "status": "ended",
       "first_seen": "2026-W18",
       "last_updated": "2026-W18"
     },
@@ -4488,7 +4488,7 @@
       "cost": "paid",
       "recurring": true,
       "summary": "[要レビュー] Data Mesh実践者向けの欧州カンファレンス。DDD Europeと共催でアントワープのQueen Elisabeth Hallで開催。",
-      "status": "upcoming",
+      "status": "ended",
       "id": "data-mesh-live-eu-2026",
       "first_seen": "2026-W21",
       "last_updated": "2026-W21"
@@ -4635,7 +4635,7 @@
       "cost": "free",
       "recurring": true,
       "summary": "[要レビュー] メンバーズ社主催のDXリーダー向けカンファレンス。AIとの共創で実現する内製組織がテーマ。Tokyo Conference Center Shinagawaで開催。",
-      "status": "upcoming",
+      "status": "ended",
       "id": "dx-leaders-conference-jp-2026",
       "first_seen": "2026-W23",
       "last_updated": "2026-W23"
@@ -4748,6 +4748,150 @@
       "id": "cio-transformation-assembly-miami-north-america-2026",
       "first_seen": "2026-W23",
       "last_updated": "2026-W23"
+    },
+    {
+      "id": "mlcon-new-york-north-america-2026",
+      "name": "MLcon New York 2026",
+      "dates": {
+        "start": "2026-09-28",
+        "end": "2026-10-02"
+      },
+      "location": {
+        "city": "New York",
+        "country": "USA",
+        "region": "North America"
+      },
+      "format": "hybrid",
+      "url": "https://mlconference.ai/new-york/",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "categories": [
+        "AI / 機械学習"
+      ],
+      "topics": [
+        "machine learning",
+        "generative AI",
+        "deep learning",
+        "LLM",
+        "MLOps"
+      ],
+      "cost": "paid",
+      "recurring": true,
+      "summary": "[要レビュー] 機械学習・生成AI実務者向け国際カンファレンスのニューヨーク版。DevOpsCon New Yorkと併催。",
+      "status": "upcoming",
+      "first_seen": "2026-W24",
+      "last_updated": "2026-W24"
+    },
+    {
+      "id": "aim-orlando-north-america-2027",
+      "name": "AIM 2027 (4th International Conference on Artificial Intelligence and Machine Learning)",
+      "dates": {
+        "start": "2027-04-26",
+        "end": "2027-04-28"
+      },
+      "location": {
+        "city": "Orlando",
+        "country": "USA",
+        "region": "North America"
+      },
+      "format": "hybrid",
+      "url": "https://artificialintelligence.unitedscientificgroup.org/",
+      "cfp": {
+        "deadline": "2026-06-23",
+        "url": "https://artificialintelligence.unitedscientificgroup.org/conference-info",
+        "status": "open"
+      },
+      "categories": [
+        "AI / 機械学習"
+      ],
+      "topics": [
+        "generative AI",
+        "LLM",
+        "deep learning",
+        "data science",
+        "AI ethics"
+      ],
+      "cost": "paid",
+      "recurring": true,
+      "summary": "[要レビュー] United Scientific Group主催の国際AI・機械学習カンファレンス。生成AI、LLM、AI倫理等を扱う。",
+      "status": "upcoming",
+      "first_seen": "2026-W24",
+      "last_updated": "2026-W24"
+    },
+    {
+      "id": "kubecon-cloudnativecon-europe-eu-2027",
+      "name": "KubeCon + CloudNativeCon Europe 2027",
+      "dates": {
+        "start": "2027-03-15",
+        "end": "2027-03-18"
+      },
+      "location": {
+        "city": "Barcelona",
+        "country": "Spain",
+        "region": "Europe"
+      },
+      "format": "in-person",
+      "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "categories": [
+        "クラウド / インフラ"
+      ],
+      "topics": [
+        "Kubernetes",
+        "cloud native",
+        "GitOps",
+        "service mesh",
+        "platform engineering"
+      ],
+      "cost": "paid",
+      "recurring": true,
+      "summary": "[要レビュー] CNCFフラッグシップカンファレンスのヨーロッパ版。バルセロナで開催予定。",
+      "status": "upcoming",
+      "first_seen": "2026-W24",
+      "last_updated": "2026-W24"
+    },
+    {
+      "id": "kubecon-cloudnativecon-north-america-north-america-2027",
+      "name": "KubeCon + CloudNativeCon North America 2027",
+      "dates": {
+        "start": "2027-11-08",
+        "end": "2027-11-11"
+      },
+      "location": {
+        "city": "New Orleans",
+        "country": "USA",
+        "region": "North America"
+      },
+      "format": "in-person",
+      "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "categories": [
+        "クラウド / インフラ"
+      ],
+      "topics": [
+        "Kubernetes",
+        "cloud native",
+        "GitOps",
+        "service mesh",
+        "platform engineering"
+      ],
+      "cost": "paid",
+      "recurring": true,
+      "summary": "[要レビュー] CNCFフラッグシップカンファレンスの北米版。ニューオーリンズで開催予定。",
+      "status": "upcoming",
+      "first_seen": "2026-W24",
+      "last_updated": "2026-W24"
     }
   ]
 }
