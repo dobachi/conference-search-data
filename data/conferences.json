@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-14",
+  "last_updated": "2026-06-21",
   "conferences": [
     {
       "name": "AAAI 2026 (40th AAAI Conference on Artificial Intelligence)",
@@ -1558,7 +1558,7 @@
       "cost": "paid",
       "recurring": true,
       "summary": "Databricks主催の世界最大級データ＆AIカンファレンス。800以上のセッションでデータ基盤とAI活用を深掘り。",
-      "status": "upcoming",
+      "status": "ended",
       "id": "databricks-data-ai-summit-north-america-2026",
       "first_seen": "2026-W14",
       "last_updated": "2026-W14"
@@ -1594,7 +1594,7 @@
       "cost": "paid",
       "recurring": true,
       "summary": "CNCF主催のインド開催KubeCon。クラウドネイティブ技術のアジア太平洋地域向けイベント。",
-      "status": "upcoming",
+      "status": "ended",
       "id": "kubecon-cloudnativecon-india-apac-2026",
       "first_seen": "2026-W14",
       "last_updated": "2026-W14"
@@ -2706,7 +2706,7 @@
       "cost": "unknown",
       "recurring": true,
       "summary": "ガートナー主催アジア太平洋（豪州・NZ）向けD&Aサミット。データ戦略・AI準備・クラウドアナリティクスを扱う。",
-      "status": "upcoming",
+      "status": "ended",
       "first_seen": "2026-W15",
       "last_updated": "2026-W15"
     },
@@ -4274,7 +4274,7 @@
       "cost": "paid",
       "recurring": true,
       "summary": "[要レビュー] DevOps・Kubernetes・プラットフォームエンジニアリングに特化した国際カンファレンス。ベルリンのMaritim proArteホテル開催。",
-      "status": "upcoming",
+      "status": "ended",
       "first_seen": "2026-W20",
       "last_updated": "2026-W20"
     },
@@ -4892,6 +4892,82 @@
       "status": "upcoming",
       "first_seen": "2026-W24",
       "last_updated": "2026-W24"
+    },
+    {
+      "name": "World Data Summit 2026 (European Edition)",
+      "dates": {
+        "start": "2026-05-20",
+        "end": "2026-05-22"
+      },
+      "location": {
+        "city": "St Julians",
+        "country": "Malta",
+        "region": "Europe"
+      },
+      "format": "hybrid",
+      "url": "https://worlddatasummit.com/europe/",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "closed"
+      },
+      "categories": [
+        "データプラットフォーム",
+        "データエンジニアリング",
+        "データインテリジェンス"
+      ],
+      "topics": [
+        "data governance",
+        "data warehouse automation",
+        "kappa architecture",
+        "data ethics",
+        "generative AI",
+        "data literacy"
+      ],
+      "cost": "paid",
+      "recurring": true,
+      "summary": "データガバナンス、AI、データ戦略をテーマにマルタで開催される国際データサミット。",
+      "status": "ended",
+      "id": "world-data-summit-eu-2026",
+      "first_seen": "2026-W25",
+      "last_updated": "2026-W25"
+    },
+    {
+      "name": "Flink Forward Asia 2026 (Shenzhen)",
+      "dates": {
+        "start": "2026-06-26",
+        "end": "2026-06-27"
+      },
+      "location": {
+        "city": "Shenzhen",
+        "country": "China",
+        "region": "Asia-Pacific"
+      },
+      "format": "in-person",
+      "url": "https://asia.flink-forward.org/shenzhen-2026",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "closed"
+      },
+      "categories": [
+        "データエンジニアリング",
+        "データプラットフォーム"
+      ],
+      "topics": [
+        "Apache Flink",
+        "stream processing",
+        "real-time analytics",
+        "cloud native",
+        "AI native"
+      ],
+      "cost": "paid",
+      "recurring": true,
+      "summary": "Apache Flinkコミュニティ最大の年次イベントFFA第9回。深圳で初開催、ストリーム処理とAI活用を議論。",
+      "status": "upcoming",
+      "id": "flink-forward-asia-shenzhen-apac-2026",
+      "first_seen": "2026-W25",
+      "last_updated": "2026-W25"
     }
   ]
 }
