@@ -13,7 +13,7 @@ echo "  Systemd dir: $SYSTEMD_DIR"
 
 mkdir -p "$SYSTEMD_DIR"
 
-# Phase 1: 毎週日曜 18:30 UTC (月曜 03:30 JST)
+# Phase 1: 毎週月曜 03:30 JST (= Sun 18:30 UTC)
 cat > "$SYSTEMD_DIR/conf-search-phase1.service" <<EOF
 [Unit]
 Description=Conference Search Phase 1 (Search)
@@ -28,10 +28,10 @@ EOF
 
 cat > "$SYSTEMD_DIR/conf-search-phase1.timer" <<EOF
 [Unit]
-Description=Conference Search Phase 1 (Weekly Sunday 18:30 UTC / Monday 03:30 JST)
+Description=Conference Search Phase 1 (Weekly Monday 03:30 JST)
 
 [Timer]
-OnCalendar=Sun *-*-* 18:30:00
+OnCalendar=Mon *-*-* 03:30:00 Asia/Tokyo
 Persistent=true
 RandomizedDelaySec=60
 
@@ -39,7 +39,7 @@ RandomizedDelaySec=60
 WantedBy=timers.target
 EOF
 
-# Phase 2: 毎週日曜 19:30 UTC (月曜 04:30 JST)
+# Phase 2: 毎週月曜 04:30 JST (= Sun 19:30 UTC)
 cat > "$SYSTEMD_DIR/conf-search-phase2.service" <<EOF
 [Unit]
 Description=Conference Search Phase 2 (Fact-check & Merge)
@@ -54,10 +54,10 @@ EOF
 
 cat > "$SYSTEMD_DIR/conf-search-phase2.timer" <<EOF
 [Unit]
-Description=Conference Search Phase 2 (Weekly Sunday 19:30 UTC / Monday 04:30 JST)
+Description=Conference Search Phase 2 (Weekly Monday 04:30 JST)
 
 [Timer]
-OnCalendar=Sun *-*-* 19:30:00
+OnCalendar=Mon *-*-* 04:30:00 Asia/Tokyo
 Persistent=true
 RandomizedDelaySec=60
 
