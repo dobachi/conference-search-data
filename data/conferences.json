@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-21",
+  "last_updated": "2026-08-10",
   "conferences": [
     {
       "name": "AAAI 2026 (40th AAAI Conference on Artificial Intelligence)",
@@ -1631,7 +1631,7 @@
       "cost": "free (virtual) / paid (in-person)",
       "recurring": true,
       "summary": "世界最大のプラットフォームエンジニアリングカンファレンス。150以上のセッションとワークショップを提供。",
-      "status": "upcoming",
+      "status": "ended",
       "id": "platformcon-online-2026",
       "first_seen": "2026-W14",
       "last_updated": "2026-W14"
@@ -1667,7 +1667,7 @@
       "cost": "paid",
       "recurring": true,
       "summary": "Linux Foundation主催の秘匿計算サミット。セキュアAIインフラと秘匿コンピューティングの最新実装を議論。",
-      "status": "upcoming",
+      "status": "ended",
       "id": "confidential-computing-summit-north-america-2026",
       "first_seen": "2026-W14",
       "last_updated": "2026-W14"
@@ -1706,7 +1706,7 @@
       "cost": "free",
       "recurring": true,
       "summary": "AWS日本最大の年次イベント。クラウド・AI・データ基盤の最新サービスと活用事例を紹介。（2026年日程未確定、2025年実績ベースの推定）",
-      "status": "upcoming",
+      "status": "ended",
       "id": "aws-summit-japan-jp-2026",
       "first_seen": "2026-W14",
       "last_updated": "2026-W14"
@@ -1742,7 +1742,7 @@
       "cost": "free",
       "recurring": true,
       "summary": "企業DX推進のための総合展示会。最新DXソリューションが一堂に集まる日本最大級の総合展。",
-      "status": "upcoming",
+      "status": "ended",
       "id": "dx-expo-jp-2026",
       "first_seen": "2026-W14",
       "last_updated": "2026-W14"
@@ -1779,7 +1779,7 @@
       "cost": "paid",
       "recurring": true,
       "summary": "自然言語処理分野の最高峰学会。LLM・言語モデルの最新研究が集結。",
-      "status": "upcoming",
+      "status": "ended",
       "id": "acl-north-america-2026",
       "first_seen": "2026-W14",
       "last_updated": "2026-W14"
@@ -1816,7 +1816,7 @@
       "cost": "paid",
       "recurring": true,
       "summary": "機械学習分野の最高峰国際会議。ソウルCOEXで開催、最新ML研究を発表。",
-      "status": "upcoming",
+      "status": "ended",
       "id": "icml-apac-2026",
       "first_seen": "2026-W14",
       "last_updated": "2026-W14"
@@ -1850,7 +1850,7 @@
       "cost": "paid",
       "recurring": true,
       "summary": "プライバシー強化技術の国際学術シンポジウム。差分プライバシーや匿名通信など最先端のPETs研究を発表。",
-      "status": "upcoming",
+      "status": "ended",
       "id": "privacy-enhancing-technologies-symposium-north-america-2026",
       "first_seen": "2026-W14",
       "last_updated": "2026-W14"
@@ -1887,7 +1887,7 @@
       "cost": "paid",
       "recurring": true,
       "summary": "CNCF旗艦イベントの日本版。横浜でクラウドネイティブ技術の最新動向を日本コミュニティと共有。",
-      "status": "upcoming",
+      "status": "ended",
       "id": "kubecon-cloudnativecon-japan-jp-2026",
       "first_seen": "2026-W14",
       "last_updated": "2026-W14"
@@ -1926,7 +1926,7 @@
       "cost": "free",
       "recurring": true,
       "summary": "Google Cloud Next の東京版。Google Cloudの最新技術・AI・データ活用の日本向けイベント。",
-      "status": "upcoming",
+      "status": "ended",
       "id": "google-cloud-next-tokyo-jp-2026",
       "first_seen": "2026-W14",
       "last_updated": "2026-W14"
@@ -1963,7 +1963,7 @@
       "cost": "paid",
       "recurring": true,
       "summary": "データマイニング・知識発見の最高峰学会。済州島で開催、応用データサイエンスも充実。",
-      "status": "upcoming",
+      "status": "ongoing",
       "id": "kdd-apac-2026",
       "first_seen": "2026-W14",
       "last_updated": "2026-W14"
@@ -3447,7 +3447,7 @@
       "cost": "unknown",
       "recurring": true,
       "summary": "ガートナー主催の日本CIOリーダーシップフォーラム。テーマ「Leadership in Motion」。11月の横浜IT Symposiumとは別に開催される少人数制の戦略イベント。",
-      "status": "upcoming",
+      "status": "ended",
       "first_seen": "2026-W15",
       "last_updated": "2026-W15"
     },
@@ -4379,7 +4379,7 @@
       "cost": "paid",
       "recurring": true,
       "summary": "[要レビュー] 機械学習・生成AIの実務者向け国際カンファレンス。ミュンヘンのHoliday Inn Munich City Centerで開催。",
-      "status": "upcoming",
+      "status": "ended",
       "first_seen": "2026-W20",
       "last_updated": "2026-W20"
     },
@@ -4964,10 +4964,125 @@
       "cost": "paid",
       "recurring": true,
       "summary": "Apache Flinkコミュニティ最大の年次イベントFFA第9回。深圳で初開催、ストリーム処理とAI活用を議論。",
-      "status": "upcoming",
+      "status": "ended",
       "id": "flink-forward-asia-shenzhen-apac-2026",
       "first_seen": "2026-W25",
       "last_updated": "2026-W25"
+    },
+    {
+      "name": "Data Streaming Summit 2026 (San Francisco)",
+      "dates": {
+        "start": "2026-10-07",
+        "end": "2026-10-08"
+      },
+      "location": {
+        "city": "San Francisco",
+        "country": "USA",
+        "region": "North America"
+      },
+      "format": "in-person",
+      "url": "https://datastreaming-summit.org/",
+      "cfp": {
+        "deadline": "2026-06-30",
+        "url": "https://sessionize.com/data-streaming-summit-san-francisco-2026",
+        "status": "closed"
+      },
+      "categories": [
+        "データエンジニアリング"
+      ],
+      "topics": [
+        "Apache Kafka",
+        "Apache Pulsar",
+        "Apache Flink",
+        "stream processing",
+        "real-time data",
+        "AI agent infrastructure"
+      ],
+      "cost": "paid",
+      "recurring": true,
+      "summary": "StreamNative主催のストリーミング＋AIエージェント基盤カンファレンス。SFで開催。",
+      "status": "upcoming",
+      "id": "data-streaming-summit-north-america-2026",
+      "first_seen": "2026-W33",
+      "last_updated": "2026-W33"
+    },
+    {
+      "name": "Current 2026 San Francisco (Confluent)",
+      "dates": {
+        "start": "2026-11-04",
+        "end": "2026-11-05"
+      },
+      "location": {
+        "city": "San Francisco",
+        "country": "USA",
+        "region": "North America"
+      },
+      "format": "in-person",
+      "url": "https://current.confluent.io/san-francisco",
+      "cfp": {
+        "deadline": "",
+        "url": "https://current.confluent.io/",
+        "status": "closed"
+      },
+      "categories": [
+        "データエンジニアリング",
+        "データプラットフォーム",
+        "AI / 機械学習"
+      ],
+      "topics": [
+        "Apache Kafka",
+        "Apache Flink",
+        "data streaming",
+        "event-driven",
+        "real-time AI"
+      ],
+      "cost": "paid",
+      "recurring": true,
+      "summary": "Confluent旗艦カンファレンスCurrentの北米版。Moscone Westでデータストリーミング＋AIを議論。",
+      "status": "upcoming",
+      "id": "current-north-america-2026",
+      "first_seen": "2026-W33",
+      "last_updated": "2026-W33"
+    },
+    {
+      "name": "Data + AI Summit 2027 (Databricks)",
+      "dates": {
+        "start": "2027-06-21",
+        "end": "2027-06-24"
+      },
+      "location": {
+        "city": "San Francisco",
+        "country": "USA",
+        "region": "North America"
+      },
+      "format": "hybrid",
+      "url": "https://www.databricks.com/dataaisummit",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "categories": [
+        "データプラットフォーム",
+        "データエンジニアリング",
+        "AI / 機械学習"
+      ],
+      "topics": [
+        "lakehouse",
+        "Apache Spark",
+        "Delta Lake",
+        "Apache Iceberg",
+        "MLflow",
+        "dbt",
+        "Trino"
+      ],
+      "cost": "paid",
+      "recurring": true,
+      "summary": "Databricks年次カンファレンス2027年版。SFで開催、レイクハウスとAIの最新動向を発表。",
+      "status": "upcoming",
+      "id": "databricks-data-ai-summit-north-america-2027",
+      "first_seen": "2026-W33",
+      "last_updated": "2026-W33"
     }
   ]
 }
