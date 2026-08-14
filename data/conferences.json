@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-10",
+  "last_updated": "2026-08-14",
   "conferences": [
     {
       "name": "AAAI 2026 (40th AAAI Conference on Artificial Intelligence)",
@@ -1963,7 +1963,7 @@
       "cost": "paid",
       "recurring": true,
       "summary": "データマイニング・知識発見の最高峰学会。済州島で開催、応用データサイエンスも充実。",
-      "status": "ongoing",
+      "status": "ended",
       "id": "kdd-apac-2026",
       "first_seen": "2026-W14",
       "last_updated": "2026-W14"
@@ -5081,6 +5081,43 @@
       "summary": "Databricks年次カンファレンス2027年版。SFで開催、レイクハウスとAIの最新動向を発表。",
       "status": "upcoming",
       "id": "databricks-data-ai-summit-north-america-2027",
+      "first_seen": "2026-W33",
+      "last_updated": "2026-W33"
+    },
+    {
+      "name": "Data Spaces Week 2026",
+      "dates": {
+        "start": "2026-09-14",
+        "end": "2026-09-18"
+      },
+      "location": {
+        "city": "Tokyo",
+        "country": "Japan",
+        "region": "Japan"
+      },
+      "format": "hybrid",
+      "url": "https://data-spaces-week.jp/",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "categories": [
+        "Data Spaces / データ連携",
+        "データプラットフォーム",
+        "ビジネス / DX"
+      ],
+      "topics": [
+        "data spaces",
+        "IDSA",
+        "data society alliance",
+        "interoperability"
+      ],
+      "cost": "paid",
+      "recurring": true,
+      "summary": "国内開催のデータスペース関連イベント。2025年は幕張メッセで IDSA・Data Society Alliance・IEEE 等が協力し開催。2026年は9/14-18 開催予定（詳細未公開）。",
+      "status": "upcoming",
+      "id": "data-spaces-week-jp-2026",
       "first_seen": "2026-W33",
       "last_updated": "2026-W33"
     }
