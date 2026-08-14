@@ -84,7 +84,7 @@ git diff origin/main -- data/conferences.json
 | FAIL | URL無効、情報が大幅に異なる | エントリを削除 |
 | SKIP | URL到達不可（403等）かつ fetch.py でも失敗 | `[要レビュー]` タグ付きで採用 |
 
-### 5. 修正の適用
+### 5. 修正の適用 (pipeline ブランチ上で完結)
 
 FIXまたはFAILの場合、`data/conferences.json` を修正:
 
@@ -94,23 +94,28 @@ python3 -c "import json; json.load(open('data/conferences.json'))"  # JSON検証
 bash config/generate-summary.sh
 git add data/ pipeline/
 git commit -m "${WEEK} Phase2: ファクトチェック完了"
+git push origin "$BRANCH"
 ```
 
-### 6. mainへマージ
+修正が無い場合 (全 PASS) も、`pipeline/fact-check-${WEEK}.md` を書き出したら:
 
 ```bash
-git checkout main
-git pull --ff-only origin main
-git checkout "$BRANCH" -- data/ changelog/
-git add data/ changelog/
-git commit -m "${WEEK} カンファレンス情報更新（ファクトチェック済み）"
-git push origin main
+git add pipeline/
+git commit -m "${WEEK} Phase2: ファクトチェック結果 (PASS)"
+git push origin "$BRANCH"
 ```
 
-### 7. クリーンアップ（オプション）
+### 6. 完了判定の書き出し
 
-成功時はpipelineブランチを削除:
+pipeline ブランチへの push が完了したら、以下を実行してセッション終了:
 
 ```bash
-git push origin --delete "$BRANCH" || true
+echo "READY" > /tmp/conf-search-phase2-status.txt
 ```
+
+**main への cherry-pick / commit / push、pipeline ブランチ削除は本セッション外**
+(`run-phase.sh` 経由で `local-runner/scripts/phase2-finalize.sh` が実行) が担当する。
+
+Claude セッションから `main` への push は行わないこと
+(Claude Code の auto mode classifier が main 直接 push をブロックする問題への構造的対応、
+daily-curation Phase 3 と同じパターン)。
