@@ -1,5 +1,5 @@
-# Conference Summary (138 total: 47 upcoming, 0 ongoing, 91 ended)
-# Generated: 2026-08-14
+# Conference Summary (139 total: 47 upcoming, 1 ongoing, 91 ended)
+# Generated: 2026-08-17
 # Format: id | name | start~end | region | status | categories
 
 aaai-apac-2026 | AAAI 2026 (40th AAAI Conference on Artificial Intelligence) | 2026-01-20~2026-01-27 | Asia-Pacific | ended | AI / 機械学習
@@ -93,7 +93,7 @@ privacy-enhancing-technologies-symposium-north-america-2026 | Privacy Enhancing 
 kubecon-cloudnativecon-japan-jp-2026 | KubeCon + CloudNativeCon Japan 2026 | 2026-07-29~2026-07-30 | Japan | ended | クラウド / インフラ
 google-cloud-next-tokyo-jp-2026 | Google Cloud Next Tokyo 2026 | 2026-07-30~2026-07-31 | Japan | ended | クラウド / インフラ, データプラットフォーム, AI / 機械学習
 kdd-apac-2026 | KDD 2026 (ACM SIGKDD Conference on Knowledge Discovery and Data Mining) | 2026-08-09~2026-08-13 | Asia-Pacific | ended | AI / 機械学習, データインテリジェンス
-ijcai-ecai-eu-2026 | IJCAI-ECAI 2026 (International Joint Conference on Artificial Intelligence) | 2026-08-15~2026-08-21 | Europe | upcoming | AI / 機械学習
+ijcai-ecai-eu-2026 | IJCAI-ECAI 2026 (International Joint Conference on Artificial Intelligence) | 2026-08-15~2026-08-21 | Europe | ongoing | AI / 機械学習
 vldb-north-america-2026 | VLDB 2026 (52nd International Conference on Very Large Data Bases) | 2026-08-31~2026-09-04 | North America | upcoming | データエンジニアリング, データインテリジェンス
 kubecon-cloudnativecon-openinfra-summit-china-apac-2026 | KubeCon + CloudNativeCon + OpenInfra Summit China 2026 | 2026-09-08~2026-09-09 | Asia-Pacific | upcoming | クラウド / インフラ
 eccv-eu-2026 | ECCV 2026 (19th European Conference on Computer Vision) | 2026-09-08~2026-09-13 | Europe | upcoming | AI / 機械学習
@@ -139,4 +139,5 @@ open-source-summit-japan-jp-2026 | Open Source Summit Japan 2026 | 2026-12-07~20
 kubecon-cloudnativecon-europe-eu-2027 | KubeCon + CloudNativeCon Europe 2027 | 2027-03-15~2027-03-18 | Europe | upcoming | クラウド / インフラ
 aim-orlando-north-america-2027 | AIM 2027 (4th International Conference on Artificial Intelligence and Machine Learning) | 2027-04-26~2027-04-28 | North America | upcoming | AI / 機械学習
 databricks-data-ai-summit-north-america-2027 | Data + AI Summit 2027 (Databricks) | 2027-06-21~2027-06-24 | North America | upcoming | データプラットフォーム, データエンジニアリング, AI / 機械学習
+privacy-enhancing-technologies-symposium-eu-2027 | PETS 2027 (27th Privacy Enhancing Technologies Symposium) | 2027-07-19~2027-07-24 | Europe | upcoming | PETs
 kubecon-cloudnativecon-north-america-north-america-2027 | KubeCon + CloudNativeCon North America 2027 | 2027-11-08~2027-11-11 | North America | upcoming | クラウド / インフラ

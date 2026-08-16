@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-14",
+  "last_updated": "2026-08-17",
   "conferences": [
     {
       "name": "AAAI 2026 (40th AAAI Conference on Artificial Intelligence)",
@@ -2000,7 +2000,7 @@
       "cost": "paid",
       "recurring": true,
       "summary": "AI分野最大の国際会議IJCAIとECAIの合同開催。3500名以上のAI研究者が集結。",
-      "status": "upcoming",
+      "status": "ongoing",
       "id": "ijcai-ecai-eu-2026",
       "first_seen": "2026-W14",
       "last_updated": "2026-W14"
@@ -5120,6 +5120,41 @@
       "id": "data-spaces-week-jp-2026",
       "first_seen": "2026-W33",
       "last_updated": "2026-W33"
+    },
+    {
+      "name": "PETS 2027 (27th Privacy Enhancing Technologies Symposium)",
+      "dates": {
+        "start": "2027-07-19",
+        "end": "2027-07-24"
+      },
+      "location": {
+        "city": "Delft",
+        "country": "Netherlands",
+        "region": "Europe"
+      },
+      "format": "in-person",
+      "url": "https://petsymposium.org/",
+      "cfp": {
+        "deadline": "2026-08-31",
+        "url": "https://petsymposium.org/cfp27.php",
+        "status": "open"
+      },
+      "categories": [
+        "PETs"
+      ],
+      "topics": [
+        "differential privacy",
+        "anonymous communication",
+        "privacy research",
+        "secure computation"
+      ],
+      "cost": "paid",
+      "recurring": true,
+      "summary": "プライバシー強化技術の主要国際シンポジウム第27回。オランダ・デルフト工科大学サイバーセキュリティグループが主催。",
+      "status": "upcoming",
+      "id": "privacy-enhancing-technologies-symposium-eu-2027",
+      "first_seen": "2026-W34",
+      "last_updated": "2026-W34"
     }
   ]
 }
