@@ -1,5 +1,5 @@
-# Conference Summary (139 total: 47 upcoming, 1 ongoing, 91 ended)
-# Generated: 2026-08-17
+# Conference Summary (214 total: 122 upcoming, 1 ongoing, 91 ended)
+# Generated: 2026-08-21
 # Format: id | name | start~end | region | status | categories
 
 aaai-apac-2026 | AAAI 2026 (40th AAAI Conference on Artificial Intelligence) | 2026-01-20~2026-01-27 | Asia-Pacific | ended | AI / 機械学習
@@ -136,8 +136,83 @@ aws-reinvent-north-america-2026 | AWS re:Invent 2026 | 2026-11-30~2026-12-04 | N
 gartner-infra-cloud-jp-2026 | ガートナー ITインフラストラクチャ、オペレーション & クラウド戦略コンファレンス 2026 | 2026-12-01~2026-12-03 | Japan | upcoming | クラウド / インフラ, ビジネス / DX
 neurips-apac-2026 | NeurIPS 2026 (40th Conference on Neural Information Processing Systems) | 2026-12-06~2026-12-12 | Asia-Pacific | upcoming | AI / 機械学習
 open-source-summit-japan-jp-2026 | Open Source Summit Japan 2026 | 2026-12-07~2026-12-09 | Japan | upcoming | クラウド / インフラ, データエンジニアリング
+ces-north-america-2027 | CES 2027 | 2027-01-06~2027-01-09 | North America | upcoming | ビジネス / DX
+wef-davos-eu-2027 | World Economic Forum Annual Meeting 2027 (Davos) | 2027-01-18~2027-01-22 | Europe | upcoming | ビジネス / DX
+cidr-eu-2027 | CIDR 2027 (Conference on Innovative Data Systems Research) | 2027-01-24~2027-01-27 | Europe | upcoming | データプラットフォーム, データエンジニアリング
+web-summit-qatar-apac-2027 | Web Summit Qatar 2027 | 2027-01-31~2027-02-03 | Asia-Pacific | upcoming | ビジネス / DX
+ai-big-data-expo-global-eu-2027 | AI & Big Data Expo Global 2027 | 2027-02-03~2027-02-04 | Europe | upcoming | AI / 機械学習, データインテリジェンス
+cyber-security-cloud-expo-global-eu-2027 | Cyber Security & Cloud Expo Global 2027 | 2027-02-03~2027-02-04 | Europe | upcoming | クラウド / インフラ
+cisco-live-emea-eu-2027 | Cisco Live EMEA 2027 | 2027-02-08~2027-02-12 | Europe | upcoming | クラウド / インフラ
+wsdm-apac-2027 | WSDM 2027 (20th ACM International Conference on Web Search and Data Mining) | 2027-02-15~2027-02-19 | Asia-Pacific | upcoming | AI / 機械学習, データインテリジェンス
+aaai-north-america-2027 | AAAI-27 (41st AAAI Conference on Artificial Intelligence) | 2027-02-16~2027-02-23 | North America | upcoming | AI / 機械学習
+sre-kaigi-jp-2027 | SRE Kaigi 2027 | 2027-02-20~2027-02-20 | Japan | upcoming | クラウド / インフラ
+gartner-cio-lf-phoenix-north-america-2027 | Gartner CIO Leadership Forum 2027 Phoenix | 2027-02-22~2027-02-23 | North America | upcoming | ビジネス / DX
+platformcon-live-day-sf-north-america-2027 | PlatformCon 2027 Live Day San Francisco | 2027-02-24~2027-02-24 | North America | upcoming | クラウド / インフラ
+cdao-financial-services-north-america-2027 | CDAO Financial Services 2027 | 2027-03-01~2027-03-02 | North America | upcoming | データインテリジェンス, AI / 機械学習
+gartner-cio-lf-vienna-eu-2027 | Gartner CIO Leadership Forum 2027 Vienna | 2027-03-02~2027-03-03 | Europe | upcoming | ビジネス / DX
+fabcon-north-america-2027 | Microsoft Fabric Community Conference 2027 (FabCon & SQLCon) | 2027-03-08~2027-03-12 | North America | upcoming | データプラットフォーム, データエンジニアリング
+cpdp-eu-2027 | CPDP 2027 (Computers, Privacy and Data Protection) - 20th Anniversary | 2027-03-08~2027-03-11 | Europe | upcoming | PETs, ビジネス / DX
+gartner-data-analytics-summit-us-north-america-2027 | Gartner Data & Analytics Summit US 2027 (Orlando) | 2027-03-08~2027-03-10 | North America | upcoming | データインテリジェンス, データプラットフォーム, ビジネス / DX
+eacl-eu-2027 | EACL 2027 (20th Conference of the European Chapter of the ACL) | 2027-03-09~2027-03-14 | Europe | upcoming | AI / 機械学習
+big-data-ai-world-london-eu-2027 | Big Data & AI World London 2027 | 2027-03-10~2027-03-11 | Europe | upcoming | データインテリジェンス, AI / 機械学習
+cloud-ai-infrastructure-london-eu-2027 | Cloud & AI Infrastructure London 2027 | 2027-03-10~2027-03-11 | Europe | upcoming | クラウド / インフラ, AI / 機械学習
 kubecon-cloudnativecon-europe-eu-2027 | KubeCon + CloudNativeCon Europe 2027 | 2027-03-15~2027-03-18 | Europe | upcoming | クラウド / インフラ
+nlp-jp-2027 | 言語処理学会第33回年次大会 (NLP2027) | 2027-03-15~2027-03-19 | Japan | upcoming | AI / 機械学習
+nvidia-gtc-north-america-2027 | NVIDIA GTC 2027 | 2027-03-15~2027-03-18 | North America | upcoming | AI / 機械学習
+sxsw-north-america-2027 | SXSW 2027 (South by Southwest) | 2027-03-15~2027-03-21 | North America | upcoming | ビジネス / DX
+gartner-cio-lf-london-eu-2027 | Gartner CIO Leadership Forum 2027 London | 2027-03-15~2027-03-16 | Europe | upcoming | ビジネス / DX
+iapp-global-summit-north-america-2027 | IAPP Global Summit 2027 (Privacy | AI Governance | Cybersecurity Law) | 2027-03-21~2027-03-24 | North America | upcoming | PETs, ビジネス / DX
+ndss-symposium-apac-2027 | NDSS Symposium 2027 (Network and Distributed System Security) | 2027-03-22~2027-03-26 | Asia-Pacific | upcoming | PETs
+gartner-cio-lf-hollywood-north-america-2027 | Gartner CIO Leadership Forum 2027 Hollywood, FL | 2027-03-22~2027-03-23 | North America | upcoming | ビジネス / DX
+aws-summit-london-eu-2027 | AWS Summit London 2027 | 2027-04-01~2027-04-01 | Europe | upcoming | クラウド / インフラ
+aws-summit-paris-eu-2027 | AWS Summit Paris 2027 | 2027-04-01~2027-04-01 | Europe | upcoming | クラウド / インフラ
+fheorg-conference-north-america-2027 | FHE.org Conference 2027 (6th Annual) | 2027-04-04~2027-04-04 | North America | upcoming | PETs
+hannover-messe-industrial-data-spaces-eu-2027 | Hannover Messe 2027 - Industrial Data Spaces | 2027-04-05~2027-04-08 | Europe | upcoming | Data Spaces / データ連携, データプラットフォーム
+rwc-north-america-2027 | Real World Crypto Symposium (RWC) 2027 | 2027-04-05~2027-04-07 | North America | upcoming | PETs
+rsa-conference-north-america-2027 | RSA Conference 2027 | 2027-04-05~2027-04-08 | North America | upcoming | ビジネス / DX, PETs
+edbt-icdt-eu-2027 | EDBT/ICDT 2027 Joint Conference | 2027-04-06~2027-04-09 | Europe | upcoming | データエンジニアリング, データプラットフォーム
+japan-dx-week-spring-jp-2027 | Japan DX Week 春 2027 (Japan IT Week / DX Week Spring) | 2027-04-07~2027-04-09 | Japan | upcoming | ビジネス / DX
+google-cloud-next-north-america-2027 | Google Cloud Next 2027 | 2027-04-13~2027-04-15 | North America | upcoming | AI / 機械学習, データインテリジェンス
+qcon-london-eu-2027 | QCon London 2027 | 2027-04-13~2027-04-15 | Europe | upcoming | クラウド / インフラ, データエンジニアリング
+nextech-week-spring-jp-2027 | NexTech Week 2027 春 | 2027-04-21~2027-04-23 | Japan | upcoming | ビジネス / DX
 aim-orlando-north-america-2027 | AIM 2027 (4th International Conference on Artificial Intelligence and Machine Learning) | 2027-04-26~2027-04-28 | North America | upcoming | AI / 機械学習
+iclr-north-america-2027 | ICLR 2027 (15th International Conference on Learning Representations) | 2027-04-26~2027-04-30 | North America | upcoming | AI / 機械学習
+money2020-asia-apac-2027 | Money20/20 Asia 2027 | 2027-04-27~2027-04-29 | Asia-Pacific | upcoming | ビジネス / DX
+aamas-apac-2027 | AAMAS 2027 (26th International Conference on Autonomous Agents and Multiagent Systems) | 2027-05-03~2027-05-07 | Asia-Pacific | upcoming | AI / 機械学習
+coling-apac-2027 | COLING 2027 (32nd International Conference on Computational Linguistics) | 2027-05-09~2027-05-14 | Asia-Pacific | upcoming | AI / 機械学習
+www-eu-2027 | ACM Web Conference 2027 (WWW 2027) | 2027-05-10~2027-05-14 | Europe | upcoming | AI / 機械学習, データインテリジェンス
+odsc-east-north-america-2027 | ODSC AI East 2027 | 2027-05-10~2027-05-12 | North America | upcoming | AI / 機械学習, データインテリジェンス
+gartner-da-summit-london-eu-2027 | Gartner Data & Analytics Summit London 2027 (EMEA) | 2027-05-10~2027-05-12 | Europe | upcoming | データインテリジェンス, データプラットフォーム, ビジネス / DX
+data-summit-north-america-2027 | Data Summit 2027 | 2027-05-12~2027-05-13 | North America | upcoming | データインテリジェンス, AI / 機械学習
+icde-eu-2027 | ICDE 2027 (43rd IEEE International Conference on Data Engineering) | 2027-05-17~2027-05-21 | Europe | upcoming | データインテリジェンス
+open-source-summit-north-america-2027 | Open Source Summit North America 2027 | 2027-05-17~2027-05-19 | North America | upcoming | クラウド / インフラ, データエンジニアリング
+gartner-cio-lf-sydney-apac-2027 | Gartner CIO Leadership Forum 2027 Sydney | 2027-05-17~2027-05-18 | Asia-Pacific | upcoming | ビジネス / DX
+gartner-data-analytics-summit-tokyo-jp-2027 | Gartner Data & Analytics Summit Tokyo 2027 | 2027-05-18~2027-05-20 | Japan | upcoming | データインテリジェンス, AI / 機械学習
+data-innovation-summit-eu-2027 | Data Innovation Summit 2027 (Nordics) | 2027-05-18~2027-05-20 | Europe | upcoming | データインテリジェンス, AI / 機械学習
+cloud-ai-infrastructure-frankfurt-eu-2027 | Cloud & AI Infrastructure Frankfurt 2027 | 2027-05-19~2027-05-20 | Europe | upcoming | クラウド / インフラ, AI / 機械学習
+red-hat-summit-north-america-2027 | Red Hat Summit 2027 | 2027-05-25~2027-05-27 | North America | upcoming | クラウド / インフラ
+iapp-canada-symposium-north-america-2027 | IAPP Canada Symposium 2027 | 2027-05-25~2027-05-28 | North America | upcoming | PETs, ビジネス / DX
+naacl-north-america-2027 | NAACL 2027 (Annual Conference of the Nations of the Americas Chapter of the ACL) | 2027-06-01~2027-06-05 | North America | upcoming | AI / 機械学習
+cisco-live-us-north-america-2027 | Cisco Live US 2027 | 2027-06-06~2027-06-10 | North America | upcoming | クラウド / インフラ
+gartner-da-summit-sydney-apac-2027 | Gartner Data & Analytics Summit Sydney 2027 | 2027-06-07~2027-06-08 | Asia-Pacific | upcoming | データインテリジェンス, AI / 機械学習
+snowflake-summit-north-america-2027 | Snowflake Summit 2027 | 2027-06-07~2027-06-10 | North America | upcoming | データプラットフォーム, データインテリジェンス, AI / 機械学習
+infosecurity-europe-eu-2027 | Infosecurity Europe 2027 | 2027-06-08~2027-06-10 | Europe | upcoming | クラウド / インフラ
+money2020-europe-eu-2027 | Money20/20 Europe 2027 | 2027-06-08~2027-06-10 | Europe | upcoming | ビジネス / DX
+sigmod-pods-north-america-2027 | SIGMOD/PODS 2027 (ACM Conference on Management of Data) | 2027-06-13~2027-06-19 | North America | upcoming | データインテリジェンス, データエンジニアリング, データプラットフォーム
+ai-big-data-expo-north-america-2027 | AI & Big Data Expo North America 2027 | 2027-06-16~2027-06-17 | North America | upcoming | データプラットフォーム, データエンジニアリング
+cvpr-north-america-2027 | CVPR 2027 (IEEE/CVF Conference on Computer Vision and Pattern Recognition) | 2027-06-20~2027-06-24 | North America | upcoming | AI / 機械学習
 databricks-data-ai-summit-north-america-2027 | Data + AI Summit 2027 (Databricks) | 2027-06-21~2027-06-24 | North America | upcoming | データプラットフォーム, データエンジニアリング, AI / 機械学習
+platformcon-live-day-london-eu-2027 | PlatformCon 2027 Live Day London | 2027-06-22~2027-06-22 | Europe | upcoming | クラウド / インフラ
+platformcon-live-day-nyc-north-america-2027 | PlatformCon 2027 Live Day New York | 2027-06-24~2027-06-24 | North America | upcoming | クラウド / インフラ
+gartner-cio-lf-tokyo-jp-2027 | Gartner CIO Leadership Forum 2027 Tokyo | 2027-07-07~2027-07-08 | Japan | upcoming | ビジネス / DX
+asiaccs-apac-2027 | ACM AsiaCCS 2027 (22nd ACM Asia Conference on Computer and Communications Security) | 2027-07-12~2027-07-16 | Asia-Pacific | upcoming | PETs
 privacy-enhancing-technologies-symposium-eu-2027 | PETS 2027 (27th Privacy Enhancing Technologies Symposium) | 2027-07-19~2027-07-24 | Europe | upcoming | PETs
+usenix-security-north-america-2027 | USENIX Security Symposium 2027 (36th) | 2027-08-11~2027-08-13 | North America | upcoming | PETs
+acl-jp-2027 | ACL 2027 (65th Annual Meeting of the Association for Computational Linguistics) | 2027-08-17~2027-08-22 | Japan | upcoming | AI / 機械学習
+vldb-eu-2027 | VLDB 2027 (53rd International Conference on Very Large Data Bases) | 2027-08-23~2027-08-27 | Europe | upcoming | データエンジニアリング, データプラットフォーム
+iapp-psr-aigg-north-america-2027 | IAPP Privacy. Security. Risk. + AI Governance Global 2027 | 2027-09-14~2027-09-17 | North America | upcoming | PETs, ビジネス / DX
+open-source-summit-europe-eu-2027 | Open Source Summit Europe 2027 | 2027-09-20~2027-09-22 | Europe | upcoming | クラウド / インフラ, データエンジニアリング
+iccv-apac-2027 | ICCV 2027 (IEEE/CVF International Conference on Computer Vision) | 2027-10-02~2027-10-08 | Asia-Pacific | upcoming | AI / 機械学習
+money2020-usa-north-america-2027 | Money20/20 USA 2027 | 2027-10-19~2027-10-21 | North America | upcoming | ビジネス / DX
 kubecon-cloudnativecon-north-america-north-america-2027 | KubeCon + CloudNativeCon North America 2027 | 2027-11-08~2027-11-11 | North America | upcoming | クラウド / インフラ
+gartner-it-symposium-barcelona-eu-2027 | Gartner IT Symposium/Xpo 2027 Barcelona (EMEA) | 2027-11-08~2027-11-11 | Europe | upcoming | ビジネス / DX
