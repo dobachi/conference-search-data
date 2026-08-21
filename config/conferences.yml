@@ -122,8 +122,11 @@ regions:
 
 # 検索設定
 search:
-  target_year: 2026
-  time_horizon: "12 months"
+  # 検索対象は「今年 + 来年」の 2 年分を必ずカバーする。
+  # ハードコードせず、Phase 1 プロンプト側で date コマンドから動的に導出する。
+  # (以前は target_year: 2026 と固定していたため、翌年度カンファレンスが取れていなかった)
+  target_years: "current_year, next_year"
+  time_horizon: "18 months"
   update_frequency: "weekly"
   languages:
     - "en"

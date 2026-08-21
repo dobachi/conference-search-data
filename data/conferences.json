@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-17",
+  "last_updated": "2026-08-21",
   "conferences": [
     {
       "name": "AAAI 2026 (40th AAAI Conference on Artificial Intelligence)",
@@ -5153,6 +5153,2681 @@
       "summary": "プライバシー強化技術の主要国際シンポジウム第27回。オランダ・デルフト工科大学サイバーセキュリティグループが主催。",
       "status": "upcoming",
       "id": "privacy-enhancing-technologies-symposium-eu-2027",
+      "first_seen": "2026-W34",
+      "last_updated": "2026-W34"
+    },
+    {
+      "id": "aaai-north-america-2027",
+      "name": "AAAI-27 (41st AAAI Conference on Artificial Intelligence)",
+      "dates": {
+        "start": "2027-02-16",
+        "end": "2027-02-23"
+      },
+      "location": {
+        "city": "Montreal",
+        "country": "Canada",
+        "region": "North America"
+      },
+      "format": "in-person",
+      "url": "https://aaai.org/conference/aaai/aaai-27/",
+      "cfp": {
+        "deadline": "",
+        "url": "https://aaai.org/conference/aaai/aaai-27/main-technical-track-call/",
+        "status": "closed"
+      },
+      "categories": [
+        "AI / 機械学習"
+      ],
+      "topics": [
+        "ai",
+        "ml",
+        "reasoning",
+        "planning",
+        "nlp",
+        "cv"
+      ],
+      "cost": "unknown",
+      "recurring": true,
+      "summary": "AAAI 主催のAI分野最高峰の国際会議。基盤モデル・推論・エージェント等の最先端研究が集う。",
+      "status": "upcoming",
+      "first_seen": "2026-W34",
+      "last_updated": "2026-W34"
+    },
+    {
+      "id": "wsdm-apac-2027",
+      "name": "WSDM 2027 (20th ACM International Conference on Web Search and Data Mining)",
+      "dates": {
+        "start": "2027-02-15",
+        "end": "2027-02-19"
+      },
+      "location": {
+        "city": "Hong Kong",
+        "country": "China",
+        "region": "Asia-Pacific"
+      },
+      "format": "in-person",
+      "url": "https://www.wsdm-conference.org/2027/",
+      "cfp": {
+        "deadline": "2026-08-24",
+        "url": "https://www.wsdm-conference.org/2027/",
+        "status": "closed"
+      },
+      "categories": [
+        "AI / 機械学習",
+        "データインテリジェンス"
+      ],
+      "topics": [
+        "web-search",
+        "data-mining",
+        "recommender",
+        "information-retrieval"
+      ],
+      "cost": "unknown",
+      "recurring": true,
+      "summary": "Web検索とデータマイニングを扱う主要国際会議。20回目の節目を香港で開催。",
+      "status": "upcoming",
+      "first_seen": "2026-W34",
+      "last_updated": "2026-W34"
+    },
+    {
+      "id": "ai-big-data-expo-global-eu-2027",
+      "name": "AI & Big Data Expo Global 2027",
+      "dates": {
+        "start": "2027-02-03",
+        "end": "2027-02-04"
+      },
+      "location": {
+        "city": "London",
+        "country": "United Kingdom",
+        "region": "Europe"
+      },
+      "format": "in-person",
+      "url": "https://www.ai-expo.net/global/",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "categories": [
+        "AI / 機械学習",
+        "データインテリジェンス"
+      ],
+      "topics": [
+        "ai",
+        "big-data",
+        "enterprise-ai",
+        "genai"
+      ],
+      "cost": "unknown",
+      "recurring": true,
+      "summary": "エンタープライズAI・ビッグデータの大規模展示会。ロンドンOlympiaに9000名超が集う。",
+      "status": "upcoming",
+      "first_seen": "2026-W34",
+      "last_updated": "2026-W34"
+    },
+    {
+      "id": "cdao-financial-services-north-america-2027",
+      "name": "CDAO Financial Services 2027",
+      "dates": {
+        "start": "2027-03-01",
+        "end": "2027-03-02"
+      },
+      "location": {
+        "city": "New York",
+        "country": "United States",
+        "region": "North America"
+      },
+      "format": "in-person",
+      "url": "https://cdaofs.coriniumintelligence.com/",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "categories": [
+        "データインテリジェンス",
+        "AI / 機械学習"
+      ],
+      "topics": [
+        "cdao",
+        "data-analytics",
+        "financial-services",
+        "ai-governance"
+      ],
+      "cost": "unknown",
+      "recurring": true,
+      "summary": "金融業界のCDO・アナリティクス責任者向けサミット。データ戦略・AI活用の事例が集まる。",
+      "status": "upcoming",
+      "first_seen": "2026-W34",
+      "last_updated": "2026-W34"
+    },
+    {
+      "id": "eacl-eu-2027",
+      "name": "EACL 2027 (20th Conference of the European Chapter of the ACL)",
+      "dates": {
+        "start": "2027-03-09",
+        "end": "2027-03-14"
+      },
+      "location": {
+        "city": "Athens",
+        "country": "Greece",
+        "region": "Europe"
+      },
+      "format": "in-person",
+      "url": "https://2027.eacl.org/",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "categories": [
+        "AI / 機械学習"
+      ],
+      "topics": [
+        "nlp",
+        "computational-linguistics",
+        "llm"
+      ],
+      "cost": "unknown",
+      "recurring": true,
+      "summary": "ACL欧州支部の主要NLP会議。基盤モデル時代の自然言語処理研究がアテネに集う。",
+      "status": "upcoming",
+      "first_seen": "2026-W34",
+      "last_updated": "2026-W34"
+    },
+    {
+      "id": "big-data-ai-world-london-eu-2027",
+      "name": "Big Data & AI World London 2027",
+      "dates": {
+        "start": "2027-03-10",
+        "end": "2027-03-11"
+      },
+      "location": {
+        "city": "London",
+        "country": "United Kingdom",
+        "region": "Europe"
+      },
+      "format": "in-person",
+      "url": "https://www.techshowlondon.co.uk/big-data-ai-world",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "categories": [
+        "データインテリジェンス",
+        "AI / 機械学習"
+      ],
+      "topics": [
+        "data-strategy",
+        "ai",
+        "analytics",
+        "data-governance"
+      ],
+      "cost": "unknown",
+      "recurring": true,
+      "summary": "英国最大級のデータ＆AIイベント。Tech Show London併催でExCeL Londonにて開催。",
+      "status": "upcoming",
+      "first_seen": "2026-W34",
+      "last_updated": "2026-W34"
+    },
+    {
+      "id": "nlp-jp-2027",
+      "name": "言語処理学会第33回年次大会 (NLP2027)",
+      "dates": {
+        "start": "2027-03-15",
+        "end": "2027-03-19"
+      },
+      "location": {
+        "city": "Fukuoka",
+        "country": "Japan",
+        "region": "Japan"
+      },
+      "format": "hybrid",
+      "url": "https://www.anlp.jp/guide/nenji.html",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "categories": [
+        "AI / 機械学習"
+      ],
+      "topics": [
+        "nlp",
+        "llm",
+        "japanese-nlp"
+      ],
+      "cost": "unknown",
+      "recurring": true,
+      "summary": "日本の自然言語処理研究の年次大会。福岡国際会議場でハイブリッド開催、LLM研究が中核。",
+      "status": "upcoming",
+      "first_seen": "2026-W34",
+      "last_updated": "2026-W34"
+    },
+    {
+      "id": "nvidia-gtc-north-america-2027",
+      "name": "NVIDIA GTC 2027",
+      "dates": {
+        "start": "2027-03-15",
+        "end": "2027-03-18"
+      },
+      "location": {
+        "city": "San Jose",
+        "country": "United States",
+        "region": "North America"
+      },
+      "format": "hybrid",
+      "url": "https://www.nvidia.com/en-us/gtc/",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "categories": [
+        "AI / 機械学習"
+      ],
+      "topics": [
+        "gpu",
+        "ai-infrastructure",
+        "genai",
+        "robotics"
+      ],
+      "cost": "unknown",
+      "recurring": true,
+      "summary": "NVIDIA主催のAIコンピューティング旗艦イベント。生成AI・GPU基盤・ロボティクスの最新技術が集う。",
+      "status": "upcoming",
+      "first_seen": "2026-W34",
+      "last_updated": "2026-W34"
+    },
+    {
+      "id": "google-cloud-next-north-america-2027",
+      "name": "Google Cloud Next 2027",
+      "dates": {
+        "start": "2027-04-13",
+        "end": "2027-04-15"
+      },
+      "location": {
+        "city": "Las Vegas",
+        "country": "United States",
+        "region": "North America"
+      },
+      "format": "in-person",
+      "url": "https://cloud.withgoogle.com/next",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "categories": [
+        "AI / 機械学習",
+        "データインテリジェンス"
+      ],
+      "topics": [
+        "cloud",
+        "gemini",
+        "vertex-ai",
+        "bigquery"
+      ],
+      "cost": "unknown",
+      "recurring": true,
+      "summary": "Google Cloud年次カンファレンス。Gemini・Vertex AI・BigQuery等のAI/データ戦略が発表される。",
+      "status": "upcoming",
+      "first_seen": "2026-W34",
+      "last_updated": "2026-W34"
+    },
+    {
+      "id": "iclr-north-america-2027",
+      "name": "ICLR 2027 (15th International Conference on Learning Representations)",
+      "dates": {
+        "start": "2027-04-26",
+        "end": "2027-04-30"
+      },
+      "location": {
+        "city": "San Francisco",
+        "country": "United States",
+        "region": "North America"
+      },
+      "format": "in-person",
+      "url": "https://iclr.cc/",
+      "cfp": {
+        "deadline": "2026-09-30",
+        "url": "https://iclr.cc/",
+        "status": "closed"
+      },
+      "categories": [
+        "AI / 機械学習"
+      ],
+      "topics": [
+        "deep-learning",
+        "representation-learning",
+        "llm",
+        "generative-models"
+      ],
+      "cost": "unknown",
+      "recurring": true,
+      "summary": "深層学習・表現学習の最先端を扱うトップ会議。第15回はサンフランシスコのMoscone Centerで開催。",
+      "status": "upcoming",
+      "first_seen": "2026-W34",
+      "last_updated": "2026-W34"
+    },
+    {
+      "id": "aamas-apac-2027",
+      "name": "AAMAS 2027 (26th International Conference on Autonomous Agents and Multiagent Systems)",
+      "dates": {
+        "start": "2027-05-03",
+        "end": "2027-05-07"
+      },
+      "location": {
+        "city": "Hanoi",
+        "country": "Vietnam",
+        "region": "Asia-Pacific"
+      },
+      "format": "in-person",
+      "url": "https://warwick.ac.uk/fac/sci/dcs/aamas2027/",
+      "cfp": {
+        "deadline": "2026-10-08",
+        "url": "https://warwick.ac.uk/fac/sci/dcs/aamas2027/",
+        "status": "open"
+      },
+      "categories": [
+        "AI / 機械学習"
+      ],
+      "topics": [
+        "multi-agent",
+        "autonomous-agents",
+        "reinforcement-learning",
+        "agentic-ai"
+      ],
+      "cost": "unknown",
+      "recurring": true,
+      "summary": "自律エージェント・マルチエージェント系のトップ会議。エージェンティックAI時代の中核研究フォーラム。",
+      "status": "upcoming",
+      "first_seen": "2026-W34",
+      "last_updated": "2026-W34"
+    },
+    {
+      "id": "coling-apac-2027",
+      "name": "COLING 2027 (32nd International Conference on Computational Linguistics)",
+      "dates": {
+        "start": "2027-05-09",
+        "end": "2027-05-14"
+      },
+      "location": {
+        "city": "Macau",
+        "country": "China",
+        "region": "Asia-Pacific"
+      },
+      "format": "in-person",
+      "url": "https://2027.coling-iccl.org/",
+      "cfp": {
+        "deadline": "2026-10-12",
+        "url": "https://2027.coling-iccl.org/",
+        "status": "open"
+      },
+      "categories": [
+        "AI / 機械学習"
+      ],
+      "topics": [
+        "nlp",
+        "computational-linguistics",
+        "llm"
+      ],
+      "cost": "unknown",
+      "recurring": true,
+      "summary": "計算言語学の伝統的国際会議。32回目はマカオで開催、ARR経由で査読。",
+      "status": "upcoming",
+      "first_seen": "2026-W34",
+      "last_updated": "2026-W34"
+    },
+    {
+      "id": "www-eu-2027",
+      "name": "ACM Web Conference 2027 (WWW 2027)",
+      "dates": {
+        "start": "2027-05-10",
+        "end": "2027-05-14"
+      },
+      "location": {
+        "city": "Dublin",
+        "country": "Ireland",
+        "region": "Europe"
+      },
+      "format": "in-person",
+      "url": "https://acmweb2027.org/",
+      "cfp": {
+        "deadline": "",
+        "url": "https://acmweb2027.org/",
+        "status": "not-announced"
+      },
+      "categories": [
+        "AI / 機械学習",
+        "データインテリジェンス"
+      ],
+      "topics": [
+        "web",
+        "search",
+        "recommender",
+        "web-mining",
+        "llm"
+      ],
+      "cost": "unknown",
+      "recurring": true,
+      "summary": "Web技術・検索・データマイニング・ソーシャルネットの旗艦国際会議。ダブリンで開催。",
+      "status": "upcoming",
+      "first_seen": "2026-W34",
+      "last_updated": "2026-W34"
+    },
+    {
+      "id": "odsc-east-north-america-2027",
+      "name": "ODSC AI East 2027",
+      "dates": {
+        "start": "2027-05-10",
+        "end": "2027-05-12"
+      },
+      "location": {
+        "city": "Boston",
+        "country": "United States",
+        "region": "North America"
+      },
+      "format": "hybrid",
+      "url": "https://odsc.ai/east/",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "categories": [
+        "AI / 機械学習",
+        "データインテリジェンス"
+      ],
+      "topics": [
+        "ai",
+        "data-science",
+        "ml",
+        "llm",
+        "genai"
+      ],
+      "cost": "unknown",
+      "recurring": true,
+      "summary": "北米最大級のデータサイエンス実務者カンファレンス。3500名超のAI/DS専門家がボストンに集う。",
+      "status": "upcoming",
+      "first_seen": "2026-W34",
+      "last_updated": "2026-W34"
+    },
+    {
+      "id": "data-summit-north-america-2027",
+      "name": "Data Summit 2027",
+      "dates": {
+        "start": "2027-05-12",
+        "end": "2027-05-13"
+      },
+      "location": {
+        "city": "Boston",
+        "country": "United States",
+        "region": "North America"
+      },
+      "format": "in-person",
+      "url": "https://www.dbta.com/datasummit/",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "categories": [
+        "データインテリジェンス",
+        "AI / 機械学習"
+      ],
+      "topics": [
+        "data-management",
+        "analytics",
+        "ai",
+        "data-architecture"
+      ],
+      "cost": "unknown",
+      "recurring": true,
+      "summary": "DBTA主催のデータ管理・分析・AI実務者向けカンファレンス。Hyatt Regency Bostonで開催。",
+      "status": "upcoming",
+      "first_seen": "2026-W34",
+      "last_updated": "2026-W34"
+    },
+    {
+      "id": "icde-eu-2027",
+      "name": "ICDE 2027 (43rd IEEE International Conference on Data Engineering)",
+      "dates": {
+        "start": "2027-05-17",
+        "end": "2027-05-21"
+      },
+      "location": {
+        "city": "Copenhagen",
+        "country": "Denmark",
+        "region": "Europe"
+      },
+      "format": "in-person",
+      "url": "https://icde2027.github.io/",
+      "cfp": {
+        "deadline": "2026-11-11",
+        "url": "https://icde2027.github.io/",
+        "status": "open"
+      },
+      "categories": [
+        "データインテリジェンス"
+      ],
+      "topics": [
+        "databases",
+        "data-engineering",
+        "data-systems"
+      ],
+      "cost": "unknown",
+      "recurring": true,
+      "summary": "IEEE主催のデータ工学トップ会議。データベース・データシステム研究の最先端がコペンハーゲンに。",
+      "status": "upcoming",
+      "first_seen": "2026-W34",
+      "last_updated": "2026-W34"
+    },
+    {
+      "id": "gartner-data-analytics-summit-tokyo-jp-2027",
+      "name": "Gartner Data & Analytics Summit Tokyo 2027",
+      "dates": {
+        "start": "2027-05-18",
+        "end": "2027-05-20"
+      },
+      "location": {
+        "city": "Tokyo",
+        "country": "Japan",
+        "region": "Japan"
+      },
+      "format": "in-person",
+      "url": "https://www.gartner.com/jp/conferences/apac/data-analytics-japan",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "categories": [
+        "データインテリジェンス",
+        "AI / 機械学習"
+      ],
+      "topics": [
+        "data-analytics",
+        "ai-strategy",
+        "cdao",
+        "data-governance"
+      ],
+      "cost": "unknown",
+      "recurring": true,
+      "summary": "Gartner日本のデータ＆アナリティクスサミット。日本のデータリーダー向けの旗艦イベント。",
+      "status": "upcoming",
+      "first_seen": "2026-W34",
+      "last_updated": "2026-W34"
+    },
+    {
+      "id": "data-innovation-summit-eu-2027",
+      "name": "Data Innovation Summit 2027 (Nordics)",
+      "dates": {
+        "start": "2027-05-18",
+        "end": "2027-05-20"
+      },
+      "location": {
+        "city": "Stockholm",
+        "country": "Sweden",
+        "region": "Europe"
+      },
+      "format": "hybrid",
+      "url": "https://datainnovationsummit.com/region/nordics/",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "categories": [
+        "データインテリジェンス",
+        "AI / 機械学習"
+      ],
+      "topics": [
+        "data-science",
+        "ai",
+        "big-data",
+        "ml"
+      ],
+      "cost": "unknown",
+      "recurring": true,
+      "summary": "北欧最大級のApplied Data & AIイベント。Kistamässanで実務者向け実践知が共有される。",
+      "status": "upcoming",
+      "first_seen": "2026-W34",
+      "last_updated": "2026-W34"
+    },
+    {
+      "id": "naacl-north-america-2027",
+      "name": "NAACL 2027 (Annual Conference of the Nations of the Americas Chapter of the ACL)",
+      "dates": {
+        "start": "2027-06-01",
+        "end": "2027-06-05"
+      },
+      "location": {
+        "city": "San Francisco",
+        "country": "United States",
+        "region": "North America"
+      },
+      "format": "hybrid",
+      "url": "https://2027.naacl.org/",
+      "cfp": {
+        "deadline": "",
+        "url": "https://2027.naacl.org/",
+        "status": "not-announced"
+      },
+      "categories": [
+        "AI / 機械学習"
+      ],
+      "topics": [
+        "nlp",
+        "llm",
+        "computational-linguistics"
+      ],
+      "cost": "unknown",
+      "recurring": true,
+      "summary": "ACL北米支部の主要NLP会議。生成AI・LLM研究がサンフランシスコに集う。",
+      "status": "upcoming",
+      "first_seen": "2026-W34",
+      "last_updated": "2026-W34"
+    },
+    {
+      "id": "gartner-da-summit-sydney-apac-2027",
+      "name": "Gartner Data & Analytics Summit Sydney 2027",
+      "dates": {
+        "start": "2027-06-07",
+        "end": "2027-06-08"
+      },
+      "location": {
+        "city": "Sydney",
+        "country": "Australia",
+        "region": "Asia-Pacific"
+      },
+      "format": "in-person",
+      "url": "https://www.gartner.com/en/conferences/apac/data-analytics-australia",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "categories": [
+        "データインテリジェンス",
+        "AI / 機械学習"
+      ],
+      "topics": [
+        "data-analytics",
+        "ai-strategy",
+        "cdao"
+      ],
+      "cost": "unknown",
+      "recurring": true,
+      "summary": "GartnerのAPAC向けデータ＆アナリティクスサミット。ICC Sydneyで開催、豪州CDAO層が対象。",
+      "status": "upcoming",
+      "first_seen": "2026-W34",
+      "last_updated": "2026-W34"
+    },
+    {
+      "id": "snowflake-summit-north-america-2027",
+      "name": "Snowflake Summit 2027",
+      "dates": {
+        "start": "2027-06-07",
+        "end": "2027-06-10"
+      },
+      "location": {
+        "city": "San Francisco",
+        "country": "United States",
+        "region": "North America"
+      },
+      "format": "in-person",
+      "url": "https://www.snowflake.com/en/summit/",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "categories": [
+        "データプラットフォーム",
+        "データインテリジェンス",
+        "AI / 機械学習"
+      ],
+      "topics": [
+        "data-cloud",
+        "genai",
+        "data-engineering",
+        "agentic-ai"
+      ],
+      "cost": "unknown",
+      "recurring": true,
+      "summary": "Snowflake年次カンファレンス。Moscone Centerに約2万名が集い、エージェンティックAIとデータ活用を議論。",
+      "status": "upcoming",
+      "first_seen": "2026-W34",
+      "last_updated": "2026-W34"
+    },
+    {
+      "id": "cvpr-north-america-2027",
+      "name": "CVPR 2027 (IEEE/CVF Conference on Computer Vision and Pattern Recognition)",
+      "dates": {
+        "start": "2027-06-20",
+        "end": "2027-06-24"
+      },
+      "location": {
+        "city": "Seattle",
+        "country": "United States",
+        "region": "North America"
+      },
+      "format": "in-person",
+      "url": "https://www.thecvf.com/",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "categories": [
+        "AI / 機械学習"
+      ],
+      "topics": [
+        "computer-vision",
+        "deep-learning",
+        "multimodal",
+        "vlm"
+      ],
+      "cost": "unknown",
+      "recurring": true,
+      "summary": "コンピュータビジョン分野最高峰の国際会議。VLM等の最先端研究がシアトルに集う。",
+      "status": "upcoming",
+      "first_seen": "2026-W34",
+      "last_updated": "2026-W34"
+    },
+    {
+      "id": "acl-jp-2027",
+      "name": "ACL 2027 (65th Annual Meeting of the Association for Computational Linguistics)",
+      "dates": {
+        "start": "2027-08-17",
+        "end": "2027-08-22"
+      },
+      "location": {
+        "city": "Kyoto",
+        "country": "Japan",
+        "region": "Japan"
+      },
+      "format": "in-person",
+      "url": "https://2027.aclweb.org/",
+      "cfp": {
+        "deadline": "",
+        "url": "https://2027.aclweb.org/",
+        "status": "not-announced"
+      },
+      "categories": [
+        "AI / 機械学習"
+      ],
+      "topics": [
+        "nlp",
+        "computational-linguistics",
+        "llm"
+      ],
+      "cost": "unknown",
+      "recurring": true,
+      "summary": "ACL本会議、NLPの世界最高峰会議。65回目は京都で開催、LLM・多言語NLP研究が集結。",
+      "status": "upcoming",
+      "first_seen": "2026-W34",
+      "last_updated": "2026-W34"
+    },
+    {
+      "id": "iccv-apac-2027",
+      "name": "ICCV 2027 (IEEE/CVF International Conference on Computer Vision)",
+      "dates": {
+        "start": "2027-10-02",
+        "end": "2027-10-08"
+      },
+      "location": {
+        "city": "Hong Kong",
+        "country": "China",
+        "region": "Asia-Pacific"
+      },
+      "format": "in-person",
+      "url": "https://www.thecvf.com/",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "categories": [
+        "AI / 機械学習"
+      ],
+      "topics": [
+        "computer-vision",
+        "deep-learning",
+        "multimodal"
+      ],
+      "cost": "unknown",
+      "recurring": true,
+      "summary": "IEEE/CVFのコンピュータビジョン旗艦会議（隔年開催）。2027年は香港でVLM・生成AI研究が集う。",
+      "status": "upcoming",
+      "first_seen": "2026-W34",
+      "last_updated": "2026-W34"
+    },
+    {
+      "id": "cyber-security-cloud-expo-global-eu-2027",
+      "name": "Cyber Security & Cloud Expo Global 2027",
+      "dates": {
+        "start": "2027-02-03",
+        "end": "2027-02-04"
+      },
+      "location": {
+        "city": "London",
+        "country": "United Kingdom",
+        "region": "Europe"
+      },
+      "format": "in-person",
+      "url": "https://www.cybersecuritycloudexpo.com/global/",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "categories": [
+        "クラウド / インフラ"
+      ],
+      "topics": [
+        "cloud",
+        "cybersecurity",
+        "cloud-infrastructure"
+      ],
+      "cost": "unknown",
+      "recurring": true,
+      "summary": "ロンドンOlympiaで開催されるTechEx傘下のクラウド／サイバーセキュリティ複合カンファレンス。",
+      "status": "upcoming",
+      "first_seen": "2026-W34",
+      "last_updated": "2026-W34"
+    },
+    {
+      "id": "cisco-live-emea-eu-2027",
+      "name": "Cisco Live EMEA 2027",
+      "dates": {
+        "start": "2027-02-08",
+        "end": "2027-02-12"
+      },
+      "location": {
+        "city": "London",
+        "country": "United Kingdom",
+        "region": "Europe"
+      },
+      "format": "in-person",
+      "url": "https://www.ciscolive.com/emea.html",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "categories": [
+        "クラウド / インフラ"
+      ],
+      "topics": [
+        "networking",
+        "cloud",
+        "security",
+        "cisco"
+      ],
+      "cost": "unknown",
+      "recurring": true,
+      "summary": "Cisco年次カンファレンスのEMEA版。2027年はアムステルダムからロンドンへ移転して開催。",
+      "status": "upcoming",
+      "first_seen": "2026-W34",
+      "last_updated": "2026-W34"
+    },
+    {
+      "id": "sre-kaigi-jp-2027",
+      "name": "SRE Kaigi 2027",
+      "dates": {
+        "start": "2027-02-20",
+        "end": "2027-02-20"
+      },
+      "location": {
+        "city": "東京（中野）",
+        "country": "Japan",
+        "region": "Japan"
+      },
+      "format": "in-person",
+      "url": "https://srekaigi.net/",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "categories": [
+        "クラウド / インフラ"
+      ],
+      "topics": [
+        "sre",
+        "reliability",
+        "observability",
+        "devops"
+      ],
+      "cost": "unknown",
+      "recurring": true,
+      "summary": "国内SRE実践者が集まるカンファレンスの第3回。中野セントラルパークカンファレンスで開催。",
+      "status": "upcoming",
+      "first_seen": "2026-W34",
+      "last_updated": "2026-W34"
+    },
+    {
+      "id": "platformcon-live-day-sf-north-america-2027",
+      "name": "PlatformCon 2027 Live Day San Francisco",
+      "dates": {
+        "start": "2027-02-24",
+        "end": "2027-02-24"
+      },
+      "location": {
+        "city": "San Francisco",
+        "country": "United States",
+        "region": "North America"
+      },
+      "format": "in-person",
+      "url": "https://platformcon.com/",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "categories": [
+        "クラウド / インフラ"
+      ],
+      "topics": [
+        "platform-engineering",
+        "internal-developer-platform",
+        "devops"
+      ],
+      "cost": "unknown",
+      "recurring": true,
+      "summary": "Platform Engineeringコミュニティの世界ツアーSF会場。PlatformCon本編に先行する現地開催。",
+      "status": "upcoming",
+      "first_seen": "2026-W34",
+      "last_updated": "2026-W34"
+    },
+    {
+      "id": "cloud-ai-infrastructure-london-eu-2027",
+      "name": "Cloud & AI Infrastructure London 2027",
+      "dates": {
+        "start": "2027-03-10",
+        "end": "2027-03-11"
+      },
+      "location": {
+        "city": "London",
+        "country": "United Kingdom",
+        "region": "Europe"
+      },
+      "format": "in-person",
+      "url": "https://www.techshowlondon.co.uk/cloud-ai-infrastructure",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "categories": [
+        "クラウド / インフラ",
+        "AI / 機械学習"
+      ],
+      "topics": [
+        "cloud-infrastructure",
+        "ai-infrastructure",
+        "data-center",
+        "hybrid-cloud"
+      ],
+      "cost": "unknown",
+      "recurring": true,
+      "summary": "旧Cloud Expo Europe。ExCeL Londonで開催される欧州最大級のクラウド／AIインフラ展示会。",
+      "status": "upcoming",
+      "first_seen": "2026-W34",
+      "last_updated": "2026-W34"
+    },
+    {
+      "id": "qcon-london-eu-2027",
+      "name": "QCon London 2027",
+      "dates": {
+        "start": "2027-04-13",
+        "end": "2027-04-15"
+      },
+      "location": {
+        "city": "London",
+        "country": "United Kingdom",
+        "region": "Europe"
+      },
+      "format": "in-person",
+      "url": "https://qconlondon.com/",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "categories": [
+        "クラウド / インフラ",
+        "データエンジニアリング"
+      ],
+      "topics": [
+        "software-architecture",
+        "cloud",
+        "distributed-systems",
+        "devops"
+      ],
+      "cost": "unknown",
+      "recurring": true,
+      "summary": "シニアソフトウェア開発者向け老舗カンファレンス。QEII Centreで3日間、認定コースを4/16に追加。",
+      "status": "upcoming",
+      "first_seen": "2026-W34",
+      "last_updated": "2026-W34"
+    },
+    {
+      "id": "aws-summit-london-eu-2027",
+      "name": "AWS Summit London 2027",
+      "dates": {
+        "start": "2027-04-01",
+        "end": "2027-04-01"
+      },
+      "location": {
+        "city": "London",
+        "country": "United Kingdom",
+        "region": "Europe"
+      },
+      "format": "in-person",
+      "url": "https://aws.amazon.com/events/summits/london/",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "categories": [
+        "クラウド / インフラ"
+      ],
+      "topics": [
+        "aws",
+        "cloud",
+        "serverless",
+        "ai"
+      ],
+      "cost": "unknown",
+      "recurring": true,
+      "summary": "AWS欧州最大級のSummit。2027年4月にExCeL Londonで開催予定（正確な日付は月精度、date approximate）。",
+      "status": "upcoming",
+      "first_seen": "2026-W34",
+      "last_updated": "2026-W34"
+    },
+    {
+      "id": "aws-summit-paris-eu-2027",
+      "name": "AWS Summit Paris 2027",
+      "dates": {
+        "start": "2027-04-01",
+        "end": "2027-04-01"
+      },
+      "location": {
+        "city": "Paris",
+        "country": "France",
+        "region": "Europe"
+      },
+      "format": "in-person",
+      "url": "https://aws.amazon.com/events/summits/paris/",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "categories": [
+        "クラウド / インフラ"
+      ],
+      "topics": [
+        "aws",
+        "cloud",
+        "ai",
+        "france"
+      ],
+      "cost": "unknown",
+      "recurring": true,
+      "summary": "AWSフランス最大級のSummit。Palais des Congres de Parisで2027年4月開催（date approximate、月精度）。",
+      "status": "upcoming",
+      "first_seen": "2026-W34",
+      "last_updated": "2026-W34"
+    },
+    {
+      "id": "open-source-summit-north-america-2027",
+      "name": "Open Source Summit North America 2027",
+      "dates": {
+        "start": "2027-05-17",
+        "end": "2027-05-19"
+      },
+      "location": {
+        "city": "Vancouver",
+        "country": "Canada",
+        "region": "North America"
+      },
+      "format": "in-person",
+      "url": "https://events.linuxfoundation.org/open-source-summit-north-america/",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "categories": [
+        "クラウド / インフラ",
+        "データエンジニアリング"
+      ],
+      "topics": [
+        "open-source",
+        "linux",
+        "cloud-native",
+        "supply-chain-security"
+      ],
+      "cost": "unknown",
+      "recurring": true,
+      "summary": "Linux Foundationの北米フラッグシップ。バンクーバーで開催、OSPOやセキュリティ、AI等の傘イベント多数。",
+      "status": "upcoming",
+      "first_seen": "2026-W34",
+      "last_updated": "2026-W34"
+    },
+    {
+      "id": "cloud-ai-infrastructure-frankfurt-eu-2027",
+      "name": "Cloud & AI Infrastructure Frankfurt 2027",
+      "dates": {
+        "start": "2027-05-19",
+        "end": "2027-05-20"
+      },
+      "location": {
+        "city": "Frankfurt",
+        "country": "Germany",
+        "region": "Europe"
+      },
+      "format": "in-person",
+      "url": "https://www.techshowfrankfurt.de/cloud-ai-infrastructure",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "categories": [
+        "クラウド / インフラ",
+        "AI / 機械学習"
+      ],
+      "topics": [
+        "cloud-infrastructure",
+        "ai-infrastructure",
+        "data-center",
+        "sovereign-cloud"
+      ],
+      "cost": "unknown",
+      "recurring": true,
+      "summary": "旧Cloud Expo Europe Frankfurt。Messe FrankfurtでDACH地域向けクラウド／AIインフラ展を開催。",
+      "status": "upcoming",
+      "first_seen": "2026-W34",
+      "last_updated": "2026-W34"
+    },
+    {
+      "id": "red-hat-summit-north-america-2027",
+      "name": "Red Hat Summit 2027",
+      "dates": {
+        "start": "2027-05-25",
+        "end": "2027-05-27"
+      },
+      "location": {
+        "city": "Boston",
+        "country": "United States",
+        "region": "North America"
+      },
+      "format": "in-person",
+      "url": "https://www.redhat.com/en/summit",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "categories": [
+        "クラウド / インフラ"
+      ],
+      "topics": [
+        "openshift",
+        "linux",
+        "kubernetes",
+        "hybrid-cloud",
+        "ansible"
+      ],
+      "cost": "unknown",
+      "recurring": true,
+      "summary": "Red Hat年次カンファレンス。2027年はBoston Convention and Exhibition Centerでルーツ回帰開催。",
+      "status": "upcoming",
+      "first_seen": "2026-W34",
+      "last_updated": "2026-W34"
+    },
+    {
+      "id": "cisco-live-us-north-america-2027",
+      "name": "Cisco Live US 2027",
+      "dates": {
+        "start": "2027-06-06",
+        "end": "2027-06-10"
+      },
+      "location": {
+        "city": "Las Vegas",
+        "country": "United States",
+        "region": "North America"
+      },
+      "format": "in-person",
+      "url": "https://www.ciscolive.com/global/cisco-live-2027.html",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "categories": [
+        "クラウド / インフラ"
+      ],
+      "topics": [
+        "networking",
+        "cloud",
+        "security",
+        "cisco",
+        "observability"
+      ],
+      "cost": "unknown",
+      "recurring": true,
+      "summary": "Ciscoの年次フラッグシップ。Las Vegasでネットワーク／クラウド／セキュリティを網羅する5日間。",
+      "status": "upcoming",
+      "first_seen": "2026-W34",
+      "last_updated": "2026-W34"
+    },
+    {
+      "id": "infosecurity-europe-eu-2027",
+      "name": "Infosecurity Europe 2027",
+      "dates": {
+        "start": "2027-06-08",
+        "end": "2027-06-10"
+      },
+      "location": {
+        "city": "London",
+        "country": "United Kingdom",
+        "region": "Europe"
+      },
+      "format": "in-person",
+      "url": "https://www.infosecurityeurope.com/",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "categories": [
+        "クラウド / インフラ"
+      ],
+      "topics": [
+        "cybersecurity",
+        "cloud-security",
+        "identity",
+        "risk"
+      ],
+      "cost": "unknown",
+      "recurring": true,
+      "summary": "欧州最大級のサイバーセキュリティ／クラウドセキュリティ展。ExCeL Londonで380社超が出展。",
+      "status": "upcoming",
+      "first_seen": "2026-W34",
+      "last_updated": "2026-W34"
+    },
+    {
+      "id": "platformcon-live-day-london-eu-2027",
+      "name": "PlatformCon 2027 Live Day London",
+      "dates": {
+        "start": "2027-06-22",
+        "end": "2027-06-22"
+      },
+      "location": {
+        "city": "London",
+        "country": "United Kingdom",
+        "region": "Europe"
+      },
+      "format": "hybrid",
+      "url": "https://platformcon.com/live-day-london",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "categories": [
+        "クラウド / インフラ"
+      ],
+      "topics": [
+        "platform-engineering",
+        "internal-developer-platform",
+        "devops"
+      ],
+      "cost": "unknown",
+      "recurring": true,
+      "summary": "Platform Engineeringフラッグシップ週間の欧州拠点。ロンドンで対面、オンライン配信も無料。",
+      "status": "upcoming",
+      "first_seen": "2026-W34",
+      "last_updated": "2026-W34"
+    },
+    {
+      "id": "platformcon-live-day-nyc-north-america-2027",
+      "name": "PlatformCon 2027 Live Day New York",
+      "dates": {
+        "start": "2027-06-24",
+        "end": "2027-06-24"
+      },
+      "location": {
+        "city": "New York",
+        "country": "United States",
+        "region": "North America"
+      },
+      "format": "hybrid",
+      "url": "https://platformcon.com/live-day-nyc",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "categories": [
+        "クラウド / インフラ"
+      ],
+      "topics": [
+        "platform-engineering",
+        "internal-developer-platform",
+        "devops"
+      ],
+      "cost": "unknown",
+      "recurring": true,
+      "summary": "Platform Engineeringフラッグシップ週間の北米拠点。NYCで対面、オンライン配信も無料。",
+      "status": "upcoming",
+      "first_seen": "2026-W34",
+      "last_updated": "2026-W34"
+    },
+    {
+      "id": "open-source-summit-europe-eu-2027",
+      "name": "Open Source Summit Europe 2027",
+      "dates": {
+        "start": "2027-09-20",
+        "end": "2027-09-22"
+      },
+      "location": {
+        "city": "Glasgow",
+        "country": "United Kingdom",
+        "region": "Europe"
+      },
+      "format": "in-person",
+      "url": "https://events.linuxfoundation.org/open-source-summit-europe-2027/",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "categories": [
+        "クラウド / インフラ",
+        "データエンジニアリング"
+      ],
+      "topics": [
+        "open-source",
+        "linux",
+        "cloud-native",
+        "supply-chain-security"
+      ],
+      "cost": "unknown",
+      "recurring": true,
+      "summary": "Linux Foundationの欧州フラッグシップ。グラスゴーで開催、OSPO／セキュリティ／AI関連の傘イベント多数。",
+      "status": "upcoming",
+      "first_seen": "2026-W34",
+      "last_updated": "2026-W34"
+    },
+    {
+      "id": "vldb-eu-2027",
+      "name": "VLDB 2027 (53rd International Conference on Very Large Data Bases)",
+      "dates": {
+        "start": "2027-08-23",
+        "end": "2027-08-27"
+      },
+      "location": {
+        "city": "Athens",
+        "country": "Greece",
+        "region": "Europe"
+      },
+      "format": "in-person",
+      "url": "https://vldb.org/2027/",
+      "cfp": {
+        "deadline": "",
+        "url": "https://vldb.org/2027/important-dates.html",
+        "status": "open"
+      },
+      "categories": [
+        "データエンジニアリング",
+        "データプラットフォーム"
+      ],
+      "topics": [
+        "database",
+        "big data",
+        "distributed systems",
+        "query optimization",
+        "research"
+      ],
+      "cost": "unknown",
+      "recurring": true,
+      "summary": "大規模データベース研究のトップ国際会議。分散データ処理・ストリーミング・機械学習系DBまで網羅する。",
+      "status": "upcoming",
+      "first_seen": "2026-W34",
+      "last_updated": "2026-W34"
+    },
+    {
+      "id": "cidr-eu-2027",
+      "name": "CIDR 2027 (Conference on Innovative Data Systems Research)",
+      "dates": {
+        "start": "2027-01-24",
+        "end": "2027-01-27"
+      },
+      "location": {
+        "city": "Amsterdam",
+        "country": "Netherlands",
+        "region": "Europe"
+      },
+      "format": "in-person",
+      "url": "https://www.cidrdb.org/cidr2027/",
+      "cfp": {
+        "deadline": "",
+        "url": "https://www.cidrdb.org/cidr2027/cfp.html",
+        "status": "open"
+      },
+      "categories": [
+        "データプラットフォーム",
+        "データエンジニアリング"
+      ],
+      "topics": [
+        "data systems",
+        "database architecture",
+        "research",
+        "innovation"
+      ],
+      "cost": "unknown",
+      "recurring": true,
+      "summary": "革新的データシステム研究の隔年開催カンファレンス。SIGMOD/VLDBと相補的にシステム設計視点を重視する。",
+      "status": "upcoming",
+      "first_seen": "2026-W34",
+      "last_updated": "2026-W34"
+    },
+    {
+      "id": "edbt-icdt-eu-2027",
+      "name": "EDBT/ICDT 2027 Joint Conference",
+      "dates": {
+        "start": "2027-04-06",
+        "end": "2027-04-09"
+      },
+      "location": {
+        "city": "Lille",
+        "country": "France",
+        "region": "Europe"
+      },
+      "format": "in-person",
+      "url": "https://edbticdt2027.github.io/",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "open"
+      },
+      "categories": [
+        "データエンジニアリング",
+        "データプラットフォーム"
+      ],
+      "topics": [
+        "database",
+        "data management",
+        "extended database technology",
+        "research"
+      ],
+      "cost": "unknown",
+      "recurring": true,
+      "summary": "欧州最大級のデータベース技術研究カンファレンス。ICDT併催で理論から応用まで広くカバーする。",
+      "status": "upcoming",
+      "first_seen": "2026-W34",
+      "last_updated": "2026-W34"
+    },
+    {
+      "id": "fabcon-north-america-2027",
+      "name": "Microsoft Fabric Community Conference 2027 (FabCon & SQLCon)",
+      "dates": {
+        "start": "2027-03-08",
+        "end": "2027-03-12"
+      },
+      "location": {
+        "city": "Atlanta",
+        "country": "USA",
+        "region": "North America"
+      },
+      "format": "in-person",
+      "url": "https://fabriccon.com/",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "categories": [
+        "データプラットフォーム",
+        "データエンジニアリング"
+      ],
+      "topics": [
+        "microsoft fabric",
+        "sql server",
+        "azure sql",
+        "cosmos db",
+        "power bi",
+        "analytics"
+      ],
+      "cost": "unknown",
+      "recurring": true,
+      "summary": "Microsoft Fabric・SQL・Azure SQLの統合コミュニティカンファレンス。データ基盤全体をカバーする。",
+      "status": "upcoming",
+      "first_seen": "2026-W34",
+      "last_updated": "2026-W34"
+    },
+    {
+      "id": "hannover-messe-industrial-data-spaces-eu-2027",
+      "name": "Hannover Messe 2027 - Industrial Data Spaces",
+      "dates": {
+        "start": "2027-04-05",
+        "end": "2027-04-08"
+      },
+      "location": {
+        "city": "Hannover",
+        "country": "Germany",
+        "region": "Europe"
+      },
+      "format": "in-person",
+      "url": "https://www.hannovermesse.de/en/",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "categories": [
+        "Data Spaces / データ連携",
+        "データプラットフォーム"
+      ],
+      "topics": [
+        "manufacturing-x",
+        "industrial data",
+        "catena-x",
+        "gaia-x",
+        "digital ecosystem",
+        "iot"
+      ],
+      "cost": "unknown",
+      "recurring": true,
+      "summary": "世界最大の産業見本市。Manufacturing-X・Catena-X等の産業データスペース関連トラックが並ぶ。",
+      "status": "upcoming",
+      "first_seen": "2026-W34",
+      "last_updated": "2026-W34"
+    },
+    {
+      "id": "ai-big-data-expo-north-america-2027",
+      "name": "AI & Big Data Expo North America 2027",
+      "dates": {
+        "start": "2027-06-16",
+        "end": "2027-06-17"
+      },
+      "location": {
+        "city": "San Jose",
+        "country": "USA",
+        "region": "North America"
+      },
+      "format": "in-person",
+      "url": "https://www.ai-expo.net/northamerica/",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "categories": [
+        "データプラットフォーム",
+        "データエンジニアリング"
+      ],
+      "topics": [
+        "big data",
+        "ai",
+        "analytics",
+        "data platform",
+        "ml"
+      ],
+      "cost": "unknown",
+      "recurring": true,
+      "summary": "シリコンバレーで開催されるAI・ビッグデータの実務者向けエキスポ。エンタープライズのデータ活用事例が中心。",
+      "status": "upcoming",
+      "first_seen": "2026-W34",
+      "last_updated": "2026-W34"
+    },
+    {
+      "id": "fheorg-conference-north-america-2027",
+      "name": "FHE.org Conference 2027 (6th Annual)",
+      "dates": {
+        "start": "2027-04-04",
+        "end": "2027-04-04"
+      },
+      "location": {
+        "city": "Seattle",
+        "country": "USA",
+        "region": "North America"
+      },
+      "format": "in-person",
+      "url": "https://fhe.org/conferences/conference-2027/",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "categories": [
+        "PETs"
+      ],
+      "topics": [
+        "fhe",
+        "homomorphic-encryption",
+        "cryptography",
+        "privacy"
+      ],
+      "cost": "unknown",
+      "recurring": true,
+      "summary": "完全準同型暗号（FHE）に特化した年次コミュニティ会議。研究者・実装者が最新プロトコルと実用化事例を共有する。",
+      "status": "upcoming",
+      "first_seen": "2026-W34",
+      "last_updated": "2026-W34"
+    },
+    {
+      "id": "rwc-north-america-2027",
+      "name": "Real World Crypto Symposium (RWC) 2027",
+      "dates": {
+        "start": "2027-04-05",
+        "end": "2027-04-07"
+      },
+      "location": {
+        "city": "Seattle",
+        "country": "USA",
+        "region": "North America"
+      },
+      "format": "in-person",
+      "url": "https://rwc.iacr.org/2027/",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "open"
+      },
+      "categories": [
+        "PETs"
+      ],
+      "topics": [
+        "cryptography",
+        "applied-crypto",
+        "privacy",
+        "security"
+      ],
+      "cost": "unknown",
+      "recurring": true,
+      "summary": "IACR主催の実応用暗号に関する国際シンポジウム。産業界と学界を橋渡しし、実装済み暗号技術の教訓を議論する。",
+      "status": "upcoming",
+      "first_seen": "2026-W34",
+      "last_updated": "2026-W34"
+    },
+    {
+      "id": "usenix-security-north-america-2027",
+      "name": "USENIX Security Symposium 2027 (36th)",
+      "dates": {
+        "start": "2027-08-11",
+        "end": "2027-08-13"
+      },
+      "location": {
+        "city": "Denver",
+        "country": "USA",
+        "region": "North America"
+      },
+      "format": "in-person",
+      "url": "https://www.usenix.org/conference/usenixsecurity27",
+      "cfp": {
+        "deadline": "2026-08-25",
+        "url": "https://www.usenix.org/conference/usenixsecurity27/call-for-papers",
+        "status": "open"
+      },
+      "categories": [
+        "PETs"
+      ],
+      "topics": [
+        "security",
+        "privacy",
+        "systems-security",
+        "cryptography"
+      ],
+      "cost": "unknown",
+      "recurring": true,
+      "summary": "USENIX主催のシステム系セキュリティ・プライバシー分野の最高峰カンファレンス。差分プライバシーやPETs関連論文も多い。",
+      "status": "upcoming",
+      "first_seen": "2026-W34",
+      "last_updated": "2026-W34"
+    },
+    {
+      "id": "ndss-symposium-apac-2027",
+      "name": "NDSS Symposium 2027 (Network and Distributed System Security)",
+      "dates": {
+        "start": "2027-03-22",
+        "end": "2027-03-26"
+      },
+      "location": {
+        "city": "Seoul",
+        "country": "Republic of Korea",
+        "region": "Asia-Pacific"
+      },
+      "format": "in-person",
+      "url": "https://www.ndss-symposium.org/ndss2027/",
+      "cfp": {
+        "deadline": "",
+        "url": "https://www.ndss-symposium.org/ndss2027/submissions/",
+        "status": "open"
+      },
+      "categories": [
+        "PETs"
+      ],
+      "topics": [
+        "network-security",
+        "privacy",
+        "cryptography",
+        "distributed-systems"
+      ],
+      "cost": "unknown",
+      "recurring": true,
+      "summary": "ネットワーク・分散システムのセキュリティ／プライバシーに関する主要会議。プライバシー保護通信やPETs関連セッションを含む。",
+      "status": "upcoming",
+      "first_seen": "2026-W34",
+      "last_updated": "2026-W34"
+    },
+    {
+      "id": "asiaccs-apac-2027",
+      "name": "ACM AsiaCCS 2027 (22nd ACM Asia Conference on Computer and Communications Security)",
+      "dates": {
+        "start": "2027-07-12",
+        "end": "2027-07-16"
+      },
+      "location": {
+        "city": "Macau",
+        "country": "China",
+        "region": "Asia-Pacific"
+      },
+      "format": "in-person",
+      "url": "https://asiaccs2027.cityu.edu.mo/index.html",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "categories": [
+        "PETs"
+      ],
+      "topics": [
+        "security",
+        "privacy",
+        "cryptography",
+        "applied-security"
+      ],
+      "cost": "unknown",
+      "recurring": true,
+      "summary": "ACM SIGSACのアジア地域旗艦会議。プライバシー強化技術・差分プライバシー・秘密計算のセッションが恒常的に含まれる。",
+      "status": "upcoming",
+      "first_seen": "2026-W34",
+      "last_updated": "2026-W34"
+    },
+    {
+      "id": "cpdp-eu-2027",
+      "name": "CPDP 2027 (Computers, Privacy and Data Protection) - 20th Anniversary",
+      "dates": {
+        "start": "2027-03-08",
+        "end": "2027-03-11"
+      },
+      "location": {
+        "city": "Brussels",
+        "country": "Belgium",
+        "region": "Europe"
+      },
+      "format": "in-person",
+      "url": "https://www.cpdpconferences.org/",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "categories": [
+        "PETs",
+        "ビジネス / DX"
+      ],
+      "topics": [
+        "privacy",
+        "data-protection",
+        "gdpr",
+        "ai-governance",
+        "policy"
+      ],
+      "cost": "unknown",
+      "recurring": true,
+      "summary": "欧州最大級のプライバシー・データ保護会議。20周年記念回として学者・弁護士・規制当局・産業界が政策・技術を横断的に議論。",
+      "status": "upcoming",
+      "first_seen": "2026-W34",
+      "last_updated": "2026-W34"
+    },
+    {
+      "id": "iapp-global-summit-north-america-2027",
+      "name": "IAPP Global Summit 2027 (Privacy | AI Governance | Cybersecurity Law)",
+      "dates": {
+        "start": "2027-03-21",
+        "end": "2027-03-24"
+      },
+      "location": {
+        "city": "Washington, DC",
+        "country": "USA",
+        "region": "North America"
+      },
+      "format": "in-person",
+      "url": "https://iapp.org/conference/iapp-global-summit",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "categories": [
+        "PETs",
+        "ビジネス / DX"
+      ],
+      "topics": [
+        "privacy",
+        "ai-governance",
+        "cybersecurity-law",
+        "data-protection"
+      ],
+      "cost": "paid",
+      "recurring": true,
+      "summary": "IAPP最大の年次サミット。世界中のプライバシー・AIガバナンス・サイバーセキュリティ法の実務家が集うグローバル旗艦イベント。",
+      "status": "upcoming",
+      "first_seen": "2026-W34",
+      "last_updated": "2026-W34"
+    },
+    {
+      "id": "iapp-psr-aigg-north-america-2027",
+      "name": "IAPP Privacy. Security. Risk. + AI Governance Global 2027",
+      "dates": {
+        "start": "2027-09-14",
+        "end": "2027-09-17"
+      },
+      "location": {
+        "city": "Vancouver",
+        "country": "Canada",
+        "region": "North America"
+      },
+      "format": "in-person",
+      "url": "https://iapp.org/conferences",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "categories": [
+        "PETs",
+        "ビジネス / DX"
+      ],
+      "topics": [
+        "privacy",
+        "ai-governance",
+        "cybersecurity",
+        "risk-management"
+      ],
+      "cost": "paid",
+      "recurring": true,
+      "summary": "IAPPのPSRとAIガバナンス・グローバルを統合した秋の旗艦会議。プライバシー実務・AI規制・リスク管理を横断的に扱う。",
+      "status": "upcoming",
+      "first_seen": "2026-W34",
+      "last_updated": "2026-W34"
+    },
+    {
+      "id": "iapp-canada-symposium-north-america-2027",
+      "name": "IAPP Canada Symposium 2027",
+      "dates": {
+        "start": "2027-05-25",
+        "end": "2027-05-28"
+      },
+      "location": {
+        "city": "Toronto",
+        "country": "Canada",
+        "region": "North America"
+      },
+      "format": "in-person",
+      "url": "https://iapp.org/conference/iapp-canada-symposium",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "categories": [
+        "PETs",
+        "ビジネス / DX"
+      ],
+      "topics": [
+        "privacy",
+        "ai-governance",
+        "cybersecurity-law",
+        "canada-privacy"
+      ],
+      "cost": "paid",
+      "recurring": true,
+      "summary": "IAPPのカナダ地域旗艦会議。カナダ連邦・州法のプライバシー動向を中心に、AIガバナンスとサイバーセキュリティ法を議論する。",
+      "status": "upcoming",
+      "first_seen": "2026-W34",
+      "last_updated": "2026-W34"
+    },
+    {
+      "id": "wef-davos-eu-2027",
+      "name": "World Economic Forum Annual Meeting 2027 (Davos)",
+      "dates": {
+        "start": "2027-01-18",
+        "end": "2027-01-22"
+      },
+      "location": {
+        "city": "Davos",
+        "country": "Switzerland",
+        "region": "Europe"
+      },
+      "format": "in-person",
+      "url": "https://www.weforum.org/meetings/",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "categories": [
+        "ビジネス / DX"
+      ],
+      "topics": [
+        "global-economy",
+        "leadership",
+        "geopolitics",
+        "technology-strategy",
+        "sustainability"
+      ],
+      "cost": "invitation-only",
+      "recurring": true,
+      "summary": "スイス・ダボスで開催される世界経済フォーラム年次総会。各国首脳・CEOが集い、DX・AI・地政学・経済戦略を議論する。",
+      "status": "upcoming",
+      "first_seen": "2026-W34",
+      "last_updated": "2026-W34"
+    },
+    {
+      "id": "web-summit-qatar-apac-2027",
+      "name": "Web Summit Qatar 2027",
+      "dates": {
+        "start": "2027-01-31",
+        "end": "2027-02-03"
+      },
+      "location": {
+        "city": "Doha",
+        "country": "Qatar",
+        "region": "Asia-Pacific"
+      },
+      "format": "in-person",
+      "url": "https://qatar.websummit.com/",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "categories": [
+        "ビジネス / DX"
+      ],
+      "topics": [
+        "startups",
+        "venture-capital",
+        "technology",
+        "middle-east",
+        "innovation"
+      ],
+      "cost": "paid",
+      "recurring": true,
+      "summary": "中東最大のスタートアップ・テック会議。ドーハで3万人超の起業家・投資家・グローバルメディアが集結する年次イベント。",
+      "status": "upcoming",
+      "first_seen": "2026-W34",
+      "last_updated": "2026-W34"
+    },
+    {
+      "id": "ces-north-america-2027",
+      "name": "CES 2027",
+      "dates": {
+        "start": "2027-01-06",
+        "end": "2027-01-09"
+      },
+      "location": {
+        "city": "Las Vegas",
+        "country": "USA",
+        "region": "North America"
+      },
+      "format": "in-person",
+      "url": "https://www.cta.tech/events/ces-2027/",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "categories": [
+        "ビジネス / DX"
+      ],
+      "topics": [
+        "consumer-electronics",
+        "ai",
+        "mobility",
+        "iot",
+        "innovation"
+      ],
+      "cost": "paid",
+      "recurring": true,
+      "summary": "世界最大級のコンシューマーエレクトロニクス展。生成AI・自動車・XR・ロボティクスまでDX関連の最新製品と戦略が集約される。",
+      "status": "upcoming",
+      "first_seen": "2026-W34",
+      "last_updated": "2026-W34"
+    },
+    {
+      "id": "sxsw-north-america-2027",
+      "name": "SXSW 2027 (South by Southwest)",
+      "dates": {
+        "start": "2027-03-15",
+        "end": "2027-03-21"
+      },
+      "location": {
+        "city": "Austin",
+        "country": "USA",
+        "region": "North America"
+      },
+      "format": "in-person",
+      "url": "https://sxsw.com/",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "categories": [
+        "ビジネス / DX"
+      ],
+      "topics": [
+        "innovation",
+        "startup",
+        "creative-industry",
+        "ai",
+        "media"
+      ],
+      "cost": "paid",
+      "recurring": true,
+      "summary": "テック・音楽・映像・文化を横断する米国最大の複合フェスティバル。イノベーション・トラックはAIとDXの潮流を映す指標となる。",
+      "status": "upcoming",
+      "first_seen": "2026-W34",
+      "last_updated": "2026-W34"
+    },
+    {
+      "id": "rsa-conference-north-america-2027",
+      "name": "RSA Conference 2027",
+      "dates": {
+        "start": "2027-04-05",
+        "end": "2027-04-08"
+      },
+      "location": {
+        "city": "San Francisco",
+        "country": "USA",
+        "region": "North America"
+      },
+      "format": "in-person",
+      "url": "https://www.rsaconference.com/",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "categories": [
+        "ビジネス / DX",
+        "PETs"
+      ],
+      "topics": [
+        "cybersecurity",
+        "privacy",
+        "identity",
+        "risk-management",
+        "enterprise-security"
+      ],
+      "cost": "paid",
+      "recurring": true,
+      "summary": "世界最大のサイバーセキュリティ産業会議。CISO/CIO向けにプライバシー・ゼロトラスト・AIセキュリティなどDX基盤課題を扱う。",
+      "status": "upcoming",
+      "first_seen": "2026-W34",
+      "last_updated": "2026-W34"
+    },
+    {
+      "id": "money2020-europe-eu-2027",
+      "name": "Money20/20 Europe 2027",
+      "dates": {
+        "start": "2027-06-08",
+        "end": "2027-06-10"
+      },
+      "location": {
+        "city": "Amsterdam",
+        "country": "Netherlands",
+        "region": "Europe"
+      },
+      "format": "in-person",
+      "url": "https://europe.money2020.com/",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "categories": [
+        "ビジネス / DX"
+      ],
+      "topics": [
+        "fintech",
+        "payments",
+        "banking",
+        "digital-finance",
+        "ai"
+      ],
+      "cost": "paid",
+      "recurring": true,
+      "summary": "欧州最大のフィンテック年次会議。決済・銀行・組込金融のDX戦略とC-suite向けネットワーキングをアムステルダムで展開。",
+      "status": "upcoming",
+      "first_seen": "2026-W34",
+      "last_updated": "2026-W34"
+    },
+    {
+      "id": "money2020-usa-north-america-2027",
+      "name": "Money20/20 USA 2027",
+      "dates": {
+        "start": "2027-10-19",
+        "end": "2027-10-21"
+      },
+      "location": {
+        "city": "Las Vegas",
+        "country": "USA",
+        "region": "North America"
+      },
+      "format": "in-person",
+      "url": "https://us.money2020.com/",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "categories": [
+        "ビジネス / DX"
+      ],
+      "topics": [
+        "fintech",
+        "payments",
+        "banking",
+        "digital-finance",
+        "ai"
+      ],
+      "cost": "paid",
+      "recurring": true,
+      "summary": "北米最大のフィンテック旗艦会議。2027年からラスベガス・コンベンションセンター＋Resorts Worldの新会場に移転して開催。",
+      "status": "upcoming",
+      "first_seen": "2026-W34",
+      "last_updated": "2026-W34"
+    },
+    {
+      "id": "money2020-asia-apac-2027",
+      "name": "Money20/20 Asia 2027",
+      "dates": {
+        "start": "2027-04-27",
+        "end": "2027-04-29"
+      },
+      "location": {
+        "city": "Bangkok",
+        "country": "Thailand",
+        "region": "Asia-Pacific"
+      },
+      "format": "in-person",
+      "url": "https://asia.money2020.com/",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "categories": [
+        "ビジネス / DX"
+      ],
+      "topics": [
+        "fintech",
+        "payments",
+        "banking",
+        "digital-finance",
+        "asia-pacific"
+      ],
+      "cost": "paid",
+      "recurring": true,
+      "summary": "アジア太平洋地域向けMoney20/20旗艦会議。バンコクで開催され、東南アジア新興市場の決済・組込金融・AI活用を集中議論。",
+      "status": "upcoming",
+      "first_seen": "2026-W34",
+      "last_updated": "2026-W34"
+    },
+    {
+      "id": "gartner-cio-lf-phoenix-north-america-2027",
+      "name": "Gartner CIO Leadership Forum 2027 Phoenix",
+      "dates": {
+        "start": "2027-02-22",
+        "end": "2027-02-23"
+      },
+      "location": {
+        "city": "Phoenix",
+        "country": "USA",
+        "region": "North America"
+      },
+      "format": "in-person",
+      "url": "https://www.gartner.com/en/conferences/na/cio-us-west",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "categories": [
+        "ビジネス / DX"
+      ],
+      "topics": [
+        "cio-leadership",
+        "it-strategy",
+        "ai-impact",
+        "digital-transformation"
+      ],
+      "cost": "paid",
+      "recurring": true,
+      "summary": "米国西部のCIO向けGartner主催リーダーシップ会議。ITリーダーシップ、AI影響、事業パートナーシップを2日間で扱う。",
+      "status": "upcoming",
+      "first_seen": "2026-W34",
+      "last_updated": "2026-W34"
+    },
+    {
+      "id": "gartner-cio-lf-hollywood-north-america-2027",
+      "name": "Gartner CIO Leadership Forum 2027 Hollywood, FL",
+      "dates": {
+        "start": "2027-03-22",
+        "end": "2027-03-23"
+      },
+      "location": {
+        "city": "Hollywood, FL",
+        "country": "USA",
+        "region": "North America"
+      },
+      "format": "in-person",
+      "url": "https://www.gartner.com/en/conferences/na/cio-us-east",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "categories": [
+        "ビジネス / DX"
+      ],
+      "topics": [
+        "cio-leadership",
+        "it-strategy",
+        "ai-impact",
+        "digital-transformation"
+      ],
+      "cost": "paid",
+      "recurring": true,
+      "summary": "米国東部のCIO向けGartner主催リーダーシップ会議。フロリダのDiplomat Beach Resortで開催される2日間のフォーラム。",
+      "status": "upcoming",
+      "first_seen": "2026-W34",
+      "last_updated": "2026-W34"
+    },
+    {
+      "id": "gartner-cio-lf-tokyo-jp-2027",
+      "name": "Gartner CIO Leadership Forum 2027 Tokyo",
+      "dates": {
+        "start": "2027-07-07",
+        "end": "2027-07-08"
+      },
+      "location": {
+        "city": "Tokyo",
+        "country": "Japan",
+        "region": "Japan"
+      },
+      "format": "in-person",
+      "url": "https://www.gartner.com/en/conferences/apac/cio-japan",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "categories": [
+        "ビジネス / DX"
+      ],
+      "topics": [
+        "cio-leadership",
+        "it-strategy",
+        "ai-impact",
+        "digital-transformation",
+        "japan"
+      ],
+      "cost": "paid",
+      "recurring": true,
+      "summary": "日本CIO向けGartner主催リーダーシップ会議。「CIO as Functional Leader」「CIO as CxO」2トラック構成で開催される。",
+      "status": "upcoming",
+      "first_seen": "2026-W34",
+      "last_updated": "2026-W34"
+    },
+    {
+      "id": "gartner-cio-lf-sydney-apac-2027",
+      "name": "Gartner CIO Leadership Forum 2027 Sydney",
+      "dates": {
+        "start": "2027-05-17",
+        "end": "2027-05-18"
+      },
+      "location": {
+        "city": "Sydney",
+        "country": "Australia",
+        "region": "Asia-Pacific"
+      },
+      "format": "in-person",
+      "url": "https://www.gartner.com/en/conferences/apac/cio-australia",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "categories": [
+        "ビジネス / DX"
+      ],
+      "topics": [
+        "cio-leadership",
+        "it-strategy",
+        "ai-impact",
+        "digital-transformation"
+      ],
+      "cost": "paid",
+      "recurring": true,
+      "summary": "豪州CIO向けGartnerリーダーシップ会議。ITリーダーシップと事業パートナーシップを2日間で議論する。",
+      "status": "upcoming",
+      "first_seen": "2026-W34",
+      "last_updated": "2026-W34"
+    },
+    {
+      "id": "gartner-cio-lf-vienna-eu-2027",
+      "name": "Gartner CIO Leadership Forum 2027 Vienna",
+      "dates": {
+        "start": "2027-03-02",
+        "end": "2027-03-03"
+      },
+      "location": {
+        "city": "Vienna",
+        "country": "Austria",
+        "region": "Europe"
+      },
+      "format": "in-person",
+      "url": "https://www.gartner.com/en/conferences/emea/cio-austria",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "categories": [
+        "ビジネス / DX"
+      ],
+      "topics": [
+        "cio-leadership",
+        "it-strategy",
+        "ai-impact",
+        "digital-transformation"
+      ],
+      "cost": "paid",
+      "recurring": true,
+      "summary": "EMEA地域CIO向けGartnerリーダーシップ会議。ウィーンで開催され、Londonと並ぶ欧州の主要拠点イベントとなる。",
+      "status": "upcoming",
+      "first_seen": "2026-W34",
+      "last_updated": "2026-W34"
+    },
+    {
+      "id": "gartner-cio-lf-london-eu-2027",
+      "name": "Gartner CIO Leadership Forum 2027 London",
+      "dates": {
+        "start": "2027-03-15",
+        "end": "2027-03-16"
+      },
+      "location": {
+        "city": "London",
+        "country": "United Kingdom",
+        "region": "Europe"
+      },
+      "format": "in-person",
+      "url": "https://www.gartner.com/en/conferences/emea/cio-uk",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "categories": [
+        "ビジネス / DX"
+      ],
+      "topics": [
+        "cio-leadership",
+        "it-strategy",
+        "ai-impact",
+        "digital-transformation"
+      ],
+      "cost": "paid",
+      "recurring": true,
+      "summary": "英国CIO向けGartnerリーダーシップ会議。EMEA地域最大のCIO会議のひとつで、AIとDX戦略の実務論点を扱う。",
+      "status": "upcoming",
+      "first_seen": "2026-W34",
+      "last_updated": "2026-W34"
+    },
+    {
+      "id": "gartner-it-symposium-barcelona-eu-2027",
+      "name": "Gartner IT Symposium/Xpo 2027 Barcelona (EMEA)",
+      "dates": {
+        "start": "2027-11-08",
+        "end": "2027-11-11"
+      },
+      "location": {
+        "city": "Barcelona",
+        "country": "Spain",
+        "region": "Europe"
+      },
+      "format": "in-person",
+      "url": "https://www.gartner.com/en/conferences/emea/symposium-spain",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "categories": [
+        "ビジネス / DX"
+      ],
+      "topics": [
+        "cio",
+        "it-strategy",
+        "ai",
+        "digital-transformation",
+        "enterprise-it"
+      ],
+      "cost": "paid",
+      "recurring": true,
+      "summary": "EMEA最大のCIO/IT幹部向け旗艦会議。バルセロナで開催され、AI時代のエンタープライズITとDX戦略を集約する。",
+      "status": "upcoming",
+      "first_seen": "2026-W34",
+      "last_updated": "2026-W34"
+    },
+    {
+      "id": "japan-dx-week-spring-jp-2027",
+      "name": "Japan DX Week 春 2027 (Japan IT Week / DX Week Spring)",
+      "dates": {
+        "start": "2027-04-07",
+        "end": "2027-04-09"
+      },
+      "location": {
+        "city": "Tokyo",
+        "country": "Japan",
+        "region": "Japan"
+      },
+      "format": "in-person",
+      "url": "https://www.japan-it.jp/spring/en-gb.html",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "categories": [
+        "ビジネス / DX"
+      ],
+      "topics": [
+        "dx",
+        "digital-transformation",
+        "enterprise-it",
+        "ai",
+        "japan"
+      ],
+      "cost": "free",
+      "recurring": true,
+      "summary": "国内最大級のIT/DX展示会。東京ビッグサイトでDX・AI・営業マーケ・EC・バックオフィス関連の複合展として開催される。",
+      "status": "upcoming",
+      "first_seen": "2026-W34",
+      "last_updated": "2026-W34"
+    },
+    {
+      "id": "nextech-week-spring-jp-2027",
+      "name": "NexTech Week 2027 春",
+      "dates": {
+        "start": "2027-04-21",
+        "end": "2027-04-23"
+      },
+      "location": {
+        "city": "Tokyo",
+        "country": "Japan",
+        "region": "Japan"
+      },
+      "format": "in-person",
+      "url": "https://www.nextech-week.jp/spring/ja-jp.html",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "categories": [
+        "ビジネス / DX"
+      ],
+      "topics": [
+        "ai",
+        "blockchain",
+        "quantum-computing",
+        "humanoid-robotics",
+        "xr",
+        "dx"
+      ],
+      "cost": "free",
+      "recurring": true,
+      "summary": "AI・ブロックチェーン・量子・ヒューマノイド・XR等を横断する国内先端技術展示会。東京ビッグサイトで開催される春回。",
+      "status": "upcoming",
+      "first_seen": "2026-W34",
+      "last_updated": "2026-W34"
+    },
+    {
+      "id": "gartner-data-analytics-summit-us-north-america-2027",
+      "name": "Gartner Data & Analytics Summit US 2027 (Orlando)",
+      "dates": {
+        "start": "2027-03-08",
+        "end": "2027-03-10"
+      },
+      "location": {
+        "city": "Orlando",
+        "country": "United States",
+        "region": "North America"
+      },
+      "format": "in-person",
+      "url": "https://www.gartner.com/en/conferences/na/data-analytics-us",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "categories": [
+        "データインテリジェンス",
+        "データプラットフォーム",
+        "ビジネス / DX"
+      ],
+      "topics": [
+        "data-analytics",
+        "ai-strategy",
+        "data-governance",
+        "cdao",
+        "agentic ai"
+      ],
+      "cost": "unknown",
+      "recurring": true,
+      "summary": "Gartner北米旗艦のデータ＆アナリティクス経営層サミット。CDAOやデータリーダーへ戦略指針を提示。",
+      "status": "upcoming",
+      "first_seen": "2026-W34",
+      "last_updated": "2026-W34"
+    },
+    {
+      "id": "gartner-da-summit-london-eu-2027",
+      "name": "Gartner Data & Analytics Summit London 2027 (EMEA)",
+      "dates": {
+        "start": "2027-05-10",
+        "end": "2027-05-12"
+      },
+      "location": {
+        "city": "London",
+        "country": "United Kingdom",
+        "region": "Europe"
+      },
+      "format": "in-person",
+      "url": "https://www.gartner.com/en/conferences/emea/data-analytics-uk",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "categories": [
+        "データインテリジェンス",
+        "データプラットフォーム",
+        "ビジネス / DX"
+      ],
+      "topics": [
+        "data-analytics",
+        "ai-strategy",
+        "data-governance",
+        "cdao"
+      ],
+      "cost": "unknown",
+      "recurring": true,
+      "summary": "GartnerのEMEA向けデータ＆アナリティクス旗艦。ロンドンで欧州のCDAO層が集う。",
+      "status": "upcoming",
+      "first_seen": "2026-W34",
+      "last_updated": "2026-W34"
+    },
+    {
+      "id": "sigmod-pods-north-america-2027",
+      "name": "SIGMOD/PODS 2027 (ACM Conference on Management of Data)",
+      "dates": {
+        "start": "2027-06-13",
+        "end": "2027-06-19"
+      },
+      "location": {
+        "city": "Huntington Beach",
+        "country": "United States",
+        "region": "North America"
+      },
+      "format": "in-person",
+      "url": "https://2027.sigmod.org/",
+      "cfp": {
+        "deadline": "",
+        "url": "https://2027.sigmod.org/calls_papers_important_dates.shtml",
+        "status": "open"
+      },
+      "categories": [
+        "データインテリジェンス",
+        "データエンジニアリング",
+        "データプラットフォーム"
+      ],
+      "topics": [
+        "databases",
+        "data-management",
+        "data-systems",
+        "query-processing"
+      ],
+      "cost": "unknown",
+      "recurring": true,
+      "summary": "ACM主催のデータマネジメント最高峰会議。SIGMODとPODSを併催し理論・実装の研究が集う。",
+      "status": "upcoming",
       "first_seen": "2026-W34",
       "last_updated": "2026-W34"
     }
