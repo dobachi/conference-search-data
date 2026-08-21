@@ -50,9 +50,16 @@ echo "今週のローテーション: week_${ROTATION_KEY}"
 - 英語1回: カテゴリの主要キーワードを組み合わせた1つのクエリ
 - 日本語1回: 同上の日本語版
 
-例（AI / 機械学習の場合）:
-- 英語: `"AI machine learning LLM conference 2026 new announced"`
-- 日本語: `"AI 機械学習 生成AI カンファレンス 2026"`
+**対象年**: 今年 (`CURRENT_YEAR`) と来年 (`NEXT_YEAR`) の**両方**を必ずクエリに含める。片方だけだと翌年度の CFP / 早期告知を取りこぼす。
+
+```bash
+CURRENT_YEAR=$(TZ=Asia/Tokyo date +%Y)
+NEXT_YEAR=$((CURRENT_YEAR + 1))
+```
+
+例（AI / 機械学習の場合、CURRENT_YEAR=2026, NEXT_YEAR=2027 のとき）:
+- 英語: `"AI machine learning LLM conference 2026 2027 new announced"`
+- 日本語: `"AI 機械学習 生成AI カンファレンス 2026 2027"`
 
 **合計4回のWeb検索**で済ませる（2カテゴリ × 2言語）。
 
