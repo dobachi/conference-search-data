@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-21",
+  "last_updated": "2026-08-24",
   "conferences": [
     {
       "name": "AAAI 2026 (40th AAAI Conference on Artificial Intelligence)",
@@ -2000,7 +2000,7 @@
       "cost": "paid",
       "recurring": true,
       "summary": "AI分野最大の国際会議IJCAIとECAIの合同開催。3500名以上のAI研究者が集結。",
-      "status": "ongoing",
+      "status": "ended",
       "id": "ijcai-ecai-eu-2026",
       "first_seen": "2026-W14",
       "last_updated": "2026-W14"
@@ -7830,6 +7830,255 @@
       "status": "upcoming",
       "first_seen": "2026-W34",
       "last_updated": "2026-W34"
+    },
+    {
+      "id": "biaas-amsterdam-eu-2027",
+      "name": "Business Intelligence and Analytics Summit (BIAAS) 2027",
+      "dates": {
+        "start": "2027-03-23",
+        "end": "2027-03-24"
+      },
+      "location": {
+        "city": "Amsterdam",
+        "country": "Netherlands",
+        "region": "Europe"
+      },
+      "format": "in-person",
+      "url": "https://www.confx-analytics.com/",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "categories": [
+        "データインテリジェンス",
+        "ビジネス / DX"
+      ],
+      "topics": [
+        "business intelligence",
+        "analytics",
+        "data-driven"
+      ],
+      "cost": "unknown",
+      "recurring": true,
+      "summary": "BIAAS 第4回。BI/アナリティクスのビジネス活用に焦点を当てた欧州サミット。",
+      "status": "upcoming",
+      "first_seen": "2026-W35",
+      "last_updated": "2026-W35"
+    },
+    {
+      "id": "cio-transformation-assembly-austin-north-america-2027",
+      "name": "Digital Enterprise CIO Transformation Assembly – February 2027 (Austin)",
+      "dates": {
+        "start": "2027-02-02",
+        "end": "2027-02-03"
+      },
+      "location": {
+        "city": "Austin",
+        "country": "USA",
+        "region": "North America"
+      },
+      "format": "in-person",
+      "url": "https://10times.com/e1sg-d2z2-r4g7",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "categories": [
+        "ビジネス / DX"
+      ],
+      "topics": [
+        "CIO",
+        "digital transformation",
+        "AI",
+        "data governance"
+      ],
+      "cost": "invitation",
+      "recurring": true,
+      "summary": "[要レビュー] Millennium Alliance主催、CIO向け招待制サミットのAustin開催回。",
+      "status": "upcoming",
+      "first_seen": "2026-W35",
+      "last_updated": "2026-W35"
+    },
+    {
+      "id": "cio-transformation-assembly-atlanta-north-america-2027",
+      "name": "Digital Enterprise CIO Transformation Assembly – April 2027 (Atlanta)",
+      "dates": {
+        "start": "2027-04-06",
+        "end": "2027-04-07"
+      },
+      "location": {
+        "city": "Atlanta",
+        "country": "USA",
+        "region": "North America"
+      },
+      "format": "in-person",
+      "url": "https://mill-all.com/assemblies/",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "categories": [
+        "ビジネス / DX"
+      ],
+      "topics": [
+        "CIO",
+        "digital transformation",
+        "AI",
+        "enterprise strategy"
+      ],
+      "cost": "invitation",
+      "recurring": true,
+      "summary": "[要レビュー] Millennium Alliance主催、CIO向け招待制サミットのAtlanta開催回。",
+      "status": "upcoming",
+      "first_seen": "2026-W35",
+      "last_updated": "2026-W35"
+    },
+    {
+      "id": "digital-transformation-week-global-eu-2027",
+      "name": "Digital Transformation Week Global 2027",
+      "dates": {
+        "start": "2027-02-03",
+        "end": "2027-02-04"
+      },
+      "location": {
+        "city": "London",
+        "country": "UK",
+        "region": "Europe"
+      },
+      "format": "hybrid",
+      "url": "https://www.digitaltransformation-week.com/",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "categories": [
+        "ビジネス / DX",
+        "クラウド / インフラ"
+      ],
+      "topics": [
+        "digital transformation",
+        "automation",
+        "future of work",
+        "AI"
+      ],
+      "cost": "unknown",
+      "recurring": true,
+      "summary": "TechEx傘下のDTWシリーズのグローバル回。DX/クラウド/AIの企業活用を横断。Olympia London開催。",
+      "status": "upcoming",
+      "first_seen": "2026-W35",
+      "last_updated": "2026-W35"
+    },
+    {
+      "id": "digital-transformation-week-north-america-2027",
+      "name": "Digital Transformation Expo North America 2027",
+      "dates": {
+        "start": "2027-06-16",
+        "end": "2027-06-17"
+      },
+      "location": {
+        "city": "San Jose",
+        "country": "USA",
+        "region": "North America"
+      },
+      "format": "in-person",
+      "url": "https://www.digitaltransformation-week.com/northamerica/",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "categories": [
+        "ビジネス / DX",
+        "クラウド / インフラ"
+      ],
+      "topics": [
+        "digital transformation",
+        "hybrid cloud",
+        "automation",
+        "future of work"
+      ],
+      "cost": "unknown",
+      "recurring": true,
+      "summary": "TechEx North Americaの一部としてDX Expoが併催される北米回。San Jose McEnery Convention Center開催。",
+      "status": "upcoming",
+      "first_seen": "2026-W35",
+      "last_updated": "2026-W35"
+    },
+    {
+      "id": "ai-dx-leaders-conference-jp-2026",
+      "name": "AI & DX Leaders' Conference 2026",
+      "dates": {
+        "start": "2026-03-17",
+        "end": "2026-03-17"
+      },
+      "location": {
+        "city": "Tokyo",
+        "country": "Japan",
+        "region": "Japan"
+      },
+      "format": "in-person",
+      "url": "https://guga.or.jp/evevt/2602171100",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "categories": [
+        "ビジネス / DX",
+        "AI / 機械学習"
+      ],
+      "topics": [
+        "AI",
+        "DX",
+        "leadership",
+        "business strategy"
+      ],
+      "cost": "free",
+      "recurring": true,
+      "summary": "産経新聞社主催・GUGA後援。人・組織・事業の再定義とビジネス戦略再考をテーマに大手町サンケイプラザで開催。",
+      "status": "ended",
+      "first_seen": "2026-W35",
+      "last_updated": "2026-W35"
+    },
+    {
+      "id": "nikkei-xtrend-forum-jp-2026",
+      "name": "日経クロストレンドFORUM 2026",
+      "dates": {
+        "start": "2026-07-28",
+        "end": "2026-07-30"
+      },
+      "location": {
+        "city": "Tokyo",
+        "country": "Japan",
+        "region": "Japan"
+      },
+      "format": "hybrid",
+      "url": "https://events.nikkei.co.jp/tag/dx/",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "categories": [
+        "ビジネス / DX",
+        "データインテリジェンス"
+      ],
+      "topics": [
+        "marketing",
+        "DX",
+        "consumer trends",
+        "business strategy"
+      ],
+      "cost": "paid",
+      "recurring": true,
+      "summary": "[要レビュー] 日経BP主催、マーケティング・DX・消費者トレンドを横断するビジネスカンファレンス。",
+      "status": "ended",
+      "first_seen": "2026-W35",
+      "last_updated": "2026-W35"
     }
   ]
 }
