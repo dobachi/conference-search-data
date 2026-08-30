@@ -1,5 +1,5 @@
-# Conference Summary (221 total: 127 upcoming, 0 ongoing, 94 ended)
-# Generated: 2026-08-24
+# Conference Summary (226 total: 130 upcoming, 1 ongoing, 95 ended)
+# Generated: 2026-08-31
 # Format: id | name | start~end | region | status | categories
 
 aaai-apac-2026 | AAAI 2026 (40th AAAI Conference on Artificial Intelligence) | 2026-01-20~2026-01-27 | Asia-Pacific | ended | AI / 機械学習
@@ -96,7 +96,8 @@ kubecon-cloudnativecon-japan-jp-2026 | KubeCon + CloudNativeCon Japan 2026 | 202
 google-cloud-next-tokyo-jp-2026 | Google Cloud Next Tokyo 2026 | 2026-07-30~2026-07-31 | Japan | ended | クラウド / インフラ, データプラットフォーム, AI / 機械学習
 kdd-apac-2026 | KDD 2026 (ACM SIGKDD Conference on Knowledge Discovery and Data Mining) | 2026-08-09~2026-08-13 | Asia-Pacific | ended | AI / 機械学習, データインテリジェンス
 ijcai-ecai-eu-2026 | IJCAI-ECAI 2026 (International Joint Conference on Artificial Intelligence) | 2026-08-15~2026-08-21 | Europe | ended | AI / 機械学習
-vldb-north-america-2026 | VLDB 2026 (52nd International Conference on Very Large Data Bases) | 2026-08-31~2026-09-04 | North America | upcoming | データエンジニアリング, データインテリジェンス
+ray-summit-north-america-2026 | Ray Summit 2026 | 2026-08-24~2026-08-26 | North America | ended | AI / 機械学習, クラウド / インフラ
+vldb-north-america-2026 | VLDB 2026 (52nd International Conference on Very Large Data Bases) | 2026-08-31~2026-09-04 | North America | ongoing | データエンジニアリング, データインテリジェンス
 kubecon-cloudnativecon-openinfra-summit-china-apac-2026 | KubeCon + CloudNativeCon + OpenInfra Summit China 2026 | 2026-09-08~2026-09-09 | Asia-Pacific | upcoming | クラウド / インフラ
 eccv-eu-2026 | ECCV 2026 (19th European Conference on Computer Vision) | 2026-09-08~2026-09-13 | Europe | upcoming | AI / 機械学習
 disney-ddac-north-america-2026 | Disney Data & Analytics Conference (DDAC) 2026 | 2026-09-14~2026-09-16 | North America | upcoming | データインテリジェンス
@@ -106,6 +107,7 @@ dbt-summit-north-america-2026 | dbt Summit 2026 | 2026-09-15~2026-09-18 | North 
 tdwi-transform-north-america-2026 | TDWI Transform 2026 | 2026-09-20~2026-09-25 | North America | upcoming | データインテリジェンス, データプラットフォーム
 ai-data-summit-berlin-eu-2026 | AIDAQ 2026 (AI, Data & Quantum Summit) | 2026-09-22~2026-09-23 | Europe | upcoming | データインテリジェンス, AI / 機械学習
 big-data-ldn-eu-2026 | Big Data LDN 2026 | 2026-09-23~2026-09-24 | Europe | upcoming | データインテリジェンス, データエンジニアリング, AI / 機械学習
+platform-engineering-kaigi-jp-2026 | Platform Engineering Kaigi 2026 | 2026-09-26~2026-09-26 | Japan | upcoming | クラウド / インフラ
 iaria-data-analytics-eu-2026 | DATA ANALYTICS 2026 (15th International Conference on Data Analytics) | 2026-09-27~2026-10-01 | Europe | upcoming | データインテリジェンス, データエンジニアリング
 devopscon-new-york-north-america-2026 | DevOpsCon New York 2026 | 2026-09-28~2026-10-02 | North America | upcoming | クラウド / インフラ
 fabcon-europe-eu-2026 | European Microsoft Fabric + SQL Community Conference 2026 (FabCon Europe) | 2026-09-28~2026-10-01 | Europe | upcoming | データプラットフォーム, データインテリジェンス
@@ -132,6 +134,7 @@ qcon-san-francisco-north-america-2026 | QCon San Francisco 2026 | 2026-11-16~202
 nextgen-intelligence-london-eu-2026 | NextGen Intelligence 2026 Conference | 2026-11-16~2026-11-17 | Europe | upcoming | データインテリジェンス, ビジネス / DX
 microsoft-ignite-north-america-2026 | Microsoft Ignite 2026 | 2026-11-17~2026-11-20 | North America | upcoming | クラウド / インフラ, データプラットフォーム, AI / 機械学習
 japan-dx-week-kansai-jp-2026 | Japan DX Week 関西 2026 | 2026-11-18~2026-11-20 | Japan | upcoming | ビジネス / DX, データインテリジェンス
+cloudnative-days-winter-jp-2026 | CloudNative Days Winter 2026 | 2026-11-18~2026-11-19 | Japan | upcoming | クラウド / インフラ
 gaia-x-summit-eu-2026 | Gaia-X Summit 2026 | 2026-11-19~2026-11-20 | Europe | upcoming | Data Spaces / データ連携, クラウド / インフラ, AI / 機械学習
 big-data-conference-europe-eu-2026 | Big Data Conference Europe 2026 | 2026-11-24~2026-11-27 | Europe | upcoming | データエンジニアリング, AI / 機械学習, データインテリジェンス
 aws-reinvent-north-america-2026 | AWS re:Invent 2026 | 2026-11-30~2026-12-04 | North America | upcoming | クラウド / インフラ, データプラットフォーム, AI / 機械学習
@@ -169,6 +172,7 @@ iapp-global-summit-north-america-2027 | IAPP Global Summit 2027 (Privacy | AI Go
 ndss-symposium-apac-2027 | NDSS Symposium 2027 (Network and Distributed System Security) | 2027-03-22~2027-03-26 | Asia-Pacific | upcoming | PETs
 gartner-cio-lf-hollywood-north-america-2027 | Gartner CIO Leadership Forum 2027 Hollywood, FL | 2027-03-22~2027-03-23 | North America | upcoming | ビジネス / DX
 biaas-amsterdam-eu-2027 | Business Intelligence and Analytics Summit (BIAAS) 2027 | 2027-03-23~2027-03-24 | Europe | upcoming | データインテリジェンス, ビジネス / DX
+aaiml-jp-2027 | AAIML 2027 (2nd International Conference on Advances in Artificial Intelligence and Machine Learning) | 2027-03-29~2027-03-31 | Asia-Pacific | upcoming | AI / 機械学習
 aws-summit-london-eu-2027 | AWS Summit London 2027 | 2027-04-01~2027-04-01 | Europe | upcoming | クラウド / インフラ
 aws-summit-paris-eu-2027 | AWS Summit Paris 2027 | 2027-04-01~2027-04-01 | Europe | upcoming | クラウド / インフラ
 fheorg-conference-north-america-2027 | FHE.org Conference 2027 (6th Annual) | 2027-04-04~2027-04-04 | North America | upcoming | PETs
@@ -212,6 +216,7 @@ databricks-data-ai-summit-north-america-2027 | Data + AI Summit 2027 (Databricks
 platformcon-live-day-london-eu-2027 | PlatformCon 2027 Live Day London | 2027-06-22~2027-06-22 | Europe | upcoming | クラウド / インフラ
 platformcon-live-day-nyc-north-america-2027 | PlatformCon 2027 Live Day New York | 2027-06-24~2027-06-24 | North America | upcoming | クラウド / インフラ
 gartner-cio-lf-tokyo-jp-2027 | Gartner CIO Leadership Forum 2027 Tokyo | 2027-07-07~2027-07-08 | Japan | upcoming | ビジネス / DX
+sre-next-jp-2027 | SRE NEXT 2027 | 2027-07-09~2027-07-10 | Japan | upcoming | クラウド / インフラ
 asiaccs-apac-2027 | ACM AsiaCCS 2027 (22nd ACM Asia Conference on Computer and Communications Security) | 2027-07-12~2027-07-16 | Asia-Pacific | upcoming | PETs
 privacy-enhancing-technologies-symposium-eu-2027 | PETS 2027 (27th Privacy Enhancing Technologies Symposium) | 2027-07-19~2027-07-24 | Europe | upcoming | PETs
 usenix-security-north-america-2027 | USENIX Security Symposium 2027 (36th) | 2027-08-11~2027-08-13 | North America | upcoming | PETs

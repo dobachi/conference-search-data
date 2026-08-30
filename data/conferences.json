@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-24",
+  "last_updated": "2026-08-31",
   "conferences": [
     {
       "name": "AAAI 2026 (40th AAAI Conference on Artificial Intelligence)",
@@ -3301,7 +3301,7 @@
       "cost": "unknown",
       "recurring": true,
       "summary": "データベース・データ管理研究の最高峰学術会議。第52回。スケーラブルデータ・データアーキテクチャの研究と産業事例を扱う。",
-      "status": "upcoming",
+      "status": "ongoing",
       "first_seen": "2026-W15",
       "last_updated": "2026-W15"
     },
@@ -8079,6 +8079,184 @@
       "status": "ended",
       "first_seen": "2026-W35",
       "last_updated": "2026-W35"
+    },
+    {
+      "id": "ray-summit-north-america-2026",
+      "name": "Ray Summit 2026",
+      "dates": {
+        "start": "2026-08-24",
+        "end": "2026-08-26"
+      },
+      "location": {
+        "city": "San Francisco",
+        "country": "USA",
+        "region": "North America"
+      },
+      "format": "in-person",
+      "url": "https://www.anyscale.com/ray-summit/2026",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "closed"
+      },
+      "categories": [
+        "AI / 機械学習",
+        "クラウド / インフラ"
+      ],
+      "topics": [
+        "ray",
+        "llm",
+        "foundation-models",
+        "distributed-computing",
+        "mlops"
+      ],
+      "cost": "unknown",
+      "recurring": true,
+      "summary": "AnyscaleによるRayフレームワークの年次カンファレンス。基盤モデル訓練やLLM/RLワークロードのスケーリングが中心テーマ。",
+      "status": "ended",
+      "first_seen": "2026-W36",
+      "last_updated": "2026-W36"
+    },
+    {
+      "id": "platform-engineering-kaigi-jp-2026",
+      "name": "Platform Engineering Kaigi 2026",
+      "dates": {
+        "start": "2026-09-26",
+        "end": "2026-09-26"
+      },
+      "location": {
+        "city": "東京（中野）",
+        "country": "Japan",
+        "region": "Japan"
+      },
+      "format": "hybrid",
+      "url": "https://www.cnia.io/pek2026/",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "closed"
+      },
+      "categories": [
+        "クラウド / インフラ"
+      ],
+      "topics": [
+        "platform-engineering",
+        "developer-platform",
+        "ai-native",
+        "kubernetes"
+      ],
+      "cost": "unknown",
+      "recurring": true,
+      "summary": "国内プラットフォームエンジニアリング領域のカンファレンス第3回。テーマは『AI Native Platform Engineering』。中野セントラルパークにて開催。",
+      "status": "upcoming",
+      "first_seen": "2026-W36",
+      "last_updated": "2026-W36"
+    },
+    {
+      "id": "cloudnative-days-winter-jp-2026",
+      "name": "CloudNative Days Winter 2026",
+      "dates": {
+        "start": "2026-11-18",
+        "end": "2026-11-19"
+      },
+      "location": {
+        "city": "東京（有明）",
+        "country": "Japan",
+        "region": "Japan"
+      },
+      "format": "hybrid",
+      "url": "https://cloudnativedays.jp/",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "categories": [
+        "クラウド / インフラ"
+      ],
+      "topics": [
+        "cloud-native",
+        "kubernetes",
+        "observability",
+        "devops"
+      ],
+      "cost": "unknown",
+      "recurring": true,
+      "summary": "国内クラウドネイティブコミュニティによる冬の合同カンファレンス。有明セントラルタワーホールで2日間開催。",
+      "status": "upcoming",
+      "first_seen": "2026-W36",
+      "last_updated": "2026-W36"
+    },
+    {
+      "id": "sre-next-jp-2027",
+      "name": "SRE NEXT 2027",
+      "dates": {
+        "start": "2027-07-09",
+        "end": "2027-07-10"
+      },
+      "location": {
+        "city": "東京（有明）",
+        "country": "Japan",
+        "region": "Japan"
+      },
+      "format": "in-person",
+      "url": "https://sre-next.dev/2027/",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "categories": [
+        "クラウド / インフラ"
+      ],
+      "topics": [
+        "sre",
+        "reliability",
+        "observability",
+        "devops"
+      ],
+      "cost": "unknown",
+      "recurring": true,
+      "summary": "SRE Loungeコミュニティ主催の国内SREカンファレンス。TOC ARIAKE Convention Hallで2日間開催予定。",
+      "status": "upcoming",
+      "first_seen": "2026-W36",
+      "last_updated": "2026-W36"
+    },
+    {
+      "id": "aaiml-jp-2027",
+      "name": "AAIML 2027 (2nd International Conference on Advances in Artificial Intelligence and Machine Learning)",
+      "dates": {
+        "start": "2027-03-29",
+        "end": "2027-03-31"
+      },
+      "location": {
+        "city": "東京（駿河台）",
+        "country": "Japan",
+        "region": "Asia-Pacific"
+      },
+      "format": "in-person",
+      "url": "https://aaiml.net/",
+      "cfp": {
+        "deadline": "2026-10-10",
+        "url": "https://easychair.org/cfp/aaiml2027",
+        "status": "open"
+      },
+      "categories": [
+        "AI / 機械学習"
+      ],
+      "topics": [
+        "deep-learning",
+        "nlp",
+        "computer-vision",
+        "ethical-ai",
+        "ieee"
+      ],
+      "cost": "unknown",
+      "recurring": true,
+      "summary": "日本大学駿河台キャンパスで開催されるIEEE後援のAI・機械学習国際会議。採択論文はIEEE Xploreに掲載予定。",
+      "status": "upcoming",
+      "first_seen": "2026-W36",
+      "last_updated": "2026-W36"
     }
   ]
 }
