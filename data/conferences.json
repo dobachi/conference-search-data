@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-31",
+  "last_updated": "2026-09-07",
   "conferences": [
     {
       "name": "AAAI 2026 (40th AAAI Conference on Artificial Intelligence)",
@@ -2006,6 +2006,42 @@
       "last_updated": "2026-W14"
     },
     {
+      "name": "Airflow Summit 2026",
+      "dates": {
+        "start": "2026-08-31",
+        "end": "2026-09-02"
+      },
+      "location": {
+        "city": "Austin",
+        "country": "USA",
+        "region": "North America"
+      },
+      "format": "in-person",
+      "url": "https://airflowsummit.org/",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "closed"
+      },
+      "categories": [
+        "データエンジニアリング",
+        "データプラットフォーム"
+      ],
+      "topics": [
+        "Apache Airflow",
+        "workflow orchestration",
+        "data pipeline",
+        "MLOps"
+      ],
+      "cost": "paid",
+      "recurring": true,
+      "summary": "Apache Airflowコミュニティ年次カンファレンス。Hyatt Regency Austin開催、ワークフローオーケストレーションとデータパイプラインが中心テーマ。",
+      "status": "ended",
+      "id": "airflow-summit-north-america-2026",
+      "first_seen": "2026-W37",
+      "last_updated": "2026-W37"
+    },
+    {
       "name": "KubeCon + CloudNativeCon + OpenInfra Summit China 2026",
       "dates": {
         "start": "2026-09-08",
@@ -3301,7 +3337,7 @@
       "cost": "unknown",
       "recurring": true,
       "summary": "データベース・データ管理研究の最高峰学術会議。第52回。スケーラブルデータ・データアーキテクチャの研究と産業事例を扱う。",
-      "status": "ongoing",
+      "status": "ended",
       "first_seen": "2026-W15",
       "last_updated": "2026-W15"
     },

@@ -1,5 +1,5 @@
-# Conference Summary (226 total: 130 upcoming, 1 ongoing, 95 ended)
-# Generated: 2026-08-31
+# Conference Summary (227 total: 130 upcoming, 0 ongoing, 97 ended)
+# Generated: 2026-09-07
 # Format: id | name | start~end | region | status | categories
 
 aaai-apac-2026 | AAAI 2026 (40th AAAI Conference on Artificial Intelligence) | 2026-01-20~2026-01-27 | Asia-Pacific | ended | AI / 機械学習
@@ -97,7 +97,8 @@ google-cloud-next-tokyo-jp-2026 | Google Cloud Next Tokyo 2026 | 2026-07-30~2026
 kdd-apac-2026 | KDD 2026 (ACM SIGKDD Conference on Knowledge Discovery and Data Mining) | 2026-08-09~2026-08-13 | Asia-Pacific | ended | AI / 機械学習, データインテリジェンス
 ijcai-ecai-eu-2026 | IJCAI-ECAI 2026 (International Joint Conference on Artificial Intelligence) | 2026-08-15~2026-08-21 | Europe | ended | AI / 機械学習
 ray-summit-north-america-2026 | Ray Summit 2026 | 2026-08-24~2026-08-26 | North America | ended | AI / 機械学習, クラウド / インフラ
-vldb-north-america-2026 | VLDB 2026 (52nd International Conference on Very Large Data Bases) | 2026-08-31~2026-09-04 | North America | ongoing | データエンジニアリング, データインテリジェンス
+airflow-summit-north-america-2026 | Airflow Summit 2026 | 2026-08-31~2026-09-02 | North America | ended | データエンジニアリング, データプラットフォーム
+vldb-north-america-2026 | VLDB 2026 (52nd International Conference on Very Large Data Bases) | 2026-08-31~2026-09-04 | North America | ended | データエンジニアリング, データインテリジェンス
 kubecon-cloudnativecon-openinfra-summit-china-apac-2026 | KubeCon + CloudNativeCon + OpenInfra Summit China 2026 | 2026-09-08~2026-09-09 | Asia-Pacific | upcoming | クラウド / インフラ
 eccv-eu-2026 | ECCV 2026 (19th European Conference on Computer Vision) | 2026-09-08~2026-09-13 | Europe | upcoming | AI / 機械学習
 disney-ddac-north-america-2026 | Disney Data & Analytics Conference (DDAC) 2026 | 2026-09-14~2026-09-16 | North America | upcoming | データインテリジェンス
