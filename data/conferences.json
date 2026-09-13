@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-07",
+  "last_updated": "2026-09-14",
   "conferences": [
     {
       "name": "AAAI 2026 (40th AAAI Conference on Artificial Intelligence)",
@@ -2072,7 +2072,7 @@
       "cost": "paid",
       "recurring": true,
       "summary": "KubeCon・OpenInfra Summit・PyTorch Conferenceの合同中国開催。アジア最大級のクラウドインフライベント。",
-      "status": "upcoming",
+      "status": "ended",
       "id": "kubecon-cloudnativecon-openinfra-summit-china-apac-2026",
       "first_seen": "2026-W14",
       "last_updated": "2026-W14"
@@ -2109,7 +2109,7 @@
       "cost": "paid",
       "recurring": true,
       "summary": "ヨーロッパ発のコンピュータビジョントップ会議。マルメで隔年開催。",
-      "status": "upcoming",
+      "status": "ended",
       "id": "eccv-eu-2026",
       "first_seen": "2026-W14",
       "last_updated": "2026-W14"
@@ -3373,7 +3373,7 @@
       "cost": "unknown",
       "recurring": true,
       "summary": "ディズニー主催の実践者向けデータ・分析カンファレンス。2500以上の参加者・250以上の組織が集うビジネス分析の実用的イベント。",
-      "status": "upcoming",
+      "status": "ongoing",
       "first_seen": "2026-W15",
       "last_updated": "2026-W15"
     },
@@ -3520,7 +3520,7 @@
       "cost": "unknown",
       "recurring": true,
       "summary": "ガートナー主催のアジア太平洋地域フラッグシップITカンファレンス。AI・サイバーセキュリティ・デジタルビジネス戦略をAPACのCIO向けに提供。",
-      "status": "upcoming",
+      "status": "ongoing",
       "first_seen": "2026-W15",
       "last_updated": "2026-W15"
     },
@@ -5152,7 +5152,7 @@
       "cost": "paid",
       "recurring": true,
       "summary": "国内開催のデータスペース関連イベント。2025年は幕張メッセで IDSA・Data Society Alliance・IEEE 等が協力し開催。2026年は9/14-18 開催予定（詳細未公開）。",
-      "status": "upcoming",
+      "status": "ongoing",
       "id": "data-spaces-week-jp-2026",
       "first_seen": "2026-W33",
       "last_updated": "2026-W33"
@@ -8293,6 +8293,268 @@
       "status": "upcoming",
       "first_seen": "2026-W36",
       "last_updated": "2026-W36"
+    },
+    {
+      "name": "Data Spaces in Action 2026 (つながるデータ、動き出す社会)",
+      "dates": {
+        "start": "2026-07-24",
+        "end": "2026-07-24"
+      },
+      "location": {
+        "city": "Tokyo",
+        "country": "Japan",
+        "region": "Japan"
+      },
+      "format": "in-person",
+      "url": "https://events.nikkeibp.co.jp/event/2026/ntt0724/",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "categories": [
+        "Data Spaces / データ連携",
+        "ビジネス / DX",
+        "AI / 機械学習"
+      ],
+      "topics": [
+        "data-spaces",
+        "data-sharing",
+        "trusted-data",
+        "digital-infrastructure",
+        "ai"
+      ],
+      "cost": "free",
+      "recurring": false,
+      "summary": "NTT DATA主催、日経BP共催のデータスペース半日エグゼクティブセミナー。AI前提時代の社会基盤を議論。",
+      "status": "ended",
+      "id": "data-spaces-in-action-jp-2026",
+      "first_seen": "2026-W38",
+      "last_updated": "2026-W38"
+    },
+    {
+      "name": "IDSA High-Level Stakeholder Dialogue & Data Spaces Decade Forum",
+      "dates": {
+        "start": "2026-11-03",
+        "end": "2026-11-03"
+      },
+      "location": {
+        "city": "Berlin",
+        "country": "Germany",
+        "region": "Europe"
+      },
+      "format": "in-person",
+      "url": "https://internationaldataspaces.org/events/idsa-high-level-stakeholder-dialogue-data-spaces-decade-forum/",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "categories": [
+        "Data Spaces / データ連携",
+        "ビジネス / DX"
+      ],
+      "topics": [
+        "data-spaces",
+        "idsa",
+        "data-sovereignty",
+        "trusted-data-sharing",
+        "industrial-ai"
+      ],
+      "cost": "paid",
+      "recurring": false,
+      "summary": "IDSA10周年を記念するベルリンでのハイレベル対話とフォーラム。C-levelを含むデータ共有エコシステムの節目イベント。",
+      "status": "upcoming",
+      "id": "idsa-decade-forum-eu-2026",
+      "first_seen": "2026-W38",
+      "last_updated": "2026-W38"
+    },
+    {
+      "name": "Data Expo 2026",
+      "dates": {
+        "start": "2026-09-09",
+        "end": "2026-09-10"
+      },
+      "location": {
+        "city": "Utrecht",
+        "country": "Netherlands",
+        "region": "Europe"
+      },
+      "format": "in-person",
+      "url": "https://www.data-expo.nl/en/",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "categories": [
+        "Data Spaces / データ連携",
+        "データインテリジェンス",
+        "AI / 機械学習"
+      ],
+      "topics": [
+        "data-spaces",
+        "scalable-ai",
+        "data-sharing",
+        "interoperability",
+        "idsa"
+      ],
+      "cost": "unknown",
+      "recurring": true,
+      "summary": "オランダ最大級のデータイベント。2026年テーマは「Scalable AI Impact」、IDSAブースも出展。",
+      "status": "ended",
+      "id": "data-expo-utrecht-eu-2026",
+      "first_seen": "2026-W38",
+      "last_updated": "2026-W38"
+    },
+    {
+      "name": "データ共創会議 2026 (Privacy Tech, Confidential Data and AI)",
+      "dates": {
+        "start": "2026-01-20",
+        "end": "2026-01-20"
+      },
+      "location": {
+        "city": "Tokyo",
+        "country": "Japan",
+        "region": "Japan"
+      },
+      "format": "hybrid",
+      "url": "https://privacytech-assoc.org/conference2026",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "categories": [
+        "PETs",
+        "AI / 機械学習",
+        "ビジネス / DX"
+      ],
+      "topics": [
+        "privacy-tech",
+        "confidential-computing",
+        "secure-computation",
+        "differential-privacy",
+        "ai-governance"
+      ],
+      "cost": "unknown",
+      "recurring": true,
+      "summary": "[要レビュー] プライバシーテック協会主催。国産LLM、データ関連法、日本版EHDS、国産インフラ4テーマを議論するハイブリッド会議。",
+      "status": "ended",
+      "id": "data-kyoso-kaigi-jp-2026",
+      "first_seen": "2026-W38",
+      "last_updated": "2026-W38"
+    },
+    {
+      "name": "Privacy by Design Conference 2026",
+      "dates": {
+        "start": "2026-01-28",
+        "end": "2026-01-28"
+      },
+      "location": {
+        "city": "Tokyo",
+        "country": "Japan",
+        "region": "Japan"
+      },
+      "format": "in-person",
+      "url": "https://conference2026.privacybydesign.jp/",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "categories": [
+        "PETs",
+        "ビジネス / DX"
+      ],
+      "topics": [
+        "privacy-by-design",
+        "data-privacy",
+        "privacy-law",
+        "mydata",
+        "personal-data"
+      ],
+      "cost": "paid",
+      "recurring": true,
+      "summary": "Privacy by Design Lab主催、Data Privacy Day前後に開催される国際カンファレンス。文化・法律・技術・ビジネス視点で対話。",
+      "status": "ended",
+      "id": "privacy-by-design-jp-2026",
+      "first_seen": "2026-W38",
+      "last_updated": "2026-W38"
+    },
+    {
+      "name": "OC3 2026 (Open Confidential Computing Conference)",
+      "dates": {
+        "start": "2026-03-12",
+        "end": "2026-03-12"
+      },
+      "location": {
+        "city": "Berlin",
+        "country": "Germany",
+        "region": "Europe"
+      },
+      "format": "hybrid",
+      "url": "https://www.oc3.dev/",
+      "cfp": {
+        "deadline": "",
+        "url": "https://easychair.org/cfp/OC32026",
+        "status": "closed"
+      },
+      "categories": [
+        "PETs",
+        "クラウド / インフラ"
+      ],
+      "topics": [
+        "confidential-computing",
+        "tee",
+        "secure-enclave",
+        "ai-security",
+        "healthcare"
+      ],
+      "cost": "free",
+      "recurring": true,
+      "summary": "Edgeless Systems主催のConfidential Computing国際カンファレンス。パブリックセクター・ヘルスケアの実装事例に注目。",
+      "status": "ended",
+      "id": "oc3-eu-2026",
+      "first_seen": "2026-W38",
+      "last_updated": "2026-W38"
+    },
+    {
+      "name": "IAPP Europe Congress 2026 (Privacy, AI Governance, Cybersecurity Law)",
+      "dates": {
+        "start": "2026-11-16",
+        "end": "2026-11-19"
+      },
+      "location": {
+        "city": "Brussels",
+        "country": "Belgium",
+        "region": "Europe"
+      },
+      "format": "in-person",
+      "url": "https://iapp.org/conference/iapp-europe-congress/",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "categories": [
+        "PETs",
+        "ビジネス / DX"
+      ],
+      "topics": [
+        "privacy",
+        "ai-governance",
+        "cybersecurity-law",
+        "gdpr",
+        "data-protection"
+      ],
+      "cost": "paid",
+      "recurring": true,
+      "summary": "IAPP主催の欧州最大プライバシー会議。200+スピーカー、75+セッションでGDPR・AI規制・サイバーセキュリティ法を議論。",
+      "status": "upcoming",
+      "id": "iapp-europe-congress-eu-2026",
+      "first_seen": "2026-W38",
+      "last_updated": "2026-W38"
     }
   ]
 }
