@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-14",
+  "last_updated": "2026-09-21",
   "conferences": [
     {
       "name": "AAAI 2026 (40th AAAI Conference on Artificial Intelligence)",
@@ -2147,7 +2147,7 @@
       "cost": "paid",
       "recurring": true,
       "summary": "dbt Labs主催（旧Coalesce）。データ変換・アナリティクスエンジニアリングの専門カンファレンス。",
-      "status": "upcoming",
+      "status": "ended",
       "id": "dbt-summit-north-america-2026",
       "first_seen": "2026-W14",
       "last_updated": "2026-W14"
@@ -2817,7 +2817,7 @@
       "cost": "unknown",
       "recurring": true,
       "summary": "TDWIのベンダー中立データ深掘りトレーニングカンファレンス。50以上のマスタークラス・AI/BI/データガバナンスを網羅。",
-      "status": "upcoming",
+      "status": "ongoing",
       "first_seen": "2026-W15",
       "last_updated": "2026-W15"
     },
@@ -3373,7 +3373,7 @@
       "cost": "unknown",
       "recurring": true,
       "summary": "ディズニー主催の実践者向けデータ・分析カンファレンス。2500以上の参加者・250以上の組織が集うビジネス分析の実用的イベント。",
-      "status": "ongoing",
+      "status": "ended",
       "first_seen": "2026-W15",
       "last_updated": "2026-W15"
     },
@@ -3520,7 +3520,7 @@
       "cost": "unknown",
       "recurring": true,
       "summary": "ガートナー主催のアジア太平洋地域フラッグシップITカンファレンス。AI・サイバーセキュリティ・デジタルビジネス戦略をAPACのCIO向けに提供。",
-      "status": "ongoing",
+      "status": "ended",
       "first_seen": "2026-W15",
       "last_updated": "2026-W15"
     },
@@ -5152,7 +5152,7 @@
       "cost": "paid",
       "recurring": true,
       "summary": "国内開催のデータスペース関連イベント。2025年は幕張メッセで IDSA・Data Society Alliance・IEEE 等が協力し開催。2026年は9/14-18 開催予定（詳細未公開）。",
-      "status": "ongoing",
+      "status": "ended",
       "id": "data-spaces-week-jp-2026",
       "first_seen": "2026-W33",
       "last_updated": "2026-W33"
@@ -7903,19 +7903,19 @@
       "last_updated": "2026-W35"
     },
     {
-      "id": "cio-transformation-assembly-austin-north-america-2027",
-      "name": "Digital Enterprise CIO Transformation Assembly – February 2027 (Austin)",
+      "id": "cio-transformation-assembly-dallas-north-america-2027",
+      "name": "Digital Enterprise CIO Transformation Assembly – February 2027 (Dallas)",
       "dates": {
         "start": "2027-02-02",
         "end": "2027-02-03"
       },
       "location": {
-        "city": "Austin",
+        "city": "Dallas",
         "country": "USA",
         "region": "North America"
       },
       "format": "in-person",
-      "url": "https://10times.com/e1sg-d2z2-r4g7",
+      "url": "https://mill-all.com/assemblies/digital-enterprise-cio-transformation-assembly-february-2027/",
       "cfp": {
         "deadline": "",
         "url": "",
@@ -7935,7 +7935,7 @@
       "summary": "[要レビュー] Millennium Alliance主催、CIO向け招待制サミットのAustin開催回。",
       "status": "upcoming",
       "first_seen": "2026-W35",
-      "last_updated": "2026-W35"
+      "last_updated": "2026-W39"
     },
     {
       "id": "cio-transformation-assembly-atlanta-north-america-2027",
@@ -8555,6 +8555,329 @@
       "id": "iapp-europe-congress-eu-2026",
       "first_seen": "2026-W38",
       "last_updated": "2026-W38"
+    },
+    {
+      "name": "ODSC AI West 2026",
+      "dates": {
+        "start": "2026-10-27",
+        "end": "2026-10-29"
+      },
+      "location": {
+        "city": "Burlingame (San Francisco Bay Area)",
+        "country": "USA",
+        "region": "North America"
+      },
+      "format": "hybrid",
+      "url": "https://odsc.ai/west/",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "closed"
+      },
+      "categories": [
+        "データインテリジェンス",
+        "AI / 機械学習"
+      ],
+      "topics": [
+        "data-science",
+        "machine-learning",
+        "llm",
+        "rag",
+        "agentic-ai",
+        "mlops"
+      ],
+      "cost": "paid",
+      "recurring": true,
+      "summary": "ODSCの西海岸版AI/データサイエンス会議。RAGパイプライン、LLMオーケストレーション、エージェンティックAIの実践セッションが中心。",
+      "status": "upcoming",
+      "id": "odsc-west-north-america-2026",
+      "first_seen": "2026-W39",
+      "last_updated": "2026-W39"
+    },
+    {
+      "name": "AI & Big Data Expo Europe 2026",
+      "dates": {
+        "start": "2026-10-19",
+        "end": "2026-10-20"
+      },
+      "location": {
+        "city": "Amsterdam",
+        "country": "Netherlands",
+        "region": "Europe"
+      },
+      "format": "in-person",
+      "url": "https://www.ai-expo.net/europe/",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "closed"
+      },
+      "categories": [
+        "データインテリジェンス",
+        "AI / 機械学習"
+      ],
+      "topics": [
+        "big-data",
+        "ai",
+        "analytics",
+        "enterprise-ai",
+        "data-strategy"
+      ],
+      "cost": "paid",
+      "recurring": true,
+      "summary": "TechExが主催する欧州版AI・ビッグデータ展。企業のデータ活用・分析基盤とAI導入事例を扱う大規模展示会型カンファレンス。",
+      "status": "upcoming",
+      "id": "ai-big-data-expo-europe-eu-2026",
+      "first_seen": "2026-W39",
+      "last_updated": "2026-W39"
+    },
+    {
+      "name": "Machine Learning Week Europe 2026",
+      "dates": {
+        "start": "2026-11-16",
+        "end": "2026-11-18"
+      },
+      "location": {
+        "city": "Munich",
+        "country": "Germany",
+        "region": "Europe"
+      },
+      "format": "in-person",
+      "url": "https://machinelearningweek.eu/",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "closed"
+      },
+      "categories": [
+        "データインテリジェンス",
+        "AI / 機械学習"
+      ],
+      "topics": [
+        "machine-learning",
+        "predictive-analytics",
+        "data-science",
+        "enterprise-ml"
+      ],
+      "cost": "paid",
+      "recurring": true,
+      "summary": "欧州版Machine Learning Week。予測分析と企業における機械学習の実適用事例にフォーカスしたビジネス寄りのML会議。",
+      "status": "upcoming",
+      "id": "machine-learning-week-europe-eu-2026",
+      "first_seen": "2026-W39",
+      "last_updated": "2026-W39"
+    },
+    {
+      "name": "生成AIサミット（Generative AI Summit）2026 / GenAI/SUM 2026",
+      "dates": {
+        "start": "2026-10-05",
+        "end": "2026-10-07"
+      },
+      "location": {
+        "city": "東京（九段会館テラス）",
+        "country": "Japan",
+        "region": "Japan"
+      },
+      "format": "in-person",
+      "url": "https://www.xsum.jp/gai/",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "categories": [
+        "ビジネス / DX",
+        "AI / 機械学習"
+      ],
+      "topics": [
+        "generative-ai",
+        "ai-native",
+        "dx",
+        "management-strategy"
+      ],
+      "cost": "unknown",
+      "recurring": true,
+      "summary": "日本経済新聞社主催の生成AIサミット（GenAI/SUM）。九段会館テラスで3日間、「AIネイティブ社会への移行 〜制度・産業・人の役割はどう再設計されるか」をテーマに議論する。",
+      "status": "upcoming",
+      "id": "seisei-ai-summit-jp-2026",
+      "first_seen": "2026-W39",
+      "last_updated": "2026-W39"
+    },
+    {
+      "name": "World AI Cannes Festival 2027 (WAICF)",
+      "dates": {
+        "start": "2027-02-10",
+        "end": "2027-02-11"
+      },
+      "location": {
+        "city": "Cannes",
+        "country": "France",
+        "region": "Europe"
+      },
+      "format": "in-person",
+      "url": "https://worldaicannes.com/",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "categories": [
+        "ビジネス / DX",
+        "AI / 機械学習"
+      ],
+      "topics": [
+        "ai",
+        "business-transformation",
+        "ai-strategy",
+        "startups"
+      ],
+      "cost": "paid",
+      "recurring": true,
+      "summary": "南仏カンヌで開催されるAIビジネス国際フェスティバル。経営層・スタートアップ・研究者が集いAI活用戦略を議論する。",
+      "status": "upcoming",
+      "id": "world-ai-cannes-festival-eu-2027",
+      "first_seen": "2026-W39",
+      "last_updated": "2026-W39"
+    },
+    {
+      "name": "European Digital Enterprise CIO Transformation Assembly – May 2027 (Amsterdam)",
+      "dates": {
+        "start": "2027-05-04",
+        "end": "2027-05-05"
+      },
+      "location": {
+        "city": "Amsterdam",
+        "country": "Netherlands",
+        "region": "Europe"
+      },
+      "format": "in-person",
+      "url": "https://mill-all.com/assemblies/european-digital-enterprise-cio-transformation-assembly-may-2027/",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "categories": [
+        "ビジネス / DX"
+      ],
+      "topics": [
+        "cio",
+        "digital-transformation",
+        "enterprise-it",
+        "leadership"
+      ],
+      "cost": "unknown",
+      "recurring": true,
+      "summary": "Millennium Alliance主催のCIO向け招待制アセンブリ。欧州のデジタル変革リーダーが集まる少人数制エグゼクティブ会議。",
+      "status": "upcoming",
+      "id": "cio-transformation-assembly-amsterdam-eu-2027",
+      "first_seen": "2026-W39",
+      "last_updated": "2026-W39"
+    },
+    {
+      "name": "Digital Enterprise CIO Transformation Assembly – June 2027 (New Orleans)",
+      "dates": {
+        "start": "2027-06-15",
+        "end": "2027-06-16"
+      },
+      "location": {
+        "city": "New Orleans",
+        "country": "USA",
+        "region": "North America"
+      },
+      "format": "in-person",
+      "url": "https://mill-all.com/assemblies/digital-enterprise-cio-transformation-assembly-june-2027/",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "categories": [
+        "ビジネス / DX"
+      ],
+      "topics": [
+        "cio",
+        "digital-transformation",
+        "enterprise-it",
+        "leadership"
+      ],
+      "cost": "unknown",
+      "recurring": true,
+      "summary": "Millennium Alliance主催のCIO向け招待制アセンブリ。北米のデジタル変革リーダーが集まる少人数制エグゼクティブ会議。",
+      "status": "upcoming",
+      "id": "cio-transformation-assembly-new-orleans-north-america-2027",
+      "first_seen": "2026-W39",
+      "last_updated": "2026-W39"
+    },
+    {
+      "name": "Digital Enterprise CIO Transformation Assembly – August 2027 (Austin)",
+      "dates": {
+        "start": "2027-08-25",
+        "end": "2027-08-26"
+      },
+      "location": {
+        "city": "Austin",
+        "country": "USA",
+        "region": "North America"
+      },
+      "format": "in-person",
+      "url": "https://mill-all.com/assemblies/digital-enterprise-cio-transformation-assembly-august-2027/",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "categories": [
+        "ビジネス / DX"
+      ],
+      "topics": [
+        "cio",
+        "digital-transformation",
+        "enterprise-it",
+        "leadership"
+      ],
+      "cost": "unknown",
+      "recurring": true,
+      "summary": "Millennium Alliance主催のCIO向け招待制アセンブリ。北米のデジタル変革リーダーが集まる少人数制エグゼクティブ会議。",
+      "status": "upcoming",
+      "id": "cio-transformation-assembly-austin-aug-north-america-2027",
+      "first_seen": "2026-W39",
+      "last_updated": "2026-W39"
+    },
+    {
+      "name": "European Digital Enterprise CIO Transformation Assembly – September 2027 (Munich)",
+      "dates": {
+        "start": "2027-09-01",
+        "end": "2027-09-02"
+      },
+      "location": {
+        "city": "Munich",
+        "country": "Germany",
+        "region": "Europe"
+      },
+      "format": "in-person",
+      "url": "https://mill-all.com/assemblies/european-digital-enterprise-cio-transformation-assembly-september-2027/",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "categories": [
+        "ビジネス / DX"
+      ],
+      "topics": [
+        "cio",
+        "digital-transformation",
+        "enterprise-it",
+        "leadership"
+      ],
+      "cost": "unknown",
+      "recurring": true,
+      "summary": "Millennium Alliance主催のCIO向け招待制アセンブリ。欧州のデジタル変革リーダーが集まる少人数制エグゼクティブ会議。",
+      "status": "upcoming",
+      "id": "cio-transformation-assembly-munich-eu-2027",
+      "first_seen": "2026-W39",
+      "last_updated": "2026-W39"
     }
   ]
 }

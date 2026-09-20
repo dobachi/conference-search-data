@@ -1,5 +1,5 @@
-# Conference Summary (234 total: 127 upcoming, 3 ongoing, 104 ended)
-# Generated: 2026-09-14
+# Conference Summary (243 total: 134 upcoming, 1 ongoing, 108 ended)
+# Generated: 2026-09-21
 # Format: id | name | start~end | region | status | categories
 
 aaai-apac-2026 | AAAI 2026 (40th AAAI Conference on Artificial Intelligence) | 2026-01-20~2026-01-27 | Asia-Pacific | ended | AI / 機械学習
@@ -106,11 +106,11 @@ vldb-north-america-2026 | VLDB 2026 (52nd International Conference on Very Large
 kubecon-cloudnativecon-openinfra-summit-china-apac-2026 | KubeCon + CloudNativeCon + OpenInfra Summit China 2026 | 2026-09-08~2026-09-09 | Asia-Pacific | ended | クラウド / インフラ
 eccv-eu-2026 | ECCV 2026 (19th European Conference on Computer Vision) | 2026-09-08~2026-09-13 | Europe | ended | AI / 機械学習
 data-expo-utrecht-eu-2026 | Data Expo 2026 | 2026-09-09~2026-09-10 | Europe | ended | Data Spaces / データ連携, データインテリジェンス, AI / 機械学習
-disney-ddac-north-america-2026 | Disney Data & Analytics Conference (DDAC) 2026 | 2026-09-14~2026-09-16 | North America | ongoing | データインテリジェンス
-gartner-it-symposium-gold-coast-apac-2026 | Gartner IT Symposium/Xpo Australia 2026 | 2026-09-14~2026-09-16 | Asia-Pacific | ongoing | ビジネス / DX, AI / 機械学習
-data-spaces-week-jp-2026 | Data Spaces Week 2026 | 2026-09-14~2026-09-18 | Japan | ongoing | Data Spaces / データ連携, データプラットフォーム, ビジネス / DX
-dbt-summit-north-america-2026 | dbt Summit 2026 | 2026-09-15~2026-09-18 | North America | upcoming | データエンジニアリング, データプラットフォーム
-tdwi-transform-north-america-2026 | TDWI Transform 2026 | 2026-09-20~2026-09-25 | North America | upcoming | データインテリジェンス, データプラットフォーム
+disney-ddac-north-america-2026 | Disney Data & Analytics Conference (DDAC) 2026 | 2026-09-14~2026-09-16 | North America | ended | データインテリジェンス
+gartner-it-symposium-gold-coast-apac-2026 | Gartner IT Symposium/Xpo Australia 2026 | 2026-09-14~2026-09-16 | Asia-Pacific | ended | ビジネス / DX, AI / 機械学習
+data-spaces-week-jp-2026 | Data Spaces Week 2026 | 2026-09-14~2026-09-18 | Japan | ended | Data Spaces / データ連携, データプラットフォーム, ビジネス / DX
+dbt-summit-north-america-2026 | dbt Summit 2026 | 2026-09-15~2026-09-18 | North America | ended | データエンジニアリング, データプラットフォーム
+tdwi-transform-north-america-2026 | TDWI Transform 2026 | 2026-09-20~2026-09-25 | North America | ongoing | データインテリジェンス, データプラットフォーム
 ai-data-summit-berlin-eu-2026 | AIDAQ 2026 (AI, Data & Quantum Summit) | 2026-09-22~2026-09-23 | Europe | upcoming | データインテリジェンス, AI / 機械学習
 big-data-ldn-eu-2026 | Big Data LDN 2026 | 2026-09-23~2026-09-24 | Europe | upcoming | データインテリジェンス, データエンジニアリング, AI / 機械学習
 platform-engineering-kaigi-jp-2026 | Platform Engineering Kaigi 2026 | 2026-09-26~2026-09-26 | Japan | upcoming | クラウド / インフラ
@@ -119,16 +119,19 @@ devopscon-new-york-north-america-2026 | DevOpsCon New York 2026 | 2026-09-28~202
 fabcon-europe-eu-2026 | European Microsoft Fabric + SQL Community Conference 2026 (FabCon Europe) | 2026-09-28~2026-10-01 | Europe | upcoming | データプラットフォーム, データインテリジェンス
 mlcon-new-york-north-america-2026 | MLcon New York 2026 | 2026-09-28~2026-10-02 | North America | upcoming | AI / 機械学習
 european-big-data-value-forum-eu-2026 | European Big Data Value Forum (EBDVF) 2026 | 2026-09-30~2026-10-01 | Europe | upcoming | Data Spaces / データ連携, AI / 機械学習, データインテリジェンス, ビジネス / DX
+seisei-ai-summit-jp-2026 | 生成AIサミット（Generative AI Summit）2026 / GenAI/SUM 2026 | 2026-10-05~2026-10-07 | Japan | upcoming | ビジネス / DX, AI / 機械学習
 iapp-psr-north-america-2026 | IAPP Privacy. Security. Risk. + AI Governance Global 2026 | 2026-10-06~2026-10-09 | North America | upcoming | PETs, ビジネス / DX
 colm-north-america-2026 | COLM 2026 (Conference on Language Modeling) | 2026-10-06~2026-10-09 | North America | upcoming | AI / 機械学習
 data-streaming-summit-north-america-2026 | Data Streaming Summit 2026 (San Francisco) | 2026-10-07~2026-10-08 | North America | upcoming | データエンジニアリング
 srecon26-europemiddle-eastafrica-eu-2026 | SREcon26 Europe/Middle East/Africa | 2026-10-13~2026-10-15 | Europe | upcoming | クラウド / インフラ
 data-innovation-summit-mea-eu-2026 | Data Innovation Summit MEA 2026 | 2026-10-14~2026-10-15 | Europe | upcoming | データインテリジェンス, AI / 機械学習, データエンジニアリング
 gartner-it-symposium-orlando-north-america-2026 | Gartner IT Symposium/Xpo Americas 2026 | 2026-10-19~2026-10-22 | North America | upcoming | ビジネス / DX, AI / 機械学習
+ai-big-data-expo-europe-eu-2026 | AI & Big Data Expo Europe 2026 | 2026-10-19~2026-10-20 | Europe | upcoming | データインテリジェンス, AI / 機械学習
 digital-transformation-week-europe-eu-2026 | Digital Transformation Week Europe 2026 | 2026-10-20~2026-10-21 | Europe | upcoming | ビジネス / DX, クラウド / インフラ
 japan-dx-week-autumn-jp-2026 | Japan DX Week 秋 2026 | 2026-10-21~2026-10-23 | Japan | upcoming | ビジネス / DX, データインテリジェンス
 hashiconf-at-ibm-techxchange-north-america-2026 | HashiConf at IBM TechXchange 2026 | 2026-10-26~2026-10-29 | North America | upcoming | クラウド / インフラ
 aiml-conference-eu-2026 | AIML-2026 (6th International Conference on Artificial Intelligence & Machine Learning) | 2026-10-26~2026-10-27 | Europe | upcoming | AI / 機械学習
+odsc-west-north-america-2026 | ODSC AI West 2026 | 2026-10-27~2026-10-29 | North America | upcoming | データインテリジェンス, AI / 機械学習
 idsa-decade-forum-eu-2026 | IDSA High-Level Stakeholder Dialogue & Data Spaces Decade Forum | 2026-11-03~2026-11-03 | Europe | upcoming | Data Spaces / データ連携, ビジネス / DX
 gartner-it-symposium-yokohama-jp-2026 | Gartner IT Symposium/Xpo Japan 2026 | 2026-11-04~2026-11-06 | Japan | upcoming | ビジネス / DX, AI / 機械学習
 current-north-america-2026 | Current 2026 San Francisco (Confluent) | 2026-11-04~2026-11-05 | North America | upcoming | データエンジニアリング, データプラットフォーム, AI / 機械学習
@@ -140,6 +143,7 @@ cio-transformation-assembly-miami-north-america-2026 | Digital Enterprise CIO Tr
 qcon-san-francisco-north-america-2026 | QCon San Francisco 2026 | 2026-11-16~2026-11-20 | North America | upcoming | クラウド / インフラ, データエンジニアリング
 nextgen-intelligence-london-eu-2026 | NextGen Intelligence 2026 Conference | 2026-11-16~2026-11-17 | Europe | upcoming | データインテリジェンス, ビジネス / DX
 iapp-europe-congress-eu-2026 | IAPP Europe Congress 2026 (Privacy, AI Governance, Cybersecurity Law) | 2026-11-16~2026-11-19 | Europe | upcoming | PETs, ビジネス / DX
+machine-learning-week-europe-eu-2026 | Machine Learning Week Europe 2026 | 2026-11-16~2026-11-18 | Europe | upcoming | データインテリジェンス, AI / 機械学習
 microsoft-ignite-north-america-2026 | Microsoft Ignite 2026 | 2026-11-17~2026-11-20 | North America | upcoming | クラウド / インフラ, データプラットフォーム, AI / 機械学習
 japan-dx-week-kansai-jp-2026 | Japan DX Week 関西 2026 | 2026-11-18~2026-11-20 | Japan | upcoming | ビジネス / DX, データインテリジェンス
 cloudnative-days-winter-jp-2026 | CloudNative Days Winter 2026 | 2026-11-18~2026-11-19 | Japan | upcoming | クラウド / インフラ
@@ -153,11 +157,12 @@ ces-north-america-2027 | CES 2027 | 2027-01-06~2027-01-09 | North America | upco
 wef-davos-eu-2027 | World Economic Forum Annual Meeting 2027 (Davos) | 2027-01-18~2027-01-22 | Europe | upcoming | ビジネス / DX
 cidr-eu-2027 | CIDR 2027 (Conference on Innovative Data Systems Research) | 2027-01-24~2027-01-27 | Europe | upcoming | データプラットフォーム, データエンジニアリング
 web-summit-qatar-apac-2027 | Web Summit Qatar 2027 | 2027-01-31~2027-02-03 | Asia-Pacific | upcoming | ビジネス / DX
-cio-transformation-assembly-austin-north-america-2027 | Digital Enterprise CIO Transformation Assembly – February 2027 (Austin) | 2027-02-02~2027-02-03 | North America | upcoming | ビジネス / DX
+cio-transformation-assembly-dallas-north-america-2027 | Digital Enterprise CIO Transformation Assembly – February 2027 (Dallas) | 2027-02-02~2027-02-03 | North America | upcoming | ビジネス / DX
 ai-big-data-expo-global-eu-2027 | AI & Big Data Expo Global 2027 | 2027-02-03~2027-02-04 | Europe | upcoming | AI / 機械学習, データインテリジェンス
 cyber-security-cloud-expo-global-eu-2027 | Cyber Security & Cloud Expo Global 2027 | 2027-02-03~2027-02-04 | Europe | upcoming | クラウド / インフラ
 digital-transformation-week-global-eu-2027 | Digital Transformation Week Global 2027 | 2027-02-03~2027-02-04 | Europe | upcoming | ビジネス / DX, クラウド / インフラ
 cisco-live-emea-eu-2027 | Cisco Live EMEA 2027 | 2027-02-08~2027-02-12 | Europe | upcoming | クラウド / インフラ
+world-ai-cannes-festival-eu-2027 | World AI Cannes Festival 2027 (WAICF) | 2027-02-10~2027-02-11 | Europe | upcoming | ビジネス / DX, AI / 機械学習
 wsdm-apac-2027 | WSDM 2027 (20th ACM International Conference on Web Search and Data Mining) | 2027-02-15~2027-02-19 | Asia-Pacific | upcoming | AI / 機械学習, データインテリジェンス
 aaai-north-america-2027 | AAAI-27 (41st AAAI Conference on Artificial Intelligence) | 2027-02-16~2027-02-23 | North America | upcoming | AI / 機械学習
 sre-kaigi-jp-2027 | SRE Kaigi 2027 | 2027-02-20~2027-02-20 | Japan | upcoming | クラウド / インフラ
@@ -197,6 +202,7 @@ aim-orlando-north-america-2027 | AIM 2027 (4th International Conference on Artif
 iclr-north-america-2027 | ICLR 2027 (15th International Conference on Learning Representations) | 2027-04-26~2027-04-30 | North America | upcoming | AI / 機械学習
 money2020-asia-apac-2027 | Money20/20 Asia 2027 | 2027-04-27~2027-04-29 | Asia-Pacific | upcoming | ビジネス / DX
 aamas-apac-2027 | AAMAS 2027 (26th International Conference on Autonomous Agents and Multiagent Systems) | 2027-05-03~2027-05-07 | Asia-Pacific | upcoming | AI / 機械学習
+cio-transformation-assembly-amsterdam-eu-2027 | European Digital Enterprise CIO Transformation Assembly – May 2027 (Amsterdam) | 2027-05-04~2027-05-05 | Europe | upcoming | ビジネス / DX
 coling-apac-2027 | COLING 2027 (32nd International Conference on Computational Linguistics) | 2027-05-09~2027-05-14 | Asia-Pacific | upcoming | AI / 機械学習
 www-eu-2027 | ACM Web Conference 2027 (WWW 2027) | 2027-05-10~2027-05-14 | Europe | upcoming | AI / 機械学習, データインテリジェンス
 odsc-east-north-america-2027 | ODSC AI East 2027 | 2027-05-10~2027-05-12 | North America | upcoming | AI / 機械学習, データインテリジェンス
@@ -217,6 +223,7 @@ snowflake-summit-north-america-2027 | Snowflake Summit 2027 | 2027-06-07~2027-06
 infosecurity-europe-eu-2027 | Infosecurity Europe 2027 | 2027-06-08~2027-06-10 | Europe | upcoming | クラウド / インフラ
 money2020-europe-eu-2027 | Money20/20 Europe 2027 | 2027-06-08~2027-06-10 | Europe | upcoming | ビジネス / DX
 sigmod-pods-north-america-2027 | SIGMOD/PODS 2027 (ACM Conference on Management of Data) | 2027-06-13~2027-06-19 | North America | upcoming | データインテリジェンス, データエンジニアリング, データプラットフォーム
+cio-transformation-assembly-new-orleans-north-america-2027 | Digital Enterprise CIO Transformation Assembly – June 2027 (New Orleans) | 2027-06-15~2027-06-16 | North America | upcoming | ビジネス / DX
 ai-big-data-expo-north-america-2027 | AI & Big Data Expo North America 2027 | 2027-06-16~2027-06-17 | North America | upcoming | データプラットフォーム, データエンジニアリング
 digital-transformation-week-north-america-2027 | Digital Transformation Expo North America 2027 | 2027-06-16~2027-06-17 | North America | upcoming | ビジネス / DX, クラウド / インフラ
 cvpr-north-america-2027 | CVPR 2027 (IEEE/CVF Conference on Computer Vision and Pattern Recognition) | 2027-06-20~2027-06-24 | North America | upcoming | AI / 機械学習
@@ -230,6 +237,8 @@ privacy-enhancing-technologies-symposium-eu-2027 | PETS 2027 (27th Privacy Enhan
 usenix-security-north-america-2027 | USENIX Security Symposium 2027 (36th) | 2027-08-11~2027-08-13 | North America | upcoming | PETs
 acl-jp-2027 | ACL 2027 (65th Annual Meeting of the Association for Computational Linguistics) | 2027-08-17~2027-08-22 | Japan | upcoming | AI / 機械学習
 vldb-eu-2027 | VLDB 2027 (53rd International Conference on Very Large Data Bases) | 2027-08-23~2027-08-27 | Europe | upcoming | データエンジニアリング, データプラットフォーム
+cio-transformation-assembly-austin-aug-north-america-2027 | Digital Enterprise CIO Transformation Assembly – August 2027 (Austin) | 2027-08-25~2027-08-26 | North America | upcoming | ビジネス / DX
+cio-transformation-assembly-munich-eu-2027 | European Digital Enterprise CIO Transformation Assembly – September 2027 (Munich) | 2027-09-01~2027-09-02 | Europe | upcoming | ビジネス / DX
 iapp-psr-aigg-north-america-2027 | IAPP Privacy. Security. Risk. + AI Governance Global 2027 | 2027-09-14~2027-09-17 | North America | upcoming | PETs, ビジネス / DX
 open-source-summit-europe-eu-2027 | Open Source Summit Europe 2027 | 2027-09-20~2027-09-22 | Europe | upcoming | クラウド / インフラ, データエンジニアリング
 iccv-apac-2027 | ICCV 2027 (IEEE/CVF International Conference on Computer Vision) | 2027-10-02~2027-10-08 | Asia-Pacific | upcoming | AI / 機械学習
