@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-21",
+  "last_updated": "2026-09-28",
   "conferences": [
     {
       "name": "AAAI 2026 (40th AAAI Conference on Artificial Intelligence)",
@@ -1858,7 +1858,7 @@
     {
       "name": "KubeCon + CloudNativeCon Japan 2026",
       "dates": {
-        "start": "2026-07-29",
+        "start": "2026-07-28",
         "end": "2026-07-30"
       },
       "location": {
@@ -1890,7 +1890,7 @@
       "status": "ended",
       "id": "kubecon-cloudnativecon-japan-jp-2026",
       "first_seen": "2026-W14",
-      "last_updated": "2026-W14"
+      "last_updated": "2026-W40"
     },
     {
       "name": "Google Cloud Next Tokyo 2026",
@@ -2183,7 +2183,7 @@
       "cost": "paid",
       "recurring": true,
       "summary": "DevOps専門カンファレンスのニューヨーク版。ワークショップとエキスポを含む5日間のイベント。",
-      "status": "upcoming",
+      "status": "ongoing",
       "id": "devopscon-new-york-north-america-2026",
       "first_seen": "2026-W14",
       "last_updated": "2026-W14"
@@ -2780,7 +2780,7 @@
       "cost": "free",
       "recurring": true,
       "summary": "英国最大の無料データ・分析カンファレンス。15トラック・400以上のセミナー・300以上の登壇者。2026年はAIエージェント・ガバナンス特化トラック新設。",
-      "status": "upcoming",
+      "status": "ended",
       "first_seen": "2026-W15",
       "last_updated": "2026-W15"
     },
@@ -2817,7 +2817,7 @@
       "cost": "unknown",
       "recurring": true,
       "summary": "TDWIのベンダー中立データ深掘りトレーニングカンファレンス。50以上のマスタークラス・AI/BI/データガバナンスを網羅。",
-      "status": "ongoing",
+      "status": "ended",
       "first_seen": "2026-W15",
       "last_updated": "2026-W15"
     },
@@ -4123,7 +4123,7 @@
       "cost": "paid",
       "recurring": true,
       "summary": "[要レビュー] Bitkom主催のヨーロッパ最大級AI・データ・量子カンファレンス。bcc Berlinで開催、2100人以上参加・170以上のスピーカー登壇の年次イベント。",
-      "status": "upcoming",
+      "status": "ended",
       "first_seen": "2026-W19",
       "last_updated": "2026-W19"
     },
@@ -4488,7 +4488,7 @@
       "cost": "paid",
       "recurring": true,
       "summary": "[要レビュー] 第3回欧州Microsoft Fabricコミュニティカンファレンス。SQLConと初の同時開催。CCIBバルセロナで実施。",
-      "status": "upcoming",
+      "status": "ongoing",
       "id": "fabcon-europe-eu-2026",
       "first_seen": "2026-W21",
       "last_updated": "2026-W21"
@@ -4708,7 +4708,7 @@
       "cost": "paid",
       "recurring": true,
       "summary": "[要レビュー] IARIA主催のデータアナリティクス国際会議。大規模データ処理・深層学習・ビジネスアナリティクス等を扱う。Novotel Barcelona Cornellàで開催。",
-      "status": "upcoming",
+      "status": "ongoing",
       "id": "iaria-data-analytics-eu-2026",
       "first_seen": "2026-W23",
       "last_updated": "2026-W23"
@@ -4817,7 +4817,7 @@
       "cost": "paid",
       "recurring": true,
       "summary": "[要レビュー] 機械学習・生成AI実務者向け国際カンファレンスのニューヨーク版。DevOpsCon New Yorkと併催。",
-      "status": "upcoming",
+      "status": "ongoing",
       "first_seen": "2026-W24",
       "last_updated": "2026-W24"
     },
@@ -4872,9 +4872,9 @@
       "format": "in-person",
       "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/",
       "cfp": {
-        "deadline": "",
-        "url": "",
-        "status": "not-announced"
+        "deadline": "2026-10-11",
+        "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/program/cfp/",
+        "status": "open"
       },
       "categories": [
         "クラウド / インフラ"
@@ -4891,7 +4891,7 @@
       "summary": "[要レビュー] CNCFフラッグシップカンファレンスのヨーロッパ版。バルセロナで開催予定。",
       "status": "upcoming",
       "first_seen": "2026-W24",
-      "last_updated": "2026-W24"
+      "last_updated": "2026-W40"
     },
     {
       "id": "kubecon-cloudnativecon-north-america-north-america-2027",
@@ -8184,7 +8184,7 @@
       "cost": "unknown",
       "recurring": true,
       "summary": "国内プラットフォームエンジニアリング領域のカンファレンス第3回。テーマは『AI Native Platform Engineering』。中野セントラルパークにて開催。",
-      "status": "upcoming",
+      "status": "ended",
       "first_seen": "2026-W36",
       "last_updated": "2026-W36"
     },
@@ -8878,6 +8878,294 @@
       "id": "cio-transformation-assembly-munich-eu-2027",
       "first_seen": "2026-W39",
       "last_updated": "2026-W39"
+    },
+    {
+      "id": "the-ai-conference-sf-north-america-2026",
+      "name": "The AI Conference 2026",
+      "dates": {
+        "start": "2026-09-29",
+        "end": "2026-10-01"
+      },
+      "location": {
+        "city": "San Francisco",
+        "country": "USA",
+        "region": "North America"
+      },
+      "format": "in-person",
+      "url": "https://aiconference.com/",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "closed"
+      },
+      "categories": [
+        "AI / 機械学習"
+      ],
+      "topics": [
+        "LLM",
+        "agentic AI",
+        "AGI",
+        "AI infrastructure",
+        "applied AI"
+      ],
+      "cost": "paid",
+      "recurring": true,
+      "summary": "サンフランシスコ Pier 48 で開催されるAI専門カンファレンス。AGI・LLM・エージェント・AI基盤・応用AIの5トラックで120名超が登壇。",
+      "status": "upcoming",
+      "first_seen": "2026-W40",
+      "last_updated": "2026-W40"
+    },
+    {
+      "id": "world-summit-ai-eu-2026",
+      "name": "World Summit AI 2026",
+      "dates": {
+        "start": "2026-10-07",
+        "end": "2026-10-08"
+      },
+      "location": {
+        "city": "Amsterdam",
+        "country": "Netherlands",
+        "region": "Europe"
+      },
+      "format": "in-person",
+      "url": "https://worldsummit.ai/",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "closed"
+      },
+      "categories": [
+        "AI / 機械学習",
+        "ビジネス / DX"
+      ],
+      "topics": [
+        "generative AI",
+        "enterprise AI",
+        "AI governance",
+        "AI strategy"
+      ],
+      "cost": "paid",
+      "recurring": true,
+      "summary": "アムステルダム開催の世界最大級AIサミット。10周年を迎え、10トラック・300名超の登壇者・1万人規模の来場者が集う。",
+      "status": "upcoming",
+      "first_seen": "2026-W40",
+      "last_updated": "2026-W40"
+    },
+    {
+      "id": "mlcon-berlin-eu-2026",
+      "name": "MLcon Berlin 2026",
+      "dates": {
+        "start": "2026-11-16",
+        "end": "2026-11-20"
+      },
+      "location": {
+        "city": "Berlin",
+        "country": "Germany",
+        "region": "Europe"
+      },
+      "format": "hybrid",
+      "url": "https://mlconference.ai/berlin/",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "unknown"
+      },
+      "categories": [
+        "AI / 機械学習"
+      ],
+      "topics": [
+        "machine learning",
+        "generative AI",
+        "LLM",
+        "MLOps",
+        "AI engineering"
+      ],
+      "cost": "paid",
+      "recurring": true,
+      "summary": "機械学習・生成AI実務者向け国際カンファレンスのベルリン版。ブートキャンプ・ワークショップ・本会議を含む5日間のハイブリッド開催。",
+      "status": "upcoming",
+      "first_seen": "2026-W40",
+      "last_updated": "2026-W40"
+    },
+    {
+      "id": "devopscon-munich-eu-2026",
+      "name": "DevOpsCon Munich 2026",
+      "dates": {
+        "start": "2026-11-30",
+        "end": "2026-12-04"
+      },
+      "location": {
+        "city": "Munich",
+        "country": "Germany",
+        "region": "Europe"
+      },
+      "format": "hybrid",
+      "url": "https://devopscon.io/munich/",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "unknown"
+      },
+      "categories": [
+        "クラウド / インフラ"
+      ],
+      "topics": [
+        "DevOps",
+        "CI/CD",
+        "Kubernetes",
+        "platform engineering",
+        "DevSecOps"
+      ],
+      "cost": "paid",
+      "recurring": true,
+      "summary": "DevOps専門カンファレンスのミュンヘン版。ワークショップ・本会議・ブートキャンプで構成される5日間のハイブリッド開催。",
+      "status": "upcoming",
+      "first_seen": "2026-W40",
+      "last_updated": "2026-W40"
+    },
+    {
+      "id": "odsc-ai-nyc-north-america-2026",
+      "name": "ODSC AI NYC 2026 (AI for Work Summit)",
+      "dates": {
+        "start": "2026-12-02",
+        "end": "2026-12-03"
+      },
+      "location": {
+        "city": "New York",
+        "country": "USA",
+        "region": "North America"
+      },
+      "format": "in-person",
+      "url": "https://summit.ai/",
+      "cfp": {
+        "deadline": "",
+        "url": "https://summit.ai/",
+        "status": "open"
+      },
+      "categories": [
+        "AI / 機械学習",
+        "ビジネス / DX"
+      ],
+      "topics": [
+        "agentic AI",
+        "AI engineering",
+        "AI adoption",
+        "workflow automation"
+      ],
+      "cost": "paid",
+      "recurring": true,
+      "summary": "ODSC主催の2日間ワークショップ主体サミット。Build・Apply・Lead・AI Engineering Fundamentals の4トラックで業務へのAI定着を扱う。",
+      "status": "upcoming",
+      "first_seen": "2026-W40",
+      "last_updated": "2026-W40"
+    },
+    {
+      "id": "ai-summit-new-york-north-america-2026",
+      "name": "The AI Summit New York 2026",
+      "dates": {
+        "start": "2026-12-09",
+        "end": "2026-12-10"
+      },
+      "location": {
+        "city": "New York",
+        "country": "USA",
+        "region": "North America"
+      },
+      "format": "in-person",
+      "url": "https://newyork.theaisummit.com/",
+      "cfp": {
+        "deadline": "",
+        "url": "https://newyork.theaisummit.com/conference-speakers/call-for-papers/",
+        "status": "open"
+      },
+      "categories": [
+        "AI / 機械学習",
+        "ビジネス / DX"
+      ],
+      "topics": [
+        "enterprise AI",
+        "applied AI",
+        "generative AI",
+        "data excellence"
+      ],
+      "cost": "paid",
+      "recurring": true,
+      "summary": "Javits Center で開催される企業向けAIサミット。11トラック・350名超の登壇者・200社超の出展で実用AIの事例を扱う。",
+      "status": "upcoming",
+      "first_seen": "2026-W40",
+      "last_updated": "2026-W40"
+    },
+    {
+      "id": "mlcon-amsterdam-eu-2027",
+      "name": "MLcon Amsterdam 2027",
+      "dates": {
+        "start": "2027-04-19",
+        "end": "2027-04-23"
+      },
+      "location": {
+        "city": "Amsterdam",
+        "country": "Netherlands",
+        "region": "Europe"
+      },
+      "format": "hybrid",
+      "url": "https://mlconference.ai/amsterdam/",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "categories": [
+        "AI / 機械学習"
+      ],
+      "topics": [
+        "machine learning",
+        "generative AI",
+        "LLM",
+        "MLOps",
+        "AI engineering"
+      ],
+      "cost": "paid",
+      "recurring": true,
+      "summary": "機械学習・生成AI実務者向け国際カンファレンスのアムステルダム版。Van der Valk Hotel Amsterdam-Amstel で現地・リモート併催予定。",
+      "status": "upcoming",
+      "first_seen": "2026-W40",
+      "last_updated": "2026-W40"
+    },
+    {
+      "id": "mlsys-north-america-2027",
+      "name": "MLSys 2027 (10th Conference on Machine Learning and Systems)",
+      "dates": {
+        "start": "2027-06-21",
+        "end": "2027-06-25"
+      },
+      "location": {
+        "city": "Bellevue",
+        "country": "USA",
+        "region": "North America"
+      },
+      "format": "in-person",
+      "url": "https://mlsys.org/",
+      "cfp": {
+        "deadline": "2026-10-30",
+        "url": "https://mlsys.org/",
+        "status": "not yet open"
+      },
+      "categories": [
+        "AI / 機械学習",
+        "クラウド / インフラ"
+      ],
+      "topics": [
+        "ML systems",
+        "distributed training",
+        "inference",
+        "AI infrastructure"
+      ],
+      "cost": "unknown",
+      "recurring": true,
+      "summary": "機械学習とシステムの交差領域を扱う国際学術会議。ワシントン州ベルビューで開催。投稿受付は2026年10月10日開始、締切10月30日。",
+      "status": "upcoming",
+      "first_seen": "2026-W40",
+      "last_updated": "2026-W40"
     }
   ]
 }
