@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-28",
+  "last_updated": "2026-10-05",
   "conferences": [
     {
       "name": "AAAI 2026 (40th AAAI Conference on Artificial Intelligence)",
@@ -2183,7 +2183,7 @@
       "cost": "paid",
       "recurring": true,
       "summary": "DevOps専門カンファレンスのニューヨーク版。ワークショップとエキスポを含む5日間のイベント。",
-      "status": "ongoing",
+      "status": "ended",
       "id": "devopscon-new-york-north-america-2026",
       "first_seen": "2026-W14",
       "last_updated": "2026-W14"
@@ -2221,7 +2221,7 @@
       "cost": "paid",
       "recurring": true,
       "summary": "欧州ビッグデータ・AI戦略の年次フォーラム。戦略・投資・インパクトがテーマ。",
-      "status": "upcoming",
+      "status": "ended",
       "id": "european-big-data-value-forum-eu-2026",
       "first_seen": "2026-W14",
       "last_updated": "2026-W14"
@@ -4488,7 +4488,7 @@
       "cost": "paid",
       "recurring": true,
       "summary": "[要レビュー] 第3回欧州Microsoft Fabricコミュニティカンファレンス。SQLConと初の同時開催。CCIBバルセロナで実施。",
-      "status": "ongoing",
+      "status": "ended",
       "id": "fabcon-europe-eu-2026",
       "first_seen": "2026-W21",
       "last_updated": "2026-W21"
@@ -4708,7 +4708,7 @@
       "cost": "paid",
       "recurring": true,
       "summary": "[要レビュー] IARIA主催のデータアナリティクス国際会議。大規模データ処理・深層学習・ビジネスアナリティクス等を扱う。Novotel Barcelona Cornellàで開催。",
-      "status": "ongoing",
+      "status": "ended",
       "id": "iaria-data-analytics-eu-2026",
       "first_seen": "2026-W23",
       "last_updated": "2026-W23"
@@ -4817,7 +4817,7 @@
       "cost": "paid",
       "recurring": true,
       "summary": "[要レビュー] 機械学習・生成AI実務者向け国際カンファレンスのニューヨーク版。DevOpsCon New Yorkと併催。",
-      "status": "ongoing",
+      "status": "ended",
       "first_seen": "2026-W24",
       "last_updated": "2026-W24"
     },
@@ -8698,7 +8698,7 @@
       "cost": "unknown",
       "recurring": true,
       "summary": "日本経済新聞社主催の生成AIサミット（GenAI/SUM）。九段会館テラスで3日間、「AIネイティブ社会への移行 〜制度・産業・人の役割はどう再設計されるか」をテーマに議論する。",
-      "status": "upcoming",
+      "status": "ongoing",
       "id": "seisei-ai-summit-jp-2026",
       "first_seen": "2026-W39",
       "last_updated": "2026-W39"
@@ -8911,7 +8911,7 @@
       "cost": "paid",
       "recurring": true,
       "summary": "サンフランシスコ Pier 48 で開催されるAI専門カンファレンス。AGI・LLM・エージェント・AI基盤・応用AIの5トラックで120名超が登壇。",
-      "status": "upcoming",
+      "status": "ended",
       "first_seen": "2026-W40",
       "last_updated": "2026-W40"
     },
@@ -9166,6 +9166,188 @@
       "status": "upcoming",
       "first_seen": "2026-W40",
       "last_updated": "2026-W40"
+    },
+    {
+      "id": "oracle-ai-world-north-america-2026",
+      "name": "Oracle AI World 2026",
+      "dates": {
+        "start": "2026-10-25",
+        "end": "2026-10-28"
+      },
+      "location": {
+        "city": "Las Vegas",
+        "country": "USA",
+        "region": "North America"
+      },
+      "format": "in-person",
+      "url": "https://www.oracle.com/ai-world/",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "closed"
+      },
+      "categories": [
+        "データプラットフォーム",
+        "クラウド / インフラ",
+        "AI / 機械学習"
+      ],
+      "topics": [
+        "Oracle Database",
+        "OCI",
+        "data platform",
+        "enterprise AI"
+      ],
+      "cost": "unknown",
+      "recurring": true,
+      "summary": "Oracle の年次旗艦カンファレンス（旧 Oracle CloudWorld）。データベース、OCI、エンタープライズAI、データプラットフォームの最新動向を扱う。ラスベガス開催。",
+      "status": "upcoming",
+      "first_seen": "2026-W41",
+      "last_updated": "2026-W41"
+    },
+    {
+      "id": "snowflake-expedition-online-2026",
+      "name": "Snowflake Expedition 2026",
+      "dates": {
+        "start": "2026-11-03",
+        "end": "2026-11-06"
+      },
+      "location": {
+        "city": "Online",
+        "country": "Online",
+        "region": "Online"
+      },
+      "format": "online",
+      "url": "https://www.snowflake.com/en/expedition/",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "categories": [
+        "データプラットフォーム",
+        "データエンジニアリング",
+        "AI / 機械学習"
+      ],
+      "topics": [
+        "Snowflake",
+        "data engineering",
+        "hands-on labs",
+        "AI workflows"
+      ],
+      "cost": "unknown",
+      "recurring": true,
+      "summary": "Snowflake のグローバル仮想イベント。技術者向けハンズオンと経営層向けセッションを6地域で配信。日本向けは11月4〜6日。",
+      "status": "upcoming",
+      "first_seen": "2026-W41",
+      "last_updated": "2026-W41"
+    },
+    {
+      "id": "big-data-minds-europe-eu-2027",
+      "name": "Big Data Minds Europe 2027",
+      "dates": {
+        "start": "2027-03-15",
+        "end": "2027-03-16"
+      },
+      "location": {
+        "city": "Munich",
+        "country": "Germany",
+        "region": "Europe"
+      },
+      "format": "in-person",
+      "url": "https://www.we-conect.com/events/big-data-minds-europe-2027",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "categories": [
+        "データプラットフォーム",
+        "データエンジニアリング"
+      ],
+      "topics": [
+        "data architecture",
+        "data governance",
+        "DataOps",
+        "data strategy"
+      ],
+      "cost": "unknown",
+      "recurring": true,
+      "summary": "we.CONECT 主催の欧州データマネジメントサミット。データアーキテクチャ、データエンジニアリング、DataOps、ガバナンスを400名超の実務者が議論。ミュンヘン開催。",
+      "status": "upcoming",
+      "first_seen": "2026-W41",
+      "last_updated": "2026-W41"
+    },
+    {
+      "id": "gartner-da-summit-sao-paulo-sa-2027",
+      "name": "Gartner Data & Analytics Summit São Paulo 2027",
+      "dates": {
+        "start": "2027-06-02",
+        "end": "2027-06-03"
+      },
+      "location": {
+        "city": "São Paulo",
+        "country": "Brazil",
+        "region": "South America"
+      },
+      "format": "in-person",
+      "url": "https://www.gartner.com/en/conferences/la/data-analytics-brazil",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "categories": [
+        "データインテリジェンス",
+        "データプラットフォーム"
+      ],
+      "topics": [
+        "data strategy",
+        "analytics",
+        "data governance",
+        "lakehouse"
+      ],
+      "cost": "unknown",
+      "recurring": true,
+      "summary": "Gartner によるデータ＆アナリティクスサミットのブラジル版。データ戦略、ガバナンス、データ基盤アーキテクチャ、AI活用をCDAO・データリーダー向けに扱う。",
+      "status": "upcoming",
+      "first_seen": "2026-W41",
+      "last_updated": "2026-W41"
+    },
+    {
+      "id": "dbt-summit-north-america-2027",
+      "name": "dbt Summit 2027",
+      "dates": {
+        "start": "2027-09-13",
+        "end": "2027-09-16"
+      },
+      "location": {
+        "city": "Las Vegas",
+        "country": "USA",
+        "region": "North America"
+      },
+      "format": "in-person",
+      "url": "https://www.getdbt.com/dbt-summit",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "categories": [
+        "データエンジニアリング",
+        "データプラットフォーム"
+      ],
+      "topics": [
+        "dbt",
+        "analytics engineering",
+        "data transformation",
+        "modern data stack"
+      ],
+      "cost": "unknown",
+      "recurring": true,
+      "summary": "dbt Labs 主催のアナリティクスエンジニアリング年次カンファレンス。ラスベガス開催。日程と都市のみ公表済みで、ウェイトリスト受付中。会場・CFPは未発表。",
+      "status": "upcoming",
+      "first_seen": "2026-W41",
+      "last_updated": "2026-W41"
     }
   ]
 }
