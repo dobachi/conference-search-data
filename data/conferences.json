@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-05",
+  "last_updated": "2026-10-12",
   "conferences": [
     {
       "name": "AAAI 2026 (40th AAAI Conference on Artificial Intelligence)",
@@ -4086,7 +4086,7 @@
       "cost": "paid",
       "recurring": true,
       "summary": "[要レビュー] IAPPが主催するプライバシー・セキュリティ・AIガバナンスの年次カンファレンス。シアトルで1300名以上が参加。",
-      "status": "upcoming",
+      "status": "ended",
       "first_seen": "2026-W18",
       "last_updated": "2026-W18"
     },
@@ -4217,11 +4217,11 @@
         "region": "North America"
       },
       "format": "in-person",
-      "url": "https://colmweb.org/",
+      "url": "https://colm.cc/",
       "cfp": {
         "deadline": "",
         "url": "https://colmweb.org/cfp.html",
-        "status": "open"
+        "status": "closed"
       },
       "categories": [
         "AI / 機械学習"
@@ -4236,9 +4236,9 @@
       "cost": "paid",
       "recurring": true,
       "summary": "[要レビュー] 言語モデリングに特化した学術会議。サンフランシスコのHilton Union Squareで開催、論文発表とワークショップで構成。",
-      "status": "upcoming",
+      "status": "ended",
       "first_seen": "2026-W20",
-      "last_updated": "2026-W20"
+      "last_updated": "2026-W42"
     },
     {
       "id": "mlsys-north-america-2026",
@@ -5037,7 +5037,7 @@
       "cost": "paid",
       "recurring": true,
       "summary": "StreamNative主催のストリーミング＋AIエージェント基盤カンファレンス。SFで開催。",
-      "status": "upcoming",
+      "status": "ended",
       "id": "data-streaming-summit-north-america-2026",
       "first_seen": "2026-W33",
       "last_updated": "2026-W33"
@@ -5171,7 +5171,7 @@
       "format": "in-person",
       "url": "https://petsymposium.org/",
       "cfp": {
-        "deadline": "2026-08-31",
+        "deadline": "2026-11-30",
         "url": "https://petsymposium.org/cfp27.php",
         "status": "open"
       },
@@ -5190,7 +5190,7 @@
       "status": "upcoming",
       "id": "privacy-enhancing-technologies-symposium-eu-2027",
       "first_seen": "2026-W34",
-      "last_updated": "2026-W34"
+      "last_updated": "2026-W42"
     },
     {
       "id": "aaai-north-america-2027",
@@ -8698,7 +8698,7 @@
       "cost": "unknown",
       "recurring": true,
       "summary": "日本経済新聞社主催の生成AIサミット（GenAI/SUM）。九段会館テラスで3日間、「AIネイティブ社会への移行 〜制度・産業・人の役割はどう再設計されるか」をテーマに議論する。",
-      "status": "ongoing",
+      "status": "ended",
       "id": "seisei-ai-summit-jp-2026",
       "first_seen": "2026-W39",
       "last_updated": "2026-W39"
@@ -8947,7 +8947,7 @@
       "cost": "paid",
       "recurring": true,
       "summary": "アムステルダム開催の世界最大級AIサミット。10周年を迎え、10トラック・300名超の登壇者・1万人規模の来場者が集う。",
-      "status": "upcoming",
+      "status": "ended",
       "first_seen": "2026-W40",
       "last_updated": "2026-W40"
     },

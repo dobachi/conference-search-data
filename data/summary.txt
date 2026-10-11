@@ -1,5 +1,5 @@
-# Conference Summary (256 total: 137 upcoming, 1 ongoing, 118 ended)
-# Generated: 2026-10-05
+# Conference Summary (256 total: 133 upcoming, 0 ongoing, 123 ended)
+# Generated: 2026-10-12
 # Format: id | name | start~end | region | status | categories
 
 aaai-apac-2026 | AAAI 2026 (40th AAAI Conference on Artificial Intelligence) | 2026-01-20~2026-01-27 | Asia-Pacific | ended | AI / 機械学習
@@ -120,11 +120,11 @@ fabcon-europe-eu-2026 | European Microsoft Fabric + SQL Community Conference 202
 mlcon-new-york-north-america-2026 | MLcon New York 2026 | 2026-09-28~2026-10-02 | North America | ended | AI / 機械学習
 the-ai-conference-sf-north-america-2026 | The AI Conference 2026 | 2026-09-29~2026-10-01 | North America | ended | AI / 機械学習
 european-big-data-value-forum-eu-2026 | European Big Data Value Forum (EBDVF) 2026 | 2026-09-30~2026-10-01 | Europe | ended | Data Spaces / データ連携, AI / 機械学習, データインテリジェンス, ビジネス / DX
-seisei-ai-summit-jp-2026 | 生成AIサミット（Generative AI Summit）2026 / GenAI/SUM 2026 | 2026-10-05~2026-10-07 | Japan | ongoing | ビジネス / DX, AI / 機械学習
-iapp-psr-north-america-2026 | IAPP Privacy. Security. Risk. + AI Governance Global 2026 | 2026-10-06~2026-10-09 | North America | upcoming | PETs, ビジネス / DX
-colm-north-america-2026 | COLM 2026 (Conference on Language Modeling) | 2026-10-06~2026-10-09 | North America | upcoming | AI / 機械学習
-data-streaming-summit-north-america-2026 | Data Streaming Summit 2026 (San Francisco) | 2026-10-07~2026-10-08 | North America | upcoming | データエンジニアリング
-world-summit-ai-eu-2026 | World Summit AI 2026 | 2026-10-07~2026-10-08 | Europe | upcoming | AI / 機械学習, ビジネス / DX
+seisei-ai-summit-jp-2026 | 生成AIサミット（Generative AI Summit）2026 / GenAI/SUM 2026 | 2026-10-05~2026-10-07 | Japan | ended | ビジネス / DX, AI / 機械学習
+iapp-psr-north-america-2026 | IAPP Privacy. Security. Risk. + AI Governance Global 2026 | 2026-10-06~2026-10-09 | North America | ended | PETs, ビジネス / DX
+colm-north-america-2026 | COLM 2026 (Conference on Language Modeling) | 2026-10-06~2026-10-09 | North America | ended | AI / 機械学習
+data-streaming-summit-north-america-2026 | Data Streaming Summit 2026 (San Francisco) | 2026-10-07~2026-10-08 | North America | ended | データエンジニアリング
+world-summit-ai-eu-2026 | World Summit AI 2026 | 2026-10-07~2026-10-08 | Europe | ended | AI / 機械学習, ビジネス / DX
 srecon26-europemiddle-eastafrica-eu-2026 | SREcon26 Europe/Middle East/Africa | 2026-10-13~2026-10-15 | Europe | upcoming | クラウド / インフラ
 data-innovation-summit-mea-eu-2026 | Data Innovation Summit MEA 2026 | 2026-10-14~2026-10-15 | Europe | upcoming | データインテリジェンス, AI / 機械学習, データエンジニアリング
 gartner-it-symposium-orlando-north-america-2026 | Gartner IT Symposium/Xpo Americas 2026 | 2026-10-19~2026-10-22 | North America | upcoming | ビジネス / DX, AI / 機械学習
