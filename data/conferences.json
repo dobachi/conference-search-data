@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-12",
+  "last_updated": "2026-10-19",
   "conferences": [
     {
       "name": "AAAI 2026 (40th AAAI Conference on Artificial Intelligence)",
@@ -2257,7 +2257,7 @@
       "cost": "paid",
       "recurring": true,
       "summary": "USENIX主催SREカンファレンスのEMEA版。信頼性エンジニアリングの欧州・中東・アフリカ向けイベント。",
-      "status": "upcoming",
+      "status": "ended",
       "id": "srecon26-europemiddle-eastafrica-eu-2026",
       "first_seen": "2026-W14",
       "last_updated": "2026-W14"
@@ -2965,7 +2965,7 @@
       "cost": "unknown",
       "recurring": true,
       "summary": "世界最大のCIO・IT幹部向けカンファレンス。AI・サイバーセキュリティ・デジタル変革・3〜5年技術戦略をカバー。",
-      "status": "upcoming",
+      "status": "ongoing",
       "first_seen": "2026-W15",
       "last_updated": "2026-W15"
     },
@@ -4200,7 +4200,7 @@
       "cost": "paid",
       "recurring": true,
       "summary": "[要レビュー] 中東・アフリカ地域最大のデータ・AIカンファレンス。ドバイJWマリオットで開催、50名以上の登壇者と4ステージ構成の第5回MEA版。",
-      "status": "upcoming",
+      "status": "ended",
       "first_seen": "2026-W19",
       "last_updated": "2026-W19"
     },
@@ -8626,7 +8626,7 @@
       "cost": "paid",
       "recurring": true,
       "summary": "TechExが主催する欧州版AI・ビッグデータ展。企業のデータ活用・分析基盤とAI導入事例を扱う大規模展示会型カンファレンス。",
-      "status": "upcoming",
+      "status": "ongoing",
       "id": "ai-big-data-expo-europe-eu-2026",
       "first_seen": "2026-W39",
       "last_updated": "2026-W39"
@@ -9348,6 +9348,78 @@
       "status": "upcoming",
       "first_seen": "2026-W41",
       "last_updated": "2026-W41"
+    },
+    {
+      "id": "business-intelligence-minds-europe-eu-2027",
+      "name": "Business Intelligence Minds Europe 2027",
+      "dates": {
+        "start": "2027-03-15",
+        "end": "2027-03-16"
+      },
+      "location": {
+        "city": "Munich",
+        "country": "Germany",
+        "region": "Europe"
+      },
+      "format": "in-person",
+      "url": "https://www.we-conect.com/events/business-intelligence-minds-europe-2027",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "categories": [
+        "データインテリジェンス"
+      ],
+      "topics": [
+        "business intelligence",
+        "analytics",
+        "data strategy",
+        "AI"
+      ],
+      "cost": "unknown",
+      "recurring": true,
+      "summary": "[要レビュー] we.CONECT主催の欧州BI・アナリティクスサミット。企業のBI/データ分析リーダーが集まる。ミュンヘンHoliday Inn City Centerで開催。Big Data Minds Europeと併催。",
+      "status": "upcoming",
+      "first_seen": "2026-W43",
+      "last_updated": "2026-W43"
+    },
+    {
+      "id": "dtx-manchester-eu-2027",
+      "name": "DTX Manchester 2027 (Digital Transformation Expo)",
+      "dates": {
+        "start": "2027-04-28",
+        "end": "2027-04-29"
+      },
+      "location": {
+        "city": "Manchester",
+        "country": "UK",
+        "region": "Europe"
+      },
+      "format": "in-person",
+      "url": "https://www.dtxevents.io/manchester",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "categories": [
+        "ビジネス / DX",
+        "クラウド / インフラ"
+      ],
+      "topics": [
+        "digital-transformation",
+        "cloud",
+        "AI",
+        "cybersecurity",
+        "IT-strategy"
+      ],
+      "cost": "unknown",
+      "recurring": true,
+      "summary": "英国北部最大級のデジタル変革イベント。クラウド・データ・AI・サイバーセキュリティを網羅。Manchester Centralで開催。",
+      "status": "upcoming",
+      "first_seen": "2026-W43",
+      "last_updated": "2026-W43"
     }
   ]
 }
