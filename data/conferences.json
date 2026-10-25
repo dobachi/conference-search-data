@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-19",
+  "last_updated": "2026-10-26",
   "conferences": [
     {
       "name": "AAAI 2026 (40th AAAI Conference on Artificial Intelligence)",
@@ -2293,7 +2293,7 @@
       "cost": "paid",
       "recurring": true,
       "summary": "欧州最大級のDXカンファレンス。8000名以上参加、DX戦略・クラウド・自動化の最新トレンドを議論。",
-      "status": "upcoming",
+      "status": "ended",
       "id": "digital-transformation-week-europe-eu-2026",
       "first_seen": "2026-W14",
       "last_updated": "2026-W14"
@@ -2330,7 +2330,7 @@
       "cost": "paid",
       "recurring": true,
       "summary": "HashiCorp（IBM）の年次カンファレンス。Terraform・Vault等のインフラ自動化ツールの最新動向。",
-      "status": "upcoming",
+      "status": "ongoing",
       "id": "hashiconf-at-ibm-techxchange-north-america-2026",
       "first_seen": "2026-W14",
       "last_updated": "2026-W14"
@@ -2965,7 +2965,7 @@
       "cost": "unknown",
       "recurring": true,
       "summary": "世界最大のCIO・IT幹部向けカンファレンス。AI・サイバーセキュリティ・デジタル変革・3〜5年技術戦略をカバー。",
-      "status": "ongoing",
+      "status": "ended",
       "first_seen": "2026-W15",
       "last_updated": "2026-W15"
     },
@@ -3039,7 +3039,7 @@
       "cost": "free",
       "recurring": true,
       "summary": "日本最大級のIT・DX総合展の秋版。幕張メッセ開催、780社出展・3万名来場予定。データドリブン経営EXPOを含む。",
-      "status": "upcoming",
+      "status": "ended",
       "first_seen": "2026-W15",
       "last_updated": "2026-W15"
     },
@@ -3855,7 +3855,7 @@
       "cost": "unknown",
       "recurring": true,
       "summary": "AI・機械学習分野の国際学術カンファレンス第6回目。パリにて開催。",
-      "status": "upcoming",
+      "status": "ongoing",
       "first_seen": "2026-W16",
       "last_updated": "2026-W16"
     },
@@ -8626,7 +8626,7 @@
       "cost": "paid",
       "recurring": true,
       "summary": "TechExが主催する欧州版AI・ビッグデータ展。企業のデータ活用・分析基盤とAI導入事例を扱う大規模展示会型カンファレンス。",
-      "status": "ongoing",
+      "status": "ended",
       "id": "ai-big-data-expo-europe-eu-2026",
       "first_seen": "2026-W39",
       "last_updated": "2026-W39"
@@ -9200,7 +9200,7 @@
       "cost": "unknown",
       "recurring": true,
       "summary": "Oracle の年次旗艦カンファレンス（旧 Oracle CloudWorld）。データベース、OCI、エンタープライズAI、データプラットフォームの最新動向を扱う。ラスベガス開催。",
-      "status": "upcoming",
+      "status": "ongoing",
       "first_seen": "2026-W41",
       "last_updated": "2026-W41"
     },
@@ -9420,6 +9420,147 @@
       "status": "upcoming",
       "first_seen": "2026-W43",
       "last_updated": "2026-W43"
+    },
+    {
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "cost": "paid",
+      "recurring": true,
+      "first_seen": "2026-W44",
+      "last_updated": "2026-W44",
+      "status": "upcoming",
+      "id": "cloud-native-denmark-eu-2026",
+      "name": "Cloud Native Denmark 2026",
+      "dates": {
+        "start": "2026-11-19",
+        "end": "2026-11-20"
+      },
+      "location": {
+        "city": "Copenhagen",
+        "country": "Denmark",
+        "region": "Europe"
+      },
+      "format": "in-person",
+      "url": "https://cloudnativedenmark.dk/",
+      "categories": [
+        "クラウド / インフラ"
+      ],
+      "topics": [
+        "kubernetes",
+        "cloud-native",
+        "platform-engineering",
+        "observability",
+        "devops"
+      ],
+      "summary": "コミュニティ主催のクラウドネイティブ実践者向け2日間イベント。Kubernetes・Platform Engineering・オブザーバビリティ等を扱う。会場はScandic Copenhagen。"
+    },
+    {
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "cost": "unknown",
+      "recurring": true,
+      "first_seen": "2026-W44",
+      "last_updated": "2026-W44",
+      "status": "upcoming",
+      "id": "agentic-ai-summit-washington-north-america-2027",
+      "name": "Agentic AI Summit Washington D.C. 2027 (Generative AI Summit)",
+      "dates": {
+        "start": "2027-01-28",
+        "end": "2027-01-28"
+      },
+      "location": {
+        "city": "Washington, D.C.",
+        "country": "USA",
+        "region": "North America"
+      },
+      "format": "in-person",
+      "url": "https://world.aiacceleratorinstitute.com/location/washington",
+      "categories": [
+        "AI / 機械学習"
+      ],
+      "topics": [
+        "agentic-AI",
+        "generative-AI",
+        "LLM",
+        "AI-engineering"
+      ],
+      "summary": "AI Accelerator Institute主催の1日間のエンジニア向けサミット。本番アーキテクチャ、評価・ツール・信頼性のワークショップ等。会場はConvene Hamilton Square。"
+    },
+    {
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "cost": "unknown",
+      "recurring": true,
+      "first_seen": "2026-W44",
+      "last_updated": "2026-W44",
+      "status": "upcoming",
+      "id": "mlds-india-apac-2027",
+      "name": "MLDS 2027 (Machine Learning Developers Summit)",
+      "dates": {
+        "start": "2027-02-25",
+        "end": "2027-03-05"
+      },
+      "location": {
+        "city": "Bengaluru / Hyderabad",
+        "country": "India",
+        "region": "Asia-Pacific"
+      },
+      "format": "in-person",
+      "url": "https://mlds.analyticsindiamag.com/ai-conference-india-2027",
+      "categories": [
+        "AI / 機械学習"
+      ],
+      "topics": [
+        "agentic-AI",
+        "generative-AI",
+        "LLM",
+        "MLOps"
+      ],
+      "summary": "AIM Media House主催の開発者向けAIカンファレンス第9回。ベンガルール（2/25-26）とハイデラバード（3/4-5）の2都市で開催。エージェントAI・生成AI・MLOps等8トラック。"
+    },
+    {
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "cost": "unknown",
+      "recurring": true,
+      "first_seen": "2026-W44",
+      "last_updated": "2026-W44",
+      "status": "upcoming",
+      "id": "ai-engineer-worlds-fair-north-america-2027",
+      "name": "AI Engineer World's Fair 2027",
+      "dates": {
+        "start": "2027-06-29",
+        "end": "2027-07-01"
+      },
+      "location": {
+        "city": "San Francisco",
+        "country": "USA",
+        "region": "North America"
+      },
+      "format": "in-person",
+      "url": "https://www.ai.engineer/worldsfair/2027",
+      "categories": [
+        "AI / 機械学習"
+      ],
+      "topics": [
+        "AI-engineering",
+        "LLM",
+        "agents",
+        "generative-AI"
+      ],
+      "summary": "AIエンジニア向けの大規模カンファレンス。Moscone Westで開催。プログラム・スピーカー・CFPは未発表（更新リストで告知予定）。"
     }
   ]
 }
