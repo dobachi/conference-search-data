@@ -2049,6 +2049,249 @@
           "accessed": "2026-11-01"
         }
       ]
+    },
+    {
+      "country": "Japan",
+      "region": "Japan",
+      "related_conferences": [],
+      "status": "active",
+      "verified": "2026-11-01",
+      "first_seen": "2026-W44",
+      "last_updated": "2026-W44",
+      "id": "ieice",
+      "name": "The Institute of Electronics, Information and Communication Engineers (IEICE)",
+      "name_ja": "一般社団法人電子情報通信学会",
+      "aliases": [
+        "IEICE",
+        "電子情報通信学会",
+        "信学会"
+      ],
+      "type": "academic-society",
+      "url": "https://www.ieice.org/jpn_r/",
+      "tags": [
+        "学術",
+        "データベース",
+        "AI"
+      ],
+      "outputs": [
+        "総合大会",
+        "ソサイエティ大会",
+        "FIT（情報科学技術フォーラム、IPSJ と合同）",
+        "技術研究報告（信学技報）",
+        "和文論文誌 A/B/C/D",
+        "IEICE Transactions"
+      ],
+      "groups": [
+        "データ工学研究会 (DE)",
+        "人工知能と知識処理研究会 (AI)",
+        "情報論的学習理論と機械学習研究会 (IBISML)",
+        "言語理解とコミュニケーション研究会 (NLC)",
+        "パターン認識・メディア理解研究会 (PRMU)",
+        "情報セキュリティ研究会 (ISEC)",
+        "情報・システムソサイエティ (ISS)"
+      ],
+      "membership": "paid",
+      "founded": "1917",
+      "summary": "1917 年創立（電信電話学会）、会員約 23,000 名。5 ソサイエティ + 1 グループ、83 研究専門委員会。正員年会費 13,000 円、学生員 3,000 円。研究会の聴講は有料（年間登録あり）、IPSJ 会員は会員と同等に発表できる。",
+      "sources": [
+        {
+          "url": "https://www.ieice.org/jpn_r/about/rinen.html",
+          "accessed": "2026-11-01"
+        },
+        {
+          "url": "https://www.ieice.org/jpn_r/member/individual_member/dues.html",
+          "accessed": "2026-11-01"
+        },
+        {
+          "url": "https://www.ieice.org/jpn_r/event/kenkyukai/index.html",
+          "accessed": "2026-11-01"
+        },
+        {
+          "url": "https://www.ieice.org/jpn_r/activities/taikai.html",
+          "accessed": "2026-11-01"
+        },
+        {
+          "url": "https://www.ieice.org/jpn_r/activities/society.html",
+          "accessed": "2026-11-01"
+        }
+      ],
+      "notes": "notes/organizations/ieice.md"
+    },
+    {
+      "country": "Japan",
+      "region": "Japan",
+      "related_conferences": [],
+      "status": "active",
+      "verified": "2026-11-01",
+      "first_seen": "2026-W44",
+      "last_updated": "2026-W44",
+      "id": "ieice-sig-de",
+      "name": "IEICE Technical Committee on Data Engineering (DE)",
+      "name_ja": "電子情報通信学会 データ工学研究会",
+      "aliases": [
+        "IEICE DE",
+        "DE研",
+        "DE研究会",
+        "データ工学研究会"
+      ],
+      "type": "research-group",
+      "parent": "ieice",
+      "url": "https://www.ieice.org/iss/de/",
+      "tags": [
+        "データベース",
+        "データエンジニアリング",
+        "学術"
+      ],
+      "outputs": [
+        "研究会（年 3 回: 6・9・12 月）",
+        "技術研究報告",
+        "DEIM（共催）",
+        "WebDB 夏のワークショップ（共催）"
+      ],
+      "groups": [],
+      "membership": "paid",
+      "founded": "",
+      "summary": "情報・システムソサイエティの研究専門委員会。データベースシステム・データ工学・データマイニングを軸とし、IPSJ の DBS 研・IFAT 研、日本データベース学会と連携して DEIM、WebDB 夏のワークショップ、SoC を開く。",
+      "sources": [
+        {
+          "url": "https://www.ieice.org/iss/de/",
+          "accessed": "2026-11-01"
+        },
+        {
+          "url": "https://www.ieice.org/jpn_r/event/kenkyukai/index.html",
+          "accessed": "2026-11-01"
+        }
+      ],
+      "notes": "notes/organizations/ieice.md"
+    },
+    {
+      "country": "Japan",
+      "region": "Japan",
+      "related_conferences": [],
+      "status": "active",
+      "verified": "2026-11-01",
+      "first_seen": "2026-W44",
+      "last_updated": "2026-W44",
+      "id": "ieice-sig-ai",
+      "name": "IEICE Technical Committee on Artificial Intelligence and Knowledge-Based Processing (AI)",
+      "name_ja": "電子情報通信学会 人工知能と知識処理研究会",
+      "aliases": [
+        "IEICE AI",
+        "AI研",
+        "人工知能と知識処理研究会",
+        "IEICE-SIG-AI"
+      ],
+      "type": "research-group",
+      "parent": "ieice",
+      "url": "https://www.ieice.org/~ai/",
+      "tags": [
+        "AI",
+        "学術"
+      ],
+      "outputs": [
+        "研究会",
+        "技術研究報告"
+      ],
+      "groups": [],
+      "membership": "paid",
+      "founded": "",
+      "summary": "情報・システムソサイエティの研究専門委員会。基礎理論から知的システム実装までの AI 研究者の交流の場で、マルチエージェント、協調問題解決、通信網やヒューマンインタフェースへの応用を扱う（英語ページの説明による）。",
+      "sources": [
+        {
+          "url": "https://www.ieice.org/~ai/",
+          "accessed": "2026-11-01"
+        },
+        {
+          "url": "https://www.ieice.org/iss/ai/jpn/",
+          "accessed": "2026-11-01"
+        }
+      ],
+      "notes": "notes/organizations/ieice.md"
+    },
+    {
+      "country": "Japan",
+      "region": "Japan",
+      "related_conferences": [],
+      "status": "active",
+      "verified": "2026-11-01",
+      "first_seen": "2026-W44",
+      "last_updated": "2026-W44",
+      "id": "ieice-sig-ibisml",
+      "name": "IEICE Technical Committee on Information-Based Induction Sciences and Machine Learning (IBISML)",
+      "name_ja": "電子情報通信学会 情報論的学習理論と機械学習研究会",
+      "aliases": [
+        "IBISML",
+        "IBIS",
+        "情報論的学習理論と機械学習研究会"
+      ],
+      "type": "research-group",
+      "parent": "ieice",
+      "url": "https://ibisml.org/",
+      "tags": [
+        "AI",
+        "学術"
+      ],
+      "outputs": [
+        "IBISML 研究会",
+        "IBIS ワークショップ（第二種研究会）",
+        "技術研究報告"
+      ],
+      "groups": [],
+      "membership": "paid",
+      "founded": "2010",
+      "summary": "情報・システムソサイエティの研究専門委員会（2010 年発足）。機械学習とその関連分野の情報交換の場で、年次の IBIS ワークショップを開く（IBIS2026 は 10/26〜29）。",
+      "sources": [
+        {
+          "url": "https://ibisml.org/",
+          "accessed": "2026-11-01"
+        }
+      ],
+      "notes": "notes/organizations/ieice.md"
+    },
+    {
+      "country": "Japan",
+      "region": "Japan",
+      "related_conferences": [],
+      "status": "active",
+      "verified": "2026-11-01",
+      "first_seen": "2026-W44",
+      "last_updated": "2026-W44",
+      "id": "ieice-sig-nlc",
+      "name": "IEICE Technical Committee on Natural Language Understanding and Models of Communication (NLC)",
+      "name_ja": "電子情報通信学会 言語理解とコミュニケーション研究会",
+      "aliases": [
+        "IEICE NLC",
+        "NLC研",
+        "言語理解とコミュニケーション研究会"
+      ],
+      "type": "research-group",
+      "parent": "ieice",
+      "url": "https://www.ieice.org/iss/nlc/",
+      "tags": [
+        "AI",
+        "学術"
+      ],
+      "outputs": [
+        "研究会",
+        "技術研究報告",
+        "テキストマイニング・シンポジウム",
+        "自然言語処理シンポジウム"
+      ],
+      "groups": [],
+      "membership": "paid",
+      "founded": "",
+      "summary": "情報・システムソサイエティの第一種研究会。自然言語コミュニケーションの解明と自然言語処理技術（形態素解析から対話システム、情報検索まで）を扱い、テキストマイニング・シンポジウムと自然言語処理シンポジウムを開く。",
+      "sources": [
+        {
+          "url": "https://www.ieice.org/iss/nlc/?page=about",
+          "accessed": "2026-11-01"
+        },
+        {
+          "url": "https://www.ieice.org/iss/nlc/",
+          "accessed": "2026-11-01"
+        }
+      ],
+      "notes": "notes/organizations/ieice.md"
     }
   ]
 }
