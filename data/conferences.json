@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-26",
+  "last_updated": "2026-11-01",
   "conferences": [
     {
       "name": "AAAI 2026 (40th AAAI Conference on Artificial Intelligence)",
@@ -2330,7 +2330,7 @@
       "cost": "paid",
       "recurring": true,
       "summary": "HashiCorp（IBM）の年次カンファレンス。Terraform・Vault等のインフラ自動化ツールの最新動向。",
-      "status": "ongoing",
+      "status": "ended",
       "id": "hashiconf-at-ibm-techxchange-north-america-2026",
       "first_seen": "2026-W14",
       "last_updated": "2026-W14"
@@ -3855,7 +3855,7 @@
       "cost": "unknown",
       "recurring": true,
       "summary": "AI・機械学習分野の国際学術カンファレンス第6回目。パリにて開催。",
-      "status": "ongoing",
+      "status": "ended",
       "first_seen": "2026-W16",
       "last_updated": "2026-W16"
     },
@@ -8589,7 +8589,7 @@
       "cost": "paid",
       "recurring": true,
       "summary": "ODSCの西海岸版AI/データサイエンス会議。RAGパイプライン、LLMオーケストレーション、エージェンティックAIの実践セッションが中心。",
-      "status": "upcoming",
+      "status": "ended",
       "id": "odsc-west-north-america-2026",
       "first_seen": "2026-W39",
       "last_updated": "2026-W39"
@@ -9200,7 +9200,7 @@
       "cost": "unknown",
       "recurring": true,
       "summary": "Oracle の年次旗艦カンファレンス（旧 Oracle CloudWorld）。データベース、OCI、エンタープライズAI、データプラットフォームの最新動向を扱う。ラスベガス開催。",
-      "status": "ongoing",
+      "status": "ended",
       "first_seen": "2026-W41",
       "last_updated": "2026-W41"
     },
@@ -9561,6 +9561,43 @@
         "generative-AI"
       ],
       "summary": "AIエンジニア向けの大規模カンファレンス。Moscone Westで開催。プログラム・スピーカー・CFPは未発表（更新リストで告知予定）。"
+    },
+    {
+      "name": "情報処理学会 第89回全国大会 (IPSJ 89th National Convention) 2027",
+      "dates": {
+        "start": "2027-03-04",
+        "end": "2027-03-06"
+      },
+      "location": {
+        "city": "Nagoya",
+        "country": "Japan",
+        "region": "Japan"
+      },
+      "format": "hybrid",
+      "url": "https://www.ipsj.or.jp/event/taikai/89/",
+      "cfp": {
+        "deadline": "2026-12-04",
+        "url": "https://www.ipsj.or.jp/event/taikai/89/appli_paper.html",
+        "status": "open"
+      },
+      "categories": [
+        "AI / 機械学習"
+      ],
+      "topics": [
+        "information processing",
+        "human-AI symbiosis",
+        "computer science",
+        "academic society",
+        "student session",
+        "IPSJ-ONE"
+      ],
+      "cost": "paid",
+      "recurring": true,
+      "summary": "情報処理学会の年次全国大会。テーマは「人とAIの共生に向けて」。名城大学天白キャンパス（名古屋）でハイブリッド開催。講演申込締切は2026-12-04 15:00。",
+      "status": "upcoming",
+      "id": "ipsj-national-convention-89-jp-2027",
+      "first_seen": "2026-W44",
+      "last_updated": "2026-W44"
     }
   ]
 }

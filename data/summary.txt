@@ -1,5 +1,5 @@
-# Conference Summary (262 total: 130 upcoming, 3 ongoing, 129 ended)
-# Generated: 2026-10-26
+# Conference Summary (263 total: 130 upcoming, 0 ongoing, 133 ended)
+# Generated: 2026-11-01
 # Format: id | name | start~end | region | status | categories
 
 aaai-apac-2026 | AAAI 2026 (40th AAAI Conference on Artificial Intelligence) | 2026-01-20~2026-01-27 | Asia-Pacific | ended | AI / 機械学習
@@ -131,10 +131,10 @@ gartner-it-symposium-orlando-north-america-2026 | Gartner IT Symposium/Xpo Ameri
 ai-big-data-expo-europe-eu-2026 | AI & Big Data Expo Europe 2026 | 2026-10-19~2026-10-20 | Europe | ended | データインテリジェンス, AI / 機械学習
 digital-transformation-week-europe-eu-2026 | Digital Transformation Week Europe 2026 | 2026-10-20~2026-10-21 | Europe | ended | ビジネス / DX, クラウド / インフラ
 japan-dx-week-autumn-jp-2026 | Japan DX Week 秋 2026 | 2026-10-21~2026-10-23 | Japan | ended | ビジネス / DX, データインテリジェンス
-oracle-ai-world-north-america-2026 | Oracle AI World 2026 | 2026-10-25~2026-10-28 | North America | ongoing | データプラットフォーム, クラウド / インフラ, AI / 機械学習
-hashiconf-at-ibm-techxchange-north-america-2026 | HashiConf at IBM TechXchange 2026 | 2026-10-26~2026-10-29 | North America | ongoing | クラウド / インフラ
-aiml-conference-eu-2026 | AIML-2026 (6th International Conference on Artificial Intelligence & Machine Learning) | 2026-10-26~2026-10-27 | Europe | ongoing | AI / 機械学習
-odsc-west-north-america-2026 | ODSC AI West 2026 | 2026-10-27~2026-10-29 | North America | upcoming | データインテリジェンス, AI / 機械学習
+oracle-ai-world-north-america-2026 | Oracle AI World 2026 | 2026-10-25~2026-10-28 | North America | ended | データプラットフォーム, クラウド / インフラ, AI / 機械学習
+hashiconf-at-ibm-techxchange-north-america-2026 | HashiConf at IBM TechXchange 2026 | 2026-10-26~2026-10-29 | North America | ended | クラウド / インフラ
+aiml-conference-eu-2026 | AIML-2026 (6th International Conference on Artificial Intelligence & Machine Learning) | 2026-10-26~2026-10-27 | Europe | ended | AI / 機械学習
+odsc-west-north-america-2026 | ODSC AI West 2026 | 2026-10-27~2026-10-29 | North America | ended | データインテリジェンス, AI / 機械学習
 idsa-decade-forum-eu-2026 | IDSA High-Level Stakeholder Dialogue & Data Spaces Decade Forum | 2026-11-03~2026-11-03 | Europe | upcoming | Data Spaces / データ連携, ビジネス / DX
 snowflake-expedition-online-2026 | Snowflake Expedition 2026 | 2026-11-03~2026-11-06 | Online | upcoming | データプラットフォーム, データエンジニアリング, AI / 機械学習
 gartner-it-symposium-yokohama-jp-2026 | Gartner IT Symposium/Xpo Japan 2026 | 2026-11-04~2026-11-06 | Japan | upcoming | ビジネス / DX, AI / 機械学習
@@ -181,6 +181,7 @@ platformcon-live-day-sf-north-america-2027 | PlatformCon 2027 Live Day San Franc
 mlds-india-apac-2027 | MLDS 2027 (Machine Learning Developers Summit) | 2027-02-25~2027-03-05 | Asia-Pacific | upcoming | AI / 機械学習
 cdao-financial-services-north-america-2027 | CDAO Financial Services 2027 | 2027-03-01~2027-03-02 | North America | upcoming | データインテリジェンス, AI / 機械学習
 gartner-cio-lf-vienna-eu-2027 | Gartner CIO Leadership Forum 2027 Vienna | 2027-03-02~2027-03-03 | Europe | upcoming | ビジネス / DX
+ipsj-national-convention-89-jp-2027 | 情報処理学会 第89回全国大会 (IPSJ 89th National Convention) 2027 | 2027-03-04~2027-03-06 | Japan | upcoming | AI / 機械学習
 fabcon-north-america-2027 | Microsoft Fabric Community Conference 2027 (FabCon & SQLCon) | 2027-03-08~2027-03-12 | North America | upcoming | データプラットフォーム, データエンジニアリング
 cpdp-eu-2027 | CPDP 2027 (Computers, Privacy and Data Protection) - 20th Anniversary | 2027-03-08~2027-03-11 | Europe | upcoming | PETs, ビジネス / DX
 gartner-data-analytics-summit-us-north-america-2027 | Gartner Data & Analytics Summit US 2027 (Orlando) | 2027-03-08~2027-03-10 | North America | upcoming | データインテリジェンス, データプラットフォーム, ビジネス / DX
