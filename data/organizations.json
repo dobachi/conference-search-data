@@ -1710,7 +1710,9 @@
         "研究発表会"
       ],
       "groups": [],
-      "related_conferences": [],
+      "related_conferences": [
+        "ipsj-eip114-spt65-csec115-jp-2026"
+      ],
       "status": "active",
       "founded": "",
       "verified": "2026-11-01",
@@ -1751,7 +1753,9 @@
         "研究発表会"
       ],
       "groups": [],
-      "related_conferences": [],
+      "related_conferences": [
+        "ipsj-eip114-spt65-csec115-jp-2026"
+      ],
       "status": "active",
       "founded": "",
       "verified": "2026-11-01",
