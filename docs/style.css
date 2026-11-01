@@ -598,6 +598,9 @@ button:active { opacity: 0.8; }
 .tab-btn.active { color: var(--accent); border-bottom-color: var(--accent); font-weight: 600; }
 
 /* Organizations tab */
+.org-notes { font-size: 0.85rem; margin: 4px 0; }
+.org-notes a { color: var(--accent); text-decoration: none; }
+.org-notes a:hover { text-decoration: underline; }
 .check-label {
   display: flex;
   align-items: center;

@@ -33,7 +33,9 @@ REQUIRED = [
 TYPES = {
     "academic-society", "standards-body", "industry-association", "consortium",
     "initiative", "oss-foundation", "public-program", "corporate-community",
+    "research-group",  # 学会の研究会・SIG など、親組織（parent）を持つ下位組織
 }
+# 任意フィールド: parent（親組織の id）、notes（リポジトリ内の調査メモへの相対パス）
 REGIONS = {"Japan", "Asia-Pacific", "North America", "Europe", "International", "Online"}
 MEMBERSHIP = {"open", "paid", "invite", "unknown"}
 STATUS = {"active", "dormant", "merged"}
@@ -79,6 +81,7 @@ def validate(data, tags, conf_ids):
 
     seen_ids = {}
     alias_owner = {}
+    all_ids = {o.get("id") for o in orgs}
     for i, o in enumerate(orgs):
         label = o.get("id") or f"#{i}"
         for k in REQUIRED:
@@ -98,7 +101,10 @@ def validate(data, tags, conf_ids):
             errors.append(f"{label}: membership '{o.get('membership')}' は許可値ではない")
         if o.get("status") not in STATUS:
             errors.append(f"{label}: status '{o.get('status')}' は許可値ではない")
-        if not str(o.get("url", "")).startswith("https://"):
+        url = str(o.get("url", ""))
+        if url.startswith("http://"):
+            warnings.append(f"{label}: url が http://（https 非対応サイトの場合のみ可）")
+        elif not url.startswith("https://"):
             errors.append(f"{label}: url は https:// で始める")
         for k in ("aliases", "tags", "outputs", "groups", "related_conferences", "sources"):
             if not isinstance(o.get(k), list):
@@ -124,6 +130,15 @@ def validate(data, tags, conf_ids):
         for k in ("first_seen", "last_updated"):
             if not WEEK_RE.match(str(o.get(k, ""))):
                 errors.append(f"{label}: {k} が YYYY-WNN ではない")
+        parent = o.get("parent")
+        if parent is not None and parent not in all_ids:
+            errors.append(f"{label}: parent '{parent}' が organizations.json に無い")
+        if o.get("type") == "research-group" and not parent:
+            errors.append(f"{label}: type research-group には parent が必要")
+        notes = o.get("notes")
+        if notes is not None:
+            if not isinstance(notes, str) or not notes.startswith("notes/") or not (ROOT / notes).is_file():
+                errors.append(f"{label}: notes '{notes}' はリポジトリ内の既存ファイル（notes/ 配下）を指すこと")
         founded = str(o.get("founded", ""))
         if founded and not re.match(r"^\d{4}$", founded):
             errors.append(f"{label}: founded は西暦 4 桁か空文字")

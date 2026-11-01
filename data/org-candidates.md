@@ -14,9 +14,9 @@
 
 ## 候補
 
-- 2026-W44 | ISO/IEC JTC 1/SC 32 (Data management and interchange) | https://www.iso.org/committee/45342.html | 初期調査時 iso.org が 403 で一次情報を取得できず保留。jtc1info.org 経由で再調査する
-- 2026-W44 | ISO/IEC JTC 1/SC 42 (Artificial intelligence) | https://www.iso.org/committee/6794475.html | 同上（ISO/IEC 42001 の所管 SC）
+- 2026-W44 | ISO/IEC JTC 1/SC 32 (Data management and interchange) | https://www.iso.org/committee/45342.html | 初期調査時 iso.org が 403 で一次情報を取得できず保留。jtc1info.org 経由で再調査する。日本からの参加窓口は `ipsj-itscj`（SC 32 専門委員会）として 2026-11-01 登録済み
+- 2026-W44 | ISO/IEC JTC 1/SC 42 (Artificial intelligence) | https://www.iso.org/committee/6794475.html | 同上（ISO/IEC 42001 の所管 SC）。国内委員会は `ipsj-itscj`（SC 42 専門委員会）で到達可
 - 2026-W44 | Manufacturing-X | https://manufacturing-x.de/ | 初期調査時に公式サイトへ接続できず保留（plattform-i40.de は bot チェックで取得不可）
-- 2026-W44 | 情報処理学会 データベースシステム研究会 (IPSJ SIG-DBS) | https://www.ipsj.or.jp/sig/dbs/ | ipsj エントリの groups に載せる候補。旧 URL が 404 で正式ページ未確認
+- [x] 2026-W44 | 情報処理学会 データベースシステム研究会 (IPSJ SIG-DBS) | https://www.ipsj.or.jp/sig/dbs/ | 2026-11-01 登録済み（`ipsj-sig-dbs`、公式 https://www.ipsj-dbs.org/。2025 年度に「データベースとデータサイエンス研究会」へ改称）
 - 2026-W44 | DAMA Japan | https://www.dama-japan.org/ | dama-international の groups または独立エントリ候補。未調査
 - 2026-W44 | Eclipse Dataspace Components (EDC) | https://projects.eclipse.org/projects/technology.edc | eclipse-dataspace-wg の outputs に追記する候補。未調査

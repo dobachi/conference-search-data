@@ -488,20 +488,30 @@
       "tags": [
         "学術",
         "データベース",
-        "AI"
+        "AI",
+        "標準化"
       ],
       "outputs": [
         "全国大会",
         "研究会（研究発表会）",
-        "論文誌"
+        "論文誌",
+        "研究報告"
       ],
-      "groups": [],
+      "groups": [
+        "データベースとデータサイエンス研究会 (DBS)",
+        "情報基礎とアクセス技術研究会 (IFAT)",
+        "知能システム研究会 (ICS)",
+        "自然言語処理研究会 (NL)",
+        "コンピュータセキュリティ研究会 (CSEC)",
+        "電子化知的財産・社会基盤研究会 (EIP)",
+        "情報規格調査会 (ITSCJ)"
+      ],
       "related_conferences": [
         "ipsj-national-convention-89-jp-2027"
       ],
       "membership": "paid",
       "status": "active",
-      "summary": "1960 年 4 月設立の学会（2010 年に一般社団法人へ移行）。コンピュータとコミュニケーションを中心とした情報処理に関する学術・技術の振興を目的とし、会費と賛助会員費で運営。",
+      "summary": "1960 年設立の学会（2010 年に一般社団法人へ移行）。2025 年度は 41 研究会 + 4 研究グループが活動。研究発表会は誰でも参加でき、非会員も「準登録（個人）」として研究会だけ年間登録できる。学生会員は 1 研究会の登録が無料。",
       "founded": "1960",
       "sources": [
         {
@@ -511,11 +521,24 @@
         {
           "url": "https://www.ipsj.or.jp/",
           "accessed": "2026-11-01"
+        },
+        {
+          "url": "https://www.ipsj.or.jp/kenkyukai/sig-info2025.html",
+          "accessed": "2026-11-01"
+        },
+        {
+          "url": "https://www.ipsj.or.jp/kenkyukai/toroku.html",
+          "accessed": "2026-11-01"
+        },
+        {
+          "url": "https://www.ipsj.or.jp/kenkyukai/sanka.html",
+          "accessed": "2026-11-01"
         }
       ],
       "verified": "2026-11-01",
       "first_seen": "2026-W44",
-      "last_updated": "2026-W44"
+      "last_updated": "2026-W44",
+      "notes": "notes/organizations/ipsj.md"
     },
     {
       "id": "w3c",
@@ -692,22 +715,45 @@
         "AI",
         "学術"
       ],
-      "outputs": [],
-      "groups": [],
+      "outputs": [
+        "全国大会",
+        "研究会（第一種・第二種）",
+        "人工知能学会誌・論文誌"
+      ],
+      "groups": [
+        "セマンティックウェブとオントロジー研究会 (SWO)",
+        "知識ベースシステム研究会 (KBS)",
+        "データ協創研究会 (DC)",
+        "汎用人工知能研究会 (AGI)",
+        "データ指向構成的社会AI研究会 (DOCSAI)",
+        "人工知能基本問題研究会 (FPAI)",
+        "言語・音声理解と対話処理研究会 (SLUD)",
+        "金融情報学研究会 (FIN)",
+        "ビジネス・インフォマティクス研究会 (BI)"
+      ],
       "related_conferences": [],
       "membership": "paid",
       "status": "active",
-      "summary": "主たる事務所を東京・新宿区に置く一般社団法人。人工知能に関する研究の進展と知識の普及を図り、学術・技術と産業・社会の発展に寄与することを目的とする。入会は理事会承認制で入会金・会費あり。",
-      "founded": "",
+      "summary": "1986 年 7 月発足、2013 年に一般社団法人へ移行。会員数約 5,200 名（2020 年 3 月末）。年会費は正会員 10,000 円、入会金 2,000 円。第一種研究会はメンバー登録 2,000 円/年、第二種研究会は参加条件が研究会ごと（SWO は参加費無料）。",
+      "founded": "1986",
       "sources": [
         {
           "url": "https://www.ai-gakkai.or.jp/about/about-us/jsai_teikan/",
+          "accessed": "2026-11-01"
+        },
+        {
+          "url": "https://www.ai-gakkai.or.jp/about/membership/",
+          "accessed": "2026-11-01"
+        },
+        {
+          "url": "https://www.ai-gakkai.or.jp/sig-list/",
           "accessed": "2026-11-01"
         }
       ],
       "verified": "2026-11-01",
       "first_seen": "2026-W44",
-      "last_updated": "2026-W44"
+      "last_updated": "2026-W44",
+      "notes": "notes/organizations/jsai.md"
     },
     {
       "id": "lf-ai-data",
@@ -728,13 +774,22 @@
         "データプラットフォーム"
       ],
       "outputs": [
-        "LF AI & Data hosted projects"
+        "LF AI & Data hosted projects (67)",
+        "ONNX",
+        "Kedro",
+        "Adversarial Robustness Toolbox (ART)",
+        "LF AI & Data Day"
       ],
-      "groups": [],
+      "groups": [
+        "Technical Advisory Council (TAC)",
+        "Trusted AI",
+        "BI & AI",
+        "ML Workflow and Interoperability Design"
+      ],
       "related_conferences": [],
       "membership": "paid",
       "status": "active",
-      "summary": "Linux Foundation 傘下の中立ホストとして、AI・データ分野のオープンソース協業と信頼できるインフラを提供。会員は LF 法人会員であることが前提。学術・非営利向けには無料の Associate 会員枠。",
+      "summary": "Linux Foundation 傘下の中立ホスト。AI・データ分野の OSS 67 プロジェクトと 9 技術 WG を運営（2026-11 時点）。法人会員は LF 会員が前提で Premier は US$150k〜170k/年、学術・非営利は Associate 無料。個人は各プロジェクトへの貢献で参加。",
       "founded": "",
       "sources": [
         {
@@ -744,11 +799,20 @@
         {
           "url": "https://lfaidata.foundation/join/",
           "accessed": "2026-11-01"
+        },
+        {
+          "url": "https://lfaidata.foundation/projects/",
+          "accessed": "2026-11-01"
+        },
+        {
+          "url": "https://lfaidata.foundation/blog/",
+          "accessed": "2026-11-01"
         }
       ],
       "verified": "2026-11-01",
       "first_seen": "2026-W44",
-      "last_updated": "2026-W44"
+      "last_updated": "2026-W44",
+      "notes": "notes/organizations/lf-ai-data.md"
     },
     {
       "id": "partnership-on-ai",
@@ -943,15 +1007,23 @@
       ],
       "outputs": [
         "PySyft",
-        "SyftBox"
+        "SyftBox",
+        "Syft Space / SyftHub",
+        "syft-flwr",
+        "BioVault"
       ],
-      "groups": [],
+      "groups": [
+        "Research Fellowship",
+        "Research Grants",
+        "NAIRR Pilot Partnership",
+        "FL Project Co-Design"
+      ],
       "related_conferences": [
         "privacy-enhancing-technologies-symposium-eu-2027"
       ],
       "membership": "open",
       "status": "active",
-      "summary": "501(c)(3) の非営利財団かつグローバルコミュニティ。非公開データのコピーや直接アクセスなしにインサイトへ到達できるオープンソースのネットワーク技術を開発する。",
+      "summary": "501(c)(3) の非営利財団かつグローバルコミュニティ。データを移動させずにサイロ間の安全な計算を協調させる OSS（PySyft、SyftBox 等）を開発。Slack はメールのみで参加でき、博士課程向け Research Fellowship や研究助成も運営。",
       "founded": "",
       "sources": [
         {
@@ -961,11 +1033,24 @@
         {
           "url": "https://openmined.org/",
           "accessed": "2026-11-01"
+        },
+        {
+          "url": "https://openmined.org/research/",
+          "accessed": "2026-11-01"
+        },
+        {
+          "url": "https://openmined.org/get-involved/",
+          "accessed": "2026-11-01"
+        },
+        {
+          "url": "https://github.com/OpenMined",
+          "accessed": "2026-11-01"
         }
       ],
       "verified": "2026-11-01",
       "first_seen": "2026-W44",
-      "last_updated": "2026-W44"
+      "last_updated": "2026-W44",
+      "notes": "notes/organizations/openmined.md"
     },
     {
       "id": "cncf",
@@ -1115,8 +1200,9 @@
         "開発者コミュニティ"
       ],
       "outputs": [
-        "biweekly meetups",
-        "DML Slack"
+        "monthly roundtable",
+        "DML Slack",
+        "Data Mesh Live"
       ],
       "groups": [],
       "related_conferences": [
@@ -1124,7 +1210,7 @@
       ],
       "membership": "open",
       "status": "active",
-      "summary": "2021 年 2 月設立の、データメッシュについて学び交流するための独立ユーザーコミュニティ。テックコミュニティ企業 Constantia.io が運営し、隔週ミートアップと Slack を提供。8000 人超が参加。",
+      "summary": "2021 年 2 月設立のデータメッシュの独立ユーザーコミュニティ（8000 人超）。2025 年 1 月に理事会を置くコミュニティ主導組織への移行を発表。Slack と月例ラウンドテーブルを案内する一方、ブログは 2025 年 1 月、ニュースレターは 2024 年 10 月以降更新がなく活動は低調。",
       "founded": "2021",
       "sources": [
         {
@@ -1134,11 +1220,24 @@
         {
           "url": "https://datameshlearning.com/",
           "accessed": "2026-11-01"
+        },
+        {
+          "url": "https://datameshlearning.com/blog/",
+          "accessed": "2026-11-01"
+        },
+        {
+          "url": "https://datameshlearning.com/events/",
+          "accessed": "2026-11-01"
+        },
+        {
+          "url": "https://datameshlearning.substack.com/",
+          "accessed": "2026-11-01"
         }
       ],
       "verified": "2026-11-01",
       "first_seen": "2026-W44",
-      "last_updated": "2026-W44"
+      "last_updated": "2026-W44",
+      "notes": "notes/organizations/data-mesh-learning.md"
     },
     {
       "id": "dbt-community",
@@ -1427,6 +1526,529 @@
       "verified": "2026-11-01",
       "first_seen": "2026-W44",
       "last_updated": "2026-W44"
+    },
+    {
+      "aliases": [
+        "SIG-DBS",
+        "IPSJ-DBS",
+        "DBS研究会",
+        "データベースシステム研究会"
+      ],
+      "country": "Japan",
+      "region": "Japan",
+      "outputs": [
+        "研究発表会",
+        "研究報告"
+      ],
+      "groups": [],
+      "related_conferences": [],
+      "status": "active",
+      "founded": "",
+      "verified": "2026-11-01",
+      "first_seen": "2026-W44",
+      "last_updated": "2026-W44",
+      "id": "ipsj-sig-dbs",
+      "name": "IPSJ SIG Databases and Data Science (SIG-DBS)",
+      "name_ja": "情報処理学会 データベースとデータサイエンス研究会",
+      "type": "research-group",
+      "parent": "ipsj",
+      "url": "https://www.ipsj-dbs.org/",
+      "tags": [
+        "データベース",
+        "データエンジニアリング",
+        "学術"
+      ],
+      "membership": "paid",
+      "summary": "情報処理学会コンピュータサイエンス領域の研究会。DBMS 技術に象徴される「データ」に関わるシステムとデータサイエンスを領域とし、データモデル、質問処理、データマイニング、ビッグデータ処理、セマンティック Web、情報統合などを扱う。2025 年度に「データベースシステム研究会」から改称。",
+      "sources": [
+        {
+          "url": "https://www.ipsj-dbs.org/",
+          "accessed": "2026-11-01"
+        },
+        {
+          "url": "https://www.ipsj.or.jp/kenkyukai/sig-info2025.html",
+          "accessed": "2026-11-01"
+        },
+        {
+          "url": "https://www.ipsj.or.jp/kenkyukai/toroku.html",
+          "accessed": "2026-11-01"
+        }
+      ]
+    },
+    {
+      "aliases": [
+        "SIG-IFAT",
+        "IFAT"
+      ],
+      "country": "Japan",
+      "region": "Japan",
+      "outputs": [
+        "研究発表会",
+        "情報アクセスシンポジウム"
+      ],
+      "groups": [],
+      "related_conferences": [],
+      "status": "active",
+      "founded": "",
+      "verified": "2026-11-01",
+      "first_seen": "2026-W44",
+      "last_updated": "2026-W44",
+      "id": "ipsj-sig-ifat",
+      "name": "IPSJ SIG Information Fundamentals and Access Technologies (SIG-IFAT)",
+      "name_ja": "情報処理学会 情報基礎とアクセス技術研究会",
+      "type": "research-group",
+      "parent": "ipsj",
+      "url": "http://ipsj-ifat.org/",
+      "tags": [
+        "データベース",
+        "学術"
+      ],
+      "membership": "paid",
+      "summary": "情報処理学会コンピュータサイエンス領域の研究会。SIG-DBS・電子情報通信学会 DE 研との合同研究会を年数回開催し、人工知能学会データ協創研究会（SIG-DC）とも合同で研究発表会を開く。公式サイトは https 非対応。",
+      "sources": [
+        {
+          "url": "http://ipsj-ifat.org/",
+          "accessed": "2026-11-01"
+        },
+        {
+          "url": "https://www.ipsj.or.jp/kenkyukai/sig-info2025.html",
+          "accessed": "2026-11-01"
+        }
+      ]
+    },
+    {
+      "aliases": [
+        "SIG-ICS",
+        "ICS研究会"
+      ],
+      "country": "Japan",
+      "region": "Japan",
+      "outputs": [
+        "研究発表会"
+      ],
+      "groups": [],
+      "related_conferences": [],
+      "status": "active",
+      "founded": "",
+      "verified": "2026-11-01",
+      "first_seen": "2026-W44",
+      "last_updated": "2026-W44",
+      "id": "ipsj-sig-ics",
+      "name": "IPSJ SIG Intelligent Computing Systems (SIG-ICS)",
+      "name_ja": "情報処理学会 知能システム研究会",
+      "type": "research-group",
+      "parent": "ipsj",
+      "url": "https://agentcrowd.github.io/IPSJ-SIG-ICS/",
+      "tags": [
+        "AI",
+        "学術"
+      ],
+      "membership": "paid",
+      "summary": "情報処理学会メディア知能情報領域の研究会。人工知能技術とそのシステム化にかかわる広範な学術的議論および応用を扱う。",
+      "sources": [
+        {
+          "url": "https://agentcrowd.github.io/IPSJ-SIG-ICS/",
+          "accessed": "2026-11-01"
+        },
+        {
+          "url": "https://www.ipsj.or.jp/kenkyukai/sig-info2025.html",
+          "accessed": "2026-11-01"
+        }
+      ]
+    },
+    {
+      "aliases": [
+        "SIG-NL",
+        "NL研",
+        "NL研究会"
+      ],
+      "country": "Japan",
+      "region": "Japan",
+      "outputs": [
+        "研究発表会"
+      ],
+      "groups": [],
+      "related_conferences": [],
+      "status": "active",
+      "founded": "",
+      "verified": "2026-11-01",
+      "first_seen": "2026-W44",
+      "last_updated": "2026-W44",
+      "id": "ipsj-sig-nl",
+      "name": "IPSJ SIG Natural Language Processing (SIG-NL)",
+      "name_ja": "情報処理学会 自然言語処理研究会",
+      "type": "research-group",
+      "parent": "ipsj",
+      "url": "https://sites.google.com/sig-nl.ipsj.or.jp/sig-nl/",
+      "tags": [
+        "AI",
+        "学術"
+      ],
+      "membership": "paid",
+      "summary": "情報処理学会メディア知能情報領域の研究会。計算機を用いた言語処理に関わる諸技術（形態素解析、統語解析、意味解析、談話解析、自然言語生成、対話、言語知識表現・獲得、機械翻訳など）を研究分野とする。年間登録を強く推奨。",
+      "sources": [
+        {
+          "url": "https://sites.google.com/sig-nl.ipsj.or.jp/sig-nl/",
+          "accessed": "2026-11-01"
+        },
+        {
+          "url": "https://www.ipsj.or.jp/kenkyukai/sig-info2025.html",
+          "accessed": "2026-11-01"
+        }
+      ]
+    },
+    {
+      "aliases": [
+        "SIG-CSEC",
+        "CSEC",
+        "CSEC研究会"
+      ],
+      "country": "Japan",
+      "region": "Japan",
+      "outputs": [
+        "コンピュータセキュリティシンポジウム (CSS)",
+        "研究発表会"
+      ],
+      "groups": [],
+      "related_conferences": [],
+      "status": "active",
+      "founded": "",
+      "verified": "2026-11-01",
+      "first_seen": "2026-W44",
+      "last_updated": "2026-W44",
+      "id": "ipsj-sig-csec",
+      "name": "IPSJ SIG Computer Security (SIG-CSEC)",
+      "name_ja": "情報処理学会 コンピュータセキュリティ研究会",
+      "type": "research-group",
+      "parent": "ipsj",
+      "url": "https://www.iwsec.org/csec/",
+      "tags": [
+        "PETs",
+        "トラスト",
+        "学術"
+      ],
+      "membership": "paid",
+      "summary": "情報処理学会情報環境領域の研究会。コンピュータセキュリティを対象とし、コンピュータセキュリティシンポジウム（CSS）を主催する。",
+      "sources": [
+        {
+          "url": "https://www.iwsec.org/csec/",
+          "accessed": "2026-11-01"
+        },
+        {
+          "url": "https://www.ipsj.or.jp/kenkyukai/sig-info2025.html",
+          "accessed": "2026-11-01"
+        }
+      ]
+    },
+    {
+      "aliases": [
+        "SIG-EIP",
+        "EIP研究会"
+      ],
+      "country": "Japan",
+      "region": "Japan",
+      "outputs": [
+        "研究発表会"
+      ],
+      "groups": [],
+      "related_conferences": [],
+      "status": "active",
+      "founded": "",
+      "verified": "2026-11-01",
+      "first_seen": "2026-W44",
+      "last_updated": "2026-W44",
+      "id": "ipsj-sig-eip",
+      "name": "IPSJ SIG Electronic Intellectual Property (SIG-EIP)",
+      "name_ja": "情報処理学会 電子化知的財産・社会基盤研究会",
+      "type": "research-group",
+      "parent": "ipsj",
+      "url": "https://sites.google.com/eip.ipsj.or.jp/eip/",
+      "tags": [
+        "公共・政策",
+        "標準化",
+        "学術"
+      ],
+      "membership": "paid",
+      "summary": "情報処理学会メディア知能情報領域の研究会。電子化知的財産（デジタルコンテンツ、特許情報、知的財産戦略、標準化など）とデジタル社会基盤（電子政府、トレーサビリティ、デジタルコモンズ、情報セキュリティなど）を研究テーマとする。聴講（有料）は誰でも可。",
+      "sources": [
+        {
+          "url": "https://sites.google.com/eip.ipsj.or.jp/eip/",
+          "accessed": "2026-11-01"
+        },
+        {
+          "url": "https://www.ipsj.or.jp/kenkyukai/sig-info2025.html",
+          "accessed": "2026-11-01"
+        }
+      ]
+    },
+    {
+      "aliases": [
+        "ITSCJ",
+        "情報規格調査会",
+        "JTC 1 国内委員会"
+      ],
+      "country": "Japan",
+      "region": "Japan",
+      "outputs": [
+        "ISO/IEC JTC 1 国内審議",
+        "国内規格（JIS）審議"
+      ],
+      "groups": [
+        "SC 32 専門委員会（データ管理及び交換）",
+        "SC 42 専門委員会（人工知能）",
+        "SC 27 専門委員会（セキュリティ）",
+        "SC 38 専門委員会",
+        "SC 40 専門委員会"
+      ],
+      "related_conferences": [],
+      "status": "active",
+      "founded": "",
+      "verified": "2026-11-01",
+      "first_seen": "2026-W44",
+      "last_updated": "2026-W44",
+      "id": "ipsj-itscj",
+      "name": "IPSJ Information Technology Standards Commission of Japan (ITSCJ)",
+      "name_ja": "情報処理学会 情報規格調査会",
+      "type": "standards-body",
+      "parent": "ipsj",
+      "url": "https://itscj.ipsj.or.jp/",
+      "tags": [
+        "標準化",
+        "データ標準",
+        "AI",
+        "トラスト"
+      ],
+      "membership": "invite",
+      "summary": "情報処理学会内の標準化組織。ISO/IEC JTC 1 で議論される国際規格と国内規格の審議・調査研究を行い、SC 32（データ）・SC 42（AI）・SC 27 などの専門委員会を置く。委員会は法人の規格賛助員から推薦された委員と、大学・公的研究機関所属の中立委員で構成。",
+      "sources": [
+        {
+          "url": "https://itscj.ipsj.or.jp/",
+          "accessed": "2026-11-01"
+        },
+        {
+          "url": "https://itscj.ipsj.or.jp/join/index.html",
+          "accessed": "2026-11-01"
+        },
+        {
+          "url": "https://itscj.ipsj.or.jp/committee-activities/committee-list.html",
+          "accessed": "2026-11-01"
+        }
+      ]
+    },
+    {
+      "aliases": [
+        "SIG-SWO",
+        "SWO研究会",
+        "SIGSWO"
+      ],
+      "country": "Japan",
+      "region": "Japan",
+      "outputs": [
+        "研究会（第 70 回まで開催）"
+      ],
+      "groups": [],
+      "related_conferences": [],
+      "status": "active",
+      "founded": "",
+      "verified": "2026-11-01",
+      "first_seen": "2026-W44",
+      "last_updated": "2026-W44",
+      "id": "jsai-sig-swo",
+      "name": "JSAI SIG on Semantic Web and Ontology (SIG-SWO)",
+      "name_ja": "人工知能学会 セマンティックウェブとオントロジー研究会",
+      "type": "research-group",
+      "parent": "jsai",
+      "url": "https://www.sigswo.org/",
+      "tags": [
+        "データ標準",
+        "AI",
+        "学術"
+      ],
+      "membership": "open",
+      "summary": "人工知能学会の第二種研究会。セマンティックウェブとオントロジーを対象に研究会を継続開催（第 70 回の発表募集まで確認）。参加費は無料で、合同研究会内での開催時は無料の参加登録が必要。",
+      "sources": [
+        {
+          "url": "https://www.sigswo.org/",
+          "accessed": "2026-11-01"
+        },
+        {
+          "url": "https://www.ai-gakkai.or.jp/sig-list/",
+          "accessed": "2026-11-01"
+        }
+      ]
+    },
+    {
+      "aliases": [
+        "SIG-KBS",
+        "KBS研究会"
+      ],
+      "country": "Japan",
+      "region": "Japan",
+      "outputs": [
+        "研究会資料（J-Stage）",
+        "研究会奨励賞"
+      ],
+      "groups": [],
+      "related_conferences": [],
+      "status": "active",
+      "founded": "",
+      "verified": "2026-11-01",
+      "first_seen": "2026-W44",
+      "last_updated": "2026-W44",
+      "id": "jsai-sig-kbs",
+      "name": "JSAI SIG on Knowledge-Based Systems (SIG-KBS)",
+      "name_ja": "人工知能学会 知識ベースシステム研究会",
+      "type": "research-group",
+      "parent": "jsai",
+      "url": "https://ai-gakkai.or.jp/sig-kbs/",
+      "tags": [
+        "AI",
+        "学術"
+      ],
+      "membership": "paid",
+      "summary": "人工知能学会の第一種研究会。対象研究領域は「知識表現・知識獲得とその応用」および人工知能一般。メンバー登録料は 2,000 円/年で、登録者はエンバーゴ期間中の研究会資料を J-Stage で閲覧できる。",
+      "sources": [
+        {
+          "url": "https://ai-gakkai.or.jp/sig-kbs/",
+          "accessed": "2026-11-01"
+        },
+        {
+          "url": "https://www.ai-gakkai.or.jp/about/membership/",
+          "accessed": "2026-11-01"
+        },
+        {
+          "url": "https://www.ai-gakkai.or.jp/sig-list/",
+          "accessed": "2026-11-01"
+        }
+      ]
+    },
+    {
+      "aliases": [
+        "SIG-DC",
+        "データ協創研究会"
+      ],
+      "country": "Japan",
+      "region": "Japan",
+      "outputs": [
+        "研究会（第 4 回まで確認）"
+      ],
+      "groups": [],
+      "related_conferences": [],
+      "status": "active",
+      "founded": "",
+      "verified": "2026-11-01",
+      "first_seen": "2026-W44",
+      "last_updated": "2026-W44",
+      "id": "jsai-sig-dc",
+      "name": "JSAI SIG on Data Collaboration (SIG-DC)",
+      "name_ja": "人工知能学会 データ協創研究会",
+      "type": "research-group",
+      "parent": "jsai",
+      "url": "https://www.sig-dc.org/",
+      "tags": [
+        "データスペース",
+        "データマネジメント",
+        "AI",
+        "学術"
+      ],
+      "membership": "unknown",
+      "summary": "人工知能学会の第二種研究会。データを単なる分析対象ではなく多様な主体が協力しながら価値を協創する社会基盤と捉え、「データ協創」「データエコシステム」を掲げて AI・データサイエンス・情報科学・社会科学の研究者・実務家が議論する。情報処理学会 SIG-IFAT と合同開催の実績。",
+      "sources": [
+        {
+          "url": "https://www.sig-dc.org/",
+          "accessed": "2026-11-01"
+        },
+        {
+          "url": "https://www.ai-gakkai.or.jp/sig-list/",
+          "accessed": "2026-11-01"
+        },
+        {
+          "url": "http://ipsj-ifat.org/",
+          "accessed": "2026-11-01"
+        }
+      ]
+    },
+    {
+      "aliases": [
+        "SIG-AGI",
+        "AGI研究会"
+      ],
+      "country": "Japan",
+      "region": "Japan",
+      "outputs": [
+        "研究会"
+      ],
+      "groups": [],
+      "related_conferences": [],
+      "status": "active",
+      "founded": "2015",
+      "verified": "2026-11-01",
+      "first_seen": "2026-W44",
+      "last_updated": "2026-W44",
+      "id": "jsai-sig-agi",
+      "name": "JSAI SIG on Artificial General Intelligence (SIG-AGI)",
+      "name_ja": "人工知能学会 汎用人工知能研究会",
+      "type": "research-group",
+      "parent": "jsai",
+      "url": "https://www.sig-agi.org/sig-agi",
+      "tags": [
+        "AI",
+        "学術"
+      ],
+      "membership": "unknown",
+      "summary": "人工知能学会の第二種研究会。国内における汎用人工知能（AGI）に関わる研究活動を支える母体として 2015 年に立ち上げられた。",
+      "sources": [
+        {
+          "url": "https://www.sig-agi.org/sig-agi",
+          "accessed": "2026-11-01"
+        },
+        {
+          "url": "https://www.ai-gakkai.or.jp/sig-list/",
+          "accessed": "2026-11-01"
+        }
+      ]
+    },
+    {
+      "aliases": [
+        "SIG-DOCSAI",
+        "DOCSAI",
+        "SIG-DOCMAS",
+        "データ指向構成マイニングとシミュレーション研究会"
+      ],
+      "country": "Japan",
+      "region": "Japan",
+      "outputs": [
+        "研究会"
+      ],
+      "groups": [],
+      "related_conferences": [],
+      "status": "active",
+      "founded": "",
+      "verified": "2026-11-01",
+      "first_seen": "2026-W44",
+      "last_updated": "2026-W44",
+      "id": "jsai-sig-docsai",
+      "name": "JSAI SIG on Data-Oriented Constructive Social AI (SIG-DOCSAI)",
+      "name_ja": "人工知能学会 データ指向構成的社会AI研究会",
+      "type": "research-group",
+      "parent": "jsai",
+      "url": "https://sites.google.com/view/jsaisigdocsai/home",
+      "tags": [
+        "AI",
+        "学術"
+      ],
+      "membership": "unknown",
+      "summary": "人工知能学会の第二種研究会。データ指向構成マイニングとシミュレーション研究会（DOCMAS、2026 年 3 月末で活動終了）の後継として 2026 年 4 月から活動。第 2 回研究会は RoboCup シミュレーションリーグ秋キャンプと併せて開催。",
+      "sources": [
+        {
+          "url": "https://sites.google.com/view/jsaisigdocsai/home",
+          "accessed": "2026-11-01"
+        },
+        {
+          "url": "https://www.ai-gakkai.or.jp/sig-list/",
+          "accessed": "2026-11-01"
+        }
+      ]
     }
   ]
 }

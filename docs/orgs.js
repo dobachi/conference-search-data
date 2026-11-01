@@ -14,7 +14,9 @@
     'oss-foundation': 'OSS 財団',
     'public-program': '公的プログラム',
     'corporate-community': '企業・ユーザーコミュニティ',
+    'research-group': '研究会・SIG',
   };
+  const REPO_BLOB = 'https://github.com/dobachi/conference-search-data/blob/main/';
   const MEMBERSHIP_LABELS = { open: '参加自由', paid: '有料会員制', invite: '招待制', unknown: '' };
 
   // --- State ---
@@ -23,6 +25,7 @@
   let orgs = [];
   let tagAliases = {};        // tag -> [aliases]
   let confIndex = {};         // conference id -> {name, url}
+  let orgIndex = {};          // org id -> org (for parent links)
   let activeTags = new Set();
   const favorites = { has: (id) => window.FavSync.has('organizations', id) };  // backed by sync.js
 
@@ -75,6 +78,7 @@
         fetchJson('conferences.json').catch(() => ({ conferences: [] })),
       ]);
       orgs = orgData.organizations || [];
+      orgs.forEach((o) => { orgIndex[o.id] = o; });
       (tagData.tags || []).forEach((t) => { tagAliases[t.tag] = t.aliases || []; });
       (confData.conferences || []).forEach((c) => { confIndex[c.id] = { name: c.name, url: c.url, start: c.dates && c.dates.start }; });
       $updated.textContent = orgData.last_updated ? `Updated: ${orgData.last_updated}` : '';
@@ -123,6 +127,7 @@
     const aliasExpansion = (o.tags || []).flatMap((t) => tagAliases[t] || []);
     return [
       o.name, o.name_ja, o.summary, o.country, o.region, window.FavSync.getNote('organizations', o.id),
+      o.parent && orgIndex[o.parent] ? orgIndex[o.parent].name_ja + ' ' + orgIndex[o.parent].name : '',
       ...(o.aliases || []), ...(o.tags || []), ...(o.outputs || []), ...(o.groups || []),
       ...aliasExpansion,
     ].filter(Boolean).join(' ').toLowerCase();
@@ -205,7 +210,9 @@
         o.country ? `<span>${esc(o.country)}</span>` : '',
         o.founded ? `<span>Since ${esc(o.founded)}</span>` : '',
         MEMBERSHIP_LABELS[o.membership] ? `<span>${esc(MEMBERSHIP_LABELS[o.membership])}</span>` : '',
+        o.parent && orgIndex[o.parent] ? `<span>所属: ${esc(orgIndex[o.parent].name_ja || orgIndex[o.parent].name)}</span>` : '',
       ].filter(Boolean).join('');
+      const notesHtml = o.notes ? `<div class="org-notes"><a href="${esc(REPO_BLOB + o.notes)}" target="_blank" rel="noopener">📄 調査メモを読む</a></div>` : '';
       const outputs = (o.outputs || []).map((x) => `<span class="output-chip">${esc(x)}</span>`).join('');
       const groups = (o.groups || []).length ? `<div class="org-groups">注目グループ: ${o.groups.map(esc).join(' / ')}</div>` : '';
       const related = (o.related_conferences || []).map((id) => {
@@ -229,6 +236,7 @@
           </div>
           <div class="conf-meta">${meta}</div>
           ${o.summary ? `<div class="conf-summary">${esc(o.summary)}</div>` : ''}
+          ${notesHtml}
           ${outputs ? `<div class="org-outputs">${outputs}</div>` : ''}
           ${groups}
           ${aliases}

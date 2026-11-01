@@ -14,6 +14,7 @@
 | `data/org-candidates.md` | 登録候補の置き場。Phase 1 や日々の作業で追記 |
 | `scripts/validate-orgs.py` | スキーマ・語彙・参照整合性の検証と、定期見直しの一覧出力 |
 | `docs/orgs.js` | サイトの Organizations タブ |
+| `notes/organizations/*.md` | 個別組織の調査メモ（活動内容・参加方法など）。エントリの `notes` から参照 |
 
 ## データスキーマ
 
@@ -38,7 +39,10 @@
   "sources": [{"url": "https://…/about/", "accessed": "2026-11-01"}],  // 根拠にした一次情報
   "verified": "2026-11-01",              // 最後に一次情報で確認した日
   "first_seen": "2026-W44",
-  "last_updated": "2026-W44"
+  "last_updated": "2026-W44",
+  // --- 任意フィールド ---
+  "parent": "ipsj",                      // 親組織の id（type が research-group のときは必須）
+  "notes": "notes/organizations/ipsj.md" // リポジトリ内の調査メモ。サイトでは「調査メモを読む」リンクになる
 }
 ```
 
@@ -54,6 +58,7 @@
 | `oss-foundation` | OSS をホストする財団（ASF、CNCF、LF AI & Data、FIWARE） |
 | `public-program` | 政府・公的機関が主導または資金提供する組織（IPA DADC、DSSC） |
 | `corporate-community` | ベンダー主導またはユーザー主導の実践コミュニティ（JAWS-UG、dbt Community） |
+| `research-group` | 学会の研究会・SIG・委員会など、親組織を持つ下位組織（IPSJ SIG-DBS、JSAI SIG-SWO）。`parent` 必須 |
 
 ### membership の値
 
@@ -85,7 +90,13 @@
 - 一次情報が見つからない組織（`data/org-candidates.md` に理由付きで残す）
 - 既存エントリの下位組織で、外部で単独の名前として通用しないもの → 親エントリの `groups` に書く
 
-**下位組織の扱い**: WG や研究会は親の `groups` に入れるのが原則。独立した会員制度・サイト・イベントを持ち、単独で検索されそうなもの（例: ISO/IEC JTC 1/SC 42）は別エントリにしてよい。
+**下位組織の扱い**: WG や研究会は親の `groups` に入れるのが原則。独立した登録制度・サイト・イベントを持ち、単独で検索されそうなもの（例: ISO/IEC JTC 1/SC 42、IPSJ の研究会）は `type: research-group` + `parent` で別エントリにしてよい。その場合も親の `groups` に名前を残し、両方向から辿れるようにする。
+
+## 調査メモ（`notes/organizations/`）
+
+「どんな活動をしているか」「参加できるものは何か」のような、`summary` に収まらない調査結果は `notes/organizations/<id>.md` に Markdown で残し、エントリの `notes` フィールドで指す。サイトのカードに「調査メモを読む」リンクが出る（GitHub 上で表示）。メモは一次情報の URL と確認日を必ず書き、推測は「推測」と明記する。
+
+サイトのメモ機能（カード右上の ✎）に「後で調べる」「○○を確認」と書いておき、Claude Code に「組織のメモに従って追加調査して」と依頼すれば、Gist 上のメモを読んで（`gh gist view`）この手順で調査・反映する運用ができる。処理後のメモはユーザー自身が消す（Claude 側からは書き換えない）。
 
 ## 追加手順
 
