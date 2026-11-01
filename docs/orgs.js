@@ -33,6 +33,7 @@
   const $region = document.getElementById('org-region-filter');
   const $search = document.getElementById('org-search-input');
   const $favOnly = document.getElementById('org-fav-only');
+  const $memoOnly = document.getElementById('org-memo-only');
   const $cloud = document.getElementById('org-tag-cloud');
   const $active = document.getElementById('org-active-tags');
   const $stats = document.getElementById('org-stats');
@@ -121,7 +122,7 @@
   function searchableText(o) {
     const aliasExpansion = (o.tags || []).flatMap((t) => tagAliases[t] || []);
     return [
-      o.name, o.name_ja, o.summary, o.country, o.region,
+      o.name, o.name_ja, o.summary, o.country, o.region, window.FavSync.getNote('organizations', o.id),
       ...(o.aliases || []), ...(o.tags || []), ...(o.outputs || []), ...(o.groups || []),
       ...aliasExpansion,
     ].filter(Boolean).join(' ').toLowerCase();
@@ -132,10 +133,12 @@
     const region = $region.value;
     const q = $search.value.toLowerCase().trim();
     const favOnly = $favOnly.checked;
+    const memoOnly = $memoOnly.checked;
     return orgs.filter((o) => {
       if (type && o.type !== type) return false;
       if (region && o.region !== region) return false;
       if (favOnly && !favorites.has(o.id)) return false;
+      if (memoOnly && !window.FavSync.hasNote('organizations', o.id)) return false;
       if (activeTags.size > 0 && ![...activeTags].every((t) => (o.tags || []).includes(t))) return false;
       if (q && !searchableText(o).includes(q)) return false;
       return true;
@@ -175,7 +178,11 @@
   function toggleFavorite(id) {
     window.FavSync.set('organizations', id, !favorites.has(id));
   }
-  window.FavSync.onChange(() => { if (loaded) render(); });
+  window.FavSync.onChange((what) => {
+    if (!loaded) return;
+    if (what === 'note' || (what === 'sync' && window.NotesUI.editing())) return;
+    render();
+  });
 
   // --- Rendering ---
   function render() {
@@ -218,6 +225,7 @@
               <button class="fav-btn${isFav ? ' active' : ''}" data-id="${esc(o.id)}" aria-label="Toggle favorite">${isFav ? '★' : '☆'}</button>
               ${o.url ? `<a href="${esc(o.url)}" target="_blank" rel="noopener">${title}</a>` : title}
             </div>
+            <span class="conf-card-actions">${window.NotesUI.toggleHtml('organizations', o.id)}</span>
           </div>
           <div class="conf-meta">${meta}</div>
           ${o.summary ? `<div class="conf-summary">${esc(o.summary)}</div>` : ''}
@@ -227,11 +235,13 @@
           ${relatedHtml}
           ${tags ? `<div class="conf-tags">${tags}</div>` : ''}
           ${o.verified ? `<div class="org-verified">Verified: ${esc(o.verified)}</div>` : ''}
+          ${window.NotesUI.boxHtml('organizations', o.id)}
         </div>`;
     }).join('');
 
     $list.querySelectorAll('.fav-btn').forEach((btn) => btn.addEventListener('click', () => toggleFavorite(btn.dataset.id)));
     $list.querySelectorAll('.tag.clickable').forEach((el) => el.addEventListener('click', () => toggleTag(el.dataset.tag)));
+    window.NotesUI.bind($list, render);
   }
 
   function esc(str) {
@@ -240,7 +250,7 @@
     return d.innerHTML;
   }
 
-  [$type, $region, $favOnly].forEach((el) => el.addEventListener('change', render));
+  [$type, $region, $favOnly, $memoOnly].forEach((el) => el.addEventListener('change', render));
   $search.addEventListener('input', render);
 
   // --- Init ---

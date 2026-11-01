@@ -42,6 +42,9 @@
       <label id="fav-only-label">
         <input type="checkbox" id="fav-only"> Favorites
       </label>
+      <label id="memo-only-label" class="check-label">
+        <input type="checkbox" id="memo-only"> Memo
+      </label>
     </div>
     <div id="active-tags" class="active-tags hidden"></div>
 
@@ -77,6 +80,9 @@
         <label id="org-fav-only-label" class="check-label">
           <input type="checkbox" id="org-fav-only"> Favorites
         </label>
+        <label id="org-memo-only-label" class="check-label">
+          <input type="checkbox" id="org-memo-only"> Memo
+        </label>
       </div>
       <div id="org-tag-cloud" class="tag-cloud"></div>
       <div id="org-active-tags" class="active-tags hidden"></div>
@@ -107,7 +113,7 @@
         <button id="clear-fav" style="background:#e74c3c">Clear All</button>
       </div>
       <h3 style="margin-top:16px">Sync across devices (GitHub Gist)</h3>
-      <p class="hint">Favorites (events and organizations) are kept in a <strong>secret Gist</strong> on your GitHub account and merged across devices. Paste a personal access token: fine-grained with Account permission <strong>Gists: Read and write</strong> (recommended), or classic with the <code>gist</code> scope. The token is stored only in this browser.</p>
+      <p class="hint">Favorites and memos (events and organizations) are kept in a <strong>secret Gist</strong> on your GitHub account and merged across devices. Paste a personal access token: fine-grained with Account permission <strong>Gists: Read and write</strong> (recommended), or classic with the <code>gist</code> scope. The token is stored only in this browser.</p>
       <label>
         Token
         <input type="password" id="gist-token" autocomplete="off" placeholder="github_pat_... or ghp_...">

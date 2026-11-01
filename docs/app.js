@@ -21,6 +21,7 @@
   const $search = document.getElementById('search-input');
   const $cfpOnly = document.getElementById('cfp-only');
   const $favOnly = document.getElementById('fav-only');
+  const $memoOnly = document.getElementById('memo-only');
   const $settingsBtn = document.getElementById('settings-btn');
   const $settingsModal = document.getElementById('settings-modal');
   const $settingsClose = document.getElementById('settings-close');
@@ -37,7 +38,11 @@
   const $clearFav = document.getElementById('clear-fav');
 
   // --- Favorites (store lives in sync.js; re-render on any change) ---
-  window.FavSync.onChange(() => { if (allConferences.length) applyFilters(); });
+  window.FavSync.onChange((what) => {
+    if (!allConferences.length) return;
+    if (what === 'note' || (what === 'sync' && window.NotesUI.editing())) return;  // don't re-render under the cursor
+    applyFilters();
+  });
 
   function toggleFavorite(id) {
     window.FavSync.set('conferences', id, !favorites.has(id));
@@ -51,6 +56,10 @@
       count: favConfs.length + orgIds.length,
       conferences: favConfs,
       organizations: orgIds.map((id) => ({ id })),
+      notes: {
+        conferences: Object.fromEntries(window.FavSync.noteIds('conferences').map((id) => [id, window.FavSync.getNote('conferences', id)])),
+        organizations: Object.fromEntries(window.FavSync.noteIds('organizations').map((id) => [id, window.FavSync.getNote('organizations', id)])),
+      },
     };
     const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
     const url = URL.createObjectURL(blob);
@@ -62,7 +71,7 @@
   }
 
   function clearFavorites() {
-    if (!confirm('Clear all favorites (events and organizations)?')) return;
+    if (!confirm('Clear all favorites (events and organizations)? Notes are kept.')) return;
     window.FavSync.clear();
   }
 
@@ -73,10 +82,18 @@
         const data = JSON.parse(e.target.result);
         const confIds = (data.conferences || []).map((c) => c.id).filter(Boolean);
         const orgIds = (data.organizations || []).map((o) => o.id).filter(Boolean);
-        if (confIds.length + orgIds.length === 0) {
-          alert('No favorite IDs found in the file.');
+        const notes = data.notes || {};
+        const noteCount = Object.keys(notes.conferences || {}).length + Object.keys(notes.organizations || {}).length;
+        if (confIds.length + orgIds.length + noteCount === 0) {
+          alert('No favorites or notes found in the file.');
           return;
         }
+        let notesAdded = 0;
+        ['conferences', 'organizations'].forEach((kind) => {
+          Object.entries(notes[kind] || {}).forEach(([id, text]) => {
+            if (text && !window.FavSync.hasNote(kind, id)) { window.FavSync.setNote(kind, id, text); notesAdded++; }
+          });
+        });
         const knownIds = new Set(allConferences.map((c) => c.id));
         let added = 0;
         confIds.forEach((id) => {
@@ -85,7 +102,7 @@
         orgIds.forEach((id) => {
           if (!window.FavSync.has('organizations', id)) { window.FavSync.set('organizations', id, true); added++; }
         });
-        alert(`Imported ${added} favorites (${confIds.length + orgIds.length - added} skipped: already favorited or not found).`);
+        alert(`Imported ${added} favorites and ${notesAdded} notes (${confIds.length + orgIds.length - added} favorites skipped: already favorited or not found; existing notes were kept).`);
       } catch {
         alert('Invalid JSON file.');
       }
@@ -222,16 +239,18 @@
     const query = $search.value.toLowerCase().trim();
     const cfpOnly = $cfpOnly.checked;
     const favOnly = $favOnly.checked;
+    const memoOnly = $memoOnly.checked;
 
     let filtered = allConferences.filter((c) => {
       // Hide events before 2026
       const start = c.dates?.start || '';
-      if (start && start < '2026-01-01') return false;
+      if (start && start < '2026-01-01' && !window.FavSync.hasNote('conferences', c.id)) return false;
       if (cat && !(c.categories || []).includes(cat)) return false;
       if (region && (!c.location || c.location.region !== region)) return false;
       if (status && c.status !== status) return false;
       if (cfpOnly && (!c.cfp || c.cfp.status !== 'open')) return false;
       if (favOnly && !favorites.has(c.id)) return false;
+      if (memoOnly && !window.FavSync.hasNote('conferences', c.id)) return false;
       if (activeTags.size > 0) {
         const allTags = (c.categories || []).concat(c.topics || []);
         if (![...activeTags].every((t) => allTags.includes(t))) return false;
@@ -240,6 +259,7 @@
         const searchable = [
           c.name,
           c.summary,
+          window.FavSync.getNote('conferences', c.id),
           ...(c.categories || []),
           ...(c.topics || []),
           c.location ? c.location.city : '',
@@ -276,6 +296,7 @@
   $search.addEventListener('input', applyFilters);
   $cfpOnly.addEventListener('change', applyFilters);
   $favOnly.addEventListener('change', applyFilters);
+  $memoOnly.addEventListener('change', applyFilters);
 
   // --- Rendering ---
   function renderConferences(list) {
@@ -317,7 +338,7 @@
               <button class="${favClass}" data-id="${esc(c.id)}" aria-label="Toggle favorite">${isFav ? '\u2605' : '\u2606'}</button>
               ${c.url ? `<a href="${esc(c.url)}" target="_blank" rel="noopener">${esc(c.name)}</a>` : esc(c.name)}
             </div>
-            <span class="conf-status ${statusClass}">${statusLabel}</span>
+            <span class="conf-card-actions">${window.NotesUI.toggleHtml('conferences', c.id)}<span class="conf-status ${statusClass}">${statusLabel}</span></span>
           </div>
           <div class="conf-meta">
             <span>${dateStr}</span>
@@ -327,6 +348,7 @@
           </div>
           ${c.summary ? `<div class="conf-summary">${esc(c.summary)}</div>` : ''}
           ${tagsHtml ? `<div class="conf-tags">${tagsHtml}</div>` : ''}
+          ${window.NotesUI.boxHtml('conferences', c.id)}
         </div>
       `);
     });
@@ -342,6 +364,9 @@
     $list.querySelectorAll('.tag.clickable').forEach((el) => {
       el.addEventListener('click', () => toggleTag(el.dataset.tag));
     });
+
+    // Memo boxes
+    window.NotesUI.bind($list, () => renderConferences(list));
   }
 
   // --- Calendar rendering ---

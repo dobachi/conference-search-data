@@ -604,3 +604,43 @@ button:active { opacity: 0.8; }
 .modal-content label input[type="password"] { width: 100%; font-family: monospace; }
 .modal-actions button:disabled { opacity: 0.5; cursor: default; }
 .sync-error { color: var(--cfp-closed); margin-top: 4px; }
+
+/* Memo (notes) */
+.conf-card-actions { display: flex; align-items: center; gap: 6px; flex-shrink: 0; }
+.note-btn {
+  background: none;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  color: var(--text-secondary);
+  font-size: 0.8rem;
+  line-height: 1;
+  padding: 3px 7px;
+  cursor: pointer;
+}
+.note-btn:hover { border-color: var(--accent); color: var(--accent); }
+.note-btn.active { background: #fef3c7; color: #92400e; border-color: #fcd34d; }
+[data-theme="dark"] .note-btn.active { background: #451a03; color: #fcd34d; border-color: #92400e; }
+@media (prefers-color-scheme: dark) {
+  [data-theme="auto"] .note-btn.active { background: #451a03; color: #fcd34d; border-color: #92400e; }
+}
+.note-box { position: relative; margin-top: 8px; }
+.note-text {
+  width: 100%;
+  resize: vertical;
+  min-height: 2.6em;
+  padding: 8px 10px;
+  border: 1px solid #fcd34d;
+  border-left: 3px solid #f59e0b;
+  border-radius: var(--radius);
+  background: #fffbeb;
+  color: var(--text);
+  font: inherit;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+[data-theme="dark"] .note-text { background: #2a2312; border-color: #92400e; }
+@media (prefers-color-scheme: dark) {
+  [data-theme="auto"] .note-text { background: #2a2312; border-color: #92400e; }
+}
+.note-text:focus { outline: 2px solid var(--accent); outline-offset: -1px; }
+.note-saved { position: absolute; right: 8px; bottom: 6px; font-size: 0.7rem; color: var(--text-secondary); pointer-events: none; }

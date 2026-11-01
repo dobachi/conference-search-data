@@ -65,6 +65,33 @@ localStorage.setItem('favorites', JSON.stringify(['legacy-conf']));   // legacy 
   // Disconnect clears credentials, keeps local favorites
   F.disconnect();
   ok(!F.isConnected() && F.has('conferences', 'y'), 'disconnect keeps local favorites');
+  // ---- Notes
+  F.set('conferences', 'n1', true);
+  F.setNote('conferences', 'n1', 'memo A');
+  F.setNote('organizations', 'org1', 'org memo');
+  await F.configure('ghp_test2');
+  const g = Object.values(remote.gists)[0];
+  ok(!!g.files['conference-search-notes.json'], 'notes file written to gist');
+  let rn = JSON.parse(g.files['conference-search-notes.json']);
+  ok(rn.conferences.n1[0] === 'memo A' && rn.organizations.org1[0] === 'org memo', 'remote notes have both kinds');
+  // remote edit (newer) wins; remote tombstone deletes local note
+  const later2 = Date.now() + 1;  // newer than the local edits above, but in the past by the time we edit again
+  rn.conferences.n1 = ['memo A edited on phone', later2];
+  rn.organizations.org1 = ['', later2];
+  rn.conferences.n2 = ['new memo from phone', later2];
+  g.files['conference-search-notes.json'] = JSON.stringify(rn);
+  await F.syncNow();
+  ok(F.getNote('conferences', 'n1') === 'memo A edited on phone', 'newer remote note edit wins');
+  ok(!F.hasNote('organizations', 'org1'), 'remote empty-note tombstone removes local note');
+  ok(F.hasNote('conferences', 'n2') && F.noteIds('conferences').includes('n2'), 'remote new note pulled');
+  // local edit after the remote one wins and is pushed
+  await sleep(50);
+  F.setNote('conferences', 'n1', 'final local');
+  await sleep(2500);
+  rn = JSON.parse(Object.values(remote.gists)[0].files['conference-search-notes.json']);
+  ok(rn.conferences.n1[0] === 'final local', 'local newer note pushed');
+  ok(F.has('conferences', 'n1') && remoteState().conferences.n1[0] === 1, 'favorites untouched by note sync');
+  ok(Object.keys(remote.gists).length === 1, 'still a single gist');
   log('DONE');
 })();
 </script></body></html>

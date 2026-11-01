@@ -1,4 +1,4 @@
-const CACHE_NAME = 'conf-search-v3';
+const CACHE_NAME = 'conf-search-v4';
 const STATIC_ASSETS = [
   './index.html',
   './style.css',
