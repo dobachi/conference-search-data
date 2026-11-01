@@ -9721,6 +9721,81 @@
       "status": "upcoming",
       "first_seen": "2026-W44",
       "last_updated": "2026-W44"
+    },
+    {
+      "id": "data-mesh-live-eu-2027",
+      "name": "Data Mesh Live 2027",
+      "dates": {
+        "start": "2027-05-31",
+        "end": "2027-06-01"
+      },
+      "location": {
+        "city": "Amsterdam",
+        "country": "Netherlands",
+        "region": "Europe"
+      },
+      "format": "in-person",
+      "url": "https://2027.datameshlive.com/",
+      "cfp": {
+        "deadline": "2027-01-16",
+        "url": "https://sessionize.com/aardling27/",
+        "status": "open"
+      },
+      "categories": [
+        "データプラットフォーム",
+        "データエンジニアリング"
+      ],
+      "topics": [
+        "data mesh",
+        "data products",
+        "data architecture",
+        "AI"
+      ],
+      "cost": "paid",
+      "recurring": true,
+      "summary": "Data Mesh実践者向けの欧州カンファレンス。2027年はアムステルダムで開催、テーマは「Designing data for scale and AI」。6/2にワークショップ（CFP: ワークショップ11/30、セッション1/16締切）。",
+      "status": "upcoming",
+      "first_seen": "2026-W45",
+      "last_updated": "2026-W45"
+    },
+    {
+      "id": "lakehouse-day-glasgow-eu-2026",
+      "name": "Lakehouse Day Glasgow 2026 (Community Over Code co-located)",
+      "dates": {
+        "start": "2026-10-10",
+        "end": "2026-10-10"
+      },
+      "location": {
+        "city": "Glasgow",
+        "country": "United Kingdom",
+        "region": "Europe"
+      },
+      "format": "in-person",
+      "url": "https://communityovercode.apache.org/events/glasgow-2026/lakehouse-day-glasgow",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "closed"
+      },
+      "categories": [
+        "データプラットフォーム",
+        "データエンジニアリング"
+      ],
+      "topics": [
+        "lakehouse",
+        "Apache Iceberg",
+        "Apache Hudi",
+        "Apache Polaris",
+        "Apache Spark",
+        "Apache Flink",
+        "open source"
+      ],
+      "cost": "paid",
+      "recurring": false,
+      "summary": "ASFのCommunity Over Code Glasgow 2026併催の1日マルチトラック会議。Iceberg・Hudi・Polaris・Spark・Flink等のオープンレイクハウス技術を扱う。",
+      "status": "ended",
+      "first_seen": "2026-W45",
+      "last_updated": "2026-W45"
     }
   ]
 }

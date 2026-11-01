@@ -1,5 +1,5 @@
-# Conference Summary (266 total: 133 upcoming, 0 ongoing, 133 ended)
-# Generated: 2026-11-01
+# Conference Summary (268 total: 134 upcoming, 0 ongoing, 134 ended)
+# Generated: 2026-11-02
 # Format: id | name | start~end | region | status | categories
 
 aaai-apac-2026 | AAAI 2026 (40th AAAI Conference on Artificial Intelligence) | 2026-01-20~2026-01-27 | Asia-Pacific | ended | AI / 機械学習
@@ -125,6 +125,7 @@ iapp-psr-north-america-2026 | IAPP Privacy. Security. Risk. + AI Governance Glob
 colm-north-america-2026 | COLM 2026 (Conference on Language Modeling) | 2026-10-06~2026-10-09 | North America | ended | AI / 機械学習
 data-streaming-summit-north-america-2026 | Data Streaming Summit 2026 (San Francisco) | 2026-10-07~2026-10-08 | North America | ended | データエンジニアリング
 world-summit-ai-eu-2026 | World Summit AI 2026 | 2026-10-07~2026-10-08 | Europe | ended | AI / 機械学習, ビジネス / DX
+lakehouse-day-glasgow-eu-2026 | Lakehouse Day Glasgow 2026 (Community Over Code co-located) | 2026-10-10~2026-10-10 | Europe | ended | データプラットフォーム, データエンジニアリング
 srecon26-europemiddle-eastafrica-eu-2026 | SREcon26 Europe/Middle East/Africa | 2026-10-13~2026-10-15 | Europe | ended | クラウド / インフラ
 data-innovation-summit-mea-eu-2026 | Data Innovation Summit MEA 2026 | 2026-10-14~2026-10-15 | Europe | ended | データインテリジェンス, AI / 機械学習, データエンジニアリング
 gartner-it-symposium-orlando-north-america-2026 | Gartner IT Symposium/Xpo Americas 2026 | 2026-10-19~2026-10-22 | North America | ended | ビジネス / DX, AI / 機械学習
@@ -235,6 +236,7 @@ data-innovation-summit-eu-2027 | Data Innovation Summit 2027 (Nordics) | 2027-05
 cloud-ai-infrastructure-frankfurt-eu-2027 | Cloud & AI Infrastructure Frankfurt 2027 | 2027-05-19~2027-05-20 | Europe | upcoming | クラウド / インフラ, AI / 機械学習
 red-hat-summit-north-america-2027 | Red Hat Summit 2027 | 2027-05-25~2027-05-27 | North America | upcoming | クラウド / インフラ
 iapp-canada-symposium-north-america-2027 | IAPP Canada Symposium 2027 | 2027-05-25~2027-05-28 | North America | upcoming | PETs, ビジネス / DX
+data-mesh-live-eu-2027 | Data Mesh Live 2027 | 2027-05-31~2027-06-01 | Europe | upcoming | データプラットフォーム, データエンジニアリング
 naacl-north-america-2027 | NAACL 2027 (Annual Conference of the Nations of the Americas Chapter of the ACL) | 2027-06-01~2027-06-05 | North America | upcoming | AI / 機械学習
 gartner-da-summit-sao-paulo-sa-2027 | Gartner Data & Analytics Summit São Paulo 2027 | 2027-06-02~2027-06-03 | South America | upcoming | データインテリジェンス, データプラットフォーム
 cisco-live-us-north-america-2027 | Cisco Live US 2027 | 2027-06-06~2027-06-10 | North America | upcoming | クラウド / インフラ
