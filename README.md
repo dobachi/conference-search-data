@@ -34,5 +34,6 @@ AI（Claude Code）を活用して、関心のある技術領域のカンファ�
 ## データ
 
 - `data/conferences.json` - カンファレンスマスターデータ（JSON）
+  - 任意フィールド `notes`（例: `notes/conferences/<id>.md`）で調査メモを指すと、カードに「調査メモを読む」リンクが出る。メモは `notes/conferences/` に Markdown で置く（作り方は [ORGANIZATIONS.md](ORGANIZATIONS.md) の「調査メモ」節と同じ）
 - `data/organizations.json` - 関連する学会・標準化団体・イニシアティブ・コミュニティ（サイトの Organizations タブ）。追加手順は [ORGANIZATIONS.md](ORGANIZATIONS.md)
 - `changelog/` - 週次更新ログ

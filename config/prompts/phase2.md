@@ -87,6 +87,7 @@ git diff origin/main -- data/conferences.json
 ### 5. 修正の適用 (pipeline ブランチ上で完結)
 
 FIXまたはFAILの場合、`data/conferences.json` を修正:
+（修正は該当フィールドだけに留め、`notes` などの任意フィールドは保持する）
 
 ```bash
 # 修正後

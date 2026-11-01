@@ -3,6 +3,7 @@
 
   // --- State ---
   let allConferences = [];
+  const REPO_BLOB = 'https://github.com/dobachi/conference-search-data/blob/main/';  // notes/ へのリンク
   let lastUpdated = '';
   const favorites = { has: (id) => window.FavSync.has('conferences', id) };  // backed by sync.js
   let currentView = 'list';
@@ -347,6 +348,7 @@
             ${cfpHtml}
           </div>
           ${c.summary ? `<div class="conf-summary">${esc(c.summary)}</div>` : ''}
+          ${c.notes ? `<div class="org-notes"><a href="${esc(REPO_BLOB + c.notes)}" target="_blank" rel="noopener">\u{1F4C4} 調査メモを読む</a></div>` : ''}
           ${tagsHtml ? `<div class="conf-tags">${tagsHtml}</div>` : ''}
           ${window.NotesUI.boxHtml('conferences', c.id)}
         </div>

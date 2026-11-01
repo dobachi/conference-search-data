@@ -2927,10 +2927,11 @@
       ],
       "cost": "unknown",
       "recurring": true,
-      "summary": "ガートナー主催の日本CIO・IT幹部向け最大の年次カンファレンス。AI戦略・デジタル変革・新技術ロードマップを提供。",
+      "summary": "ガートナー主催の日本CIO・IT幹部向け最大の年次カンファレンス。会場はパシフィコ横浜ノース、202セッション。AI戦略・デジタル変革・新技術ロードマップを提供。",
       "status": "upcoming",
       "first_seen": "2026-W15",
-      "last_updated": "2026-W15"
+      "last_updated": "2026-W44",
+      "notes": "notes/conferences/gartner-it-symposium-yokohama-jp-2026.md"
     },
     {
       "id": "gartner-it-symposium-orlando-north-america-2026",
@@ -5074,11 +5075,12 @@
       ],
       "cost": "paid",
       "recurring": true,
-      "summary": "Confluent旗艦カンファレンスCurrentの北米版。Moscone Westでデータストリーミング＋AIを議論。",
+      "summary": "Confluent旗艦カンファレンスCurrentの北米版。Moscone Westでデータストリーミング＋AIを議論。リアルタイムコンテキスト／エージェント／Streamhouseが中心テーマ。",
       "status": "upcoming",
       "id": "current-north-america-2026",
       "first_seen": "2026-W33",
-      "last_updated": "2026-W33"
+      "last_updated": "2026-W44",
+      "notes": "notes/conferences/current-north-america-2026.md"
     },
     {
       "name": "Data + AI Summit 2027 (Databricks)",
@@ -5330,12 +5332,13 @@
         "financial-services",
         "ai-governance"
       ],
-      "cost": "unknown",
+      "cost": "paid",
       "recurring": true,
-      "summary": "金融業界のCDO・アナリティクス責任者向けサミット。データ戦略・AI活用の事例が集まる。",
+      "summary": "金融業界のCDO・アナリティクス責任者向けサミット（13回目）。会場はConvene One Liberty Plaza。CDAO Insurance・CISO Financial Servicesと同時開催。",
       "status": "upcoming",
       "first_seen": "2026-W34",
-      "last_updated": "2026-W34"
+      "last_updated": "2026-W44",
+      "notes": "notes/conferences/cdao-financial-services-north-america-2027.md"
     },
     {
       "id": "eacl-eu-2027",
@@ -6656,9 +6659,9 @@
       "format": "in-person",
       "url": "https://www.cidrdb.org/cidr2027/",
       "cfp": {
-        "deadline": "",
+        "deadline": "2026-08-04",
         "url": "https://www.cidrdb.org/cidr2027/cfp.html",
-        "status": "open"
+        "status": "closed"
       },
       "categories": [
         "データプラットフォーム",
@@ -6672,10 +6675,11 @@
       ],
       "cost": "unknown",
       "recurring": true,
-      "summary": "革新的データシステム研究の隔年開催カンファレンス。SIGMOD/VLDBと相補的にシステム設計視点を重視する。",
+      "summary": "革新的データシステム研究の年次カンファレンス。2027年はアムステルダム（Mövenpick Hotel）開催。SIGMOD/VLDBと相補的にシステム設計視点を重視する。",
       "status": "upcoming",
       "first_seen": "2026-W34",
-      "last_updated": "2026-W34"
+      "last_updated": "2026-W44",
+      "notes": "notes/conferences/cidr-eu-2027.md"
     },
     {
       "id": "edbt-icdt-eu-2027",
@@ -8363,11 +8367,11 @@
       ],
       "cost": "paid",
       "recurring": false,
-      "summary": "IDSA10周年を記念するベルリンでのハイレベル対話とフォーラム。C-levelを含むデータ共有エコシステムの節目イベント。",
+      "summary": "IDSA10周年を記念するベルリンでのハイレベル対話とフォーラム。会場はT-Systems International（Winterfeldtstr. 21）。満席（sold out）。",
       "status": "upcoming",
       "id": "idsa-decade-forum-eu-2026",
       "first_seen": "2026-W38",
-      "last_updated": "2026-W38"
+      "last_updated": "2026-W44"
     },
     {
       "name": "Data Expo 2026",
@@ -9344,10 +9348,11 @@
       ],
       "cost": "unknown",
       "recurring": true,
-      "summary": "dbt Labs 主催のアナリティクスエンジニアリング年次カンファレンス。ラスベガス開催。日程と都市のみ公表済みで、ウェイトリスト受付中。会場・CFPは未発表。",
+      "summary": "dbt Labs主催のアナリティクスエンジニアリング年次カンファレンス（旧Coalesce）。ラスベガス開催。日程と都市のみ公表済みで、ウェイトリスト受付中。会場・CFPは未発表。",
       "status": "upcoming",
       "first_seen": "2026-W41",
-      "last_updated": "2026-W41"
+      "last_updated": "2026-W44",
+      "notes": "notes/conferences/dbt-summit-north-america-2027.md"
     },
     {
       "id": "business-intelligence-minds-europe-eu-2027",
