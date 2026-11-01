@@ -1,0 +1,70 @@
+<!DOCTYPE html><html><body>
+<div id="sync-status"></div><input id="gist-token"><button id="sync-connect"></button><button id="sync-now"></button><button id="sync-disconnect"></button>
+<pre id="out"></pre>
+<script>
+// --- mock GitHub API with an in-memory gist store
+const remote = { gists: {} }; let nextId = 1; let failWith = 0;
+const log = (m) => { document.getElementById('out').textContent += m + '\n'; };
+const ok = (c, m) => log((c ? 'PASS ' : 'FAIL ') + m);
+window.fetch = async (url, opt = {}) => {
+  const u = String(url);
+  if (!u.startsWith('https://api.github.com')) throw new Error('unexpected fetch ' + u);
+  if (failWith) return { ok: false, status: failWith };
+  const path = u.replace('https://api.github.com', '');
+  const body = opt.body ? JSON.parse(opt.body) : null;
+  const res = (status, json) => ({ ok: status < 400, status, json: async () => json });
+  if (opt.method === 'GET' && path.startsWith('/gists?')) return res(200, Object.entries(remote.gists).map(([id, g]) => ({ id, files: Object.fromEntries(Object.keys(g.files).map((f) => [f, {}])) })));
+  const m = path.match(/^\/gists\/([^/?]+)/);
+  if (opt.method === 'GET' && m) { const g = remote.gists[m[1]]; return g ? res(200, { id: m[1], files: Object.fromEntries(Object.entries(g.files).map(([f, c]) => [f, { content: c }])) }) : res(404, {}); }
+  if (opt.method === 'POST' && path === '/gists') { const id = 'g' + (nextId++); remote.gists[id] = { files: Object.fromEntries(Object.entries(body.files).map(([f, v]) => [f, v.content])) }; return res(201, { id }); }
+  if (opt.method === 'PATCH' && m) { Object.entries(body.files).forEach(([f, v]) => { remote.gists[m[1]].files[f] = v.content; }); return res(200, { id: m[1] }); }
+  return res(500, {});
+};
+const remoteState = () => { const g = Object.values(remote.gists)[0]; return g ? JSON.parse(g.files['conference-search-favorites.json']) : null; };
+localStorage.clear();
+localStorage.setItem('favorites', JSON.stringify(['legacy-conf']));   // legacy migration
+</script>
+<script src="../docs/sync.js"></script>
+<script>
+(async () => {
+  const F = window.FavSync;
+  const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+  ok(F.has('conferences', 'legacy-conf'), 'legacy favorites migrated');
+  ok(!F.isConnected(), 'not connected initially');
+  // Device A: favorite x and org o, connect, sync -> gist created
+  F.set('conferences', 'x', true); F.set('organizations', 'o', true);
+  await F.configure('ghp_test');
+  ok(Object.keys(remote.gists).length === 1, 'gist created on first sync');
+  let r = remoteState();
+  ok(r && r.conferences.x && r.conferences.x[0] === 1 && r.organizations.o[0] === 1 && r.conferences['legacy-conf'][0] === 1, 'remote has x, o, legacy');
+  // Device B (simulated remotely): removed x later, added z
+  const later = Date.now() + 5000;
+  r.conferences.x = [0, later]; r.conferences.z = [1, later];
+  Object.values(remote.gists)[0].files['conference-search-favorites.json'] = JSON.stringify(r);
+  await F.syncNow();
+  ok(!F.has('conferences', 'x'), 'remote removal of x wins (LWW)');
+  ok(F.has('conferences', 'z'), 'remote addition z pulled');
+  ok(F.has('organizations', 'o'), 'org favorite kept');
+  // Local change pushes after debounce
+  F.set('conferences', 'y', true);
+  await sleep(2500);
+  r = remoteState();
+  ok(r.conferences.y && r.conferences.y[0] === 1, 'local add y pushed after debounce');
+  ok(r.conferences.x[0] === 0 && r.conferences.x[1] === later, 'remote tombstone for x preserved (not resurrected)');
+  // Local removal pushes
+  F.set('organizations', 'o', false);
+  await sleep(2500);
+  ok(remoteState().organizations.o[0] === 0, 'local removal of o pushed');
+  // Discovery on a "new device": drop gist id, keep token -> finds existing gist instead of creating
+  localStorage.removeItem('gist-id');
+  await F.syncNow();
+  ok(Object.keys(remote.gists).length === 1 && localStorage.getItem('gist-id') === 'g1', 'existing gist discovered, none created');
+  // 401 surfaces an error
+  failWith = 401; await F.syncNow(); failWith = 0;
+  ok(document.getElementById('sync-status').textContent.includes('401'), 'token rejection shown in status');
+  // Disconnect clears credentials, keeps local favorites
+  F.disconnect();
+  ok(!F.isConnected() && F.has('conferences', 'y'), 'disconnect keeps local favorites');
+  log('DONE');
+})();
+</script></body></html>

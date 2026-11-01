@@ -4,7 +4,7 @@
   // --- State ---
   let allConferences = [];
   let lastUpdated = '';
-  let favorites = new Set(JSON.parse(localStorage.getItem('favorites') || '[]'));
+  const favorites = { has: (id) => window.FavSync.has('conferences', id) };  // backed by sync.js
   let currentView = 'list';
   let calMonth = new Date().getMonth();
   let calYear = new Date().getFullYear();
@@ -36,27 +36,21 @@
   const $importFavFile = document.getElementById('import-fav-file');
   const $clearFav = document.getElementById('clear-fav');
 
-  // --- Favorites ---
-  function saveFavorites() {
-    localStorage.setItem('favorites', JSON.stringify([...favorites]));
-  }
+  // --- Favorites (store lives in sync.js; re-render on any change) ---
+  window.FavSync.onChange(() => { if (allConferences.length) applyFilters(); });
 
   function toggleFavorite(id) {
-    if (favorites.has(id)) {
-      favorites.delete(id);
-    } else {
-      favorites.add(id);
-    }
-    saveFavorites();
-    applyFilters();
+    window.FavSync.set('conferences', id, !favorites.has(id));
   }
 
   function exportFavorites() {
     const favConfs = allConferences.filter((c) => favorites.has(c.id));
+    const orgIds = window.FavSync.ids('organizations');
     const data = {
       exported_at: new Date().toISOString(),
-      count: favConfs.length,
-      conferences: favConfs
+      count: favConfs.length + orgIds.length,
+      conferences: favConfs,
+      organizations: orgIds.map((id) => ({ id })),
     };
     const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
     const url = URL.createObjectURL(blob);
@@ -68,10 +62,8 @@
   }
 
   function clearFavorites() {
-    if (!confirm('Clear all favorites?')) return;
-    favorites.clear();
-    saveFavorites();
-    applyFilters();
+    if (!confirm('Clear all favorites (events and organizations)?')) return;
+    window.FavSync.clear();
   }
 
   function importFavorites(file) {
@@ -79,22 +71,21 @@
     reader.onload = (e) => {
       try {
         const data = JSON.parse(e.target.result);
-        const ids = (data.conferences || []).map((c) => c.id).filter(Boolean);
-        if (ids.length === 0) {
-          alert('No conference IDs found in the file.');
+        const confIds = (data.conferences || []).map((c) => c.id).filter(Boolean);
+        const orgIds = (data.organizations || []).map((o) => o.id).filter(Boolean);
+        if (confIds.length + orgIds.length === 0) {
+          alert('No favorite IDs found in the file.');
           return;
         }
         const knownIds = new Set(allConferences.map((c) => c.id));
         let added = 0;
-        ids.forEach((id) => {
-          if (knownIds.has(id) && !favorites.has(id)) {
-            favorites.add(id);
-            added++;
-          }
+        confIds.forEach((id) => {
+          if (knownIds.has(id) && !favorites.has(id)) { window.FavSync.set('conferences', id, true); added++; }
         });
-        saveFavorites();
-        applyFilters();
-        alert(`Imported ${added} favorites (${ids.length - added} skipped: already favorited or not found).`);
+        orgIds.forEach((id) => {
+          if (!window.FavSync.has('organizations', id)) { window.FavSync.set('organizations', id, true); added++; }
+        });
+        alert(`Imported ${added} favorites (${confIds.length + orgIds.length - added} skipped: already favorited or not found).`);
       } catch {
         alert('Invalid JSON file.');
       }

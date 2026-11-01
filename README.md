@@ -12,6 +12,20 @@
 
 AI（Claude Code）を活用して、関心のある技術領域のカンファレンス情報を国内外で検索し��2026年度の開催情報を一覧化して維持しています。週次で最新情報を自動更新します。
 
+
+## お気に入りの端末間同期（GitHub Gist）
+
+お気に入り（イベント・組織）はブラウザの localStorage に保存されます。別の PC やスマートフォンと揃えたい場合は、設定（⚙）の **Sync across devices** に GitHub のトークンを入れると、自分のアカウントの **secret Gist**（`conference-search-favorites.json`）を介して同期されます。
+
+1. GitHub → Settings → Developer settings → Personal access tokens → **Tokens (classic)** → Generate new token。スコープは **`gist` のみ**にチェック
+2. サイトの設定画面でトークンを貼り付けて **Connect**。初回は Gist が自動作成されます
+3. 他の端末でも同じトークンを入れて Connect すると、既存の Gist を自動検出して合流します
+
+- 同期は読み込み時、タブ復帰時、お気に入り変更の約 1.5 秒後に行われます。手動は **Sync now**
+- 端末ごとの差分は「ID ごとに新しい変更が勝つ」規則で併合するので、どの端末で外したお気に入りも他の端末から消えます
+- トークンは各端末の localStorage にのみ保存され、サイト運営側には送られません。**Disconnect** でトークンと Gist ID を端末から消します（Gist 自体は残ります）
+- fine-grained トークンは、アカウント権限に Gists の読み書きを付与できる場合のみ使えます
+
 ## データ
 
 - `data/conferences.json` - カンファレンスマスターデータ（JSON）

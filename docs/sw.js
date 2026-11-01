@@ -1,7 +1,8 @@
-const CACHE_NAME = 'conf-search-v2';
+const CACHE_NAME = 'conf-search-v3';
 const STATIC_ASSETS = [
   './index.html',
   './style.css',
+  './sync.js',
   './app.js',
   './orgs.js',
   './manifest.json',
@@ -25,6 +26,9 @@ self.addEventListener('activate', (event) => {
 
 self.addEventListener('fetch', (event) => {
   const url = new URL(event.request.url);
+
+  // GitHub API (favorites sync): never cache, never intercept
+  if (url.hostname === 'api.github.com' || url.hostname === 'gist.githubusercontent.com') return;
 
   // data JSON (conferences / organizations / org-tags): network-first, cache as fallback
   if (/\/(conferences|organizations|org-tags)\.json$/.test(url.pathname) || url.hostname === 'raw.githubusercontent.com') {

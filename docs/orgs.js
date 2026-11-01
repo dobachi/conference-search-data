@@ -24,7 +24,7 @@
   let tagAliases = {};        // tag -> [aliases]
   let confIndex = {};         // conference id -> {name, url}
   let activeTags = new Set();
-  let favorites = new Set(JSON.parse(localStorage.getItem('org-favorites') || '[]'));
+  const favorites = { has: (id) => window.FavSync.has('organizations', id) };  // backed by sync.js
 
   // --- DOM ---
   const $tabs = document.querySelectorAll('#main-tabs .tab-btn');
@@ -173,10 +173,9 @@
 
   // --- Favorites ---
   function toggleFavorite(id) {
-    if (favorites.has(id)) favorites.delete(id); else favorites.add(id);
-    localStorage.setItem('org-favorites', JSON.stringify([...favorites]));
-    render();
+    window.FavSync.set('organizations', id, !favorites.has(id));
   }
+  window.FavSync.onChange(() => { if (loaded) render(); });
 
   // --- Rendering ---
   function render() {
