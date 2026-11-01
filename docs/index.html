@@ -107,10 +107,10 @@
         <button id="clear-fav" style="background:#e74c3c">Clear All</button>
       </div>
       <h3 style="margin-top:16px">Sync across devices (GitHub Gist)</h3>
-      <p class="hint">Favorites (events and organizations) are kept in a <strong>secret Gist</strong> on your GitHub account and merged across devices. Paste a personal access token with the <code>gist</code> scope. The token is stored only in this browser.</p>
+      <p class="hint">Favorites (events and organizations) are kept in a <strong>secret Gist</strong> on your GitHub account and merged across devices. Paste a personal access token: fine-grained with Account permission <strong>Gists: Read and write</strong> (recommended), or classic with the <code>gist</code> scope. The token is stored only in this browser.</p>
       <label>
         Token
-        <input type="password" id="gist-token" autocomplete="off" placeholder="ghp_...">
+        <input type="password" id="gist-token" autocomplete="off" placeholder="github_pat_... or ghp_...">
       </label>
       <div id="sync-status" class="hint"></div>
       <div class="modal-actions">
