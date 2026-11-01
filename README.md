@@ -15,4 +15,5 @@ AI（Claude Code）を活用して、関心のある技術領域のカンファ�
 ## データ
 
 - `data/conferences.json` - カンファレンスマスターデータ（JSON）
+- `data/organizations.json` - 関連する学会・標準化団体・イニシアティブ・コミュニティ（サイトの Organizations タブ）。追加手順は [ORGANIZATIONS.md](ORGANIZATIONS.md)
 - `changelog/` - 週次更新ログ

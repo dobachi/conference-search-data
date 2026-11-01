@@ -1,0 +1,1432 @@
+{
+  "last_updated": "2026-11-01",
+  "organizations": [
+    {
+      "id": "idsa",
+      "name": "International Data Spaces Association",
+      "name_ja": "インターナショナル・データスペース協会",
+      "aliases": [
+        "IDSA",
+        "IDS",
+        "International Data Spaces e.V."
+      ],
+      "type": "industry-association",
+      "region": "Europe",
+      "country": "Germany",
+      "url": "https://internationaldataspaces.org/",
+      "tags": [
+        "データスペース",
+        "データ標準",
+        "トラスト",
+        "標準化"
+      ],
+      "outputs": [
+        "International Data Spaces (IDS) standard",
+        "IDSA Rulebook"
+      ],
+      "groups": [],
+      "related_conferences": [
+        "idsa-decade-forum-eu-2026",
+        "data-spaces-symposium-eu-2026",
+        "hannover-messe-industrial-data-spaces-eu-2026",
+        "hannover-messe-industrial-data-spaces-eu-2027"
+      ],
+      "membership": "unknown",
+      "status": "active",
+      "summary": "ドルトムント拠点の登録社団（e.V.）。140 超の会員企業・機関が IDS 標準を策定し、IDSA Rulebook で信頼できるデータ共有の基盤を定める。",
+      "founded": "",
+      "sources": [
+        {
+          "url": "https://internationaldataspaces.org/about/",
+          "accessed": "2026-11-01"
+        },
+        {
+          "url": "https://internationaldataspaces.org/",
+          "accessed": "2026-11-01"
+        }
+      ],
+      "verified": "2026-11-01",
+      "first_seen": "2026-W44",
+      "last_updated": "2026-W44"
+    },
+    {
+      "id": "gaia-x",
+      "name": "Gaia-X European Association for Data and Cloud AISBL",
+      "name_ja": "Gaia-X 欧州データ・クラウド協会",
+      "aliases": [
+        "Gaia-X",
+        "GAIA-X AISBL"
+      ],
+      "type": "industry-association",
+      "region": "Europe",
+      "country": "Belgium",
+      "url": "https://gaia-x.eu/",
+      "tags": [
+        "データスペース",
+        "トラスト",
+        "標準化",
+        "クラウドネイティブ"
+      ],
+      "outputs": [
+        "Gaia-X specifications",
+        "Gaia-X rules and policies",
+        "verification framework"
+      ],
+      "groups": [],
+      "related_conferences": [
+        "gaia-x-summit-eu-2026",
+        "gaia-x-tech-x-hackathon-9-eu-2026"
+      ],
+      "membership": "unknown",
+      "status": "active",
+      "summary": "ブリュッセル拠点の国際非営利協会（AISBL）。連合型で信頼できるデータ・インフラ生態系のデファクト標準を目指し、仕様・ルール・検証枠組みを提供する。",
+      "founded": "",
+      "sources": [
+        {
+          "url": "https://gaia-x.eu/",
+          "accessed": "2026-11-01"
+        }
+      ],
+      "verified": "2026-11-01",
+      "first_seen": "2026-W44",
+      "last_updated": "2026-W44"
+    },
+    {
+      "id": "catena-x",
+      "name": "Catena-X Automotive Network e.V.",
+      "name_ja": "Catena-X 自動車ネットワーク協会",
+      "aliases": [
+        "Catena-X",
+        "Catena-X Association"
+      ],
+      "type": "industry-association",
+      "region": "Europe",
+      "country": "Germany",
+      "url": "https://catena-x.net/",
+      "tags": [
+        "データスペース",
+        "産業・製造",
+        "標準化",
+        "オープンソース"
+      ],
+      "outputs": [
+        "Catena-X standards",
+        "Catena-X certification",
+        "Eclipse Tractus-X"
+      ],
+      "groups": [],
+      "related_conferences": [
+        "aiag-catena-x-north-america-conference-north-america-2026"
+      ],
+      "membership": "invite",
+      "status": "active",
+      "summary": "ベルリン拠点の登録社団で、自動車産業向けデータエコシステム Catena-X のガバナンス主体。共通標準の策定・認証・リリース管理を担い、OSS 実装は Eclipse Tractus-X。",
+      "founded": "",
+      "sources": [
+        {
+          "url": "https://catena-x.net/en/about-us",
+          "accessed": "2026-11-01"
+        },
+        {
+          "url": "https://catena-x.net/en/membership",
+          "accessed": "2026-11-01"
+        },
+        {
+          "url": "https://catena-x.net/",
+          "accessed": "2026-11-01"
+        }
+      ],
+      "verified": "2026-11-01",
+      "first_seen": "2026-W44",
+      "last_updated": "2026-W44"
+    },
+    {
+      "id": "eclipse-dataspace-wg",
+      "name": "Eclipse Dataspace Working Group",
+      "name_ja": "Eclipse データスペース・ワーキンググループ",
+      "aliases": [
+        "EDWG",
+        "Eclipse Dataspace WG",
+        "Eclipse Foundation Dataspace Working Group"
+      ],
+      "type": "consortium",
+      "region": "International",
+      "country": "",
+      "url": "https://dataspace.eclipse.org/",
+      "tags": [
+        "データスペース",
+        "オープンソース",
+        "データ標準"
+      ],
+      "outputs": [
+        "open source dataspace software",
+        "dataspace specifications"
+      ],
+      "groups": [],
+      "related_conferences": [],
+      "membership": "unknown",
+      "status": "active",
+      "summary": "Eclipse Foundation 傘下のワーキンググループ。データスペース向けのオープンソースソフトウェア・仕様・オープンな協業モデルを構築・推進する場を個人と組織に提供する。",
+      "founded": "",
+      "sources": [
+        {
+          "url": "https://dataspace.eclipse.org/about/",
+          "accessed": "2026-11-01"
+        },
+        {
+          "url": "https://dataspace.eclipse.org/",
+          "accessed": "2026-11-01"
+        }
+      ],
+      "verified": "2026-11-01",
+      "first_seen": "2026-W44",
+      "last_updated": "2026-W44"
+    },
+    {
+      "id": "ipa-dadc",
+      "name": "IPA Digital & AI Systems Design Center (DADC)",
+      "name_ja": "IPA デジタル＆AIシステムズ・デザインセンター",
+      "aliases": [
+        "DADC",
+        "デジタルアーキテクチャ・デザインセンター",
+        "Digital Architecture Design Center"
+      ],
+      "type": "public-program",
+      "region": "Japan",
+      "country": "Japan",
+      "url": "https://www.ipa.go.jp/dadc/",
+      "tags": [
+        "データスペース",
+        "公共・政策",
+        "産業・製造"
+      ],
+      "outputs": [
+        "Society 5.0 を支えるシステム全体アーキテクチャの設計・提案",
+        "アーキテクチャ設計方法論"
+      ],
+      "groups": [],
+      "related_conferences": [
+        "data-spaces-week-jp-2026",
+        "data-spaces-in-action-jp-2026"
+      ],
+      "membership": "unknown",
+      "status": "active",
+      "summary": "独立行政法人 IPA 内のセンター（旧称デジタルアーキテクチャ・デザインセンター）。Society 5.0 の基盤となるシステム全体のアーキテクチャを産官学連携で設計・提案し、その方法論を確立する。",
+      "founded": "",
+      "sources": [
+        {
+          "url": "https://www.ipa.go.jp/dadc/vision.html",
+          "accessed": "2026-11-01"
+        },
+        {
+          "url": "https://www.meti.go.jp/policy/mono_info_service/digital_architecture/ouranos.html",
+          "accessed": "2026-11-01"
+        }
+      ],
+      "verified": "2026-11-01",
+      "first_seen": "2026-W44",
+      "last_updated": "2026-W44"
+    },
+    {
+      "id": "ouranos-ecosystem",
+      "name": "Ouranos Ecosystem",
+      "name_ja": "ウラノス・エコシステム",
+      "aliases": [
+        "Ouranos",
+        "ウラノス",
+        "Ouranos Ecosystem Dataspaces",
+        "ODS"
+      ],
+      "type": "initiative",
+      "region": "Japan",
+      "country": "Japan",
+      "url": "https://www.meti.go.jp/policy/mono_info_service/digital_architecture/ouranos.html",
+      "tags": [
+        "データスペース",
+        "公共・政策",
+        "産業・製造"
+      ],
+      "outputs": [
+        "ODS-RAM（ウラノス・エコシステム・データスペーシズ リファレンスアーキテクチャモデル）Whitepaper",
+        "データ連携の仕組みに関するガイドラインの手引き サプライチェーン共通編",
+        "空間ID ガイドライン"
+      ],
+      "groups": [],
+      "related_conferences": [
+        "data-spaces-week-jp-2026",
+        "data-spaces-in-action-jp-2026"
+      ],
+      "membership": "unknown",
+      "status": "active",
+      "summary": "経済産業省が 2023 年 4 月に命名した、企業・業界・国境をまたぐデータ連携・システム連携の取組の総称。IPA・NEDO・大学・民間と共同で推進し、参照文書 ODS-RAM を公表。",
+      "founded": "2023",
+      "sources": [
+        {
+          "url": "https://www.meti.go.jp/policy/mono_info_service/digital_architecture/ouranos.html",
+          "accessed": "2026-11-01"
+        },
+        {
+          "url": "https://dx.ipa.go.jp/ouranos-ecosystem",
+          "accessed": "2026-11-01"
+        }
+      ],
+      "verified": "2026-11-01",
+      "first_seen": "2026-W44",
+      "last_updated": "2026-W44"
+    },
+    {
+      "id": "data-society-alliance",
+      "name": "Data Society Alliance (DSA)",
+      "name_ja": "一般社団法人データ社会推進協議会",
+      "aliases": [
+        "DSA",
+        "データ社会推進協議会",
+        "DATA-EX"
+      ],
+      "type": "industry-association",
+      "region": "Japan",
+      "country": "Japan",
+      "url": "https://data-society-alliance.org/",
+      "tags": [
+        "データスペース",
+        "データ標準",
+        "DX・ビジネス"
+      ],
+      "outputs": [
+        "DATA-EX 分野間データ連携基盤技術仕様書",
+        "データ社会を支える関連事業者等の運用基準"
+      ],
+      "groups": [],
+      "related_conferences": [],
+      "membership": "unknown",
+      "status": "active",
+      "summary": "2021 年 4 月設立の一般社団法人（東京・港区）。産官学連携で分野を超えた公正・自由なデータ流通と利活用による「データ社会」の実現を目的とし、DATA-EX の技術仕様書を公開。",
+      "founded": "2021",
+      "sources": [
+        {
+          "url": "https://data-society-alliance.org/about/",
+          "accessed": "2026-11-01"
+        },
+        {
+          "url": "https://data-society-alliance.org/",
+          "accessed": "2026-11-01"
+        }
+      ],
+      "verified": "2026-11-01",
+      "first_seen": "2026-W44",
+      "last_updated": "2026-W44"
+    },
+    {
+      "id": "jdmc",
+      "name": "Japan Data Management Consortium (JDMC)",
+      "name_ja": "一般社団法人日本データマネジメント・コンソーシアム",
+      "aliases": [
+        "JDMC",
+        "日本データマネージメント・コンソーシアム"
+      ],
+      "type": "industry-association",
+      "region": "Japan",
+      "country": "Japan",
+      "url": "https://japan-dmc.org/",
+      "tags": [
+        "データマネジメント",
+        "DX・ビジネス"
+      ],
+      "outputs": [
+        "データマネジメント実践事例・製品・サービスの発掘と情報発信"
+      ],
+      "groups": [],
+      "related_conferences": [
+        "data-management-jp-2026"
+      ],
+      "membership": "unknown",
+      "status": "active",
+      "summary": "2011 年 4 月設立の一般社団法人（東京・千代田区）。データマネジメントの重要性の普及と実践手法の確立により、日本企業・組織の国際競争力強化に寄与することを目的とする。",
+      "founded": "2011",
+      "sources": [
+        {
+          "url": "https://japan-dmc.org/?p=21550",
+          "accessed": "2026-11-01"
+        }
+      ],
+      "verified": "2026-11-01",
+      "first_seen": "2026-W44",
+      "last_updated": "2026-W44"
+    },
+    {
+      "id": "acm-sigmod",
+      "name": "ACM SIGMOD",
+      "name_ja": "ACM データ管理分科会（SIGMOD）",
+      "aliases": [
+        "SIGMOD",
+        "ACM Special Interest Group on Management of Data"
+      ],
+      "type": "academic-society",
+      "region": "International",
+      "country": "",
+      "url": "https://sigmod.org/",
+      "tags": [
+        "データベース",
+        "学術"
+      ],
+      "outputs": [
+        "SIGMOD/PODS conference"
+      ],
+      "groups": [],
+      "related_conferences": [
+        "sigmod-pods-north-america-2027"
+      ],
+      "membership": "paid",
+      "status": "active",
+      "summary": "ACM のデータ管理分科会。データベース管理システムの原理・技術・応用を扱い、年次の SIGMOD/PODS 会議を主催。会員区分は SIGMOD Online / Print と学生会員。",
+      "founded": "",
+      "sources": [
+        {
+          "url": "https://sigmod.org/",
+          "accessed": "2026-11-01"
+        },
+        {
+          "url": "https://sigmod.org/membership/",
+          "accessed": "2026-11-01"
+        }
+      ],
+      "verified": "2026-11-01",
+      "first_seen": "2026-W44",
+      "last_updated": "2026-W44"
+    },
+    {
+      "id": "vldb-endowment",
+      "name": "VLDB Endowment",
+      "name_ja": "VLDB エンダウメント",
+      "aliases": [
+        "VLDB",
+        "Very Large Data Base Endowment Inc."
+      ],
+      "type": "academic-society",
+      "region": "International",
+      "country": "United States",
+      "url": "https://vldb.org/",
+      "tags": [
+        "データベース",
+        "学術"
+      ],
+      "outputs": [
+        "VLDB conference",
+        "The VLDB Journal"
+      ],
+      "groups": [],
+      "related_conferences": [
+        "vldb-north-america-2026",
+        "vldb-eu-2027"
+      ],
+      "membership": "unknown",
+      "status": "active",
+      "summary": "米国法人の非営利団体。データベースと関連分野の学術成果の促進・交流を唯一の目的とし、VLDB 会議の運営委員会を務め、1992 年から VLDB Journal を刊行。",
+      "founded": "",
+      "sources": [
+        {
+          "url": "https://vldb.org/",
+          "accessed": "2026-11-01"
+        }
+      ],
+      "verified": "2026-11-01",
+      "first_seen": "2026-W44",
+      "last_updated": "2026-W44"
+    },
+    {
+      "id": "dbsj",
+      "name": "The Database Society of Japan (DBSJ)",
+      "name_ja": "一般社団法人日本データベース学会",
+      "aliases": [
+        "DBSJ",
+        "日本データベース学会"
+      ],
+      "type": "academic-society",
+      "region": "Japan",
+      "country": "Japan",
+      "url": "https://dbsj.org/",
+      "tags": [
+        "データベース",
+        "学術"
+      ],
+      "outputs": [
+        "学会研究論文誌・学会誌",
+        "学術シンポジウムの企画・開催"
+      ],
+      "groups": [],
+      "related_conferences": [],
+      "membership": "open",
+      "status": "active",
+      "summary": "2002 年 5 月設立、2021 年に一般社団法人化（事務局は東京・文京区）。データ・データベース・高度応用を主軸に科学技術振興と人材育成を図る。第二種正会員・学生会員は年会費無料。",
+      "founded": "2002",
+      "sources": [
+        {
+          "url": "https://dbsj.org/overview/",
+          "accessed": "2026-11-01"
+        },
+        {
+          "url": "https://dbsj.org/members/",
+          "accessed": "2026-11-01"
+        }
+      ],
+      "verified": "2026-11-01",
+      "first_seen": "2026-W44",
+      "last_updated": "2026-W44"
+    },
+    {
+      "id": "ipsj",
+      "name": "Information Processing Society of Japan (IPSJ)",
+      "name_ja": "一般社団法人情報処理学会",
+      "aliases": [
+        "IPSJ",
+        "情報処理学会"
+      ],
+      "type": "academic-society",
+      "region": "Japan",
+      "country": "Japan",
+      "url": "https://www.ipsj.or.jp/",
+      "tags": [
+        "学術",
+        "データベース",
+        "AI"
+      ],
+      "outputs": [
+        "全国大会",
+        "研究会（研究発表会）",
+        "論文誌"
+      ],
+      "groups": [],
+      "related_conferences": [
+        "ipsj-national-convention-89-jp-2027"
+      ],
+      "membership": "paid",
+      "status": "active",
+      "summary": "1960 年 4 月設立の学会（2010 年に一般社団法人へ移行）。コンピュータとコミュニケーションを中心とした情報処理に関する学術・技術の振興を目的とし、会費と賛助会員費で運営。",
+      "founded": "1960",
+      "sources": [
+        {
+          "url": "https://www.ipsj.or.jp/annai/aboutipsj/gakkai-shokai.html",
+          "accessed": "2026-11-01"
+        },
+        {
+          "url": "https://www.ipsj.or.jp/",
+          "accessed": "2026-11-01"
+        }
+      ],
+      "verified": "2026-11-01",
+      "first_seen": "2026-W44",
+      "last_updated": "2026-W44"
+    },
+    {
+      "id": "w3c",
+      "name": "World Wide Web Consortium (W3C)",
+      "name_ja": "World Wide Web Consortium",
+      "aliases": [
+        "W3C",
+        "ワールド・ワイド・ウェブ・コンソーシアム"
+      ],
+      "type": "standards-body",
+      "region": "International",
+      "country": "",
+      "url": "https://www.w3.org/",
+      "tags": [
+        "データ標準",
+        "標準化"
+      ],
+      "outputs": [
+        "DCAT (Data Catalog Vocabulary)"
+      ],
+      "groups": [
+        "Dataset Exchange Working Group (DX WG)"
+      ],
+      "related_conferences": [],
+      "membership": "paid",
+      "status": "active",
+      "summary": "1994 年に Tim Berners-Lee が設立した国際的な公益非営利組織（2023 年 1 月に独立法人化）。収入は主に会員費。Dataset Exchange WG が DCAT を維持・改訂する。",
+      "founded": "1994",
+      "sources": [
+        {
+          "url": "https://www.w3.org/Consortium/",
+          "accessed": "2026-11-01"
+        },
+        {
+          "url": "https://www.w3.org/groups/wg/dx/",
+          "accessed": "2026-11-01"
+        }
+      ],
+      "verified": "2026-11-01",
+      "first_seen": "2026-W44",
+      "last_updated": "2026-W44"
+    },
+    {
+      "id": "oasis-open",
+      "name": "OASIS Open",
+      "name_ja": "OASIS Open",
+      "aliases": [
+        "OASIS",
+        "SGML Open"
+      ],
+      "type": "standards-body",
+      "region": "International",
+      "country": "",
+      "url": "https://www.oasis-open.org/",
+      "tags": [
+        "標準化",
+        "オープンソース",
+        "データ標準"
+      ],
+      "outputs": [
+        "SAML"
+      ],
+      "groups": [],
+      "related_conferences": [],
+      "membership": "paid",
+      "status": "active",
+      "summary": "1993 年に SGML Open として発足した非営利の標準化団体。個人・組織・政府が集まり、オープンソースソフトウェアと標準の公正で透明な開発を推進。SAML などを策定。",
+      "founded": "1993",
+      "sources": [
+        {
+          "url": "https://www.oasis-open.org/about/",
+          "accessed": "2026-11-01"
+        },
+        {
+          "url": "https://www.oasis-open.org/",
+          "accessed": "2026-11-01"
+        }
+      ],
+      "verified": "2026-11-01",
+      "first_seen": "2026-W44",
+      "last_updated": "2026-W44"
+    },
+    {
+      "id": "ieee-sa",
+      "name": "IEEE Standards Association (IEEE SA)",
+      "name_ja": "IEEE 標準化協会",
+      "aliases": [
+        "IEEE SA",
+        "IEEE-SA"
+      ],
+      "type": "standards-body",
+      "region": "International",
+      "country": "",
+      "url": "https://standards.ieee.org/",
+      "tags": [
+        "標準化"
+      ],
+      "outputs": [],
+      "groups": [],
+      "related_conferences": [],
+      "membership": "paid",
+      "status": "active",
+      "summary": "IEEE 傘下の合意形成型標準化組織。幅広い個人・組織を集めてグローバルな技術を育成・発展させる。個人会員（IEEE SA Membership）と法人会員（Entity Membership）の制度がある。",
+      "founded": "",
+      "sources": [
+        {
+          "url": "https://standards.ieee.org/about/",
+          "accessed": "2026-11-01"
+        }
+      ],
+      "verified": "2026-11-01",
+      "first_seen": "2026-W44",
+      "last_updated": "2026-W44"
+    },
+    {
+      "id": "aaai",
+      "name": "Association for the Advancement of Artificial Intelligence (AAAI)",
+      "name_ja": "米国人工知能学会（AAAI）",
+      "aliases": [
+        "AAAI"
+      ],
+      "type": "academic-society",
+      "region": "International",
+      "country": "",
+      "url": "https://aaai.org/",
+      "tags": [
+        "AI",
+        "学術"
+      ],
+      "outputs": [
+        "AAAI Conference on Artificial Intelligence",
+        "AI Magazine"
+      ],
+      "groups": [],
+      "related_conferences": [
+        "aaai-apac-2026",
+        "aaai-north-america-2027"
+      ],
+      "membership": "paid",
+      "status": "active",
+      "summary": "1979 年設立の非営利学術団体。思考と知的行動のメカニズムとその機械への実装に関する科学的理解の推進を目的とする。AI に関心のある誰でも入会でき、年会費は一般 135 ドル。",
+      "founded": "1979",
+      "sources": [
+        {
+          "url": "https://aaai.org/about-aaai/",
+          "accessed": "2026-11-01"
+        },
+        {
+          "url": "https://aaai.org/membership/",
+          "accessed": "2026-11-01"
+        },
+        {
+          "url": "https://aaai.org/",
+          "accessed": "2026-11-01"
+        }
+      ],
+      "verified": "2026-11-01",
+      "first_seen": "2026-W44",
+      "last_updated": "2026-W44"
+    },
+    {
+      "id": "jsai",
+      "name": "The Japanese Society for Artificial Intelligence (JSAI)",
+      "name_ja": "一般社団法人人工知能学会",
+      "aliases": [
+        "JSAI",
+        "人工知能学会"
+      ],
+      "type": "academic-society",
+      "region": "Japan",
+      "country": "Japan",
+      "url": "https://www.ai-gakkai.or.jp/",
+      "tags": [
+        "AI",
+        "学術"
+      ],
+      "outputs": [],
+      "groups": [],
+      "related_conferences": [],
+      "membership": "paid",
+      "status": "active",
+      "summary": "主たる事務所を東京・新宿区に置く一般社団法人。人工知能に関する研究の進展と知識の普及を図り、学術・技術と産業・社会の発展に寄与することを目的とする。入会は理事会承認制で入会金・会費あり。",
+      "founded": "",
+      "sources": [
+        {
+          "url": "https://www.ai-gakkai.or.jp/about/about-us/jsai_teikan/",
+          "accessed": "2026-11-01"
+        }
+      ],
+      "verified": "2026-11-01",
+      "first_seen": "2026-W44",
+      "last_updated": "2026-W44"
+    },
+    {
+      "id": "lf-ai-data",
+      "name": "LF AI & Data Foundation",
+      "name_ja": "LF AI & Data 財団",
+      "aliases": [
+        "LF AI & Data",
+        "LFAI",
+        "LF AI and Data"
+      ],
+      "type": "oss-foundation",
+      "region": "International",
+      "country": "",
+      "url": "https://lfaidata.foundation/",
+      "tags": [
+        "AI",
+        "オープンソース",
+        "データプラットフォーム"
+      ],
+      "outputs": [
+        "LF AI & Data hosted projects"
+      ],
+      "groups": [],
+      "related_conferences": [],
+      "membership": "paid",
+      "status": "active",
+      "summary": "Linux Foundation 傘下の中立ホストとして、AI・データ分野のオープンソース協業と信頼できるインフラを提供。会員は LF 法人会員であることが前提。学術・非営利向けには無料の Associate 会員枠。",
+      "founded": "",
+      "sources": [
+        {
+          "url": "https://lfaidata.foundation/",
+          "accessed": "2026-11-01"
+        },
+        {
+          "url": "https://lfaidata.foundation/join/",
+          "accessed": "2026-11-01"
+        }
+      ],
+      "verified": "2026-11-01",
+      "first_seen": "2026-W44",
+      "last_updated": "2026-W44"
+    },
+    {
+      "id": "partnership-on-ai",
+      "name": "Partnership on AI (PAI)",
+      "name_ja": "パートナーシップ・オン・AI",
+      "aliases": [
+        "PAI",
+        "Partnership on AI"
+      ],
+      "type": "consortium",
+      "region": "International",
+      "country": "",
+      "url": "https://partnershiponai.org/",
+      "tags": [
+        "AIガバナンス",
+        "AI"
+      ],
+      "outputs": [
+        "合成メディアの責任ある開発・作成・共有に関するフレームワーク"
+      ],
+      "groups": [],
+      "related_conferences": [],
+      "membership": "invite",
+      "status": "active",
+      "summary": "独立した非営利 501(c)(3) 組織。多様なコミュニティを集め、AI との未来に関する重要な問いに取り組む。パートナー加盟は理事会の承認制。",
+      "founded": "",
+      "sources": [
+        {
+          "url": "https://partnershiponai.org/transparency-governance/",
+          "accessed": "2026-11-01"
+        },
+        {
+          "url": "https://partnershiponai.org/",
+          "accessed": "2026-11-01"
+        },
+        {
+          "url": "https://partnershiponai.org/about/",
+          "accessed": "2026-11-01"
+        }
+      ],
+      "verified": "2026-11-01",
+      "first_seen": "2026-W44",
+      "last_updated": "2026-W44"
+    },
+    {
+      "id": "mlcommons",
+      "name": "MLCommons",
+      "name_ja": "MLCommons",
+      "aliases": [
+        "MLCommons Association",
+        "MLPerf"
+      ],
+      "type": "consortium",
+      "region": "International",
+      "country": "United States",
+      "url": "https://mlcommons.org/",
+      "tags": [
+        "AIベンチマーク",
+        "AI",
+        "標準化"
+      ],
+      "outputs": [
+        "MLPerf",
+        "MLCube"
+      ],
+      "groups": [],
+      "related_conferences": [],
+      "membership": "paid",
+      "status": "active",
+      "summary": "2020 年 12 月に発足したオープンなエンジニアリング・コンソーシアム。AI の計測を標準化し、品質・性能・リスクを測る業界標準ベンチマークとデータツールを構築・運用。学術・個人・小規模スタートアップは無料会員。",
+      "founded": "2020",
+      "sources": [
+        {
+          "url": "https://mlcommons.org/about/",
+          "accessed": "2026-11-01"
+        },
+        {
+          "url": "https://mlcommons.org/get-involved/",
+          "accessed": "2026-11-01"
+        },
+        {
+          "url": "https://mlcommons.org/",
+          "accessed": "2026-11-01"
+        }
+      ],
+      "verified": "2026-11-01",
+      "first_seen": "2026-W44",
+      "last_updated": "2026-W44"
+    },
+    {
+      "id": "ai-alliance",
+      "name": "The AI Alliance",
+      "name_ja": "AI アライアンス",
+      "aliases": [
+        "AI Alliance"
+      ],
+      "type": "consortium",
+      "region": "International",
+      "country": "",
+      "url": "https://thealliance.ai/",
+      "tags": [
+        "AI",
+        "オープンソース",
+        "AIガバナンス"
+      ],
+      "outputs": [
+        "member-driven working groups"
+      ],
+      "groups": [],
+      "related_conferences": [],
+      "membership": "unknown",
+      "status": "active",
+      "summary": "2023 年 12 月に IBM と Meta が 50 超の創設メンバーと共に立ち上げた国際ネットワーク。オープンイノベーション・協業・提言を通じてオープンで安全・責任ある AI を推進。501(c)(3) のコミュニティと 501(c)(6) の業界団体の二層構造。",
+      "founded": "2023",
+      "sources": [
+        {
+          "url": "https://thealliance.ai/",
+          "accessed": "2026-11-01"
+        },
+        {
+          "url": "https://thealliance.ai/blog/alliance_launch",
+          "accessed": "2026-11-01"
+        }
+      ],
+      "verified": "2026-11-01",
+      "first_seen": "2026-W44",
+      "last_updated": "2026-W44"
+    },
+    {
+      "id": "confidential-computing-consortium",
+      "name": "Confidential Computing Consortium (CCC)",
+      "name_ja": "コンフィデンシャル・コンピューティング・コンソーシアム",
+      "aliases": [
+        "CCC",
+        "Confidential Computing Consortium"
+      ],
+      "type": "consortium",
+      "region": "International",
+      "country": "",
+      "url": "https://confidentialcomputing.io/",
+      "tags": [
+        "PETs",
+        "オープンソース",
+        "標準化"
+      ],
+      "outputs": [
+        "attestation specifications",
+        "Enarx",
+        "Gramine",
+        "Open Enclave"
+      ],
+      "groups": [
+        "Technical Advisory Council (TAC)"
+      ],
+      "related_conferences": [
+        "confidential-computing-summit-north-america-2026",
+        "oc3-eu-2026"
+      ],
+      "membership": "paid",
+      "status": "active",
+      "summary": "Linux Foundation 傘下で、コンフィデンシャル・コンピューティング技術の推進と標準化を担う組織。OSS の SDK・アテステーション仕様・フレームワークを維持。会員は LF 会員であることが必要で、従業員数に応じた年会費。",
+      "founded": "",
+      "sources": [
+        {
+          "url": "https://confidentialcomputing.io/join",
+          "accessed": "2026-11-01"
+        },
+        {
+          "url": "https://confidentialcomputing.io/",
+          "accessed": "2026-11-01"
+        }
+      ],
+      "verified": "2026-11-01",
+      "first_seen": "2026-W44",
+      "last_updated": "2026-W44"
+    },
+    {
+      "id": "openmined",
+      "name": "OpenMined Foundation",
+      "name_ja": "OpenMined 財団",
+      "aliases": [
+        "OpenMined"
+      ],
+      "type": "oss-foundation",
+      "region": "International",
+      "country": "",
+      "url": "https://openmined.org/",
+      "tags": [
+        "PETs",
+        "オープンソース",
+        "AI"
+      ],
+      "outputs": [
+        "PySyft",
+        "SyftBox"
+      ],
+      "groups": [],
+      "related_conferences": [
+        "privacy-enhancing-technologies-symposium-eu-2027"
+      ],
+      "membership": "open",
+      "status": "active",
+      "summary": "501(c)(3) の非営利財団かつグローバルコミュニティ。非公開データのコピーや直接アクセスなしにインサイトへ到達できるオープンソースのネットワーク技術を開発する。",
+      "founded": "",
+      "sources": [
+        {
+          "url": "https://openmined.org/about/",
+          "accessed": "2026-11-01"
+        },
+        {
+          "url": "https://openmined.org/",
+          "accessed": "2026-11-01"
+        }
+      ],
+      "verified": "2026-11-01",
+      "first_seen": "2026-W44",
+      "last_updated": "2026-W44"
+    },
+    {
+      "id": "cncf",
+      "name": "Cloud Native Computing Foundation (CNCF)",
+      "name_ja": "クラウドネイティブ・コンピューティング財団",
+      "aliases": [
+        "CNCF"
+      ],
+      "type": "oss-foundation",
+      "region": "International",
+      "country": "",
+      "url": "https://www.cncf.io/",
+      "tags": [
+        "クラウドネイティブ",
+        "オープンソース"
+      ],
+      "outputs": [
+        "Kubernetes",
+        "Envoy",
+        "Prometheus",
+        "KubeCon + CloudNativeCon"
+      ],
+      "groups": [],
+      "related_conferences": [
+        "kubecon-cloudnativecon-north-america-north-america-2026",
+        "kubecon-cloudnativecon-europe-eu-2027",
+        "kubecon-cloudnativecon-north-america-north-america-2027",
+        "kubecon-cloudnativecon-japan-jp-2026"
+      ],
+      "membership": "paid",
+      "status": "active",
+      "summary": "非営利の Linux Foundation の一部。Kubernetes・Envoy・Prometheus などクラウドネイティブ OSS プロジェクトを支援・監督し、700 超の会員とともに旗艦会議 KubeCon + CloudNativeCon を運営。",
+      "founded": "",
+      "sources": [
+        {
+          "url": "https://www.cncf.io/about/who-we-are/",
+          "accessed": "2026-11-01"
+        },
+        {
+          "url": "https://www.cncf.io/",
+          "accessed": "2026-11-01"
+        }
+      ],
+      "verified": "2026-11-01",
+      "first_seen": "2026-W44",
+      "last_updated": "2026-W44"
+    },
+    {
+      "id": "apache-software-foundation",
+      "name": "The Apache Software Foundation (ASF)",
+      "name_ja": "Apache ソフトウェア財団",
+      "aliases": [
+        "ASF",
+        "Apache",
+        "Apache Foundation"
+      ],
+      "type": "oss-foundation",
+      "region": "International",
+      "country": "United States",
+      "url": "https://www.apache.org/",
+      "tags": [
+        "オープンソース",
+        "データプラットフォーム",
+        "データエンジニアリング"
+      ],
+      "outputs": [
+        "Apache projects（数百のプロジェクトをホスト）"
+      ],
+      "groups": [
+        "Apache Incubator"
+      ],
+      "related_conferences": [
+        "airflow-summit-north-america-2026",
+        "flink-forward-asia-shenzhen-apac-2026"
+      ],
+      "membership": "invite",
+      "status": "active",
+      "summary": "米デラウェア州登記の会員制法人で 501(c)(3) 非営利。公共の利益のためのソフトウェアを提供し、1999 年以来、知的財産と資金提供の枠組みを数百のプロジェクトに提供。会員は企業ではなく個人で、推薦と投票で選ばれる。",
+      "founded": "1999",
+      "sources": [
+        {
+          "url": "https://www.apache.org/foundation/faq.html",
+          "accessed": "2026-11-01"
+        },
+        {
+          "url": "https://www.apache.org/foundation/",
+          "accessed": "2026-11-01"
+        }
+      ],
+      "verified": "2026-11-01",
+      "first_seen": "2026-W44",
+      "last_updated": "2026-W44"
+    },
+    {
+      "id": "dama-international",
+      "name": "DAMA International",
+      "name_ja": "DAMA インターナショナル",
+      "aliases": [
+        "DAMA",
+        "DAMA-I",
+        "Data Administration Management Association"
+      ],
+      "type": "industry-association",
+      "region": "International",
+      "country": "United States",
+      "url": "https://www.dama.org/",
+      "tags": [
+        "データマネジメント"
+      ],
+      "outputs": [
+        "DAMA-DMBOK (Data Management Body of Knowledge)",
+        "CDMP (Certified Data Management Professional)"
+      ],
+      "groups": [],
+      "related_conferences": [],
+      "membership": "unknown",
+      "status": "active",
+      "summary": "1980 年にロサンゼルスで発足したデータマネジメント専門家団体。70 超の国にチャプターを持ち、業界標準の知識体系 DAMA-DMBOK（初版 2009 年）と資格 CDMP を提供する。",
+      "founded": "1980",
+      "sources": [
+        {
+          "url": "https://dama.org/about-dama/who-we-are/",
+          "accessed": "2026-11-01"
+        },
+        {
+          "url": "https://www.dama.org/",
+          "accessed": "2026-11-01"
+        }
+      ],
+      "verified": "2026-11-01",
+      "first_seen": "2026-W44",
+      "last_updated": "2026-W44"
+    },
+    {
+      "id": "data-mesh-learning",
+      "name": "Data Mesh Learning",
+      "name_ja": "Data Mesh Learning",
+      "aliases": [
+        "DML"
+      ],
+      "type": "corporate-community",
+      "region": "Online",
+      "country": "",
+      "url": "https://datameshlearning.com/",
+      "tags": [
+        "データメッシュ",
+        "開発者コミュニティ"
+      ],
+      "outputs": [
+        "biweekly meetups",
+        "DML Slack"
+      ],
+      "groups": [],
+      "related_conferences": [
+        "data-mesh-live-eu-2026"
+      ],
+      "membership": "open",
+      "status": "active",
+      "summary": "2021 年 2 月設立の、データメッシュについて学び交流するための独立ユーザーコミュニティ。テックコミュニティ企業 Constantia.io が運営し、隔週ミートアップと Slack を提供。8000 人超が参加。",
+      "founded": "2021",
+      "sources": [
+        {
+          "url": "https://datameshlearning.com/contact/",
+          "accessed": "2026-11-01"
+        },
+        {
+          "url": "https://datameshlearning.com/",
+          "accessed": "2026-11-01"
+        }
+      ],
+      "verified": "2026-11-01",
+      "first_seen": "2026-W44",
+      "last_updated": "2026-W44"
+    },
+    {
+      "id": "dbt-community",
+      "name": "dbt Community",
+      "name_ja": "dbt コミュニティ",
+      "aliases": [
+        "dbt Community Slack",
+        "dbt Labs community"
+      ],
+      "type": "corporate-community",
+      "region": "Online",
+      "country": "",
+      "url": "https://www.getdbt.com/community",
+      "tags": [
+        "データエンジニアリング",
+        "開発者コミュニティ"
+      ],
+      "outputs": [
+        "dbt Community Slack",
+        "meetups"
+      ],
+      "groups": [],
+      "related_conferences": [
+        "dbt-summit-north-america-2026",
+        "dbt-summit-north-america-2027"
+      ],
+      "membership": "open",
+      "status": "active",
+      "summary": "dbt Labs が維持するオープンソース dbt の実践者コミュニティ。あらゆるスキルレベルのデータ専門家が質問し、議論し、互いを高め合う場で、Slack・ミートアップなどを運営。",
+      "founded": "",
+      "sources": [
+        {
+          "url": "https://www.getdbt.com/community",
+          "accessed": "2026-11-01"
+        },
+        {
+          "url": "https://www.getdbt.com/blog/of-the-community-by-the-community-for-the-community",
+          "accessed": "2026-11-01"
+        }
+      ],
+      "verified": "2026-11-01",
+      "first_seen": "2026-W44",
+      "last_updated": "2026-W44"
+    },
+    {
+      "id": "jaws-ug",
+      "name": "JAWS-UG (AWS User Group – Japan)",
+      "name_ja": "JAWS-UG",
+      "aliases": [
+        "JAWS-UG",
+        "AWS User Group Japan",
+        "JAWS"
+      ],
+      "type": "corporate-community",
+      "region": "Japan",
+      "country": "Japan",
+      "url": "https://jaws-ug.jp/",
+      "tags": [
+        "クラウドネイティブ",
+        "開発者コミュニティ"
+      ],
+      "outputs": [
+        "ボランティアによる勉強会・交流イベント",
+        "全国の支部活動"
+      ],
+      "groups": [],
+      "related_conferences": [
+        "jaws-days-jp-2026"
+      ],
+      "membership": "open",
+      "status": "active",
+      "summary": "2010 年 2 月発足の、AWS を利用する人々の非営利コミュニティ。日本全国に支部を持ち、ボランティアによる勉強会や交流イベントを開催する。",
+      "founded": "2010",
+      "sources": [
+        {
+          "url": "https://jaws-ug.jp/about-us/",
+          "accessed": "2026-11-01"
+        },
+        {
+          "url": "https://jaws-ug.jp/",
+          "accessed": "2026-11-01"
+        }
+      ],
+      "verified": "2026-11-01",
+      "first_seen": "2026-W44",
+      "last_updated": "2026-W44"
+    },
+    {
+      "id": "jedai",
+      "name": "JEDAI - Japan Databricks User Group",
+      "name_ja": "JEDAI（日本 Databricks ユーザーコミュニティ）",
+      "aliases": [
+        "JEDAI",
+        "Japan Databricks User Group"
+      ],
+      "type": "corporate-community",
+      "region": "Japan",
+      "country": "Japan",
+      "url": "https://jedai.connpass.com/",
+      "tags": [
+        "データプラットフォーム",
+        "AI",
+        "開発者コミュニティ"
+      ],
+      "outputs": [
+        "イベント（connpass）",
+        "JEDAI Discord"
+      ],
+      "groups": [],
+      "related_conferences": [
+        "databricks-data-ai-summit-north-america-2026",
+        "databricks-data-ai-summit-north-america-2027"
+      ],
+      "membership": "open",
+      "status": "active",
+      "summary": "データブリックス・ジャパンが運営をリードする日本の Databricks ユーザーコミュニティ。社外の運営サポーターと協働し、「データと AI の民主化」をボトムアップで支えることを目指す。",
+      "founded": "",
+      "sources": [
+        {
+          "url": "https://jedai.connpass.com/",
+          "accessed": "2026-11-01"
+        }
+      ],
+      "verified": "2026-11-01",
+      "first_seen": "2026-W44",
+      "last_updated": "2026-W44"
+    },
+    {
+      "id": "snowvillage",
+      "name": "SnowVillage (Japan Snowflake User Group)",
+      "name_ja": "SnowVillage",
+      "aliases": [
+        "SnowVillage",
+        "Japan Snowflake User Group"
+      ],
+      "type": "corporate-community",
+      "region": "Japan",
+      "country": "Japan",
+      "url": "https://usergroups.snowflake.com/snowvillage/",
+      "tags": [
+        "データプラットフォーム",
+        "開発者コミュニティ"
+      ],
+      "outputs": [
+        "ユーザーグループイベント",
+        "SnowVillage Slack"
+      ],
+      "groups": [],
+      "related_conferences": [
+        "snowflake-summit-north-america-2026",
+        "snowflake-summit-north-america-2027"
+      ],
+      "membership": "open",
+      "status": "active",
+      "summary": "Snowflake ユーザーの「ホーム」として発足した日本のユーザーコミュニティ。有志のコミュニティメンバーが運営し、参加規約に同意すれば誰でも Slack に参加できる。",
+      "founded": "",
+      "sources": [
+        {
+          "url": "https://usergroups.snowflake.com/snowvillage/",
+          "accessed": "2026-11-01"
+        }
+      ],
+      "verified": "2026-11-01",
+      "first_seen": "2026-W44",
+      "last_updated": "2026-W44"
+    },
+    {
+      "id": "dssc",
+      "name": "Data Spaces Support Centre (DSSC)",
+      "name_ja": "データスペース・サポートセンター",
+      "aliases": [
+        "DSSC"
+      ],
+      "type": "public-program",
+      "region": "Europe",
+      "country": "",
+      "url": "https://dssc.eu/",
+      "tags": [
+        "データスペース",
+        "公共・政策",
+        "データ標準"
+      ],
+      "outputs": [
+        "DSSC Blueprint",
+        "DSSC Rulebook",
+        "DSSC Toolbox",
+        "DSSC Cookbook"
+      ],
+      "groups": [],
+      "related_conferences": [
+        "data-spaces-symposium-eu-2026"
+      ],
+      "membership": "unknown",
+      "status": "active",
+      "summary": "EU の Digital Europe Programme が資金提供する、共通欧州データスペースのワンストップ拠点。研究・標準化・産業の欧州コンソーシアム（Fraunhofer が調整）が運営し、Blueprint 等でデータスペースの相互運用性を維持。2026 年 5 月から新フェーズ（〜2029 年 4 月）。",
+      "founded": "",
+      "sources": [
+        {
+          "url": "https://dssc.eu/",
+          "accessed": "2026-11-01"
+        },
+        {
+          "url": "https://www.isst.fraunhofer.de/en/publications/press_releases/2026/data-spaces-support-centre.html",
+          "accessed": "2026-11-01"
+        }
+      ],
+      "verified": "2026-11-01",
+      "first_seen": "2026-W44",
+      "last_updated": "2026-W44"
+    },
+    {
+      "id": "fiware-foundation",
+      "name": "FIWARE Foundation e.V.",
+      "name_ja": "FIWARE 財団",
+      "aliases": [
+        "FIWARE",
+        "FIWARE Foundation"
+      ],
+      "type": "oss-foundation",
+      "region": "Europe",
+      "country": "",
+      "url": "https://www.fiware.org/",
+      "tags": [
+        "データスペース",
+        "オープンソース",
+        "標準化",
+        "データ標準"
+      ],
+      "outputs": [
+        "FIWARE（Context Data Management を中核とする OSS プラットフォーム部品群と共通 API）"
+      ],
+      "groups": [],
+      "related_conferences": [],
+      "membership": "invite",
+      "status": "active",
+      "summary": "2016 年設立の非営利団体（e.V.）。公開・ロイヤリティフリーで実装駆動のソフトウェアプラットフォーム標準を軸にオープンで持続可能なエコシステムを育てる。誰でも申請と会員契約により参加できる。",
+      "founded": "2016",
+      "sources": [
+        {
+          "url": "https://fiware.org/foundation/",
+          "accessed": "2026-11-01"
+        },
+        {
+          "url": "https://www.fiware.org/",
+          "accessed": "2026-11-01"
+        }
+      ],
+      "verified": "2026-11-01",
+      "first_seen": "2026-W44",
+      "last_updated": "2026-W44"
+    },
+    {
+      "id": "dsba",
+      "name": "Data Spaces Business Alliance (DSBA)",
+      "name_ja": "データスペース・ビジネス・アライアンス",
+      "aliases": [
+        "DSBA"
+      ],
+      "type": "initiative",
+      "region": "Europe",
+      "country": "",
+      "url": "https://data-spaces-business-alliance.eu/",
+      "tags": [
+        "データスペース",
+        "DX・ビジネス"
+      ],
+      "outputs": [
+        "Technical Convergence Discussion Document"
+      ],
+      "groups": [],
+      "related_conferences": [],
+      "membership": "unknown",
+      "status": "dormant",
+      "summary": "BDVA・FIWARE・Gaia-X・IDSA が 2021 年 9 月に発表した、データ経済のビジネス変革を加速する共同イニシアティブ。公式サイトは「DSBA としての共同イニシアティブではなく二者間で協力を継続する」とし更新停止を告知。",
+      "founded": "2021",
+      "sources": [
+        {
+          "url": "https://data-spaces-business-alliance.eu/",
+          "accessed": "2026-11-01"
+        },
+        {
+          "url": "https://internationaldataspaces.org/bdva-fiware-gaia-x-and-idsa-launch-alliance-to-accelerate-business-transformation-in-the-data-economy",
+          "accessed": "2026-11-01"
+        }
+      ],
+      "verified": "2026-11-01",
+      "first_seen": "2026-W44",
+      "last_updated": "2026-W44"
+    }
+  ]
+}

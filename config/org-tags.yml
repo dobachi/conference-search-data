@@ -1,0 +1,90 @@
+# 組織（学会・標準化団体・イニシアティブ・コミュニティ）のタグ統制語彙
+#
+# - data/organizations.json の tags[] はこのファイルの `tag` からのみ選ぶ
+#   （scripts/validate-orgs.py が検証する）
+# - aliases はサイトのキーワード検索で同義語として引っかける用途。
+#   日本語・英語の両方で検索できるように、略称・別表記を並べる
+# - 新しい概念が必要になったら、まずここに追加してから organizations.json に使う
+# - 粒度の目安: 「検索ボックスに入れそうな概念」1 つにつき 1 タグ。
+#   地域や法人種別はタグにしない（region / type フィールドで持つ）
+
+tags:
+  - tag: データスペース
+    aliases: [data spaces, data space, dataspace, dataspaces, データ連携, データ連携基盤, データ主権, data sovereignty]
+    description: 組織間のデータ共有・連携の枠組み（IDS、Gaia-X、ODS-RAM、ウラノス等）
+
+  - tag: データベース
+    aliases: [database, databases, DBMS, SQL, データ管理システム]
+    description: データベースシステムの研究・標準・コミュニティ
+
+  - tag: データメッシュ
+    aliases: [data mesh, ドメイン指向データ, data product, データプロダクト]
+    description: 分散所有型のデータアーキテクチャ
+
+  - tag: データプラットフォーム
+    aliases: [data platform, lakehouse, レイクハウス, data warehouse, データウェアハウス, data lake]
+    description: 分析基盤・データ基盤全般
+
+  - tag: データエンジニアリング
+    aliases: [data engineering, ETL, ELT, データパイプライン, data pipeline, analytics engineering]
+    description: データ処理・変換・パイプライン構築
+
+  - tag: データマネジメント
+    aliases: [data management, データガバナンス, data governance, DMBOK, データ品質, data quality, MDM]
+    description: データ資産の管理・統制の実務体系
+
+  - tag: データ標準
+    aliases: [data standards, メタデータ, metadata, DCAT, ODRL, セマンティック, semantic web, ontology, オントロジー, 語彙]
+    description: データ記述・交換のための標準仕様
+
+  - tag: AI
+    aliases: [artificial intelligence, 人工知能, 機械学習, machine learning, ML, 深層学習, deep learning, LLM, 生成AI, generative AI]
+    description: 人工知能・機械学習の研究・実装・コミュニティ
+
+  - tag: AIガバナンス
+    aliases: [AI governance, AI倫理, AI ethics, responsible AI, 責任あるAI, AI safety, AI安全性, ISO/IEC 42001, AIマネジメントシステム]
+    description: AI の信頼性・倫理・規制・マネジメント
+
+  - tag: AIベンチマーク
+    aliases: [benchmark, ベンチマーク, MLPerf, 評価指標, evaluation]
+    description: AI/ML の性能・安全性評価の標準化
+
+  - tag: PETs
+    aliases: [privacy enhancing technologies, プライバシー保護技術, プライバシー強化技術, 秘密計算, secure computation, confidential computing, 差分プライバシー, differential privacy, 連合学習, federated learning, privacy]
+    description: プライバシー保護技術（秘密計算・差分プライバシー・連合学習等）
+
+  - tag: クラウドネイティブ
+    aliases: [cloud native, Kubernetes, k8s, コンテナ, container, CNCF, cloud, クラウド]
+    description: クラウドネイティブ技術とそのエコシステム
+
+  - tag: オープンソース
+    aliases: [open source, OSS, オープンソースソフトウェア, open source foundation]
+    description: OSS プロジェクトをホストする財団・コミュニティ
+
+  - tag: 標準化
+    aliases: [standardization, standards, 標準, 規格, 国際標準, de jure, ISO, IEC, JIS]
+    description: 公的・業界標準の策定活動
+
+  - tag: 学術
+    aliases: [academic, 学会, 学術団体, research community, 研究会, 論文, journal]
+    description: 学会・研究コミュニティ
+
+  - tag: 産業・製造
+    aliases: [manufacturing, 製造業, industry 4.0, インダストリー4.0, automotive, 自動車, サプライチェーン, supply chain]
+    description: 製造業・サプライチェーン領域のデータ連携
+
+  - tag: 公共・政策
+    aliases: [public sector, 政府, government, 政策, policy, 官民, 省庁, EU, 欧州委員会]
+    description: 政府・公的機関が主導または資金提供する活動
+
+  - tag: トラスト
+    aliases: [trust, identity, アイデンティティ, 認証, 信頼性, verifiable credentials, VC, DID]
+    description: 参加者・データの信頼確立（認証・ID・トラストフレームワーク）
+
+  - tag: DX・ビジネス
+    aliases: [DX, digital transformation, デジタルトランスフォーメーション, business, ビジネス, データ活用, data utilization, データドリブン]
+    description: データ活用のビジネス面・実務コミュニティ
+
+  - tag: 開発者コミュニティ
+    aliases: [developer community, user group, ユーザー会, ユーザーグループ, meetup, 勉強会, connpass, community]
+    description: 利用者・開発者が運営する実践コミュニティ
