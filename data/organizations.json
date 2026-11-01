@@ -731,7 +731,9 @@
         "金融情報学研究会 (FIN)",
         "ビジネス・インフォマティクス研究会 (BI)"
       ],
-      "related_conferences": [],
+      "related_conferences": [
+        "jsai-sigais-jp-2026"
+      ],
       "membership": "paid",
       "status": "active",
       "summary": "1986 年 7 月発足、2013 年に一般社団法人へ移行。会員数約 5,200 名（2020 年 3 月末）。年会費は正会員 10,000 円、入会金 2,000 円。第一種研究会はメンバー登録 2,000 円/年、第二種研究会は参加条件が研究会ごと（SWO は参加費無料）。",
@@ -1851,7 +1853,9 @@
         "研究会（第 70 回まで開催）"
       ],
       "groups": [],
-      "related_conferences": [],
+      "related_conferences": [
+        "jsai-sigais-jp-2026"
+      ],
       "status": "active",
       "founded": "",
       "verified": "2026-11-01",
@@ -1893,7 +1897,9 @@
         "研究会奨励賞"
       ],
       "groups": [],
-      "related_conferences": [],
+      "related_conferences": [
+        "jsai-sigais-jp-2026"
+      ],
       "status": "active",
       "founded": "",
       "verified": "2026-11-01",
@@ -1937,7 +1943,10 @@
         "研究会（第 4 回まで確認）"
       ],
       "groups": [],
-      "related_conferences": [],
+      "related_conferences": [
+        "jsai-sig-dc-4-jp-2026",
+        "jsai-sigais-jp-2026"
+      ],
       "status": "active",
       "founded": "",
       "verified": "2026-11-01",
@@ -1956,7 +1965,7 @@
         "学術"
       ],
       "membership": "unknown",
-      "summary": "人工知能学会の第二種研究会。データを単なる分析対象ではなく多様な主体が協力しながら価値を協創する社会基盤と捉え、「データ協創」「データエコシステム」を掲げて AI・データサイエンス・情報科学・社会科学の研究者・実務家が議論する。情報処理学会 SIG-IFAT と合同開催の実績。",
+      "summary": "人工知能学会の第二種研究会。データを多様な主体が協力して価値を協創する社会基盤と捉え、データ市場・データスペース・データガバナンス・政策まで扱う。年複数回開催し参加無料の回もある。情報処理学会 SIG-IFAT と合同開催の実績。",
       "sources": [
         {
           "url": "https://www.sig-dc.org/",
@@ -1968,6 +1977,10 @@
         },
         {
           "url": "http://ipsj-ifat.org/",
+          "accessed": "2026-11-01"
+        },
+        {
+          "url": "https://www.sig-dc.org/%E5%BD%93%E7%A0%94%E7%A9%B6%E4%BC%9A%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6",
           "accessed": "2026-11-01"
         }
       ]
@@ -1983,7 +1996,9 @@
         "研究会"
       ],
       "groups": [],
-      "related_conferences": [],
+      "related_conferences": [
+        "jsai-sigais-jp-2026"
+      ],
       "status": "active",
       "founded": "2015",
       "verified": "2026-11-01",

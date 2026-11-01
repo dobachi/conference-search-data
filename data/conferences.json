@@ -9644,6 +9644,83 @@
       "first_seen": "2026-W44",
       "last_updated": "2026-W44",
       "notes": "notes/conferences/ipsj-eip114-spt65-csec115-jp-2026.md"
+    },
+    {
+      "id": "jsai-sig-dc-4-jp-2026",
+      "name": "人工知能学会 データ協創研究会 第4回研究会 (JSAI SIG-DC 4th Meeting) 2026",
+      "dates": {
+        "start": "2026-12-05",
+        "end": "2026-12-05"
+      },
+      "location": {
+        "city": "Yokohama",
+        "country": "Japan",
+        "region": "Japan"
+      },
+      "format": "in-person",
+      "url": "https://www.sig-dc.org/%E6%AC%A1%E5%9B%9E%E7%A0%94%E7%A9%B6%E4%BC%9A",
+      "cfp": {
+        "deadline": "2026-10-23",
+        "url": "https://www.sig-dc.org/%E6%AC%A1%E5%9B%9E%E7%A0%94%E7%A9%B6%E4%BC%9A",
+        "status": "closed"
+      },
+      "categories": [
+        "Data Spaces / データ連携",
+        "AI / 機械学習"
+      ],
+      "topics": [
+        "data collaboration",
+        "data ecosystem",
+        "data marketplace",
+        "data spaces",
+        "data governance",
+        "JSAI",
+        "SIG-DC"
+      ],
+      "cost": "free",
+      "recurring": true,
+      "summary": "人工知能学会データ協創研究会（SIG-DC）の第4回研究会。合同研究会 SIGAIs 2026 内で 12/5 午前に慶應義塾大学日吉キャンパスで開催。テーマは「データ協創」および一般。招待講演は水門善之氏（慶應大）「衛星観測データ・位置情報と気象データの融合による経済活動の分析」。参加無料（SIGAIs の参加登録）。発表申込は締切済み。",
+      "status": "upcoming",
+      "first_seen": "2026-W44",
+      "last_updated": "2026-W44"
+    },
+    {
+      "id": "jsai-sigais-jp-2026",
+      "name": "人工知能学会 合同研究会2026 (JSAI SIGAIs 2026)",
+      "dates": {
+        "start": "2026-12-03",
+        "end": "2026-12-05"
+      },
+      "location": {
+        "city": "Yokohama",
+        "country": "Japan",
+        "region": "Japan"
+      },
+      "format": "in-person",
+      "url": "https://www.ai-gakkai.or.jp/sigais2026/",
+      "cfp": {
+        "deadline": "",
+        "url": "https://www.ai-gakkai.or.jp/sigais2026/",
+        "status": "closed"
+      },
+      "categories": [
+        "AI / 機械学習"
+      ],
+      "topics": [
+        "JSAI",
+        "SIG",
+        "data collaboration",
+        "semantic web",
+        "knowledge-based systems",
+        "AGI",
+        "poster session"
+      ],
+      "cost": "free",
+      "recurring": true,
+      "summary": "人工知能学会の研究会が一堂に会する合同研究会。慶應義塾大学日吉キャンパス 協生館・来往舎で現地開催。すべての研究会・合同企画への参加（発表・聴講）が無料。データ協創（DC）、SWO、KBS、AGI など本リストの研究会が参加。研究会横断ポスターセッションあり。",
+      "status": "upcoming",
+      "first_seen": "2026-W44",
+      "last_updated": "2026-W44"
     }
   ]
 }
