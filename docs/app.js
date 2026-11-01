@@ -491,6 +491,51 @@
     return d.innerHTML;
   }
 
+  // --- On-demand menu while scrolled ---
+  // At the top the header/tabs sit in normal flow. Once scrolled past them they
+  // leave the screen; a floating button (bottom right) pulls them in as an
+  // overlay. Scrolling further down closes the overlay again.
+  (() => {
+    const $bar = document.getElementById('top-bar');
+    const $fab = document.getElementById('menu-fab');
+    const $toTop = document.getElementById('to-top');
+    if (!$bar || !$fab) return;
+    const $spacer = document.createElement('div');
+    $spacer.className = 'top-bar-spacer';
+    $bar.after($spacer);
+    let lastY = window.scrollY;
+    let open = false;
+    let threshold = 0;   // page y below which the bar is back in normal flow
+    const setOpen = (v) => {
+      open = v;
+      $bar.classList.toggle('top-bar-open', v);
+      $fab.setAttribute('aria-expanded', String(v));
+    };
+    const update = () => {
+      const y = window.scrollY;
+      const floating = $bar.classList.contains('top-bar-floating');
+      if (!floating) threshold = $bar.offsetTop + $bar.offsetHeight;
+      const scrolled = y > threshold;
+      if (scrolled && !floating) {
+        $spacer.style.height = $bar.offsetHeight + 'px';   // keep layout stable
+        $bar.classList.add('top-bar-floating');
+      } else if (!scrolled && floating) {
+        $bar.classList.remove('top-bar-floating');
+        $spacer.style.height = '';
+        setOpen(false);
+      }
+      if (open && y - lastY > 10) setOpen(false);           // scrolling down closes it
+      $fab.classList.toggle('hidden', !scrolled);
+      if ($toTop) $toTop.classList.toggle('hidden', !scrolled);
+      lastY = y;
+    };
+    window.addEventListener('scroll', update, { passive: true });
+    window.addEventListener('resize', () => { if ($bar.classList.contains('top-bar-floating')) $spacer.style.height = $bar.offsetHeight + 'px'; });
+    $fab.addEventListener('click', () => setOpen(!open));
+    if ($toTop) $toTop.addEventListener('click', () => { setOpen(false); window.scrollTo({ top: 0, behavior: 'smooth' }); });
+    document.querySelectorAll('#main-tabs .tab-btn').forEach((b) => b.addEventListener('click', () => setOpen(false)));
+  })();
+
   // --- Service Worker ---
   if ('serviceWorker' in navigator) {
     navigator.serviceWorker.register('./sw.js').catch(() => {});

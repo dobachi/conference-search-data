@@ -9,16 +9,19 @@
 </head>
 <body>
   <div class="container">
-    <header>
-      <h1>Conference Search</h1>
-      <span id="last-updated" class="last-updated"></span>
-      <button class="icon-btn" id="settings-btn" aria-label="Settings">&#9881;</button>
-    </header>
+    <div id="top-bar" class="top-bar">
+      <header>
+        <h1>Conference Search</h1>
+        <span id="last-updated" class="last-updated"></span>
+        <button class="icon-btn" id="settings-btn" aria-label="Settings">&#9881;</button>
+      </header>
 
-    <nav id="main-tabs" class="main-tabs" aria-label="Sections">
-      <button class="tab-btn active" data-tab="events">Events</button>
-      <button class="tab-btn" data-tab="orgs">Organizations</button>
-    </nav>
+      <nav id="main-tabs" class="main-tabs" aria-label="Sections">
+        <button class="tab-btn active" data-tab="events">Events</button>
+        <button class="tab-btn" data-tab="orgs">Organizations</button>
+        <button id="to-top" class="to-top-btn hidden" type="button">&#8593; Top</button>
+      </nav>
+    </div>
 
     <section id="tab-events">
 
@@ -130,6 +133,8 @@
       </div>
     </div>
   </div>
+
+  <button id="menu-fab" class="menu-fab hidden" aria-label="Show menu" aria-expanded="false">&#9776;</button>
 
   <script src="sync.js"></script>
   <script src="app.js"></script>
