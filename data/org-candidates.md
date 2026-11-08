@@ -20,3 +20,4 @@
 - [x] 2026-W44 | 情報処理学会 データベースシステム研究会 (IPSJ SIG-DBS) | https://www.ipsj.or.jp/sig/dbs/ | 2026-11-01 登録済み（`ipsj-sig-dbs`、公式 https://www.ipsj-dbs.org/。2025 年度に「データベースとデータサイエンス研究会」へ改称）
 - 2026-W44 | DAMA Japan | https://www.dama-japan.org/ | dama-international の groups または独立エントリ候補。未調査
 - 2026-W44 | Eclipse Dataspace Components (EDC) | https://projects.eclipse.org/projects/technology.edc | eclipse-dataspace-wg の outputs に追記する候補。未調査
+- 2026-W46 | Luxembourg National Data Service (LNDS) | https://www.lnds.lu | Data Summit Luxembourg 主催（data-summit-luxembourg-eu-2026）。IDSA メンバー

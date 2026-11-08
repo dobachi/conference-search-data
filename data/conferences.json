@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-01",
+  "last_updated": "2026-11-09",
   "conferences": [
     {
       "name": "AAAI 2026 (40th AAAI Conference on Artificial Intelligence)",
@@ -2367,7 +2367,7 @@
       "cost": "paid",
       "recurring": true,
       "summary": "CNCF旗艦イベント北米版。クラウドネイティブ技術の最大規模カンファレンス。",
-      "status": "upcoming",
+      "status": "ongoing",
       "id": "kubecon-cloudnativecon-north-america-north-america-2026",
       "first_seen": "2026-W14",
       "last_updated": "2026-W14"
@@ -2928,7 +2928,7 @@
       "cost": "unknown",
       "recurring": true,
       "summary": "ガートナー主催の日本CIO・IT幹部向け最大の年次カンファレンス。会場はパシフィコ横浜ノース、202セッション。AI戦略・デジタル変革・新技術ロードマップを提供。",
-      "status": "upcoming",
+      "status": "ended",
       "first_seen": "2026-W15",
       "last_updated": "2026-W44",
       "notes": "notes/conferences/gartner-it-symposium-yokohama-jp-2026.md"
@@ -3003,7 +3003,7 @@
       "cost": "unknown",
       "recurring": true,
       "summary": "ガートナー主催EMEA地域最大のCIO・IT幹部カンファレンス。AI戦略・デジタル変革リーダーシップを欧州・グローバル規模で提供。",
-      "status": "upcoming",
+      "status": "ongoing",
       "first_seen": "2026-W15",
       "last_updated": "2026-W15"
     },
@@ -3412,7 +3412,7 @@
       "cost": "unknown",
       "recurring": true,
       "summary": "PASSデータコミュニティ最大の旗艦サミット。分析・アーキテクチャ・DB管理・AI・クラウドを網羅するマルチプラットフォームカンファレンス。",
-      "status": "upcoming",
+      "status": "ongoing",
       "first_seen": "2026-W15",
       "last_updated": "2026-W15"
     },
@@ -5076,7 +5076,7 @@
       "cost": "paid",
       "recurring": true,
       "summary": "Confluent旗艦カンファレンスCurrentの北米版。Moscone Westでデータストリーミング＋AIを議論。リアルタイムコンテキスト／エージェント／Streamhouseが中心テーマ。",
-      "status": "upcoming",
+      "status": "ended",
       "id": "current-north-america-2026",
       "first_seen": "2026-W33",
       "last_updated": "2026-W44",
@@ -8368,7 +8368,7 @@
       "cost": "paid",
       "recurring": false,
       "summary": "IDSA10周年を記念するベルリンでのハイレベル対話とフォーラム。会場はT-Systems International（Winterfeldtstr. 21）。満席（sold out）。",
-      "status": "upcoming",
+      "status": "ended",
       "id": "idsa-decade-forum-eu-2026",
       "first_seen": "2026-W38",
       "last_updated": "2026-W44"
@@ -9241,7 +9241,7 @@
       "cost": "unknown",
       "recurring": true,
       "summary": "Snowflake のグローバル仮想イベント。技術者向けハンズオンと経営層向けセッションを6地域で配信。日本向けは11月4〜6日。",
-      "status": "upcoming",
+      "status": "ended",
       "first_seen": "2026-W41",
       "last_updated": "2026-W41"
     },
@@ -9796,6 +9796,46 @@
       "status": "ended",
       "first_seen": "2026-W45",
       "last_updated": "2026-W45"
+    },
+    {
+      "id": "data-summit-luxembourg-eu-2026",
+      "name": "Data Summit Luxembourg 2026 (From data to AI – The journey to impact continues)",
+      "dates": {
+        "start": "2026-12-02",
+        "end": "2026-12-02"
+      },
+      "location": {
+        "city": "Luxembourg",
+        "country": "Luxembourg",
+        "region": "Europe"
+      },
+      "format": "in-person",
+      "url": "https://datasummit.lu/",
+      "cfp": {
+        "deadline": "2026-06-30",
+        "url": "https://datasummit.lu/news-call-for-proposals",
+        "status": "closed"
+      },
+      "categories": [
+        "Data Spaces / データ連携",
+        "AI / 機械学習",
+        "ビジネス / DX"
+      ],
+      "topics": [
+        "data spaces",
+        "Dataspace Protocol",
+        "data governance",
+        "data sharing",
+        "AI use cases",
+        "LNDS",
+        "IDSA"
+      ],
+      "cost": "unknown",
+      "recurring": true,
+      "summary": "ルクセンブルク国立データサービス(LNDS)主催の年次データ・AIカンファレンス（第4回）。データスペースやDataspace Protocol標準化、データガバナンス、AI活用事例を扱う。欧州コンベンションセンター開催。",
+      "status": "upcoming",
+      "first_seen": "2026-W46",
+      "last_updated": "2026-W46"
     }
   ]
 }
