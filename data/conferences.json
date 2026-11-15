@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-09",
+  "last_updated": "2026-11-16",
   "conferences": [
     {
       "name": "AAAI 2026 (40th AAAI Conference on Artificial Intelligence)",
@@ -2367,7 +2367,7 @@
       "cost": "paid",
       "recurring": true,
       "summary": "CNCF旗艦イベント北米版。クラウドネイティブ技術の最大規模カンファレンス。",
-      "status": "ongoing",
+      "status": "ended",
       "id": "kubecon-cloudnativecon-north-america-north-america-2026",
       "first_seen": "2026-W14",
       "last_updated": "2026-W14"
@@ -2404,7 +2404,7 @@
       "cost": "paid",
       "recurring": true,
       "summary": "シニアエンジニア向けソフトウェア開発カンファレンスのSF版。アーキテクチャの最新動向を共有。",
-      "status": "upcoming",
+      "status": "ongoing",
       "id": "qcon-san-francisco-north-america-2026",
       "first_seen": "2026-W14",
       "last_updated": "2026-W14"
@@ -3003,7 +3003,7 @@
       "cost": "unknown",
       "recurring": true,
       "summary": "ガートナー主催EMEA地域最大のCIO・IT幹部カンファレンス。AI戦略・デジタル変革リーダーシップを欧州・グローバル規模で提供。",
-      "status": "ongoing",
+      "status": "ended",
       "first_seen": "2026-W15",
       "last_updated": "2026-W15"
     },
@@ -3079,7 +3079,7 @@
       "cost": "free",
       "recurring": true,
       "summary": "NexTech Week秋版。幕張メッセで開催、AI/人工知能EXPOを含み、データレイク・RAG・データガバナンス専門ゾーンを設置。",
-      "status": "upcoming",
+      "status": "ended",
       "first_seen": "2026-W15",
       "last_updated": "2026-W15"
     },
@@ -3412,7 +3412,7 @@
       "cost": "unknown",
       "recurring": true,
       "summary": "PASSデータコミュニティ最大の旗艦サミット。分析・アーキテクチャ・DB管理・AI・クラウドを網羅するマルチプラットフォームカンファレンス。",
-      "status": "ongoing",
+      "status": "ended",
       "first_seen": "2026-W15",
       "last_updated": "2026-W15"
     },
@@ -4161,7 +4161,7 @@
       "cost": "paid",
       "recurring": true,
       "summary": "[要レビュー] ロンドンで開催されるデータ・クラウド・AI国際カンファレンス。データサイエンスと企業デジタル変革を推進する戦略的議論と実践的ワークショップを提供。",
-      "status": "upcoming",
+      "status": "ongoing",
       "first_seen": "2026-W19",
       "last_updated": "2026-W19"
     },
@@ -4781,7 +4781,7 @@
       "cost": "invitation",
       "recurring": true,
       "summary": "[要レビュー] Millennium Alliance主催のグローバルCIO向け招待制サミット。JW Marriott Turnberry Resort & Spa（マイアミ）で開催。",
-      "status": "upcoming",
+      "status": "ended",
       "id": "cio-transformation-assembly-miami-north-america-2026",
       "first_seen": "2026-W23",
       "last_updated": "2026-W23"
@@ -8555,7 +8555,7 @@
       "cost": "paid",
       "recurring": true,
       "summary": "IAPP主催の欧州最大プライバシー会議。200+スピーカー、75+セッションでGDPR・AI規制・サイバーセキュリティ法を議論。",
-      "status": "upcoming",
+      "status": "ongoing",
       "id": "iapp-europe-congress-eu-2026",
       "first_seen": "2026-W38",
       "last_updated": "2026-W38"
@@ -8666,7 +8666,7 @@
       "cost": "paid",
       "recurring": true,
       "summary": "欧州版Machine Learning Week。予測分析と企業における機械学習の実適用事例にフォーカスしたビジネス寄りのML会議。",
-      "status": "upcoming",
+      "status": "ongoing",
       "id": "machine-learning-week-europe-eu-2026",
       "first_seen": "2026-W39",
       "last_updated": "2026-W39"
@@ -8987,7 +8987,7 @@
       "cost": "paid",
       "recurring": true,
       "summary": "機械学習・生成AI実務者向け国際カンファレンスのベルリン版。ブートキャンプ・ワークショップ・本会議を含む5日間のハイブリッド開催。",
-      "status": "upcoming",
+      "status": "ongoing",
       "first_seen": "2026-W40",
       "last_updated": "2026-W40"
     },
@@ -9836,6 +9836,115 @@
       "status": "upcoming",
       "first_seen": "2026-W46",
       "last_updated": "2026-W46"
+    },
+    {
+      "id": "datadriven-reltio-north-america-2027",
+      "name": "DataDriven 2027 (Reltio)",
+      "dates": {
+        "start": "2027-03-02",
+        "end": "2027-03-04"
+      },
+      "location": {
+        "city": "Orlando",
+        "country": "USA",
+        "region": "North America"
+      },
+      "format": "in-person",
+      "url": "https://www.reltio.com/datadriven/2027/save-the-date/",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "categories": [
+        "データインテリジェンス",
+        "AI / 機械学習"
+      ],
+      "topics": [
+        "master-data-management",
+        "data-unification",
+        "context-intelligence",
+        "agentic-AI",
+        "data-quality"
+      ],
+      "cost": "unknown",
+      "recurring": true,
+      "summary": "Reltio主催のユーザー/顧客カンファレンス。テーマは「Where Context Intelligence Powers the Agentic Enterprise」で、AIエージェントを支えるデータ統合・MDM基盤を扱う。",
+      "status": "upcoming",
+      "first_seen": "2026-W47",
+      "last_updated": "2026-W47"
+    },
+    {
+      "id": "mit-sloan-cio-symposium-north-america-2027",
+      "name": "MIT Sloan CIO Symposium 2027",
+      "dates": {
+        "start": "2027-05-18",
+        "end": "2027-05-18"
+      },
+      "location": {
+        "city": "Cambridge",
+        "country": "USA",
+        "region": "North America"
+      },
+      "format": "in-person",
+      "url": "https://mitcio.com/",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "categories": [
+        "ビジネス / DX",
+        "AI / 機械学習"
+      ],
+      "topics": [
+        "CIO",
+        "IT-leadership",
+        "digital-transformation",
+        "AI-strategy"
+      ],
+      "cost": "unknown",
+      "recurring": true,
+      "summary": "MIT Sloan CIO年次シンポジウムの2027年版。公式Podcastで日付告知（大半が5/18、一部5/19と表記揺れあり）。会場は未発表（例年ケンブリッジ）。",
+      "status": "upcoming",
+      "first_seen": "2026-W47",
+      "last_updated": "2026-W47"
+    },
+    {
+      "id": "enterprise-it-conference-jp-2027",
+      "name": "Enterprise IT CONFERENCE 2027",
+      "dates": {
+        "start": "2027-05-18",
+        "end": "2027-05-18"
+      },
+      "location": {
+        "city": "Tokyo",
+        "country": "Japan",
+        "region": "Japan"
+      },
+      "format": "in-person",
+      "url": "https://growth-dx.com/download/enterprise-it-conference-2027/",
+      "cfp": {
+        "deadline": "",
+        "url": "",
+        "status": "not-announced"
+      },
+      "categories": [
+        "ビジネス / DX",
+        "AI / 機械学習"
+      ],
+      "topics": [
+        "DX",
+        "in-house-development",
+        "enterprise-IT",
+        "generative-AI"
+      ],
+      "cost": "free",
+      "recurring": true,
+      "summary": "Growth DX主催、大手企業のIT/DX部門向けにAI活用と内製開発を扱う無料カンファレンス。浜松町コンベンションホールで「Cybersecurity CROSS」と同日同時開催。",
+      "status": "upcoming",
+      "first_seen": "2026-W47",
+      "last_updated": "2026-W47"
     }
   ]
 }
